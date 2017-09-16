@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title trans="countdown">Loading...</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<link rel="icon" type="image/png" href="icons/16x16.png" />
+
+		<link rel="stylesheet" href="/bootstrap/bootstrap.min.css">
+		<!-- <link rel="stylesheet" href="/bootstrap/bootstrap-theme.min.css"> -->
+
+		<link type="text/css" rel="stylesheet" href="/scripts/countdown_interface/css.css">
+
+		<script type="text/javascript" src="/jquery.js"></script>
+		<script type="text/javascript" src="/scripts/transit/jquery.transit.min.js"></script>
+		<script src="/bootstrap/bootstrap.min.js"></script>
+		<script type="text/javascript" src="translation.js"></script>
+		<script type="text/javascript" src="/scripts/countdown_interface/js.js"></script>
+	</head>
+	<body>
+		<div id="header">
+			<h1 trans="countdown"></h1><span id="count" class="badge" title="Running timers">0</span>
+			<div class="btn-group btn-group-sm pull-right">
+				<button id="add" class="btn btn-success" title="Add" data-toggle="tooltip"><gly icon="plus"></gly></button>
+				<button id="removeAll" class="btn btn-danger" title="Remove All" data-toggle="tooltip" disabled><gly icon="trash"></gly></button>
+			</div>
+			<hr>
+		</div>
+		<div id="content">
+			<div id="addpanel" class="block shrink collapsed">
+				<div id="addcontent">
+					<div>
+						<div class="input-title">Time:</div>
+						<div class="input-time">
+							<input type="text" class="form-control input-sm time" max="99" id="h" placeholder="hour"
+							><input type="text" class="form-control input-sm time" max="59" id="m" placeholder="min"
+							><input type="text" class="form-control input-sm time" max="59" id="s" placeholder="sec">
+						</div>
+					</div>
+					<div>
+						<div class="input-title">Message:</div>
+						<input type="text" class="form-control input-sm" id="message" placeholder="Message...">
+					</div>
+					<div>
+						<div class="input-title">Color:</div>
+						<div class="input-color">
+							<div class="btn-group btn-group-sm">
+								<button type="button" class="btn btn-primary active" value="primary">Blue</button>
+								<button type="button" class="btn btn-success" value="success">Green</button>
+								<button type="button" class="btn btn-warning" value="warning">Orange</button>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="input-title">Repeat:</div>
+						<button type="button" id="repeat" class="btn btn-default btn-sm"><gly icon="repeat"></gly></button>
+					</div>
+					<div class="pull-right">
+						<div class="input-title"></div>
+						<button type="button" id="set" class="btn btn-default btn-sm" title="Continue"><gly icon="chevron-right"></gly></button>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="block">
+				<div class="progress progress-striped active">
+					<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+						Remaining Time: 13s
+					</div>
+				</div>
+				<div class="btn-group">
+					<button type="button" class="btn btn-default btn-xs" title="Delete"><gly icon="trash"></gly></button>
+					<button type="button" class="btn btn-default btn-xs" title="Toggle Repeat"><gly icon="repeat"></gly></button>
+				</div>
+				<div class="message">This is a message.</div>
+			</div> -->
+		</div>
+		<div id="footer"></div>
+	</body>
+</html>

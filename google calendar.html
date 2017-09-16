@@ -1,0 +1,118 @@
+﻿<html>
+<head>
+<script type="text/javascript" src="http://www.google.com/jsapi?key=YOUR_KEY_HERE"></script>
+<script type="text/javascript">
+<!--
+/* Loads the Google data JavaScript client library */
+try{
+google.load("gdata", "1.x");
+}catch(err){
+if(err=="TypeError: Object #<Object> has no method 'load'"){
+setTimeout(function(){document.body.innerHTML="Fail to load Google Calendar API! <sup>。</sup>o<sup>。</sup>\" Oh no!<br><ul><li>Lost internet connection?</li><li>Bug?</li><li>Maybe reload the page will help?</li></ul>"},100)
+}
+}
+
+var myService;
+var feedLocation="developer-calendar@google.com"
+var feedUrl = "https://www.google.com/calendar/feeds/"+feedLocation+"/public/full";
+
+function setupMyService() {
+  myService = new google.gdata.calendar.CalendarService('exampleCo-exampleApp-1');
+}
+
+function getMyFeed() {
+var txt=prompt("Enter you email or click cancel to continue:",feedLocation)
+if(!txt){
+//do nothing
+}else{
+console.warn("Feteching data from \""+txt+"\"")
+window.feedLocation=txt
+window.feedUrl = "https://www.google.com/calendar/feeds/"+feedLocation+"/public/full";
+}
+  setupMyService();
+ 
+  myService.getEventsFeed(feedUrl, handleMyFeed, handleError);
+}
+
+var err=0
+var totalwritein=0
+function handleMyFeed(myResultsFeedRoot) {
+var feedtitle=("This feed's title is: " + myResultsFeedRoot.feed.getTitle().getText());
+var txt=""
+for(i=0;i<myResultsFeedRoot.feed.getEntries().length;i++){
+try{
+var item=myResultsFeedRoot.feed.getEntries()[i];
+var title=item.getTitle().getText()
+//GET DATA! Oh yeah~
+    var startDateTime = null;
+    var startJSDate = null;
+    var times = item.getTimes();
+    if (times.length > 0) {
+      startDateTime = times[0].getStartTime();
+      startJSDate = startDateTime.getDate();
+    }
+    var entryLinkHref = null;
+    if (item.getHtmlLink() != null) {
+      entryLinkHref = item.getHtmlLink().getHref();
+    }
+
+
+var date=new Date(startJSDate)
+txt+="<li>"
+txt+=(entryLinkHref==null)?"":("(<a href='"+entryLinkHref+"'target='_blank'>link</a>) ");
+txt+="<u>"+title+"</u><br> - Starts at "+(date.getMonth()+1)+"/"+date.getDate()+" "+((!startDateTime.isDateOnly())?(date.getHours()+":"+date.getMinutes()):"");
+
+txt+="</li>"
+
+//Write local
+if((date.getMonth()+1)==(new Date().getMonth()+1)){
+if(localStorage["todo"+(date.getMonth()+1)+date.getDate()]==null||(localStorage["todo"+(date.getMonth()+1)+date.getDate()]!=null&&confirm("A todo is saved in date "+date.getDate()+"?\nDo you want to overwirte?"))){
+totalwritein++
+localStorage["todo"+(date.getMonth()+1)+date.getDate()]=title+((!startDateTime.isDateOnly())?(" - Starts at "+date.getHours()+":"+date.getMinutes()):"")+" ("+myResultsFeedRoot.feed.getTitle().getText()+")";
+}
+}
+
+
+
+}catch(e){err++;console.log(e)}
+}
+
+
+calendarTitle.innerText=feedtitle
+events.innerHTML=txt
+from.innerText="From calendar feed of "+feedLocation
+
+if(err!=0){
+alert(err+" errors has occured!")
+}
+if(totalwritein>=0){
+alert(totalwritein+" events are successfully imported to Cool Clock's calendar!")
+}
+}
+
+function handleError(e) {
+  alert("There was an error when loading account!");
+//  alert(e.cause ? e.cause.statusText : e.message);
+window.open(feedUrl,"_blank")
+location.reload()
+}
+
+
+
+//google.setOnLoadCallback(getMyFeed);
+
+
+//-->
+</script>
+  
+<script type="text/javascript">
+//loadCalendar('https://www.google.com/calendar/feeds/developer-calendar@google.com/public/full');
+
+</script>
+</head>
+<body>
+<button onclick="getMyFeed();calendarTitle.innerText='Loading...';this.outerHTML=''">Load Google Calendar data</button><br>
+<div id="calendarTitle"></div>
+<ul id="events"></ul>
+<div id="from"></div>
+</body></html>

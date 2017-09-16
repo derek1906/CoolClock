@@ -1,0 +1,385 @@
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Oswald Light'), local('Oswald-Light'), url(/fonts/Oswald.woff) format('woff');
+}
+
+html, body{
+	height: 100%;
+	margin: 0px;
+	-webkit-user-select: none;
+	min-width: 355px;
+	/*min-height: 400px;*/
+	overflow-y: hidden;
+}
+
+body{
+	background: #f2f2f2;
+	cursor: default;
+	position: relative;
+}
+
+#header{
+	z-index: 1001;
+	width: 100%;
+	background: rgba(242, 242, 242, 0.95);
+	padding-top: 8px;
+	padding-top: 20px;
+	height: 62px;
+	position: relative;
+}
+
+#header > *{
+	vertical-align: middle;
+}
+
+#header > h1{
+	display: inline-block;
+	font-size: 28px;
+	font-family: Arial, 微軟正黑體, 微軟雅黑, Simhei, 新細明體;
+	color: #9ab1d1;
+	text-shadow: 0px 1px 0px white, 0px -1px 0px gray;
+	margin: 0;
+	margin-left: 16px;
+	margin-right: 8px;
+}
+
+#header > .btn-group{
+	margin-right: 16px;
+}
+
+#header > hr{
+	height: 1px;
+	background: lightgray;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+
+#configure, #record{
+	height: -webkit-calc(100% - 62px);
+	border-top: 1px solid white;
+	-webkit-transition: width 0.1s ease-out, top 0.2s ease-out;
+}
+
+#configure{
+	display: inline-block;
+	margin: 0;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 20px;
+	position: absolute;
+	top: 62px;
+	z-index: 2;
+	background: #f2f2f2;
+	overflow-y: auto;
+	box-shadow: 0 10px 5px -5px gray;
+}
+#configure.collapsed{
+	top: -100%;
+	/*height: 0;
+	padding: 0;*/
+}
+
+#configure > div{
+	padding: 0 20px;
+}
+
+#configure > div > div{
+	clear: both;
+}
+
+.input-title{
+	font-weight: 700;
+	color: #555;
+	//text-transform: uppercase;
+	font-variant: small-caps;
+	font-size: 15px;
+	height: 17px;
+	display: block;
+	text-align: left;
+	padding: 0 0px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+.input-title > button{
+	font-variant: normal;
+}
+
+#h, #m{
+	display: inline-block;
+	width: 100px;
+	border-radius: 0;
+	border-width: 1px 0;
+	text-align: center;
+}
+
+#h{
+	border-radius: 6px 0 0 6px;
+	border-width: 1px;
+}
+#m{
+	border-radius: 0 6px 6px 0;
+	border-right-width: 1px;
+}
+
+
+
+
+#record{
+	display: inline-block;
+	width: 100%;
+	position: absolute;
+	top: 62px;
+	background: #f2f2f2;
+	overflow-y: scroll;
+}
+
+#record > .block:first-child{
+	border-top: 0;
+}
+
+.block{
+	border-top: 1px solid white;
+	overflow: hidden;
+	height: 100px;
+	background: #AAA;
+	border-bottom: 1px solid lightgray;
+}
+.block.animate{
+	-webkit-transition: height 0.3s ease-out, padding 0.3s ease-out, border 0.3s ease-out, background 0.3s ease-out, border-width 0.3s ease-out;
+}
+
+.bContent:hover{
+	background: #f5f5f5;
+}
+
+
+.block.shrink{
+
+	background: #555;
+}
+
+.block.collapsed{
+	height: 0;
+	border-width: 0;
+}
+
+.block.shrink > .bContent{
+	opacity: 0;
+	-webkit-transform: scale(0);
+}
+
+.block.off:not(.edit) .wrapper{
+	opacity: 0.3;
+	-webkit-filter: grayscale(1);
+}
+
+.bContent{
+	height: 100%;
+	padding: 12px 8px;
+	background: #f2f2f2;
+	color: #666;
+	-webkit-transform: scale(1);
+	text-align: center;
+	position: relative;
+}
+.block.night > .bContent{
+	background: #666;
+	color: #f2f2f2;
+}
+.block.night > .bContent:hover{
+	background: #6E6E6E;
+}
+
+.block.edit > .bContent{
+	background: repeating-linear-gradient(
+		45deg,
+		#f2f2f2,
+		#f2f2f2 10px,
+		#E7E7E7 10px,
+		#E7E7E7 20px
+	);
+}
+.block.night.edit > .bContent{
+	background: repeating-linear-gradient(
+		45deg,
+		#666,
+		#666 10px,
+		#5A5A5A 10px,
+		#5A5A5A 20px
+	);
+}
+
+.block.animate .bContent{
+	-webkit-transition: -webkit-transform 0.3s ease-out, opacity 0.3s ease-out;
+}
+
+.bContent > *{
+	vertical-align: middle;
+}
+
+.bContent .controls, .editCheckmark{
+	position: absolute;
+	z-index: 2;
+	height: 75px;
+	overflow: hidden;
+	width: 0;
+	text-align: center;
+	-webkit-transition: width 0.1s ease-out;
+}
+.bContent .editCheckmark{
+	padding-top: 20px;
+	display: none;
+}
+.block.edit .controls{
+	display: none;
+}
+.block.edit .editCheckmark{
+	display: block;
+}
+.bContent .controls > span, .editCheckmark > span{
+	cursor: pointer;
+	display: inline-block;
+	width: 100%;
+	opacity: 0.7;
+}
+.bContent .controls > span:hover, .editCheckmark > span:hover{
+	opacity: 1;
+}
+.bContent .controls > span:last-child{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+}
+
+.bContent > .wrapper{
+	width: 100%;
+	max-width: 600px;
+	display: inline-block;
+	-webkit-transition: padding-left 0.1s ease-out;
+}
+.bContent:hover > .wrapper{
+	padding-left: 30px;
+}
+.bContent:hover .controls, .bContent:hover .editCheckmark{
+	width: 30px;
+}
+
+.bContent .left-panel, .bContent .right-panel{
+	display: block;
+	float: left;
+	height: 100%;
+}
+.bContent .left-panel{
+	width: 30%;
+}
+.bContent .right-panel{
+	width: 70%;
+}
+
+.bContent .time{
+	font-size: 39px;
+	font-family: "Oswald";
+	margin: 0px 10px;
+}
+.bContent .weekdays{
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.bContent .weekdays > li{
+	display: inline-block;
+	margin-right: 3px;
+}
+.bContent .weekdays > li:last-child{
+	margin-right: 0;
+}
+.bContent .weekdays > li.active{
+	color: #007BEA;
+	text-shadow: 0px 0px 5px #2F9CFF;
+}
+.night .bContent .weekdays > li.active{
+	color: #42A5FF;
+	text-shadow: 0px 0px 5px #88C7FF;
+}
+
+.record-title{
+	font-weight: 700;
+	color: #555;
+	font-variant: small-caps;
+	font-size: 15px;
+	height: 17px;
+	display: block;
+	text-align: left;
+	padding: 0 0px;
+	margin-bottom: 3px;
+}
+.night .record-title{
+	color: #F2F2F2;
+}
+
+.bContent .message{
+	text-align: left;
+	text-indent: 15px;
+	-webkit-user-select: text;
+	cursor: text;
+}
+
+.block.edit .bContent{
+	/*background: #B8FFB3;*/
+	-webkit-transition: background 0.1s ease-in;
+}
+
+.block.edit .bContent .time:hover, .block.edit .bContent .weekdays:hover, .block.edit .bContent .message:hover{
+	background: rgba(255,255,255,0.6);
+	cursor: pointer;
+}
+
+.block.edit .controls, .block.edit .editCheckmark{
+	width: 30px;
+}
+.block.edit .wrapper{
+	padding-left: 30px;
+}
+
+@media (min-width: 700px) {
+	#configure, #record{
+		overflow-y: scroll;
+	}
+	#configure{
+		position: static;
+		float: left;
+		width: 310px;
+		border-right: 1px solid lightgray;
+		height: -webkit-calc(100% - 62px) !important;
+		padding-bottom: 20px !important;
+	}
+	#record{
+		position: static;
+		float: left;
+		width: -webkit-calc(100% - 310px);
+		border-left: 1px solid white;
+	}
+	#add{
+		display: none;
+	}
+	#removeAll{
+		border-bottom-left-radius: 3px;
+		border-top-left-radius: 3px;
+	}
+}
+
+.modal{
+	overflow-y: hidden;
+}
+
+.badge{
+	-webkit-transition: background 0.3s ease-out;
+}
+.badge.running{
+	background: #3276b1;
+}

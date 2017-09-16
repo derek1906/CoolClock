@@ -1,0 +1,260 @@
+html, body{
+	height: 100%;
+	margin: 0px;
+	-webkit-user-select: none;
+	min-width: 650px;
+	/*min-height: 400px;*/
+}
+
+body{
+	background: #f2f2f2;
+	cursor: default;
+}
+
+#header{
+	left: 0px;
+	z-index: 1001;
+	width: 100%;
+	background: rgba(242, 242, 242, 0.95);
+	padding-top: 8px;
+	top: -8px;
+	padding-top: 20px;
+}
+
+#header > *{
+	vertical-align: middle;
+}
+
+#header > h1{
+	display: inline-block;
+	font-size: 28px;
+	font-family: Arial, 微軟正黑體, 微軟雅黑, Simhei, 新細明體;
+	color: #9ab1d1;
+	text-shadow: 0px 1px 0px white, 0px -1px 0px gray;
+	margin: 0;
+	margin-left: 16px;
+	margin-right: 8px;
+}
+
+#header > .btn-group{
+	margin-right: 16px;
+}
+
+#header > hr{
+	height: 1px;
+	background: lightgray;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+#content{
+	padding: 0px;
+	overflow-y: scroll;
+	height: -webkit-calc(100% - 63px);
+}
+
+.progress{
+	margin-right: 4px;
+}
+
+.progress-bar{
+	text-shadow: 0px 1px 0px #555;
+}
+
+.block{
+	//max-height: 85px;
+	border-top: 1px solid white;
+	//padding: 12px 8px;
+	overflow: hidden;
+	height: 85px;
+	//background: #f2f2f2;
+	background: #AAA;
+	border-bottom: 1px solid lightgray;
+}
+.block.animate{
+	-webkit-transition: height 0.3s ease-out, padding 0.3s ease-out, border 0.3s ease-out, background 0.3s ease-out, border-width 0.3s ease-out;
+}
+
+.bContent:hover, #addcontent:hover{
+	background: #f5f5f5;
+}
+
+
+.block.shrink:not(#addpanel){
+	/*max-height: 0;
+	padding: 0 8px;
+	border: 0;*/
+
+	background: #555;
+}
+
+.block.collapsed:not(#addpanel){
+	height: 0;
+	border-width: 0;
+}
+
+.block.shrink:not(#addpanel) > .bContent{
+	opacity: 0;
+	-webkit-transform: scale(0);
+}
+
+.bContent{
+	height: 100%;
+	padding: 12px 8px;
+	background: #f2f2f2;
+	-webkit-transform: scale(1);
+}
+.block.animate .bContent{
+	-webkit-transition: -webkit-transform 0.3s ease-out, opacity 0.3s ease-out;
+}
+
+.bContent > *{
+	vertical-align: middle;
+}
+
+.bContent > .progress{
+	margin-bottom: 0px;
+	display: inline-block;
+	width: -webkit-calc(100% - 51px);
+}
+
+.bContent > .message::before{
+	content: "message";
+	font-weight: 700;
+	color: #bbb;
+	text-transform: uppercase;
+	font-size: 12px;
+	display: block;
+}
+
+.bContent > .message{
+	text-indent: -8px;
+	padding-left: 8px;
+}
+
+
+#addpanel{
+	padding: 0;
+	background: #AAA;
+}
+#addpanel.animate{
+	-webkit-transition: background 0.3s ease-out, height 0.3s ease-out, border-width 0.3s ease-out
+}
+
+#addpanel.collapsed{
+	height: 0;
+	border-width: 0;
+}
+
+#addcontent{
+	height: 100%;
+	padding: 12px 8px;
+	background: #f2f2f2;
+	opacity: 1;
+	-webkit-transform: scale(1);
+}
+#addpanel.animate #addcontent{
+	-webkit-transition: -webkit-transform 0.3s ease-out, opacity 0.3s ease-out;
+}
+
+#addpanel.shrink, #addpanel.swipe{
+	background: #555;
+}
+
+#addpanel.swipe > #addcontent{
+	-webkit-transform: translateX(100%);
+	opacity: 0;
+}
+
+#addpanel.shrink > #addcontent{
+	opacity: 0;
+	-webkit-transform: scale(0);
+}
+
+#footer{
+	border-top: 1px solid white;
+}
+
+#addcontent > div{
+	display: inline-block;
+}
+
+.input-time{
+	display: inline-block;
+}
+
+.input-title{
+	font-weight: 700;
+	color: #555;
+	text-transform: uppercase;
+	font-size: 12px;
+	height: 17px;
+}
+
+#addcontent .input-time > .time{
+	display: inline-block;
+	width: 60px;
+	border-radius: 0;
+	border-width: 1px 0;
+}
+
+#addcontent .input-time > .time:first-child{
+	border-radius: 3px 0 0 3px;
+	border-width: 1px;
+}
+#addcontent .input-time > .time:last-child{
+	border-radius: 0 3px 3px 0;
+	border-width: 1px;
+}
+
+.time::-webkit-outer-spin-button,
+.time::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+#addcontent .input-color{
+	display: inline-block;
+}
+
+.progress{
+	position: relative;
+}
+.progress-bar{
+	-webkit-transition: width 0.3s linear;
+}
+.progress-bar-text{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	font-size: 12px;
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.badge{
+	-webkit-transition: background 0.3s ease-out;
+}
+.badge.running{
+	background: #3276b1;
+}
+
+.plural{
+	display: inline-block;
+	overflow: hidden;
+	width: 0;
+	vertical-align: bottom;
+	-webkit-transition: width 0.1s linear;
+}
+.plural.shows{
+	width: 20px;
+}
+.tooltip{
+	text-shadow: none !important;
+}
+
+.modal{
+	overflow: hidden;
+}

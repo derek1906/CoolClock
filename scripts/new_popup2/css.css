@@ -1,0 +1,135 @@
+@font-face{
+	font-family: "Roboto";
+	src: url("/fonts/Roboto-Thin.ttf");
+	font-weight: 100;	/* Thin */
+}
+@font-face{
+	font-family: "Roboto";
+	src: url("/fonts/Roboto-Regular.ttf");
+	font-weight: 400;	/* Normal */
+}
+@font-face{
+	font-family: "Noto Sans";
+	src: url("/fonts/NotoSans-Regular.ttf");
+	font-weight: 400;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	width: 300px;
+	height: 500px;
+	background: linear-gradient(350deg, rgba(13,203,255,1) 0%, rgba(7,57,117,1) 100%);
+	font-family: "Roboto", "Noto Sans", Sans;
+	font-weight: 100;
+}
+
+.icon{
+	width: 24px;
+	height: 24px;
+	margin: 5px;
+}
+
+#background{
+	position: absolute;
+	z-index: -1;
+}
+
+#wrapper{
+	width: 100%;
+	height: 100%;
+	cursor: default;
+}
+
+#title{
+	color: white;
+	padding: 48px 18px;
+	height: 50%;
+}
+
+#bottom-sheet-wrapper{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#bottom-sheet-wrapper.hidden{
+	background: rgba(0, 0, 0, 0);
+	pointer-events: none;
+}
+
+#bottom-sheet-backdrop{
+	background: rgba(0, 0, 0, 0.2);
+	opacity: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+	transition: opacity 0.3s ease-out;
+}
+#bottom-sheet-wrapper.hidden #bottom-sheet-backdrop{
+	opacity: 0;
+}
+
+#bottom-sheet-list{
+	list-style: none;
+	pointer-events: all;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	background: white;
+	padding: 0px 0px 8px;
+	transform: translateY(0%);
+	font-family: "Roboto", "Noto Sans", Sans;
+	font-weight: 400;
+
+	transition: transform 0.3s ease;
+}
+
+#bottom-sheet-wrapper.hidden #bottom-sheet-list{
+	transform: translateY(100%);
+}
+
+#bottom-sheet-list > dt{
+	height: 56px;
+	line-height: 56px;
+	font-size: 16px;
+	color: rgba(0, 0, 0, 0.54);
+	padding: 0px 16px;
+}
+
+#bottom-sheet-list > dd{
+	height: 48px;
+	padding: 0px;
+	color: rgba(0, 0, 0, 0.87);
+	cursor: pointer;
+
+	transition: background 0.2s ease;
+}
+#bottom-sheet-list > dd:hover{
+	background: #f9f9f9;
+}
+#bottom-sheet-list > dd:active{
+	background: #eee;
+}
+
+#bottom-sheet-list > dd > img{
+	margin: 12px 16px;
+	width: 24px;
+	height: 24px;
+	opacity: 0.55;
+	vertical-align: middle;
+}
+
+#bottom-sheet-list > dd > span{
+	margin: 0px 16px;
+	font-size: 16px;
+}

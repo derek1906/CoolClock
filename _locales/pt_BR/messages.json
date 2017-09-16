@@ -1,0 +1,269 @@
+{
+   "extDes": {
+      "message": /*"An extensão que disponibiliza Relógios Análogo e Digital na Barra de Ferramentas de seu Chrome e também aviso de hora em hora no seu Desktop."*/"An extension fully loaded with tons of useful time-related features... But the best part is, it is totally COOL."
+   },
+   "extName": {
+      "message": "Cool Relógio"
+   },
+   "settings": {
+      "message": "Opções"
+   },
+   "hourlytimeannounce": {
+      "message": "Anúncio a cada hora"
+   },
+   "enablehourlytimeannounce": {
+      "message": "Ative um anuncio de hora em hora"
+   },
+   "shownotificationfor": {
+      "message": "Tempo para mostrar a notificação"
+   },
+   "seconds": {
+      "message": "segundos"
+   },
+   "max999": {
+      "message": "(Maximo:  999)"
+   },
+   "showtodowhenopen": {
+      "message": "Alerta para ser exibido ao abrir o Navegador"
+   },
+   "display": {
+      "message": "Mostrar"
+   },
+   "usedigital": {
+      "message": "Use relógio digital"
+   },
+   "digitalmsg": {
+      "message": "(Aviso:   Usando relógio digital ira gastar um pouco de memória de seu computador.)"
+   },
+   "usedarkmode": {
+      "message": "Use o modo tema Escuro (Para quem usa temos escuros, isto ira adicionar um pouco de transparência na bolha abaixo dos numeros para que você possa ver as horas.)"
+   },
+   "useanalog": {
+      "message": "Usar relógio Normal"
+   },
+   "analogmsg": {
+      "message": "(Mais ou menos 4k por segundo.)"
+   },
+   "noscroll": {
+      "message": "Não use i efeito de rolagem (Mostra 4 numeros enquanto rolando)"
+   },
+   "_12hour": {
+      "message": "Usar sistema de 12 horas (o padrão é o sistema de 24 horas)"
+   },
+   "showiconclock": {
+      "message": "Mostre o relógio no icone (O relógio na seta)"
+   },
+   "showbadgeclock": {
+      "message": "Tempo mostrado na barra"
+   },
+   "comment": {
+      "message": "Comentário"
+   },
+   "cmtmsg": {
+      "message": "Tem um comentario? Reporta um erro?"
+   },
+   "memmsg": {
+      "message": "Animasoes geralmente \"geram\" uma nova imagem por segundo, então normalmente isto irá ocupar um pouco de memoria de seu computador após o perio de tempo que eu estou tentando reduzir para o menor."
+   },
+   "showupdate": {
+      "message": "Show update page after each time this extension has been updated"
+   },
+   "updateiconevery": {
+      "message": "Atualizar icone a cada: "
+   },
+   "updateiconeverymsg": {
+      "message": "(O longo, o quão leve está extensão é, mas i quão longo, a influencia para outras partes desta extensão será maior.)"
+   },
+   "_1sec": {
+      "message": "1 segundo"
+   },
+   "_2sec": {
+      "message": "2 segundos"
+   },
+   "_5sec": {
+      "message": "5 segundos"
+   },
+   "_10sec": {
+      "message": "10 segundos"
+   },
+   "_30sec": {
+      "message": "30 segundos"
+   },
+   "_1min": {
+      "message": "1 minuto"
+   },
+   "viewsavedalarm": {
+      "message": "Ver alarmes slavos"
+   },
+   "OK": {
+      "message": "OK"
+   },
+   "apply": {
+      "message": "Aplicar"
+   },
+   "cancel": {
+      "message": "Cancelar"
+   },
+   "about": {
+      "message": "Sobre"
+   },
+   "whatsnew": {
+      "message": "Veja as novidades desta versão"
+   },
+   "none": {
+      "message": "Nenhum"
+   },
+   "defaultringtone": {
+      "message": "Toque padrão"
+   },
+   "URLringtone": {
+      "message": "Da URL"
+   },
+   "allpurpose": {
+      "message": "Toque para todos os propósitos"
+   },
+   "alarmandringtone": {
+      "message": "Alarme & Toque"
+   },
+   "close": {
+      "message": "Fechar"
+   },
+   "timeis": {
+      "message": "Agora são:  "
+   },
+   "notflash": {
+      "message": "(Eu não sou um relógio em Flash!)"
+   },
+   "version": {
+      "message": "Versão"
+   },
+   "countdown": {
+      "message": "Relógio do Cronometro"
+   },
+   "alarm": {
+      "message": "Relógio do Alarme"
+   },
+   "stat": {
+      "message": "Estatísticas"
+   },
+   "timer": {
+      "message": "Parar o Cronometro"
+   },
+   "tools": {
+      "message": "Ferramentas"
+   },
+   "day_0": {
+      "message": "Domingo"
+   },
+   "day_1": {
+      "message": "Segunda"
+   },
+   "day_2": {
+      "message": "Terça"
+   },
+   "day_3": {
+      "message": "Quarta"
+   },
+   "day_4": {
+      "message": "Quinta"
+   },
+   "day_5": {
+      "message": "Sexta"
+   },
+   "day_6": {
+      "message": "Sabado"
+   },
+   "month_1": {
+      "message": "Jan"
+   },
+   "month_2": {
+      "message": "Fev"
+   },
+   "month_3": {
+      "message": "Mar"
+   },
+   "month_4": {
+      "message": "Abr"
+   },
+   "month_5": {
+      "message": "Mai"
+   },
+   "month_6": {
+      "message": "Jun"
+   },
+   "month_7": {
+      "message": "Jul"
+   },
+   "month_8": {
+      "message": "Ago"
+   },
+   "month_9": {
+      "message": "Set"
+   },
+   "month_10": {
+      "message": "Out"
+   },
+   "month_11": {
+      "message": "Nov"
+   },
+   "month_12": {
+      "message": "Dez"
+   },
+   "morning": {
+      "message": "Bom Dia!"
+   },
+   "noon": {
+      "message": "Boa Tarde!"
+   },
+   "evening": {
+      "message": "Você ja jantou?"
+   },
+   "night": {
+      "message": "É hora de dormir."
+   },
+   "midnight": {
+      "message": "O que há de novo?"
+   },
+   "notitimeannounce": {
+      "message": "Anúncio a cada hora"
+   },
+   "notitimeis": {
+      "message": "Agora são"
+   },
+   "am": {
+      "message": "am"
+   },
+   "pm": {
+      "message": "pm"
+   },
+   "saved": {
+      "message": "Salvo"
+   },
+   "notsaved": {
+      "message": "Opções modificadas não foram salvas ainda! Continuar mesmo assim?"
+   },
+   "ctxcmt": {
+      "message": "Rportar problemas / Comentar"
+   },
+   "digital": {
+      "message": "Relógio digital"
+   },
+   "analog": {
+      "message": "Relógio Normal"
+   },
+   "ctxhide": {
+      "message": "Não exibir estes items"
+   },
+   "chat": {
+      "message": "Chat box"
+   },
+   "forum": {
+      "message": "Forum"
+   },
+   "calendar": {
+      "message": "Calendário"
+   },
+   "setalarm": {
+      "message": "Definir um alarme"
+   }
+}

@@ -1,0 +1,279 @@
+﻿{
+   "extDes": {
+      "message": "提供时钟、月历、闹铃、待办事情清单以及整点报时等等(超酷)功能！"
+   },
+   "extName": {
+      "message": "酷时钟"
+   },
+   "settings": {
+      "message": "选项"
+   },
+   "hourlytimeannounce": {
+      "message": "整点报时"
+   },
+   "enablehourlytimeannounce": {
+      "message": "使用整点报时（桌面提醒）"
+   },
+   "shownotificationfor": {
+      "message": " 桌面提醒显示时间为︰"
+   },
+   "seconds": {
+      "message": "秒"
+   },
+   "max999": {
+      "message": "(最長为999秒)"
+   },
+   "showtodowhenopen": {
+      "message": "浏览器运行时在桌面提醒待办事项。"
+   },
+   "display": {
+      "message": "显示"
+   },
+   "usedigital": {
+      "message": "使用数字时钟"
+   },
+   "digitalmsg": {
+      "message": "（数字时钟会占用一定的内存量。）"
+   },
+   "usedarkmode": {
+      "message": "使用黑暗主题模式（使用暗色调主题的人可选择此项。这会在图标下方加入一层半透明的图案，让图示更加清楚。）"
+   },
+   "useanalog": {
+      "message": "使用指针时钟"
+   },
+   "analogmsg": {
+      "message": "（每秒大约消耗4KB内存）"
+   },
+   "noscroll": {
+      "message": "不使用滚动特效（显示4个数字，不显示其中的冒号）"
+   },
+   "_12hour": {
+      "message": "使用12小时制（默认为24小时制）"
+   },
+   "showiconclock": {
+      "message": "在图标上显示指针时钟"
+   },
+   "showbadgeclock": {
+      "message": "在图标下部显示时间"
+   },
+   "comment": {
+      "message": "意见"
+   },
+   "cmtmsg": {
+      "message": "想留言吗？提交错误？"
+   },
+   "memmsg": {
+      "message": "动画通常会每秒便重新绘制一次，这样会在使用一段时间之后占用大量的内存。当然，我会尽可能的降低内存占用量。"
+   },
+   "showupdate": {
+      "message": "每次更新后显示更新页"
+   },
+   "updateiconevery": {
+      "message": "刷新图标的间隔时间： "
+   },
+   "updateiconeverymsg": {
+      "message": "（设定时间越长，该插件占用的内存就越少。）"
+   },
+   "_1sec": {
+      "message": "1 秒"
+   },
+   "_2sec": {
+      "message": "2 秒"
+   },
+   "_5sec": {
+      "message": "5 秒"
+   },
+   "_10sec": {
+      "message": "10 秒"
+   },
+   "_30sec": {
+      "message": "30 秒"
+   },
+   "_1min": {
+      "message": "1 分钟"
+   },
+   "viewsavedalarm": {
+      "message": "检视已储闹铃"
+   },
+   "OK": {
+      "message": "确定"
+   },
+   "apply": {
+      "message": "应用"
+   },
+   "cancel": {
+      "message": "取消"
+   },
+   "about": {
+      "message": "关于"
+   },
+   "whatsnew": {
+      "message": "更新日志"
+   },
+   "none": {
+      "message": "无"
+   },
+   "defaultringtone": {
+      "message": "预设铃声"
+   },
+   "URLringtone": {
+      "message": "来自网址"
+   },
+   "allpurpose": {
+      "message": "所有用途的铃声"
+   },
+   "alarmandringtone": {
+      "message": "闹钟与铃声"
+   },
+   
+   "close": {
+      "message": "关闭"
+   },
+   "timeis": {
+      "message": "现在是︰"
+   },
+   "notflash": {
+      "message": "（我不是Flash时钟！）"
+   },
+   "version": {
+      "message": "版本"
+   },
+   "countdown": {
+      "message": "倒数器"
+   },
+   "alarm": {
+      "message": "闹钟"
+   },
+   "stat": {
+      "message": "统计"
+   },
+   "timer": {
+      "message": "计时器"
+   },
+   "tools": {
+      "message": "工具"
+   },
+   
+   "day_0": {
+      "message": "星期日"
+   },
+   "day_1": {
+      "message": "星期一"
+   },
+   "day_2": {
+      "message": "星期二"
+   },
+   "day_3": {
+      "message": "星期三"
+   },
+   "day_4": {
+      "message": "星期四"
+   },
+   "day_5": {
+      "message": "星期五"
+   },
+   "day_6": {
+      "message": "星期六"
+   },
+   "month_1": {
+      "message": "一月"
+   },
+   "month_2": {
+      "message": "二月"
+   },
+   "month_3": {
+      "message": "三月"
+   },
+   "month_4": {
+      "message": "四月"
+   },
+   "month_5": {
+      "message": "五月"
+   },
+   "month_6": {
+      "message": "六月"
+   },
+   "month_7": {
+      "message": "七月"
+   },
+   "month_8": {
+      "message": "八月"
+   },
+   "month_9": {
+      "message": "九月"
+   },
+   "month_10": {
+      "message": "十月"
+   },
+   "month_11": {
+      "message": "十一月"
+   },
+   "month_12": {
+      "message": "十二月"
+   },
+   
+   "morning": {
+      "message": "早上好！"
+   },
+   "noon": {
+      "message": "下午好！"
+   },
+   "evening": {
+      "message": "吃晚饭了吗？"
+   },
+   "night": {
+      "message": "很晚了，该睡觉了。"
+   },
+   "midnight": {
+      "message": "最近怎样了？"
+   },
+   
+   "notitimeannounce": {
+      "message": "整点报时"
+   },
+   "notitimeis": {
+      "message": "现在是"
+   },
+   
+   "am": {
+      "message": "上午"
+   },
+   "pm": {
+      "message": "下午"
+   },
+   
+   "saved": {
+      "message": "已保存。"
+   },
+   "notsaved": {
+      "message": "你忘了储存啊! 要继续吗?"
+   },
+   
+   "ctxcmt": {
+      "message": "提交错误 / 意见"
+   },
+   "digital": {
+      "message": "数字时钟"
+   },
+   "analog": {
+      "message": "指针时钟"
+   },
+   "ctxhide": {
+      "message": "隐藏这个右键窗体"
+   },
+   "chat": {
+      "message": "聊天室"
+   },
+   "forum": {
+      "message": "讨论区"
+   },
+   "calendar": {
+      "message": "月历"
+   },
+   "setalarm": {
+      "message": "设置闹铃"
+   },
+   "help": {
+      "message": "帮助"
+   }
+}

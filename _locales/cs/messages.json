@@ -1,0 +1,269 @@
+﻿{
+   "extDes": {
+      "message": "První doplněk, který zobrazuje digitální + analogové hodiny na liště nástrojů ve Chromu + oznámení hodiny na ploše."
+   },
+   "extName": {
+      "message": "Cool Hodin"
+   },
+   "settings": {
+      "message": "Možnosti"
+   },
+   "hourlytimeannounce": {
+      "message": "Hodinové upozornění"
+   },
+   "enablehourlytimeannounce": {
+      "message": "Zapnout hodinové upozornění! (Upozornění na plochu)"
+   },
+   "shownotificationfor": {
+      "message": "Čas upozornění: "
+   },
+   "seconds": {
+      "message": "sekund"
+   },
+   "max999": {
+      "message": "(Maximálně: 999)"
+   },
+   "showtodowhenopen": {
+      "message": ""
+   },
+   "display": {
+      "message": "Zobrazení"
+   },
+   "usedigital": {
+      "message": "Použij digitální hodiny"
+   },
+   "digitalmsg": {
+      "message": "(Upozornění:  Použití digitálních hodin zabírá hodně počítačové paměti.)"
+   },
+   "usedarkmode": {
+      "message": "Použij režim pro tmavé pozadí (Pokud máte tmavé pozadí pod hodinami, přidá světlou bublinu pod čísla, aby byla čitelná.)"
+   },
+   "useanalog": {
+      "message": "Použij analogové hodiny"
+   },
+   "analogmsg": {
+      "message": "(Asi 4K za sekundu.)"
+   },
+   "noscroll": {
+      "message": "Nepoužívej rolovací efekt (Ukáže 4 čísla místo rolování)"
+   },
+   "_12hour": {
+      "message": "Použij 12 hodinový systém (Ve výchozím nastavení je použit 24 hodinový systém)"
+   },
+   "showiconclock": {
+      "message": "Zobrazuj ikonu hodin (ta se šipkou)"
+   },
+   "showbadgeclock": {
+      "message": "Zobrazuj čas na ikonce"
+   },
+   "comment": {
+      "message": "Komentář"
+   },
+   "cmtmsg": {
+      "message": "Chceš poslat komentář nebo nahlásit chybu? Klikni zde!"
+   },
+   "memmsg": {
+      "message": "Animace obvykle vykresluje nový obrázek za sekundu, takže normálně zabere hodně paměti, ačkoli se snažím ji snížit na minimum."
+   },
+   "showupdate": {
+      "message": "Ukázat stránku s aktualizací pokaždé, když je tento doplněk aktualizován."
+   },
+   "updateiconevery": {
+      "message": "Frekvence aktualizace ikony: "
+   },
+   "updateiconeverymsg": {
+      "message": "(Čím delší, tím méně paměti tento doplněk zabere.)"
+   },
+   "_1sec": {
+      "message": "1 sekunda"
+   },
+   "_2sec": {
+      "message": "2 sekundy"
+   },
+   "_5sec": {
+      "message": "5 sekund"
+   },
+   "_10sec": {
+      "message": "10 sekund"
+   },
+   "_30sec": {
+      "message": "30 sekund"
+   },
+   "_1min": {
+      "message": "1 minuta"
+   },
+   "viewsavedalarm": {
+      "message": "Ukaž uložené alarmy"
+   },
+   "OK": {
+      "message": "OK"
+   },
+   "apply": {
+      "message": "Použít"
+   },
+   "cancel": {
+      "message": "Zrušit"
+   },
+   "about": {
+      "message": "O doplňku"
+   },
+   "whatsnew": {
+      "message": "Co je nového v této verzi."
+   },
+   "none": {
+      "message": "Žádné"
+   },
+   "defaultringtone": {
+      "message": "Výchozí vyzvánění"
+   },
+   "URLringtone": {
+      "message": "Z URL"
+   },
+   "allpurpose": {
+      "message": "Vyzvánění dle výběru"
+   },
+   "alarmandringtone": {
+      "message": "Upozornění a vyzvánění"
+   },
+   "close": {
+      "message": "Zavřít"
+   },
+   "timeis": {
+      "message": "Právě je: "
+   },
+   "notflash": {
+      "message": "(Toto nejsou Flashové hodiny!)"
+   },
+   "version": {
+      "message": "Verze"
+   },
+   "countdown": {
+      "message": "Odpočítávání"
+   },
+   "alarm": {
+      "message": "Budík"
+   },
+   "stat": {
+      "message": "Statistika"
+   },
+   "timer": {
+      "message": "Stopky"
+   },
+   "tools": {
+      "message": "Nástroje"
+   },
+   "day_0": {
+      "message": "Neděle"
+   },
+   "day_1": {
+      "message": "Pondělí"
+   },
+   "day_2": {
+      "message": "Úterý"
+   },
+   "day_3": {
+      "message": "Středa"
+   },
+   "day_4": {
+      "message": "Čtvrtek"
+   },
+   "day_5": {
+      "message": "Pátek"
+   },
+   "day_6": {
+      "message": "Sobota"
+   },
+   "month_1": {
+      "message": "Led"
+   },
+   "month_2": {
+      "message": "Úno"
+   },
+   "month_3": {
+      "message": "Bře"
+   },
+   "month_4": {
+      "message": "Dub"
+   },
+   "month_5": {
+      "message": "Kvě"
+   },
+   "month_6": {
+      "message": "Čen"
+   },
+   "month_7": {
+      "message": "Čec"
+   },
+   "month_8": {
+      "message": "Srp"
+   },
+   "month_9": {
+      "message": "Zář"
+   },
+   "month_10": {
+      "message": "Říj"
+   },
+   "month_11": {
+      "message": "Lis"
+   },
+   "month_12": {
+      "message": "Pro"
+   },
+   "morning": {
+      "message": "Dobré ráno!"
+   },
+   "noon": {
+      "message": "Hezké odpoledne!"
+   },
+   "evening": {
+      "message": "Už jsi večeřel?"
+   },
+   "night": {
+      "message": "Je čas jít spát."
+   },
+   "midnight": {
+      "message": "Co se děje?"
+   },
+   "notitimeannounce": {
+      "message": "Oznámení hodiny"
+   },
+   "notitimeis": {
+      "message": "Právě je"
+   },
+   "am": {
+      "message": "dopoledne"
+   },
+   "pm": {
+      "message": "odpoledne"
+   },
+   "saved": {
+      "message": "Volby jsou uloženy."
+   },
+   "notsaved": {
+      "message": "Upravené nastavení nebylo uloženo! Přesto pokračovat?"
+   },
+   "ctxcmt": {
+      "message": "Bug / Komentář"
+   },
+   "digital": {
+      "message": "Digitální hodiny"
+   },
+   "analog": {
+      "message": "Analogové hodiny"
+   },
+   "ctxhide": {
+      "message": ""
+   },
+   "chat": {
+      "message": "Chat box"
+   },
+   "forum": {
+      "message": "Fórum"
+   },
+   "calendar": {
+      "message": "Kalendář"
+   },
+   "setalarm": {
+      "message": "Nastavení budíku"
+   }
+}

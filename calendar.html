@@ -1,0 +1,314 @@
+﻿<!-- By Derek Leung 2010-->
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Calendar</title>
+		<style>
+			*.hide {
+				display:none;
+			}
+			body {
+				font-family:'Arial';
+				overflow:hidden;
+				-webkit-user-select:none;
+				cursor:default;
+				background:transparent;
+				margin:0px;
+				padding:8px;
+			}
+			table {
+				border:1px solid gray;
+				width:140px;
+				height:140px;
+				background-color:white;
+				border-radius:3px;
+				-webkit-box-shadow:1px 1px 3px #888;
+			}
+			table td>span {
+				position:relative;
+				z-index:2;
+			}
+			.title {
+				text-shadow: 0px 1px 1px white;
+				font-family:'Arial', '微軟正黑體', 'Simhei';
+				background-color: lightblue;
+				width:140px;
+				height:20px;
+				text-align:center;
+			}
+			.title>img {
+				margin:1px;
+				cursor:pointer;
+			}
+			.title>img:active {
+				position:relative;
+				top:1px;
+			}
+			.title>img.left_btn {
+				float:left;
+			}
+			.title>img.left_btn_dis {
+				float:left;
+				cursor:default;
+			}
+			.title>img.right_btn {
+				float:right;
+			}
+			.title>img.right_btn_dis {
+				float:right;
+				cursor:default;
+			}
+			/*.eventday:before {
+				content:"";
+				position:absolute;
+				z-index:-1;
+				margin-top:-2px;
+				margin-left:-1px;
+				width:17px;
+				height:18px;
+				border:2px solid red;
+				border-radius:10px;
+				-webkit-box-shadow:1px 1px 3px #888, inset 1px 1px 3px #888;
+				opacity:9;
+			}
+			.eventday:hover:before {
+				opacity:.3;
+			}*/
+			.eventday{
+				text-decoration: underline;
+				font-weight: bold;
+				cursor: pointer;
+			}
+			.today{
+				background: green !important;
+				color: #FFF !important;
+			}
+			table td.label {
+				text-align:center;
+				background-color:skyblue;
+				width:20px;
+				height:20px;
+				text-shadow: 0px 2px 1px #888;
+			}
+			table td.label.s {
+				color:red;
+			}
+			table td.date {
+				text-align:center;
+				background-color:#FFE4B2;
+				width:20px;
+				height:20px;
+			}
+			table td.date.s {
+				color:red;
+			}
+			table td.date.exist {
+				background-color:orange;
+			}
+			table td.date.exist:hover {
+				background-color:blue !important;
+				color:white;
+			}
+			table #selected {
+				font-size:12px;
+				vertical-align:bottom;
+				border-top:1px solid green;
+				border-right:1px solid green;
+				border-top-right-radius: 5px;
+				padding: 2px 5px;
+				display: inline-block;
+				background-color: yellowgreen;
+				box-shadow: 4px 2px 5px -2px #AAA;
+				text-shadow: 0px 1px 1px white;
+				max-width: 90px;
+				white-space: nowrap;
+				text-overflow: ellipsis;
+				overflow: hidden;
+			}
+			table #todo {
+				width:100%;
+				cursor:text;
+				-webkit-user-select:text;
+				font-family:Arial, 仿宋, FangSong, 新細明體, PMingLiU;
+			}
+			
+		</style>
+		<SCRIPT language=JavaScript charset="utf-8" src="jquery.js"></SCRIPT>
+		<SCRIPT language=JavaScript charset="utf-8" src="translation.js"></SCRIPT>
+		<SCRIPT language=JavaScript charset="utf-8" src="tools.js"></SCRIPT>
+		<SCRIPT language=JavaScript charset="utf-8" src="/scripts/calendar/js.js"></SCRIPT>
+	</head>
+	<body>
+		<table id="mainCalendar">
+			<tr>
+				<td class="title" colspan=7>
+					<img class="left_btn" src="/images/icons/control_rewind_blue.png" title="Previous month..."
+					draggable="false">
+					<img class="left_btn_dis hide" src="/images/icons/control_rewind.png"
+					draggable="false">
+					<span id="yearnmonth"></span>
+					<img class="right_btn" src="/images/icons/control_fastforward_blue.png"
+					title="Next month..." draggable="false">
+					<img class="right_btn_dis hide" src="/images/icons/control_fastforward.png"
+					draggable="false">
+				</td>
+			</tr>
+			<tr>
+				<td class="s label">S</td>
+				<td class="label">M</td>
+				<td class="label">T</td>
+				<td class="label">W</td>
+				<td class="label">T</td>
+				<td class="label">F</td>
+				<td class="s label">S</td>
+			</tr>
+			<tr>
+				<td class="s date" id="td10">
+					<span id="10"></span>
+				</td>
+				<td class="date" id="td11">
+					<span id="11"></span>
+				</td>
+				<td class="date" id="td12">
+					<span id="12"></span>
+				</td>
+				<td class="date" id="td13">
+					<span id="13"></span>
+				</td>
+				<td class="date" id="td14">
+					<span id="14"></span>
+				</td>
+				<td class="date" id="td15">
+					<span id="15"></span>
+				</td>
+				<td class="s date" id="td16">
+					<span id="16"></span>
+				</td>
+			</tr>
+			<tr>
+				<td class="s date" id="td20">
+					<span id="20"></span>
+				</td>
+				<td class="date" id="td21">
+					<span id="21"></span>
+				</td>
+				<td class="date" id="td22">
+					<span id="22"></span>
+				</td>
+				<td class="date" id="td23">
+					<span id="23"></span>
+				</td>
+				<td class="date" id="td24">
+					<span id="24"></span>
+				</td>
+				<td class="date" id="td25">
+					<span id="25"></span>
+				</td>
+				<td class="s date" id="td26">
+					<span id="26"></span>
+				</td>
+			</tr>
+			<tr>
+				<td class="s date" id="td30">
+					<span id="30"></span>
+				</td>
+				<td class="date" id="td31">
+					<span id="31"></span>
+				</td>
+				<td class="date" id="td32">
+					<span id="32"></span>
+				</td>
+				<td class="date" id="td33">
+					<span id="33"></span>
+				</td>
+				<td class="date" id="td34">
+					<span id="34"></span>
+				</td>
+				<td class="date" id="td35">
+					<span id="35"></span>
+				</td>
+				<td class="s date" id="td36">
+					<span id="36"></span>
+				</td>
+			</tr>
+			<tr>
+				<td class="s date" id="td40">
+					<span id="40"></span>
+				</td>
+				<td class="date" id="td41">
+					<span id="41"></span>
+				</td>
+				<td class="date" id="td42">
+					<span id="42"></span>
+				</td>
+				<td class="date" id="td43">
+					<span id="43"></span>
+				</td>
+				<td class="date" id="td44">
+					<span id="44"></span>
+				</td>
+				<td class="date" id="td45">
+					<span id="45"></span>
+				</td>
+				<td class="s date" id="td46">
+					<span id="46"></span>
+				</td>
+			</tr>
+			<tr>
+				<td class="s date" id="td50">
+					<span id="50"></span>
+				</td>
+				<td class="date" id="td51">
+					<span id="51"></span>
+				</td>
+				<td class="date" id="td52">
+					<span id="52"></span>
+				</td>
+				<td class="date" id="td53">
+					<span id="53"></span>
+				</td>
+				<td class="date" id="td54">
+					<span id="54"></span>
+				</td>
+				<td class="date" id="td55">
+					<span id="55"></span>
+				</td>
+				<td class="s date" id="td56">
+					<span id="56"></span>
+				</td>
+			</tr>
+			<tr>
+				<td class="s date" id="td60">
+					<span id="60"></span>
+				</td>
+				<td class="date" id="td61">
+					<span id="61"></span>
+				</td>
+				<td class="date" id="td62">
+					<span id="62"></span>
+				</td>
+				<td class="date" id="td63">
+					<span id="63"></span>
+				</td>
+				<td class="date" id="td64">
+					<span id="64"></span>
+				</td>
+				<td class="date" id="td65">
+					<span id="65"></span>
+				</td>
+				<td class="s date" id="td66">
+					<span id="66"></span>
+				</td>
+			</tr>
+			<tr>
+				<td colspan=7 style="border-top:1px solid black;">
+					<span id="todo">&nbsp;</span>
+					<br>
+					<span id="selected" style=""></span>
+					<!-- <button style="float:right;height:20px;width:27px;padding:0px;margin:0px" onClick="edittodo()">edit</button> -->
+				</td>
+			</tr>
+		</table>
+		<span id="testspan" style="position:fixed;top:-1000px;left:-1000px;z-index:-1;opacity:0;"></span>
+	</body>
+</html>

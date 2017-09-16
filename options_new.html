@@ -1,0 +1,545 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Settings</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<meta name="twitter:widgets:csp" content="on">
+
+		<script type="text/javascript" charset="utf-8" src="jquery.js"></script>
+		<script type="text/javascript" src="/scripts/jquery_ui/jquery-ui-1.10.3.custom.min.js"></script>
+		<script type="text/javascript" src="/gcfeed.js"></script>
+		<script type="text/javascript" charset="utf-8" src="translation.js"></script>
+		<script type="text/javascript" charset="utf-8" src="jstimezone.js"></script>
+		<script type="text/javascript" charset="utf-8" src="tools.js"></script>
+
+		<link rel="stylesheet" href="/bootstrap/bootstrap.min.css">
+		<!-- <link rel="stylesheet" href="/bootstrap/bootstrap-theme.min.css"> -->
+		<script src="/bootstrap/bootstrap.min.js"></script>
+
+		<script type="text/javascript" charset="utf-8" src="/scripts/options/js_new.js"></script>
+
+		<link rel="icon" type="image/png" href="icons/16x16.png" />
+		<link rel="stylesheet" href="/scripts/options/css_new.css">
+
+		<style>
+		.fb-like span, 
+		.fb-like iframe {
+		    width: 120px! important;
+		    height: 20px! important;
+		    vertical-align: baseline !important;
+		}
+		</style>
+	</head>
+	<body>
+		<div id="header">
+			<h1 trans="settings"></h1>
+			<span id="facts"></span>
+			<hr/>
+		</div>
+		<div id="sidebar">
+			<div id="list" class="list-group">
+				<a class="list-group-item active">Menu</a>
+				<a href="#display" class="list-group-item"><gly icon="picture"></gly> <span trans="display">Display</span> <gly icon="chevron-right" class="pull-right"></gly></a>
+				<a href="#format" class="list-group-item"><gly icon="globe"></gly> <span>Formats</span> <gly icon="chevron-right" class="pull-right"></gly></a>
+				<a href="#notification" class="list-group-item"><gly icon="bullhorn"></gly> Notifications <gly icon="chevron-right" class="pull-right"></gly></a>
+				<a href="#ringtonePanel" class="list-group-item"><gly icon="bell"></gly> <span trans="alarmandringtone">Ringtone</span> <gly icon="chevron-right" class="pull-right"></gly></a>
+				<a href="#voice" class="list-group-item"><gly icon="comment"></gly> Text To Speech <gly icon="chevron-right" class="pull-right"></gly></a>
+				<a href="#extension" class="list-group-item"><gly icon="wrench"></gly> <span>Extension</span> <gly icon="chevron-right" class="pull-right"></gly></a>
+				<a href="#about" class="list-group-item"><gly icon="info-sign"></gly> <span trans="about">About</span> <gly icon="chevron-right" class="pull-right"></gly></a>
+				<a href="#credits" class="list-group-item"><span>Special Thanks</span> <gly icon="chevron-right" class="pull-right"></gly></a>
+			</div>
+			<div id="sidebar_footer" class="center"><!-- 
+				<a href="https://www.facebook.com/coolclock" target="_blank">Like our page on Facebook</a> -->
+				<a href="/update.html" trans="whatsnew">Change Log</a>
+				<a href="https://docs.google.com/document/d/1BhBnW1-mzGExFMwz7RtccqRGV6tvnzA1D7ZnyTqf5A8/pub" target="_blank" trans="help">Help</a>
+				<a href="https://chrome.google.com/webstore/support/icegcmhgphfkgglbljbkdegiaaihifce#bug" target="_blank" trans="ctxcmt">Bug Report/Comment</a>
+			</div>
+			<div id="sidebar_share" class="center">
+				<div class="g-plusone" data-size="medium" data-href="https://chrome.google.com/webstore/detail/cool-clock/icegcmhgphfkgglbljbkdegiaaihifce"></div>
+				<div class="fb-like" data-href="http://www.facebook.com/coolclock" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+				<a id="twitter_btn" href="https://twitter.com/share" class="twitter-share-button" data-url="https://chrome.google.com/webstore/detail/icegcmhgphfkgglbljbkdegiaaihifce" data-text="Cool Clock - A great tool that includes many time-related tools" data-lang="en">Tweet</a>
+			</div>
+		</div>
+		<div id="content">
+		<!--
+			<div class="alert alert-info alert-dismissable">
+				<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+				Welcome to the new settings page! All options are rearranged into categories for the purpose of finding it easier. You can still access the old settings page via <a href="/options.html" class="alert-link">this link</a>.
+			</div>-->
+
+				<!-- Display -->
+			<div class="panel panel-default" id="display">
+				<div class="panel-heading">
+					<h3 class="panel-title"><gly icon="picture"></gly> <span trans="display">Display</span></h3>
+				</div>
+				<div class="panel-body">
+					<form class="form-inline" role="form">
+						<ul class="list-group">
+							<li class="list-group-item list-heading">
+								<label class="radio-inline">
+									<input id="digital" type="radio" name="clockmode"> <span trans="usedigital">Digital</span>
+								</label>
+								<button id="editDigital" class="btn btn-default btn-xs pull-right" data-requires="digital" type="button">Edit appearance</button>
+							</li>
+							<li class="list-group-item" data-requires="digital">
+								<label class="checkbox-inline">
+									<input type="checkbox" id="dark_mode"> (Removed) <span trans="usedarkmode">Use Dark Mode</span>
+								</label>
+							</li>
+							<li class="list-group-item" data-requires="digital">
+								Color: 
+								<div class="form-group">
+									<input type="color" id="font_color" class="form-control input-sm" style="background: #A5A5A5">
+								</div>
+							</li>
+							<li class="list-group-item list-heading">
+								<label class="radio-inline">
+									<input id="analog" type="radio" name="clockmode"> <span trans="useanalog">Analog</span>
+								</label>
+								<button id="editAnalog" class="btn btn-default btn-xs pull-right" data-requires="analog" type="button">Edit appearance</button>
+							</li>
+							<li class="list-group-item" data-requires="analog">
+								<label class="checkbox-inline">
+									<input id="displayIcon" type="checkbox"> <span trans="showiconclock">Display Clock on Icon(The one with arrow)</span>
+								</label>
+							</li>
+							<!-- 
+							<li class="list-group-item" data-requires="analog">
+								<label class="checkbox-inline">
+									<input id="timeOnBadge" type="checkbox"> <span trans="showbadgeclock">Display time on badge</span>
+								</label>
+							</li>
+							<li class="list-group-item" data-requires="analog">
+								<label class="checkbox-inline">
+									<input id="noscroll" type="checkbox"> <span trans="noscroll">Don't use scroll effect (Display 4 numbers instead of scrolling)</span>
+								</label>
+							</li>
+							<li class="list-group-item" data-requires="analog">
+								Badge color: 
+								<div class="form-group">
+									<input type="color" id="badge_color" class="form-control input-sm" style="background: #FF0000" data-requires="timeOnBadge">
+								</div>
+							</li> -->
+							<li class="list-group-item" data-requires="analog">
+								<ul class="list-group">
+									<li class="list-group-item list-heading">
+										<label class="checkbox-inline">
+											<input id="timeOnBadge" type="checkbox"> <span trans="showbadgeclock">Display time on badge</span>
+										</label>
+									</li>
+									<li class="list-group-item" data-requires="timeOnBadge">
+										<label class="checkbox-inline">
+											<input id="noscroll" type="checkbox"> <span trans="noscroll">Don't use scroll effect (Display 4 numbers instead of scrolling)</span>
+										</label>
+									</li>
+									<li class="list-group-item" data-requires="timeOnBadge">
+										Badge color: 
+										<div class="form-group">
+											<input type="color" id="badge_color" class="form-control input-sm" style="background: #FF0000">
+										</div>
+									</li> 
+								</ul>
+							</li>
+						</ul>
+						<hr>
+						<ul class="list-group">
+							<li class="list-group-item list-heading-single">
+								<label class="checkbox-inline">
+									<input type="checkbox" id="popup_design"> Use new popup design
+								</label>
+							</li>
+						</ul>
+					</form>
+				</div>
+			</div>
+				<!-- Time Format -->
+			<div class="panel panel-default" id="format">
+				<div class="panel-heading">
+					<h3 class="panel-title"><gly icon="globe"></gly> Formats</h3>
+				</div>
+				<div class="panel-body">
+					<ul class="list-group">
+						<li class="list-group-item list-heading">Time System</li>
+						<li class="list-group-item">
+							<label class="checkbox-inline">
+								<input type="checkbox" id="pm"> <span trans="_12hour">Use 12-hour system</span>
+							</label>
+						</li>
+					</ul>
+
+					<ul class="list-group">
+						<li class="list-group-item list-heading">Calendar System</li>
+						<li class="list-group-item list-heading-single">
+							<label class="checkbox-inline">
+								<input type="checkbox" id="lunar"> <span data-toggle="tooltip" data-placement="right" title="Display an addition of Chinese lunar date (農曆). Note that this relies on the Chrome's native implementation of the system and may not be accurate.">Display Chinese Lunar Date</span>
+							</label>
+						</li>
+					</ul>
+					<hr>
+					<ul id="dateorder" class="list-group">
+						<li class="list-group-item list-heading">Date Order <span class="gray"> - drag to reorder</span></li>
+						<li class="list-group-item" data-value="Year"><gly icon="resize-vertical"></gly></li>
+						<li class="list-group-item" data-value="Month"><gly icon="resize-vertical"></gly></li>
+						<li class="list-group-item" data-value="Date"><gly icon="resize-vertical"></gly></li>
+					</ul>
+					<hr>
+					<ul class="list-group">
+						<li class="list-group-item list-heading"><label class="checkbox-inline"><input type="checkbox" id="enable_timezone">Custom Timezone</label></li>
+						<li class="list-group-item" data-requires="enable_timezone">
+							UTC 
+							<div class="btn-group">
+								<button type="button" id="timezone" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+									-12 <span class="caret"></span>
+								</button>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="#">-12</a></li>
+									<li><a href="#">-11.5</a></li>
+									<li><a href="#">-11</a></li>
+									<li><a href="#">-10.5</a></li>
+									<li><a href="#">-10</a></li>
+									<li><a href="#">-9.5</a></li>
+									<li><a href="#">-9</a></li>
+									<li><a href="#">-8.5</a></li>
+									<li><a href="#">-8</a></li>
+									<li><a href="#">-7.5</a></li>
+									<li><a href="#">-7</a></li>
+									<li><a href="#">-6.5</a></li>
+									<li><a href="#">-6</a></li>
+									<li><a href="#">-5.5</a></li>
+									<li><a href="#">-5</a></li>
+									<li><a href="#">-4.5</a></li>
+									<li><a href="#">-4</a></li>
+									<li><a href="#">-3.5</a></li>
+									<li><a href="#">-3</a></li>
+									<li><a href="#">-2.5</a></li>
+									<li><a href="#">-2</a></li>
+									<li><a href="#">-1.5</a></li>
+									<li><a href="#">-1</a></li>
+									<li><a href="#">-0.5</a></li>
+									<li><a href="#">0</a></li>
+									<li><a href="#">+1</a></li>
+									<li><a href="#">+1.5</a></li>
+									<li><a href="#">+2</a></li>
+									<li><a href="#">+2.5</a></li>
+									<li><a href="#">+3</a></li>
+									<li><a href="#">+3.5</a></li>
+									<li><a href="#">+4</a></li>
+									<li><a href="#">+4.5</a></li>
+									<li><a href="#">+5</a></li>
+									<li><a href="#">+5.5</a></li>
+									<li><a href="#">+6</a></li>
+									<li><a href="#">+6.5</a></li>
+									<li><a href="#">+7</a></li>
+									<li><a href="#">+7.5</a></li>
+									<li><a href="#">+8</a></li>
+									<li><a href="#">+8.5</a></li>
+									<li><a href="#">+9</a></li>
+									<li><a href="#">+9.5</a></li>
+									<li><a href="#">+10</a></li>
+									<li><a href="#">+10.5</a></li>
+									<li><a href="#">+11</a></li>
+									<li><a href="#">+11.5</a></li>
+									<li><a href="#">+12</a></li>
+								</ul>
+							</div>
+							(your local timezone: <span id="current_timezone" data-toggle="tooltip" title="Your timezone will not always be the same due to the practice of day-light saving in certain areas."></span>)
+							<hr>
+							<span class="gray">Note: This setting does not apply to the calendar.</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+				<!-- Hourly Time Annonucement -->
+			<div class="panel panel-default" id="notification">
+				<div class="panel-heading">
+					<h3 class="panel-title middle">
+						<gly icon="bullhorn"></gly> Notifications
+					</h3>
+				</div>
+				<div class="panel-body">
+					<ul class="list-group">
+						<li class="list-group-item list-heading-single">
+							<label class="checkbox-inline">
+								<input id="show_noti" type="checkbox"> <span trans="enablehourlytimeannounce">Enable Hourly Time Announcement</span>
+							</label>
+							<button class="btn btn-default btn-xs pull-right" id="testnotibtn" data-toggle="tooltip" title="Shows notification with applied settings">Test Notification</button>
+						</li>
+						<li class="list-group-item">
+
+							<div data-requires="show_noti">
+								<form class="form-inline" role="form">
+									<ul class="list-group">
+									<li class="list-group-item list-heading">Notification Style</li>
+										<li class="list-group-item">
+											<div class="radio">
+												<label>
+													<input type="radio" id="noti_style_default" name="noti_style"> Default
+												</label>
+												| Background color: <input type="color" id="noti_bgColor" class="form-control input-sm" data-requires="noti_style_default">
+											</div>
+										</li>
+										<li class="list-group-item">
+											<label class="radio-inline">
+													<input type="radio" id="noti_style_compact" name="noti_style"> Compact
+											</label>
+										</li>
+										<li class="list-group-item list-heading">Notification Display Time <span class="gray">(System might overrode this setting)</span></li>
+										<li class="list-group-item">
+											<div class="radio">
+												<label>
+													<input type="radio" id="noti_display_time" name="noti_display"> <span trans="shownotificationfor"></span>
+													<div class="form-group"><input id="show_noti_time" type="number" class="form-control" max="60" min="1" data-requires="noti_display_time"></div>
+													<span trans="seconds">seconds</span>
+												</label>
+											</div>
+										</li>
+										<li class="list-group-item">
+											<label class="radio-inline">
+													<input type="radio" id="noti_close_manual" name="noti_display"> Close manually
+											</label>
+										</li>
+										<li class="list-group-item list-heading">
+											<label class="checkbox-inline">
+													<input type="checkbox" id="weather"> Display Weather Information <span class="gray">(Weather information provided by Yahoo! Weather)</span>
+											</label>
+										</li>
+										<li class="list-group-item" data-requires="weather">
+											Location: 
+											<span id="weather_name">Not set/ Not Available</span>
+											<div class="form-group" data-toggle="tooltip" title="This shows the WOEID of the current location. To choose a new location, use the search button on the right.">
+												<input class="form-control" id="weather_woeid" type="text" data-disabled="true">
+											</div>
+											<button class="btn btn-default" id="weather_search">Search...</button>
+										</li>
+										<li class="list-group-item list-heading">
+											<label class="checkbox-inline">
+												<input type="checkbox" id="notisound"> Enable Hourly Time Announcement sound
+											</label>
+										</li>
+										<li class="list-group-item" data-requires="notisound">
+											Ringtone: <span class="no-underline" data-toggle="tooltip" title="Only accept .mp3 , .ogg or .wav files."><input type="file" id="noti_ringtone" accept="audio/mp3,audio/ogg,audio/wav"></span>
+										</li>
+										<li class="list-group-item list-heading">
+											<label class="checkbox-inline">
+												<input type="checkbox" id="noti_voice"> Read out the time along with the hourly time announcement
+											</label>
+										</li>
+										<li class="list-group-item" data-requires="noti_voice">
+											Sentence: <span class="no-underline">
+												<div class="form-group" style="width: 500px;">
+													<input type="text" class="form-control" id="noti_voice_text" data-toggle="tooltip" data-placement="right" title="Remember to select a voice engine (in the Text to Speech panel) that supports your language." placeholder="(empty)">
+													<span class="help-block">%H: Hour (24 hour); %h: Hour (12 hour); %P: am/pm; %M: Minute</span>
+												</div>
+											</span><br>
+											
+										</li>
+									</ul>
+								</form>
+							</div>
+
+						</li>
+						<li class="list-group-item list-heading-single">
+							<label class="checkbox-inline">
+								<input type="checkbox" id="noti_todo"> <span trans="showtodowhenopen">Alert to-do in desktop notification when you run your browser.</span>
+						</label>
+						</li>
+					</ul>
+				</div>
+			</div>
+				<!-- Ringtone -->
+			<div class="panel panel-default" id="ringtonePanel">
+				<div class="panel-heading">
+					<h3 class="panel-title"><gly icon="bell"></gly> <span trans="alarmandringtone">Ringtone</span></h3>
+				</div>
+				<div class="panel-body">
+					<form class="form-inline" role="form">
+						<ul class="list-group">
+							<li class="list-group-item list-heading" trans="allpurpose">Ringtone for all purpose</li>
+							<li class="list-group-item">
+								<label class="radio-inline"><input type="radio" id="ring_none" name="ringtone"> <span trans="none">None</span></label>
+							</li>
+							<li class="list-group-item">
+								<label class="radio-inline"><input type="radio" id="ring_default" name="ringtone"> <span trans="defaultringtone">Default Ringtone</span></label>
+							</li>
+							<li class="list-group-item">
+								<label class="radio-inline">
+									<input type="radio" id="ring_url" name="ringtone"> <span trans="URLringtone"></span>:
+									<div class="form-group">
+										<input type="url" class="form-control input-sm" id="ring_url_input" data-requires="ring_url" data-toggle="tooltip" title="Only the http:// or https:// protocol will work.">
+									</div>
+								</label>
+							</li>
+							<li class="list-group-item">
+								<label class="radio-inline">
+									<input type="radio" id="ring_comp" name="ringtone"> From your computer: <span class="no-underline" data-requires="ring_comp" data-toggle="tooltip" title="Only accept .mp3 , .ogg or .wav files."><input type="file" id="ringtone" accept="audio/mp3,audio/ogg,audio/wav"></span>
+								</label>
+							</li>
+							<li class="list-group-item list-heading-single">
+								<label class="checkbox-inline"><input type="checkbox" id="ring_loop"> Enable looping</label>
+							</li>
+							<li class="list-group-item middle">
+								Preview current ringtone:
+								<div class="form-group btn-group">
+									<button class="btn btn-default btn-sm" id="ringtone_load"><gly icon="floppy-open"></gly> Load</button>
+									<button class="btn btn-default btn-sm" id="ringtone_play" disabled="true"><gly icon="play"></gly></button>
+									<button class="btn btn-default btn-sm" id="ringtone_pause" disabled="true"><gly icon="pause"></gly></button>
+									<button class="btn btn-default btn-sm" id="ringtone_stop" disabled="true"><gly icon="stop"></gly></button>
+								</div>
+								<div style="width: 300px; display: inline-block;">
+									<div class="progress" style="margin: 0px;">
+										<div class="progress-bar" id="ringtone_duration" role="progressbar" style="width: 0%"></div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</form>
+				</div>
+			</div>
+				<!-- Voice Engine -->
+			<div class="panel panel-default" id="voice">
+				<div class="panel-heading">
+					<h3 class="panel-title"><gly icon="comment"></gly> Text To Speech</h3>
+				</div>
+				<div class="panel-body">
+					<ul class="list-group">
+						<li class="list-group-item list-heading">Speech Engine</li>
+						<li class="list-group-item">
+							<p>Choose the voice engine you prefer to use in voice control and hourly notification text-to-speech. You can install <a href="https://chrome.google.com/webstore/search-extensions/TTS%20engine" target="_blank">extra voice engines from the Chrome Webstore</a>. It will show up in the dropdown after installation.</p>
+							Installed voice engines: <div class="btn-group">
+								<button type="button" id="vc_engine" class="btn btn-default dropdown-toggle" id="language" data-toggle="dropdown"></button>
+								<ul class="dropdown-menu" role="menu"></ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+				<!-- Extension -->
+			<div class="panel panel-default" id="extension">
+				<div class="panel-heading">
+					<h3 class="panel-title"><gly icon="wrench"></gly> Extension</h3>
+				</div>
+				<div class="panel-body">
+					<ul class="list-group">
+						<li class="list-group-item list-heading">Language</li>
+						<li class="list-group-item">
+							<div class="btn-group">
+								<button type="button" class="btn btn-default dropdown-toggle" id="language" data-toggle="dropdown"></button>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="#" value='en'>English</a></li>
+									<li><a href="#" value='zh-TW'>正體／繁體中文 -- Traditional Chinese</a></li>
+									<li><a href="#" value='zh-CN'>简体中文 -- Simplified Chinese</a></li>
+									<li><a href="#" value='es'>Español -- Spanish</a></li>
+									<li><a href="#" value='ru'>Русский -- Russian</a></li>
+									<li><a href="#" value='nl'>Nederlandse -- Nederlands</a></li>
+									<li><a href="#" value='pt-BR'>Português-BR -- Portuguese(Brazilian)</a></li>
+									<li><a href="#" value='pt-PT'>Português-PT -- Portuguese(European)</a></li>
+									<li><a href="#" value='fr'>Français -- French</a></li>
+									<li><a href="#" value='he'>עברית -- Hebrew</a></li>
+									<li><a href="#" value='de'>Deutsch -- German</a></li>
+									<li><a href="#" value='cs'>Čeština -- Czech</a></li>
+									<li><a href="#" value='ro'>Română -- Romanian</a></li>
+									<li><a href="#" value='pl'>Polski -- Polish</a></li>
+									<li><a href="#" value='it'>Italiano -- Italian</a></li>
+									<li><a href="#" value='fi'>Suomi -- Finnish</a></li>
+									<li><a href="#" value='tr'>Türk -- Turkish</a></li>
+									<li><a href="#" value='id'>Indonesia -- Indonesian</a></li>
+									<li><a href="#" value='ja'>日本語 -- Japanese</a></li>
+									<li><a href="#" value='ko'>한국어 -- Korean</a></li>
+									<li><a href="#" value='ca'>Català -- Catalan</a></li>
+									<li><a href="#" value='nb'>Bokmål -- Norwegian</a></li>
+									<li><a href="#" value='ar'>فارسی -- Persian</a></li>
+									<li><a href="#" value='el'>Ελληνικά -- Greek</a></li>
+									<li><a href="#" value='hu'>Magyar -- Hungarian</a></li>
+									<li><a href="#" value='vi'>Vietnamese</a></li>
+									<li><a href="#" value='bg'>Bulgarian</a></li>
+									<li><a href="#" value='sr'>Serbian</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="list-group-item list-heading">Background Update Interval</li>
+						<li class="list-group-item">
+							<div class="btn-group">
+								<button type="button" id="icon_update_interval" class="btn btn-default dropdown-toggle" data-toggle="dropdown"></button>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="#" value="1" trans="_1sec">1 sec</a></li>
+									<li><a href="#" value="2" trans="_2sec">2 sec</a></li>
+									<li><a href="#" value="5" trans="_5sec">5 sec</a></li>
+									<li><a href="#" value="10" trans="_10sec">10 sec</a></li>
+									<li><a href="#" value="30" trans="_30sec">30 sec</a></li>
+									<li><a href="#" value="60" trans="_1min">1 min</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="list-group-item list-heading-single">
+							<label class="checkbox-inline">
+								<input type="checkbox" id="keepawake"> Prevent system from sleeping when there are active alarms or countdowns</span>
+							</label>
+						</li>
+						<li class="list-group-item list-heading-single">
+							<label class="checkbox-inline">
+								<input type="checkbox" id="show_update"> <span trans="showupdate">Show update page after each time this extension has been updated.</span>
+							</label>
+						</li>
+						<li class="list-group-item list-heading-single">
+							<label class="checkbox-inline">
+								<input type="checkbox" id="bg_run"> Continue to run Cool Clock in background when Google Chrome is closed
+							</label>
+						</li>
+						<li class="list-group-item list-heading-single">
+							<label class="checkbox-inline">
+								<input type="checkbox" id="show_ctx_menu"> <span data-toggle="tooltip" data-placement="right" title="Check this to show menu in right-click menu">Show context menu items</span>
+							</label>
+						</li>
+					</ul>
+				</div>
+			</div>
+				<!-- About -->
+			<div class="panel panel-default" id="about">
+				<div class="panel-heading">
+					<h3 class="panel-title"><gly icon="info-sign"></gly> <span trans="about">About</span></h3>
+				</div>
+				<div class="panel-body">
+					<div class="center">
+						<button id="openAboutPage" class="btn btn-default" trans="about">About</button>
+					</div>
+				</div>
+			</div>
+				<!-- Credits -->
+			<div class="panel panel-default" id="credits">
+				<div class="panel-heading">
+					<h3 class="panel-title">Special Thanks</h3>
+				</div>
+				<div class="panel-body">
+					<div class="list-group">
+						<a href="https://www.yahoo.com/?ilc=401" class="list-group-item" target="_blank">
+							<gly icon="ok"></gly> <span class="gray">Weather information are</span> Powered by Yahoo!
+						</a>
+						<a href="http://developer.yahoo.com/yql/" class="list-group-item" target="_blank">
+							<gly icon="ok"></gly> YQL
+						</a>
+						<a href="http://getbootstrap.com/" class="list-group-item" target="_blank">
+							<gly icon="ok"></gly> Twitter Bootstrap
+						</a>
+						<a href="http://glyphicons.com/" class="list-group-item" target="_blank">
+							<gly icon="ok"></gly> Glyphicons (within Bootstrap)
+						</a>
+						<a href="http://d3js.org/" class="list-group-item" target="_blank">
+							<gly icon="ok"></gly> D3
+						</a>
+						<a href="https://www.soundjay.com/" class="list-group-item" target="_blank">
+							<gly icon="ok"></gly> Sound Jay (default alarm ringtone)
+						</a>
+						<a href="#" class="list-group-item" id="lang_credits">
+							<gly icon="ok"></gly> Everyone who contributed localized translations
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div id="spacer" class="center"></div>
+
+		</div>
+		<div class="clear"></div>
+		<div id="fb-root"></div>
+	</body>
+</html>

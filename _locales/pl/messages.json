@@ -1,0 +1,269 @@
+﻿{
+   "extName": {
+      "message": "Cool Clock"
+   },
+   "extDes": {
+      "message": "An extension fully loaded with tons of useful time-related features... But the best part is, it is totally COOL."
+   },
+   "settings": {
+      "message": "Opcje"
+   },
+   "hourlytimeannounce": {
+      "message": "Powiadomienie co godzinę"
+   },
+   "enablehourlytimeannounce": {
+      "message": "Włącz powiadomienie co godzinę! (na pulpicie)"
+   },
+   "shownotificationfor": {
+      "message": "Czas wyświetlania powiadomienia"
+   },
+   "seconds": {
+      "message": "sekund."
+   },
+   "max999": {
+      "message": "(Maksymalnie: 999)"
+   },
+   "showtodowhenopen": {
+      "message": "Ostrzeżenie na powiadomieniu na pulpicie w przypadku gdy przeglądarka jest uruchomiona."
+   },
+   "display": {
+      "message": "Wyświetlacz"
+   },
+   "usedigital": {
+      "message": "Użyj cyfrowego zegara"
+   },
+   "digitalmsg": {
+      "message": "(Ostrzeżenie:  Używanie cyfrowego zegara może wymagać dużych zasobów pamięci operacyjnej Twojego komputera)"
+   },
+   "usedarkmode": {
+      "message": "Uaktywnij ciemną wersję (Opcja przydatna dla tych, którzy używają ciemnego motywu.)"
+   },
+   "useanalog": {
+      "message": "Użyj zegara analogowego"
+   },
+   "analogmsg": {
+      "message": "(Około 4000 na sekundę)"
+   },
+   "noscroll": {
+      "message": "Nie używaj efektu przewijania (Wyświetla 4 cyfry zamiast przewijania)"
+   },
+   "_12hour": {
+      "message": "Użyj zapisu 12-godzinnego (Domyślnie ustawiony jest zapis 24-godzinny)"
+   },
+   "showiconclock": {
+      "message": "Wyświetlaj zegar na ikonie (Ze strzałką)"
+   },
+   "showbadgeclock": {
+      "message": "Wyświetlaj zegar na tabliczce"
+   },
+   "comment": {
+      "message": "Komentarz"
+   },
+   "cmtmsg": {
+      "message": "Chcesz skomentować? Zgłosić błąd? Kliknij tutaj!"
+   },
+   "memmsg": {
+      "message": "Animacja zwykle \"rysuje\" nowy obrazek co sekundę, więc normalnie proces ten będzie miał zapotrzebowanie na zasoby Twojego komputera."
+   },
+   "showupdate": {
+      "message": "Pokaż stronę uaktualnienia po każdorazowym uaktualnieniu rozszerzenia."
+   },
+   "updateiconevery": {
+      "message": "Odśwież ikonę co: "
+   },
+   "updateiconeverymsg": {
+      "message": "(Im dłuższy, tym bardziej jasne jest rozszerzenie)"
+   },
+   "_1sec": {
+      "message": "1 sekunda"
+   },
+   "_2sec": {
+      "message": "2 sekundy"
+   },
+   "_5sec": {
+      "message": "5 sekund"
+   },
+   "_10sec": {
+      "message": "10 sekund"
+   },
+   "_30sec": {
+      "message": "30 sekund"
+   },
+   "_1min": {
+      "message": "1 minuta"
+   },
+   "viewsavedalarm": {
+      "message": "Zobacz zapisane alarmy"
+   },
+   "OK": {
+      "message": "OK"
+   },
+   "apply": {
+      "message": "Zatwierdź"
+   },
+   "cancel": {
+      "message": "Porzuć"
+   },
+   "about": {
+      "message": "O autorze"
+   },
+   "whatsnew": {
+      "message": "Wyświetl co nowego w tej wersji rozszerzenia"
+   },
+   "none": {
+      "message": ""
+   },
+   "defaultringtone": {
+      "message": ""
+   },
+   "URLringtone": {
+      "message": ""
+   },
+   "allpurpose": {
+      "message": ""
+   },
+   "alarmandringtone": {
+      "message": ""
+   },
+   "close": {
+      "message": "Zamknij"
+   },
+   "timeis": {
+      "message": "Aktualny czas: "
+   },
+   "notflash": {
+      "message": "(Nie jestem zegarem w technologii Flash!)"
+   },
+   "version": {
+      "message": "Wersja"
+   },
+   "countdown": {
+      "message": "Countdown"
+   },
+   "alarm": {
+      "message": "Budzik"
+   },
+   "stat": {
+      "message": ""
+   },
+   "timer": {
+      "message": ""
+   },
+   "tools": {
+      "message": ""
+   },
+   "day_0": {
+      "message": "Niedziela"
+   },
+   "day_1": {
+      "message": "Poniedziałek"
+   },
+   "day_2": {
+      "message": "Wtorek"
+   },
+   "day_3": {
+      "message": "Środa"
+   },
+   "day_4": {
+      "message": "Czwartek"
+   },
+   "day_5": {
+      "message": "Piątek"
+   },
+   "day_6": {
+      "message": "Sobota"
+   },
+   "month_1": {
+      "message": "Sty"
+   },
+   "month_2": {
+      "message": "Lut"
+   },
+   "month_3": {
+      "message": "Mar"
+   },
+   "month_4": {
+      "message": "Kwi"
+   },
+   "month_5": {
+      "message": "Maj"
+   },
+   "month_6": {
+      "message": "Cze"
+   },
+   "month_7": {
+      "message": "Lip"
+   },
+   "month_8": {
+      "message": "Sie"
+   },
+   "month_9": {
+      "message": "Wrz"
+   },
+   "month_10": {
+      "message": "Paź"
+   },
+   "month_11": {
+      "message": "Lis"
+   },
+   "month_12": {
+      "message": "Gru"
+   },
+   "morning": {
+      "message": "Dzień dobry!"
+   },
+   "noon": {
+      "message": "Dobrze Cię widzieć!"
+   },
+   "evening": {
+      "message": "Czy jesteś już po obiedzie?"
+   },
+   "night": {
+      "message": "Czas iść spać."
+   },
+   "midnight": {
+      "message": "Witam, co słychać?"
+   },
+   "notitimeannounce": {
+      "message": "Powiadomienie co godzinę"
+   },
+   "notitimeis": {
+      "message": "Aktualny czas"
+   },
+   "am": {
+      "message": ""
+   },
+   "pm": {
+      "message": ""
+   },
+   "saved": {
+      "message": "Opcje zostaną zapisane."
+   },
+   "notsaved": {
+      "message": ""
+   },
+   "ctxcmt": {
+      "message": "Bug Report / Komentarz"
+   },
+   "digital": {
+      "message": "Cyfrowego zegara"
+   },
+   "analog": {
+      "message": "Zegara analogowego"
+   },
+   "ctxhide": {
+      "message": ""
+   },
+   "chat": {
+      "message": "Chat box"
+   },
+   "forum": {
+      "message": "Forum"
+   },
+   "calendar": {
+      "message": "Kalendarz"
+   },
+   "setalarm": {
+      "message": ""
+   }
+}

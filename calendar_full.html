@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title trans="calendar">Calendar</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<link rel="icon" type="image/png" href="icons/16x16.png" />
+
+		<script type="text/javascript" charset="utf-8" src="jquery.js"></script>
+		<script type="text/javascript" src="/scripts/jquery_ui/jquery-ui-1.10.1.custom.min.js"></script>
+		<script type="text/javascript" src="/scripts/transit/jquery.transit.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="translation.js"></script>
+		<script type="text/javascript" charset="utf-8" src="/gcfeed.js"></script>
+		
+		<script type="text/javascript" charset="utf-8" src="/scripts/calendar_full/js.js"></script>
+		
+		<link rel="stylesheet" href="/scripts/jquery_ui/sunny/jquery-ui-1.10.1.custom.min.css">
+		<link type="text/css" rel="stylesheet" href="/input.css">
+		<link type="text/css" rel="stylesheet" href="/scripts/calendar_full/css.css">
+	</head>
+	<body>
+		<h1 trans="calendar">Calendar</h1>
+		<div id="container">
+			<div id="menu" class="expanded">
+				<h2>Saved events</h2>
+				<div id="menu_control">
+					<button id="addTodo">+</button> <button id="deleteAll">Delete all</button>
+				</div>
+				<div id="todo"></div>
+			</div>
+			<div id="result">
+				<div id="header"></div>
+				<div id="wrapper">
+				</div>
+			</div>
+		</div>
+		<div id="create_dialog" title="Create an entry">
+			Date: <input type="date" id="create_date" value="20130225"><br>
+			Description:<br>
+			<textarea id="create_text"></textarea>
+		</div>
+		<div id="view_dialog"></div>
+		<div id="options">
+			<label><input type="checkbox"> Show Chinese lunar dates</label><br>
+			Import from public Google Calendar:<a href="https://docs.google.com/document/d/13q6sassJowrglQEVCWfwKi7CxFa1c0r6H37qwWLRxzU/pub" target="_blank" style="font-size: 14px; float: right; margin-top:5px;">How to import Holidays from Google?</a><br>
+			<input type="email" placeholder="Public calendar email..."> <button id="importCalendar">import</button><br>
+			Import from private Google Calendar: <span style="font-size: 14px">(Make sure you have logged in)</span><br>
+			<button id="importPrivateCalendar">Import</button>
+		</div>
+		<div id="dateChoose" title="Search Date">
+				Enter a date: <input type="date">
+		</div>
+	</body>
+</html>

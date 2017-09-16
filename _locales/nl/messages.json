@@ -1,0 +1,269 @@
+﻿{
+   "extDes": {
+      "message": "An extension fully loaded with tons of useful time-related features... But the best part is, it is totally COOL." /*"De eerste extentie dat een digitale en een analoge klok in de hoofdbalk van de Chrome browser plaatst en daarbij een uursignaal kan weergeven met een melding op het scherm."*/
+   },
+   "extName": {
+      "message": "Cool Klok"
+   },
+   "settings": {
+      "message": "Opties"
+   },
+   "hourlytimeannounce": {
+      "message": "Tijdnotificatie per uur"
+   },
+   "enablehourlytimeannounce": {
+      "message": "Zet tijdnotificatie per uur aan! (Desktop notificatie)"
+   },
+   "shownotificationfor": {
+      "message": "Hoe lang moet de notificatie worden weergegeven: "
+   },
+   "seconds": {
+      "message": "seconde"
+   },
+   "max999": {
+      "message": "(Maximum: 999)"
+   },
+   "showtodowhenopen": {
+      "message": ""
+   },
+   "display": {
+      "message": "Geef weer"
+   },
+   "usedigital": {
+      "message": "Gebruik de digitale klok"
+   },
+   "digitalmsg": {
+      "message": "(Waarschuwing:  Gebruik van de digitale klok zal veel geheugen verbruiken.)"
+   },
+   "usedarkmode": {
+      "message": "Gebruik de 'Dark theme mode' (Voor diegene die de 'dark theme' gebruiken, zal een halftransparant bubbel onder de cijfers worden geplaatst, zodat je de tijd kunt zien."
+   },
+   "useanalog": {
+      "message": "Gebruik de normale klok"
+   },
+   "analogmsg": {
+      "message": "(Rond 4K per seconde)"
+   },
+   "noscroll": {
+      "message": "Gebruik niet het scroll efeect (Geeft 4 nummers weer in plaats van te scrollen)"
+   },
+   "_12hour": {
+      "message": "Gebruik 12-uurs systeem (Standaard wordt het 24-uurs systeem gebruikt)"
+   },
+   "showiconclock": {
+      "message": "Geef de klok weer op het icoon (Degene met de wijzers)"
+   },
+   "showbadgeclock": {
+      "message": "Geef de tijd weer op de badge"
+   },
+   "comment": {
+      "message": "Reageer"
+   },
+   "cmtmsg": {
+      "message": "Heeft u een reactie? Wilt u een bug melden?"
+   },
+   "memmsg": {
+      "message": "Animaties 'tekenen' normaal gesproken een nieuw plaatje per seconde, dus over het algemeen zal het veel geheugen verbruiken terwijl ik het probeer tot het minumum te beperken."
+   },
+   "showupdate": {
+      "message": ""
+   },
+   "updateiconevery": {
+      "message": ""
+   },
+   "updateiconeverymsg": {
+      "message": ""
+   },
+   "_1sec": {
+      "message": ""
+   },
+   "_2sec": {
+      "message": ""
+   },
+   "_5sec": {
+      "message": ""
+   },
+   "_10sec": {
+      "message": ""
+   },
+   "_30sec": {
+      "message": ""
+   },
+   "_1min": {
+      "message": ""
+   },
+   "viewsavedalarm": {
+      "message": ""
+   },
+   "OK": {
+      "message": "OK"
+   },
+   "apply": {
+      "message": "Toepassen"
+   },
+   "cancel": {
+      "message": "CancelAnnuleren"
+   },
+   "about": {
+      "message": "Over"
+   },
+   "whatsnew": {
+      "message": "Bekijk wat nieuw is in deze versie"
+   },
+   "none": {
+      "message": "None"
+   },
+   "defaultringtone": {
+      "message": ""
+   },
+   "URLringtone": {
+      "message": ""
+   },
+   "allpurpose": {
+      "message": ""
+   },
+   "alarmandringtone": {
+      "message": ""
+   },
+   "close": {
+      "message": "Sluiten"
+   },
+   "timeis": {
+      "message": "De tijd is: "
+   },
+   "notflash": {
+      "message": "(Ik ben geen Flash klok)"
+   },
+   "version": {
+      "message": ""
+   },
+   "countdown": {
+      "message": ""
+   },
+   "alarm": {
+      "message": ""
+   },
+   "stat": {
+      "message": ""
+   },
+   "timer": {
+      "message": ""
+   },
+   "tools": {
+      "message": ""
+   },
+   "day_0": {
+      "message": "Zondag"
+   },
+   "day_1": {
+      "message": "Maandag"
+   },
+   "day_2": {
+      "message": "Dinsdag"
+   },
+   "day_3": {
+      "message": "Woensdag"
+   },
+   "day_4": {
+      "message": "Donderdag"
+   },
+   "day_5": {
+      "message": "Vrijdag"
+   },
+   "day_6": {
+      "message": "Zaterdag"
+   },
+   "month_1": {
+      "message": "Jan"
+   },
+   "month_2": {
+      "message": "Feb"
+   },
+   "month_3": {
+      "message": "Maa"
+   },
+   "month_4": {
+      "message": "Apr"
+   },
+   "month_5": {
+      "message": "Mei"
+   },
+   "month_6": {
+      "message": "Jun"
+   },
+   "month_7": {
+      "message": "Jul"
+   },
+   "month_8": {
+      "message": "Aug"
+   },
+   "month_9": {
+      "message": "Sep"
+   },
+   "month_10": {
+      "message": "Okt"
+   },
+   "month_11": {
+      "message": "Nov"
+   },
+   "month_12": {
+      "message": "Dec"
+   },
+   "morning": {
+      "message": "Goedemorgen!"
+   },
+   "noon": {
+      "message": "Fijn je in de middag te zien!"
+   },
+   "evening": {
+      "message": "Heb je al avondeten gegeten?"
+   },
+   "night": {
+      "message": "Tijd om naar bed te gaan."
+   },
+   "midnight": {
+      "message": "Wat is er aan de hand?"
+   },
+   "notitimeannounce": {
+      "message": "Tijdnotificatie per uur"
+   },
+   "notitimeis": {
+      "message": "Het is nu"
+   },
+   "am": {
+      "message": "am"
+   },
+   "pm": {
+      "message": "pm"
+   },
+   "saved": {
+      "message": "Opties worden opgeslagen."
+   },
+   "notsaved": {
+      "message": ""
+   },
+   "ctxcmt": {
+      "message": ""
+   },
+   "digital": {
+      "message": "Digitale klok"
+   },
+   "analog": {
+      "message": "Normale klok"
+   },
+   "ctxhide": {
+      "message": ""
+   },
+   "chat": {
+      "message": "Chat box"
+   },
+   "forum": {
+      "message": "Forum"
+   },
+   "calendar": {
+      "message": "Kalender"
+   },
+   "setalarm": {
+      "message": ""
+   }
+}

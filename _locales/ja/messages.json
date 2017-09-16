@@ -1,0 +1,269 @@
+﻿{
+   "extDes": {
+      "message": "Google Chromeツールバーにデジタル時計・アナログ時計を表示し、かつデスクトップに時報を表示した初の拡張機能です。"
+   },
+   "extName": {
+      "message": "Chrome 時計"
+   },
+   "settings": {
+      "message": "設定"
+   },
+   "hourlytimeannounce": {
+      "message": "時報"
+   },
+   "enablehourlytimeannounce": {
+      "message": "時報をONにする（デスクトップ通知）"
+   },
+   "shownotificationfor": {
+      "message": "時報表示の持続時間︰"
+   },
+   "seconds": {
+      "message": "秒"
+   },
+   "max999": {
+      "message": "(999まで)"
+   },
+   "showtodowhenopen": {
+      "message": "ブラウザが起動している場合、デスクトップに予定を表示する。"
+   },
+   "display": {
+      "message": "表示"
+   },
+   "usedigital": {
+      "message": "デジタル時計を使用"
+   },
+   "digitalmsg": {
+      "message": "（注意：デジタル時計は、一定量のメモリを使用します）"
+   },
+   "usedarkmode": {
+      "message": "暗いテーマを使う（時刻が見やすいように、背景に半透明の泡が表示されます）"
+   },
+   "useanalog": {
+      "message": "アナログ時計を使用"
+   },
+   "analogmsg": {
+      "message": "（１秒間に４キロバイトのメモリを使用します）"
+   },
+   "noscroll": {
+      "message": "スクロールエフェクトを使用しない（代わりに４つの数字を表示します）"
+   },
+   "_12hour": {
+      "message": "12時間表示を使用する（デフォルトでは24時間表示になります）"
+   },
+   "showiconclock": {
+      "message": "アナログ時計をアイコン表示する"
+   },
+   "showbadgeclock": {
+      "message": "背景に半透明の気泡を表示する"
+   },
+   "comment": {
+      "message": "コメント"
+   },
+   "cmtmsg": {
+      "message": "バグの報告やコメントの送信は、ここをクリックしてください"
+   },
+   "memmsg": {
+      "message": "アニメーションは、通常１秒ごとに新しい画像を表示するため、以前のメモリを削除する間、多くのメモリを使用します。"
+   },
+   "showupdate": {
+      "message": "機能が更新された際、アップデートページを開く"
+   },
+   "updateiconevery": {
+      "message": "アイコンの更新頻度："
+   },
+   "updateiconeverymsg": {
+      "message": "（短いほど、メモリ使用量が軽くなります。）"
+   },
+   "_1sec": {
+      "message": "1秒毎"
+   },
+   "_2sec": {
+      "message": "2秒毎"
+   },
+   "_5sec": {
+      "message": "5秒毎"
+   },
+   "_10sec": {
+      "message": "10秒毎"
+   },
+   "_30sec": {
+      "message": "30秒毎"
+   },
+   "_1min": {
+      "message": "1分毎"
+   },
+   "viewsavedalarm": {
+      "message": "保存したアラームを見る"
+   },
+   "OK": {
+      "message": "OK"
+   },
+   "apply": {
+      "message": "適用"
+   },
+   "cancel": {
+      "message": "キャンセル"
+   },
+   "about": {
+      "message": "Chrome 時計 について"
+   },
+   "whatsnew": {
+      "message": "現在のバージョンの変更點を表示する"
+   },
+   "none": {
+      "message": "なし"
+   },
+   "defaultringtone": {
+      "message": "デフォルトのアラーム音"
+   },
+   "URLringtone": {
+      "message": "URLから"
+   },
+   "allpurpose": {
+      "message": "アラーム音"
+   },
+   "alarmandringtone": {
+      "message": "アラーム"
+   },
+   "close": {
+      "message": "閉じる"
+   },
+   "timeis": {
+      "message": "現在時刻："
+   },
+   "notflash": {
+      "message": "（この時計はフラッシュ(Adobe Flash)を使用していません）"
+   },
+   "version": {
+      "message": "バージョン"
+   },
+   "countdown": {
+      "message": "カウントダウンタイマー"
+   },
+   "alarm": {
+      "message": "アラーム"
+   },
+   "stat": {
+      "message": "統計"
+   },
+   "timer": {
+      "message": ""
+   },
+   "tools": {
+      "message": "道具"
+   },
+   "day_0": {
+      "message": "日曜日"
+   },
+   "day_1": {
+      "message": "月曜日"
+   },
+   "day_2": {
+      "message": "火曜日"
+   },
+   "day_3": {
+      "message": "水曜日"
+   },
+   "day_4": {
+      "message": "木曜日"
+   },
+   "day_5": {
+      "message": "金曜日"
+   },
+   "day_6": {
+      "message": "土曜日"
+   },
+   "month_1": {
+      "message": "１月"
+   },
+   "month_2": {
+      "message": "２月"
+   },
+   "month_3": {
+      "message": "３月"
+   },
+   "month_4": {
+      "message": "４月"
+   },
+   "month_5": {
+      "message": "５月"
+   },
+   "month_6": {
+      "message": "６月"
+   },
+   "month_7": {
+      "message": "７月"
+   },
+   "month_8": {
+      "message": "８月"
+   },
+   "month_9": {
+      "message": "９月"
+   },
+   "month_10": {
+      "message": "10月"
+   },
+   "month_11": {
+      "message": "11月"
+   },
+   "month_12": {
+      "message": "12月"
+   },
+   "morning": {
+      "message": "おはよう!"
+   },
+   "noon": {
+      "message": "やあ!"
+   },
+   "evening": {
+      "message": "晩ご飯はもう食べた?"
+   },
+   "night": {
+      "message": "もう寝る時間だよ。"
+   },
+   "midnight": {
+      "message": "こんな夜にどうしたの?"
+   },
+   "notitimeannounce": {
+      "message": "時報…"
+   },
+   "notitimeis": {
+      "message": "現在時刻 "
+   },
+   "am": {
+      "message": "午前"
+   },
+   "pm": {
+      "message": "午後"
+   },
+   "saved": {
+      "message": "保存しました。"
+   },
+   "notsaved": {
+      "message": "変更されたオプションは保存されません！続行しますか？"
+   },
+   "ctxcmt": {
+      "message": "バグの報告 / コメント"
+   },
+   "digital": {
+      "message": "デジタル時計"
+   },
+   "analog": {
+      "message": "アナログ時計"
+   },
+   "ctxhide": {
+      "message": "この右クリックメニューを隠す"
+   },
+   "chat": {
+      "message": "チャットルーム"
+   },
+   "forum": {
+      "message": "フォーラム"
+   },
+   "calendar": {
+      "message": "カレンダー"
+   },
+   "setalarm": {
+      "message": "アラーム"
+   }
+}

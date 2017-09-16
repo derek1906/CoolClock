@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title>Loading...</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<link rel="icon" type="image/png" href="icons/16x16.png" />
+
+		<link type="text/css" rel="stylesheet" href="/input.css">
+		<link type="text/css" rel="stylesheet" href="/scripts/timer/css.css">
+
+		<script type="text/javascript" src="/jquery.js"></script>
+		<script type="text/javascript" src="translation.js"></script>
+		<script type="text/javascript" src="/scripts/timer/js.js"></script>
+	</head>
+	<body>
+		<div id="page">
+			<h2 lang="timer" class="hideNoti">Stopwatch</h2>
+			<div id="content" class="content">
+				<div class="setting">
+					<button id="s_button_start">&gt;Start&lt;</button>
+					<button id="s_button_close" trans="cancel">Cancel</button>
+				</div>
+				<div class="counting hide">
+					<div class="option">
+						<label title="Use units instead of colons"><input type="checkbox" id="o_units"> Units</label><br>
+						<label><input type="checkbox" id="stay"> Stay on top</label><br>
+					</div>
+					<span id="p_time">Calculating...</span><br>
+					<br>
+					<span id="c_running">
+						<button id="c_button_stop">Stop Stopwatch</button>
+						<button id="c_button_split">Split</button>
+						<button id="c_button_viewsplit">View splits</button>
+					</span>
+					<span id="c_stopped" class="hide">
+						<button id="c_button_continue">Continue Stopwatch</button>
+						<button id="c_button_restart" class="hideNoti">Reset Stopwatch</button>
+					</span>
+					<button id="c_button_close" class="hideNoti">Close window</button>
+					<br>
+					<br>
+					<span class="c_starttime_field hideNoti">
+						Start time:&nbsp;<span id="c_starttime" style="text-decoration:underline;">Loading...</span>
+					</span>
+				</div>
+				<div class="note hideNoti">
+					<span class="n_close small" title="Hide this message">
+						Hide
+					</span>
+					<span class="small">
+						Note: This stopwatch runs regardless of this window is open or not. It will be still running even if the computer is off. This means only by pressing the "Stop" button will stop it.
+					</span>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

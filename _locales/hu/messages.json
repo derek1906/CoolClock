@@ -1,0 +1,269 @@
+{
+   "extDes": {
+      "message": "Egy bővítmény, tele minden hasznos, idővel kapcsolatos tulajdonsággal. És a legjobb benne, hogy tök vagány."
+   },
+   "extName": {
+      "message": "Vagány Vekker"
+   },
+   "settings": {
+      "message": "Beállítások"
+   },
+   "hourlytimeannounce": {
+      "message": "Óránkénti közlemény"
+   },
+   "enablehourlytimeannounce": {
+      "message": "Kapcsold be az óránkénti közleményt! (A számítógép jelenti)"
+   },
+   "shownotificationfor": {
+      "message": "Látod az értesítését"
+   },
+   "seconds": {
+      "message": "másodpercek"
+   },
+   "max999": {
+      "message": "(Legfeljebb: 999)"
+   },
+   "showtodowhenopen": {
+      "message": "Tennivalóra figyelmeztet a számítógép jelentése, amikor megnyitod a böngészőt"
+   },
+   "display": {
+      "message": "Képernyő"
+   },
+   "usedigital": {
+      "message": "Legyen Digitális Vekker"
+   },
+   "digitalmsg": {
+      "message": "(A Digitális Vekker valamivel több memóriát fog használni.)"
+   },
+   "usedarkmode": {
+      "message": "Legyen Sötét téma módban (a sötét témát használóknál a számok alá helyezett félig átlátszó buborékkal teszi láthatóvá az időt.)"
+   },
+   "useanalog": {
+      "message": "Legyen Analóg Vekker"
+   },
+   "analogmsg": {
+      "message": "(Kb. 4KB másodpercenként.)"
+   },
+   "noscroll": {
+      "message": "Ne használja a scroll-t (Jelenítsen meg 4 számot a görgetés helyett)"
+   },
+   "_12hour": {
+      "message": "Legyen 12 órás rendszer (Alapértelmezett a 24 órás rendszer)"
+   },
+   "showiconclock": {
+      "message": "Jelenítse meg a Vekkert ikonon (nyíllal)"
+   },
+   "showbadgeclock": {
+      "message": "Jelenítse meg a Vekkert jelvényen"
+   },
+   "comment": {
+      "message": "Megjegyzések"
+   },
+   "cmtmsg": {
+      "message": "Itt adhat visszajelzést, tehet megjegyzést vagy jelenthet hibát"
+   },
+   "memmsg": {
+      "message": "Az animáció általában másodpercenként \"rajzol\" egy új képet, ezért normálisan egy idő múlva jó sok memóriát foglal, amíg sikerül azt lecsökkentenem a minimumra."
+   },
+   "showupdate": {
+      "message": "Mutassa a frissítési oldalt a bővítmény minden frissítésekor"
+   },
+   "updateiconevery": {
+      "message": "Frissítse az ikont minden: "
+   },
+   "updateiconeverymsg": {
+      "message": "(Minél hosszabb, annál elegánsabb ez a bővítmény; ugyanakkor minél hosszabb, annál erősebben hat a bővítmény más részeire.)"
+   },
+   "_1sec": {
+      "message": "1 másodperc"
+   },
+   "_2sec": {
+      "message": "2 másodperc"
+   },
+   "_5sec": {
+      "message": "5 másodperc"
+   },
+   "_10sec": {
+      "message": "10 másodperc"
+   },
+   "_30sec": {
+      "message": "30 másodperc"
+   },
+   "_1min": {
+      "message": "1 perc"
+   },
+   "viewsavedalarm": {
+      "message": "Az elmentett ébresztők áttekintése"
+   },
+   "OK": {
+      "message": "OK"
+   },
+   "apply": {
+      "message": "Alkalmaz"
+   },
+   "cancel": {
+      "message": "Mégsem"
+   },
+   "about": {
+      "message": "Névjegy"
+   },
+   "whatsnew": {
+      "message": "A frissítési napló áttekintése"
+   },
+   "none": {
+      "message": "Nem"
+   },
+   "defaultringtone": {
+      "message": "Alapértelmezett csengőhang"
+   },
+   "URLringtone": {
+      "message": "URL-ről"
+   },
+   "allpurpose": {
+      "message": "Általános csengőhang"
+   },
+   "alarmandringtone": {
+      "message": "Ébresztő és Csengőhang"
+   },
+   "close": {
+      "message": "Bezár"
+   },
+   "timeis": {
+      "message": "A pontos idő: "
+   },
+   "notflash": {
+      "message": "(Én nem vagyok Flash vekker!)"
+   },
+   "version": {
+      "message": "Verzió"
+   },
+   "countdown": {
+      "message": "Visszaszámláló"
+   },
+   "alarm": {
+      "message": "Ébresztőóra"
+   },
+   "stat": {
+      "message": "Statisztikák"
+   },
+   "timer": {
+      "message": "Stopperóra"
+   },
+   "tools": {
+      "message": "Eszközök"
+   },
+   "day_0": {
+      "message": "vasárnap"
+   },
+   "day_1": {
+      "message": "hétfő"
+   },
+   "day_2": {
+      "message": "kedd"
+   },
+   "day_3": {
+      "message": "szerda"
+   },
+   "day_4": {
+      "message": "csütörtök"
+   },
+   "day_5": {
+      "message": "péntek"
+   },
+   "day_6": {
+      "message": "szombat"
+   },
+   "month_1": {
+      "message": "jan."
+   },
+   "month_2": {
+      "message": "febr."
+   },
+   "month_3": {
+      "message": "márc."
+   },
+   "month_4": {
+      "message": "ápr."
+   },
+   "month_5": {
+      "message": "máj."
+   },
+   "month_6": {
+      "message": "jún."
+   },
+   "month_7": {
+      "message": "júl."
+   },
+   "month_8": {
+      "message": "aug."
+   },
+   "month_9": {
+      "message": "szept."
+   },
+   "month_10": {
+      "message": "okt."
+   },
+   "month_11": {
+      "message": "nov."
+   },
+   "month_12": {
+      "message": "dec."
+   },
+   "morning": {
+      "message": "Jó reggelt!"
+   },
+   "noon": {
+      "message": "Szép délutánt!"
+   },
+   "evening": {
+      "message": "Vacsoráztál már?"
+   },
+   "night": {
+      "message": "Ideje lefeküdnöd."
+   },
+   "midnight": {
+      "message": "Na, mi van?"
+   },
+   "notitimeannounce": {
+      "message": "Óránkénti közlemény"
+   },
+   "notitimeis": {
+      "message": "Az idő most"
+   },
+   "am": {
+      "message": "de."
+   },
+   "pm": {
+      "message": "du."
+   },
+   "saved": {
+      "message": "Elmentve."
+   },
+   "notsaved": {
+      "message": "A változtatásokat még nem mentettük el! Ennek ellenére folytassuk?"
+   },
+   "ctxcmt": {
+      "message": "Hibajelentés, Észrevételek"
+   },
+   "digital": {
+      "message": "Digitális Vekker"
+   },
+   "analog": {
+      "message": "Analóg Vekker"
+   },
+   "ctxhide": {
+      "message": "Ezeket a tételeket ne mutassa"
+   },
+   "chat": {
+      "message": "Chat box"
+   },
+   "forum": {
+      "message": "Fórum"
+   },
+   "calendar": {
+      "message": "Naptár"
+   },
+   "setalarm": {
+      "message": "Ébresztés beállítása"
+   }
+}

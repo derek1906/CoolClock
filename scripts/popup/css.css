@@ -1,0 +1,289 @@
+@charset "UTF-8";
+
+@-webkit-keyframes rotate{
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to { 
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+body{
+	font-family:"Arial","Simhei";
+	color:#3E3E3E;
+	-webkit-user-select:none;
+	background-image:-webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(lightgray));
+	cursor:default;
+	text-shadow:0px 1px 1px white, 0px -1px 1px lightgray;
+}
+.menu{
+	position:relative;
+	z-index:3;
+}
+.menu{
+	padding:2px 5px 2px 2px;
+	position:fixed;
+	top:-100px;
+	left:-100px;
+	z-index:3;
+	text-align:right;
+	background-color:F4F4F4;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	border:1px solid gray;
+	border-right-style:none;
+	-webkit-box-shadow:-2px 2px 2px #888;
+	-webkit-transition:all .3s ease-in-out ;
+}
+
+.menu #to_left , .menu #to_right{
+	padding:2px 3px 2px 3px;
+	text-align:left;
+	position:fixed;
+	top:120px;
+	z-index:3;
+	background-color:F4F4F4;
+	border:1px solid lightgray;
+	-webkit-box-shadow:-1px 1px 2px #888;
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0, rgb(153,153,153)),
+		color-stop(0.5, rgb(173,173,173)),
+		color-stop(0.5, rgb(199,199,199)),
+		color-stop(1, rgb(240,240,240))
+	);
+	opacity:0.5;
+	-webkit-transition:all 0.1s ease-in;
+	cursor:pointer;
+}
+
+.menu #to_left:hover , .menu #to_right:hover{
+	opacity:1;
+}
+
+.menu #to_left > div, .menu #to_right > div{
+	width: 15px;
+	height: 15px;
+}
+
+.menu #to_left{
+	border-left-style:none;
+	-webkit-border-top-right-radius:3px;
+	-webkit-border-bottom-right-radius:3px;
+	left:-7px;
+}
+.menu #to_left:hover{
+	left:0px;
+}
+.menu #to_left > div{
+	background: url('/images/to_left.png');
+}
+.menu #to_left > div:active{
+	background: url('/images/to_left_down.png');
+}
+
+.menu #to_right{
+	border-right-style:none;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	right:-7px;
+}
+.menu #to_right:hover{
+	right:0px;
+}
+.menu #to_right > div{
+	background: url('/images/to_right.png');
+}
+.menu #to_right > div:active{
+	background: url('/images/to_right_down.png');
+}
+
+.mainmenu{
+	padding:2px 5px 2px 2px;
+	position:fixed;
+	top:10px;
+	right:-56px;
+	z-index:3;
+	text-align:right;
+	!background-color:F4F4F4;
+	background-color:rgba(244,244,244,.9);
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	border:1px solid gray;
+	border-right-style:none;
+	-webkit-box-shadow:-2px 2px 2px #888;
+	-webkit-transition:all .3s ease-in-out;
+}
+
+.mainmenu:hover{
+	right:-3px;
+}
+
+.mainmenu .toollabel{
+	opacity:1;
+	-webkit-transition:all .3s ease-in-out;
+	/*background-image:-webkit-gradient(linear, left bottom, right bottom, from(lightyellow), to(fff3b2));*/
+}
+
+.mainmenu:hover .toollabel{
+	opacity:.2;
+}
+
+.mainmenu .icon{
+	-webkit-transition:all .3s ease-in-out;
+	opacity:0.5;
+	cursor:pointer;
+}
+.mainmenu .icon:hover{
+	opacity:1;
+}
+
+
+
+.small{
+	font-size:12px;
+	color:gray;
+}
+.startupblocker{
+	display:block;
+	position:fixed;
+	top:0px;
+	left:0px;
+	z-index:9;
+	width:100%;
+	height:100%;
+	background-image:-webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(lightgray));
+	-webkit-transition:all .7s ease-in-out;
+	opacity:1;
+}
+#txt{
+	background-color:skyblue;
+	border:2px solid #888;
+	border-radius:10px;
+	text-align:right;
+	padding:3px 2px;
+	background-image:-webkit-gradient(linear, left top, left bottom, from(rgb(163,216,239)), to(rgb(58,173,222)));
+	text-shadow:0px 0px 5px white;
+}
+#settings{
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin:0px 0px;
+	position: fixed;
+	bottom: 7px;
+	left: 7px;
+	z-index: 4;
+}
+#settings:hover{
+	opacity: 1;
+	
+    -webkit-animation-name: rotate; 
+    -webkit-animation-duration: 2.5s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+
+.calendar_btn{
+	cursor:pointer;
+	display:inline-block;
+	width:23px;
+	height: 23px;
+	border-radius:23px;
+	background-color:skyblue;
+	color:white;
+	text-shadow:0px 0px 2px darkblue;
+	-webkit-transition:all .4s linear;
+	-webkit-box-shadow:0px 0px 2px darkblue;
+}
+.calendar_btn:hover{
+	-webkit-box-shadow:0px 0px 10px skyblue;
+}
+
+#cdremaindiv{
+	cursor:default;
+	border-bottom-left-radius:3px;
+	border-bottom-right-radius:3px;
+	-webkit-box-shadow:1px 1px 3px #888;
+	border:1px solid gray;
+	border-top:0px solid white;
+	background-image:-webkit-gradient(linear, left top, left bottom, from(lightyellow), to(fff3b2));
+	height:15px;
+	position:absolute;
+	top:0px;
+	left:100px;
+	z-index:10;
+	text-shadow: 1px 1px 0 white;
+	color:2b2b2b;
+	font-size:10px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow:hidden;
+}
+
+.tab{
+	-webkit-transition:all .7s ease-in-out;
+}
+
+progress{
+	-webkit-transition:width 1s linear;
+}
+
+#flipclock{
+	pointer-events: none;
+}
+
+
+
+/* Mini Popup */
+html{
+	  !-webkit-transition:height 1s ease;
+}
+
+html.mini{
+	  height:120px;
+}
+html.mini body>div{
+	  height:0px !important;
+}
+html.mini body>div .date-info, html.mini #settings, html.mini body>div #popau{
+	  -webkit-transition:opacity .2s linear;
+	  opacity:0;
+	  width:0px;
+	  height:0px;
+}
+
+
+	/* Timer Button Animation */
+#timerbtn{
+	  background:url("/images/icons/clock.png");
+	  background-size:20px 20px;
+}
+#timerbtn.counting{
+	  background:url("/images/icons/clock_play.png");
+	  background-size:20px 20px;
+}
+#timerbtn.paused{
+	  background:url("/images/icons/clock_pause.png");
+	  background-size:20px 20px;
+}
+
+
+
+#version{
+	cursor: help;
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	z-index: 3;
+	color: gray;
+	font-size: 12px;
+	text-align: center;
+}
+#version:hover{
+	color: black;
+}

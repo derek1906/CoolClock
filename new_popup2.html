@@ -1,0 +1,307 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="scripts/new_popup2/css.css">
+
+		<script src="jquery.js"></script>
+		<script type="text/javascript" charset="utf-8" src="translation.js"></script>
+		<script src="scripts/new_popup2/js.js"></script>
+	</head>
+	<body>
+		<background-shapes id="background"></background-shapes>
+		<div id="wrapper">
+			<div id="title">
+				<title-clock></title-clock>
+				<title-date></title-date>
+				<title-weather></title-weather>
+			</div>
+			<app-list>
+				<app-list-item id="alarm-status" trans="alarm">Alarm</app-list-item>
+				<app-list-item id="countdown-status" trans="countdown">Countdown</app-list-item>
+				<app-list-item id="stopwatch-status" trans="timer">Stopwatch</app-list-item>
+				<app-list-item id="calendar-status" trans="calendar">Calendar</app-list-item>
+				<app-list-item id="app-more" center>More</app-list-item>
+			</app-list>
+		</div>
+		<div id="bottom-sheet-wrapper" class="hidden">
+			<div id="bottom-sheet-backdrop"></div>
+			<dl id="bottom-sheet-list">
+				<dt>Miscellaneous</dt>
+				<dd id="action-statistics">
+					<img class="bottom-sheet-icon" src="/images/icons/timeline_24dp.png">
+					<span class="bottom-sheet-text" trans="stat">Statistics</span>
+				</dd>
+				<dd id="action-settings">
+					<img class="bottom-sheet-icon" src="/images/icons/settings_24dp.png">
+					<span class="bottom-sheet-text" trans="settings">Settings</span>
+				</dd>
+				<dd id="action-help">
+					<img class="bottom-sheet-icon" src="/images/icons/help_24dp.png">
+					<span class="bottom-sheet-text" trans="help">Help</span>
+				</dd>
+				<dd id="action-forum">
+					<img class="bottom-sheet-icon" src="/images/icons/forum_24dp.png">
+					<span class="bottom-sheet-text" trans="forum">
+				</dd>
+				<dd id="action-about">
+					<img class="bottom-sheet-icon" src="/images/icons/info_24dp.png">
+					<span class="bottom-sheet-text" trans="about">About</span>
+				</dd>
+			</ul>
+		</div>
+	</body>
+
+	<!-- Templates -->
+
+	<!-- Background -->
+	<template id="background-shapes">
+		<style>
+			canvas{
+				width: 100%;
+				height: 100%;
+			}
+		</style>
+	</template>
+
+	<!-- Time -->
+	<template id="title-clock">
+		<style>
+			#clockface{
+				font-size: 64px;
+				display: inline-block;
+				line-height: 64px;
+				position: relative;
+				margin: 0;
+			}
+			#hours-minutes[data-pm-label]::after{
+				content: attr(data-pm-label);
+				display: inline-block;
+				position: absolute;
+				top: 0;
+				right: 0;
+				font-size: 12px;
+				line-height: normal;
+			    background: white;
+			    border-radius: 3px;
+			    color: rgb(7,57,117);
+			    padding: 0px 3px;
+			    text-transform: uppercase;
+			    transform: translateX(100%) translateY(100%);
+			}
+
+			#hours-minutes{
+				position: relative;
+			}
+
+			#hours-minutes, #hours-minutes *{
+				cursor: pointer;
+			}
+
+			#seconds-block{
+				background: white;
+				color: rgb(7,57,117);
+				line-height: 64px;
+				display: inline-block;
+				opacity: 0;
+				border-radius: 3px;
+				padding-right: 3px;
+				border: 1px solid transparent;
+				position: relative;
+
+				transition: opacity 0.3s ease;
+			}
+			#hours-minutes:hover ~ #seconds-block{
+				opacity: 1;
+			}
+			#clockface.alwaysShowSeconds #seconds-block{
+				opacity: 1;
+				background: transparent;
+				color: white;
+			}
+			#clockface.alwaysShowSeconds #hours-minutes:hover ~ #seconds-block{
+				border: 1px solid white;
+			}
+
+			#clockface.alwaysShowSeconds #hours-minutes[data-pm-label]::after{
+				opacity: 0;
+			}
+		</style>
+
+		<div id="clockface">
+			<span id="hours-minutes"><span id="hours"></span>:<span id="minutes"></span></span><!--
+			--><span id="seconds-block">:<span id="seconds"></span></span>
+		</div>
+	</template>
+
+	<!-- Date -->
+	<template id="title-date">
+		<style>
+			#content{
+				margin: 0;
+				font-size: 24px;
+			}
+		</style>
+
+		<span id="content"></span>
+	</template>
+
+	<!-- Weather -->
+	<template id="title-weather">
+		<style>
+			#wrapper{
+				margin-left: 5px;
+				margin-top: 10px;
+
+				transition: all 0.3s ease;
+			}
+			#loading-status, #city, #condition{
+				display: block;
+				font-size: 16px;
+			}
+			#loading-status{
+				opacity: 0.5;
+			}
+			#city, #condition{
+				opacity: 0;
+			}
+			#wrapper.loaded{
+				opacity: 1;
+				margin-left: 0px;
+			}
+			#wrapper.success{
+				cursor: pointer;
+				transition: all 0.3s ease, transform 0.1s ease;
+			}
+			#wrapper.success:hover{
+				transform: translateX(2px);
+			}
+			#condition{
+				margin-left: 10px;
+			}
+			#wrapper.loaded #city, #wrapper.loaded #condition{
+				opacity: 1;
+			}
+			#wrapper.loaded #loading-status{
+				display: none;
+			}
+		</style>
+
+		<div id="wrapper">
+			<span id="loading-status"></span>
+			<span id="city"></span>
+			<span id="condition"></span>
+		</div>
+	</template>
+
+	<!-- App list layout -->
+	<template id="app-list">
+		<style>
+			ul{
+				list-style: none;
+				padding: 0px 15px;
+				margin: 0;
+				font-family: "Roboto-Regular";
+				height: 0px;
+				overflow: visible;
+			}
+
+			ul content::content app-list-item{
+				transition: opacity 0.3s ease;
+			}
+
+			ul:hover content::content app-list-item{
+				opacity: 0.5;
+			}
+
+			ul content::content app-list-item:hover{
+				opacity: 1;
+			}
+		</style>
+		<ul id="list">
+			<content selcet="app-list-item"></content>
+		</ul>
+	</template>
+
+	<!-- App list item -->
+	<template id="app-list-item">
+		<style>
+			#list-item{
+				color: rgb(7, 57, 117);
+				padding: 10px 15px;
+				font-family: "Roboto", "Noto Sans", Sans;
+				font-size: 12px;
+				font-weight: 400;
+				line-height: 12px;
+				background: white;
+				display: inline-block;
+				border-radius: 20px;
+				text-transform: uppercase;
+				float: right;
+				clear: both;
+				margin-bottom: 12px;
+				cursor: pointer;
+				box-shadow: 0px 0px 20px rgba(13,203,255, 0.2);
+				position: relative;
+				overflow: visible;
+				box-sizing: border-box;
+
+				min-width: 0%;
+				transition: all 0.3s ease;
+			}
+
+			#list-item.center{
+				text-align: center;
+			}
+
+			#list-item:hover{
+				color: rgb(13,203,255);
+				min-width: 100%;
+			}
+
+			#message{
+				position: absolute;
+				opacity: 0;
+				margin-left: 10px;
+				color: gray;
+				white-space: nowrap;
+				text-transform: none;
+
+				transition: opacity 0s ease 0s;
+			}
+
+			#list-item:hover > #message{
+				opacity: 1;
+
+				transition: opacity 0.3s ease 0.3s;
+			}
+
+			#list-item[data-label]::after{
+				content: attr(data-label);
+				display: inline-block;
+				height: 20px;
+				min-width: 10px;
+				background: #CD4B5B;
+				color: white;
+				font-size: 12px;
+				text-align: center;
+				border-radius: 10px;
+				line-height: 20px;
+				position: absolute;
+				padding: 0px 5px;
+				right: -8px;
+				bottom: -5px;
+				text-transform: none;
+
+				transition: opacity 0.3s ease;
+			}
+
+			#list-item[data-label]:hover::after{
+				opacity: 0.5;
+			}
+		</style>
+		<li id="list-item">
+			<span id="title"><content></content></span>
+			<span id="message"></span>
+		</li>
+	</template>
+</html>

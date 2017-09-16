@@ -1,0 +1,269 @@
+﻿{
+   "extDes": {
+      "message": "A primeira extensão que tem relógios digital e analógico e, ainda, horas como notificação."
+   },
+   "extName": {
+      "message": "Horas Chrome"
+   },
+   "settings": {
+      "message": "Opções"
+   },
+   "hourlytimeannounce": {
+      "message": "Notificação das horas"
+   },
+   "enablehourlytimeannounce": {
+      "message": "Ligar notificações da hora (hora a hora)"
+   },
+   "shownotificationfor": {
+      "message": "Tempo para mostrar a notificação"
+   },
+   "seconds": {
+      "message": "segundos"
+   },
+   "max999": {
+      "message": "(Máximo 999)"
+   },
+   "showtodowhenopen": {
+      "message": ""
+   },
+   "display": {
+      "message": "Mostrar"
+   },
+   "usedigital": {
+      "message": "Usar relógio digital"
+   },
+   "digitalmsg": {
+      "message": "(Atenção:  ao usar relógio digital, vão ser usados mais recursos no PC)"
+   },
+   "usedarkmode": {
+      "message": "Para temas negros (Aparece uma bolha semi-transparente para facilitar a leitura da hora)"
+   },
+   "useanalog": {
+      "message": "Usar relógio analógico"
+   },
+   "analogmsg": {
+      "message": "(Cerca de 4K por seg.)"
+   },
+   "noscroll": {
+      "message": "Não usar efeito \"scroll\" (Mostra 4 números)"
+   },
+   "_12hour": {
+      "message": "Sistema de 12 horas (Predefinido:  24)"
+   },
+   "showiconclock": {
+      "message": "Mostrar relógio no icon (analógico)"
+   },
+   "showbadgeclock": {
+      "message": "Mostrar horas no icon (digital)"
+   },
+   "comment": {
+      "message": "Comentar"
+   },
+   "cmtmsg": {
+      "message": "Comentários? Bug?"
+   },
+   "memmsg": {
+      "message": "a animação vai mostrar uma imagem nova por segundo, por isso, mais mem+oria vai ser ocupada"
+   },
+   "showupdate": {
+      "message": ""
+   },
+   "updateiconevery": {
+      "message": ""
+   },
+   "updateiconeverymsg": {
+      "message": ""
+   },
+   "_1sec": {
+      "message": "1 segundo"
+   },
+   "_2sec": {
+      "message": "2 segundos"
+   },
+   "_5sec": {
+      "message": "5 segundos"
+   },
+   "_10sec": {
+      "message": "5 segundos"
+   },
+   "_30sec": {
+      "message": "30 segundos"
+   },
+   "_1min": {
+      "message": ""
+   },
+   "viewsavedalarm": {
+      "message": ""
+   },
+   "OK": {
+      "message": "OK"
+   },
+   "apply": {
+      "message": "Aplicar"
+   },
+   "cancel": {
+      "message": "Cancelar"
+   },
+   "about": {
+      "message": "Sobre"
+   },
+   "whatsnew": {
+      "message": "Nova versão"
+   },
+   "none": {
+      "message": ""
+   },
+   "defaultringtone": {
+      "message": ""
+   },
+   "URLringtone": {
+      "message": ""
+   },
+   "allpurpose": {
+      "message": ""
+   },
+   "alarmandringtone": {
+      "message": ""
+   },
+   "close": {
+      "message": "Fechar"
+   },
+   "timeis": {
+      "message": "Horas: "
+   },
+   "notflash": {
+      "message": "(não é usada nenhuma animação em Flash)"
+   },
+   "version": {
+      "message": ""
+   },
+   "countdown": {
+      "message": ""
+   },
+   "alarm": {
+      "message": ""
+   },
+   "stat": {
+      "message": ""
+   },
+   "timer": {
+      "message": ""
+   },
+   "tools": {
+      "message": ""
+   },
+   "day_0": {
+      "message": "Domingo"
+   },
+   "day_1": {
+      "message": "Segunda"
+   },
+   "day_2": {
+      "message": "Terça"
+   },
+   "day_3": {
+      "message": "Quarta"
+   },
+   "day_4": {
+      "message": "Quinta"
+   },
+   "day_5": {
+      "message": "Sexta"
+   },
+   "day_6": {
+      "message": "Sabado"
+   },
+   "month_1": {
+      "message": "Jan"
+   },
+   "month_2": {
+      "message": "Fev"
+   },
+   "month_3": {
+      "message": "Mar"
+   },
+   "month_4": {
+      "message": "Abr"
+   },
+   "month_5": {
+      "message": "Mai"
+   },
+   "month_6": {
+      "message": "Jun"
+   },
+   "month_7": {
+      "message": "Jul"
+   },
+   "month_8": {
+      "message": "Ago"
+   },
+   "month_9": {
+      "message": "Set"
+   },
+   "month_10": {
+      "message": "Out"
+   },
+   "month_11": {
+      "message": "Nov"
+   },
+   "month_12": {
+      "message": "Dez"
+   },
+   "morning": {
+      "message": "Bom Dia!"
+   },
+   "noon": {
+      "message": "Boa Tarde!"
+   },
+   "evening": {
+      "message": "Já jantaste?"
+   },
+   "night": {
+      "message": "Boa Noite"
+   },
+   "midnight": {
+      "message": "Como estás?"
+   },
+   "notitimeannounce": {
+      "message": "Notificação das horas"
+   },
+   "notitimeis": {
+      "message": "Horas "
+   },
+   "am": {
+      "message": "am"
+   },
+   "pm": {
+      "message": "pm"
+   },
+   "saved": {
+      "message": "As opções são salvas."
+   },
+   "notsaved": {
+      "message": ""
+   },
+   "ctxcmt": {
+      "message": "Bug report / Comentários"
+   },
+   "digital": {
+      "message": "Relógio Digital"
+   },
+   "analog": {
+      "message": "Relógio Analógico"
+   },
+   "ctxhide": {
+      "message": ""
+   },
+   "chat": {
+      "message": "Chat box"
+   },
+   "forum": {
+      "message": ""
+   },
+   "calendar": {
+      "message": ""
+   },
+   "setalarm": {
+      "message": ""
+   }
+}

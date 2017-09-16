@@ -1,0 +1,269 @@
+{
+   "extDes": {
+      "message": "Một tiện ích mở rộng cung cấp hàng tấn tính năng hữu ích liên quan đến thời gian... Nhưng phần hay nhất là nó thật THÚ VỊ"
+   },
+   "extName": {
+      "message": "Cool Clock"
+   },
+   "settings": {
+      "message": "Thiết lập"
+   },
+   "hourlytimeannounce": {
+      "message": "Thông báo thời gian từng giờ"
+   },
+   "enablehourlytimeannounce": {
+      "message": "Bật chế độ thông báo thời gian từng giờ! (Thông báo trên Desktop)"
+   },
+   "shownotificationfor": {
+      "message": "Hiển thị thông báo cho"
+   },
+   "seconds": {
+      "message": "giây"
+   },
+   "max999": {
+      "message": "(Tối đa:   999)"
+   },
+   "showtodowhenopen": {
+      "message": "Thông báo việc cần làm khi mở trình duyệt của bạn"
+   },
+   "display": {
+      "message": "Hiển thị"
+   },
+   "usedigital": {
+      "message": "Dùng đồng hồ số"
+   },
+   "digitalmsg": {
+      "message": "(Đồng hồ số sẽ dùng một lượng bộ nhớ nhất định)"
+   },
+   "usedarkmode": {
+      "message": "Dùng chế độ chủ đề đen ()"
+   },
+   "useanalog": {
+      "message": "Dùng đồng hồ cổ"
+   },
+   "analogmsg": {
+      "message": "(Khoảng 4KB một giây)"
+   },
+   "noscroll": {
+      "message": "Không sử dụng hiệu ứng cuộn (Hiển thị 4 số thay cho cuộn)"
+   },
+   "_12hour": {
+      "message": "Sử dụng hệ thống 12 giờ (Mặc định là 24 giờ)"
+   },
+   "showiconclock": {
+      "message": "Hiển thị đồng hồ ở biểu tượng (Với kim)"
+   },
+   "showbadgeclock": {
+      "message": "Hiển thị thời gian trên biểu tượng"
+   },
+   "comment": {
+      "message": "Bình luận"
+   },
+   "cmtmsg": {
+      "message": "Cung cấp phản hồi, bình luận hoặc báo cáo sự cố ở đây"
+   },
+   "memmsg": {
+      "message": "Chuyển động luôn \"vẽ\" một hình mới mỗi giây, nên bình thường nó sẽ lấy thêm nhiều bộ nhớ sau khoảng thời gian, khi tôi dang cố giảm nó tối thiểu."
+   },
+   "showupdate": {
+      "message": "Hiện trang cập nhật mỗi khi tiện ích này được cập nhật"
+   },
+   "updateiconevery": {
+      "message": "Làm mới biểu tượng mỗi: "
+   },
+   "updateiconeverymsg": {
+      "message": "(Đây là tiện ích chạy lâu và nhẹ nhất; nhưng khi chạy lâu nó sẽ ảnh hưởng đến các tiện ích khác lớn hơn.)"
+   },
+   "_1sec": {
+      "message": "1 giây"
+   },
+   "_2sec": {
+      "message": "2 giây"
+   },
+   "_5sec": {
+      "message": "5 giây"
+   },
+   "_10sec": {
+      "message": "10 giây"
+   },
+   "_30sec": {
+      "message": "30 giây"
+   },
+   "_1min": {
+      "message": "1 phút"
+   },
+   "viewsavedalarm": {
+      "message": "Xem báo thức đã lưu"
+   },
+   "OK": {
+      "message": "OK"
+   },
+   "apply": {
+      "message": "Áp dụng"
+   },
+   "cancel": {
+      "message": "Hủy"
+   },
+   "about": {
+      "message": "Giới thiệu"
+   },
+   "whatsnew": {
+      "message": "Xem nhật kí cập nhật"
+   },
+   "none": {
+      "message": "Không có"
+   },
+   "defaultringtone": {
+      "message": "Chuông mặc định"
+   },
+   "URLringtone": {
+      "message": "Từ URL"
+   },
+   "allpurpose": {
+      "message": "Chuông cho tất cả kế hoạch"
+   },
+   "alarmandringtone": {
+      "message": "Báo thức & Chuông"
+   },
+   "close": {
+      "message": "Đóng"
+   },
+   "timeis": {
+      "message": "Thời gian là: "
+   },
+   "notflash": {
+      "message": "(Đây không phải là đồng hồ flash)"
+   },
+   "version": {
+      "message": "Phiên bản"
+   },
+   "countdown": {
+      "message": "Đồng hồ hẹn giờ"
+   },
+   "alarm": {
+      "message": "Đồng hồ báo thức"
+   },
+   "stat": {
+      "message": "Thống kê"
+   },
+   "timer": {
+      "message": "Đồng hồ bấm giờ"
+   },
+   "tools": {
+      "message": "Công cụ"
+   },
+   "day_0": {
+      "message": "Chủ Nhật"
+   },
+   "day_1": {
+      "message": "Thứ Hai"
+   },
+   "day_2": {
+      "message": "Thứ Ba"
+   },
+   "day_3": {
+      "message": "Thứ Tư"
+   },
+   "day_4": {
+      "message": "Thứ Năm"
+   },
+   "day_5": {
+      "message": "Thứ Sáu"
+   },
+   "day_6": {
+      "message": "Thứ Bảy"
+   },
+   "month_1": {
+      "message": "Th. 01"
+   },
+   "month_2": {
+      "message": "Th. 02"
+   },
+   "month_3": {
+      "message": "Th. 03"
+   },
+   "month_4": {
+      "message": "Th. 04"
+   },
+   "month_5": {
+      "message": "Th. 05"
+   },
+   "month_6": {
+      "message": "Th. 06"
+   },
+   "month_7": {
+      "message": "Th. 07"
+   },
+   "month_8": {
+      "message": "Th. 08"
+   },
+   "month_9": {
+      "message": "Th. 09"
+   },
+   "month_10": {
+      "message": "Th. 10"
+   },
+   "month_11": {
+      "message": "Th. 11"
+   },
+   "month_12": {
+      "message": "Th. 12"
+   },
+   "morning": {
+      "message": "Chào buổi sáng!"
+   },
+   "noon": {
+      "message": "Thật vui khi thấy bạn vào buổi chiều này!"
+   },
+   "evening": {
+      "message": "Bạn đã ăn tối chưa?"
+   },
+   "night": {
+      "message": "Đã đến lúc đi ngủ rồi."
+   },
+   "midnight": {
+      "message": "Có gì nào?"
+   },
+   "notitimeannounce": {
+      "message": "Thông báo thời gian từng giờ"
+   },
+   "notitimeis": {
+      "message": "Thời gian ngay bây giờ"
+   },
+   "am": {
+      "message": "am"
+   },
+   "pm": {
+      "message": "pm"
+   },
+   "saved": {
+      "message": "Đã lưu"
+   },
+   "notsaved": {
+      "message": "Tùy chọn đã sửa không được lưu! Vẫn tiếp tục?"
+   },
+   "ctxcmt": {
+      "message": "Báo cáo sự cố/Bình luận"
+   },
+   "digital": {
+      "message": "Đồng hồ số"
+   },
+   "analog": {
+      "message": "Đồng hồ cổ"
+   },
+   "ctxhide": {
+      "message": "Không hiển thị những mục này"
+   },
+   "chat": {
+      "message": "Khung trò chuyện"
+   },
+   "forum": {
+      "message": "Diễn đàn"
+   },
+   "calendar": {
+      "message": "Lịch"
+   },
+   "setalarm": {
+      "message": "Cài báo thức"
+   }
+}

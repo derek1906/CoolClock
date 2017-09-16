@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title trans="setalarm">Loading...</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<link rel="icon" type="image/png" href="icons/16x16.png" />
+
+		<link rel="stylesheet" href="/bootstrap/bootstrap.min.css">
+
+		<link type="text/css" rel="stylesheet" href="/scripts/alarm_interface/css.css">
+
+		<script type="text/javascript" src="/jquery.js"></script>
+		<script type="text/javascript" src="/scripts/transit/jquery.transit.min.js"></script>
+		<script src="/bootstrap/bootstrap.min.js"></script>
+		<script type="text/javascript" src="translation.js"></script>
+		<script type="text/javascript" src="/scripts/alarm_interface/js.js"></script>
+	</head>
+	<body>
+		<div id="header">
+			<h1 trans="setalarm"></h1><span id="count" class="badge" title="Stored alarms">0</span>
+			<div class="btn-group btn-group-sm pull-right">
+				<button id="add" class="btn btn-success" title="Add" data-toggle="tooltip"><gly icon="plus"></gly></button>
+				<button id="removeAll" class="btn btn-danger" title="Remove All" data-toggle="tooltip" disabled><gly icon="trash"></gly></button>
+			</div>
+			<hr>
+		</div>
+			<div id="configure" class="collapsed">
+				<div>
+					<span class="input-title">Time (24-hr)</span>
+					<div class="input-time">
+						<input id="h" class="form-control input-lg" type="text" placeholder="hour"
+						><input id="m" class="form-control input-lg" type="text" placeholder="min">
+					</div>
+					<span class="input-title">
+						Repeat on <button type="button" id="daily" class="btn btn-default btn-xs pull-right"><gly icon="check"></gly> Daily</button>
+					</span>
+					<div>
+						<div id="weekdays" class="btn-group" data-toggle="buttons">
+							<label class="btn btn-default btn-xs" data-toggle="tooltip" title="%wkl:0%"><input type="checkbox"><span trans="wk:0"></span></label>
+							<label class="btn btn-default btn-xs" data-toggle="tooltip" title="%wkl:1%"><input type="checkbox"><span trans="wk:1"></span></label>
+							<label class="btn btn-default btn-xs" data-toggle="tooltip" title="%wkl:2%"><input type="checkbox"><span trans="wk:2"></span></label>
+							<label class="btn btn-default btn-xs" data-toggle="tooltip" title="%wkl:3%"><input type="checkbox"><span trans="wk:3"></span></label>
+							<label class="btn btn-default btn-xs" data-toggle="tooltip" title="%wkl:4%"><input type="checkbox"><span trans="wk:4"></span></label>
+							<label class="btn btn-default btn-xs" data-toggle="tooltip" title="%wkl:5%"><input type="checkbox"><span trans="wk:5"></span></label>
+							<label class="btn btn-default btn-xs" data-toggle="tooltip" title="%wkl:6%"><input type="checkbox"><span trans="wk:6"></span></label>
+						</div>
+					</div>
+					<span class="input-title">Message</span>
+					<div>
+						<input id="message" class="form-control input" type="text" placeholder="Message...">
+					</div>
+					<span class="input-title"></span>
+					<div>
+						<a class="small pull-left" href="/options_new.html#ringtonePanel" target="_blank">Change ringtone</a>
+					</div>
+					<div>
+						<button id="set" type="button" class="btn btn-default btn" trans="OK" disabled>OK</button>
+					</div>
+				</div>
+			</div>
+			<div id="record">
+
+				<!-- <div class="block day">
+					<div class="bContent">
+						<div class="controls">
+							<span data-toggle="tooltip" title="Delete" data-placement="right"><gly icon="trash"></gly></span>
+							<span data-toggle="tooltip" title="Edit" data-placement="right"><gly icon="pencil"></gly></span>
+							<span data-toggle="tooltip" title="Toggle on/off" data-placement="right"><gly icon="off"></gly></span>
+						</div>
+						<div class="wrapper">
+							<div class="left-panel">
+								<div class="time">09:30</div>
+								<ul class="weekdays">
+									</li><li>S</li><li class="active">M</li><li>T</li><li>W</li><li>T</li><li>F</li><li>S</li>
+								</ul>
+							</div
+							><div class="right-panel">
+								<div class="record-title">Message</div>
+								<div class="message">This is a message.</div>
+							</div>
+						</div>
+					</div>
+				</div> -->
+
+			</div>
+	</body>
+</html>

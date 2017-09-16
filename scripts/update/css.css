@@ -1,0 +1,78 @@
+@font-face { font-family: "Roboto"; src: url('/fonts/Roboto-Regular.ttf'); }
+
+body{
+	font-family: Roboto, sans-serif; /*Verdana, Geneva, sans-serif,'微軟正黑體','微軟雅黑','SimHei','新細明體'*/
+	position: relative;
+}
+.topbar{
+	background: rgb(7,114,161);
+	color: rgb(255,255,255);
+	box-shadow: 0 0px 7px #555;
+	font-family: Roboto;
+}
+ul{
+    list-style: none;
+    background: transparent;
+}
+#scrollSpy li a, #scrollSpy ul{
+	border: 0;
+    background: transparent;
+}
+.main li:before { 
+    content: "";
+    border-color: transparent #111;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+}
+ul.nav-tabs.affix{
+	top: 0px;
+}
+ul.nav-tabs{
+	width: 150px;
+}
+ul.nav-tabs a{
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+h3{
+	width: 100%;
+	padding-left: 100px;
+	position: relative;
+	font-family: Roboto;
+	/*background-image: -webkit-linear-gradient(top,rgba(0,0,0,0), 0, rgba(0,0,0,0), 48%, #333, 49%, #333 51%, rgba(0,0,0,0), 52%, rgba(0,0,0,0), 100%);*/
+	/*background-image: -webkit-linear-gradient(top,#fff 0,#e0e0e0 100%);*/
+}
+h3::before{
+	content: "";
+	display: block;
+	height: 1px;
+	width: 100%;
+	background: rgb(200, 200, 200);
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 50%;
+}
+h3::first-line{
+	background: white;
+	box-shadow: 10px 0 white,
+				-10px 0 white;
+}
+.main ul{
+	margin-bottom: 50px;
+}
+
+footer{
+	background: #5A5A5A;
+	height: 60px;
+	color: #fff;
+	padding: 22px;
+	text-align: center;
+}

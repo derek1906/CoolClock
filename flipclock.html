@@ -1,0 +1,177 @@
+﻿<!DOCTYPE html>
+<html>
+	<!--
+		Initial: 2011-Jan-31
+		Last modified: 2013-Mar-12
+	-->
+	<head>
+		<script type="text/javascript" src="/jquery.js"></script>
+		<script type="text/javascript" src="/translation.js"></script>
+		<script type="text/javascript" src="/jstimezone.js"></script>
+		<script type="text/javascript" src="/tools.js"></script>
+		<script type="text/javascript" src="/scripts/flipclock/js.js"></script>
+		<title>Clock</title>
+		<style>
+			@font-face { font-family: "Roboto"; src: url("/fonts/Roboto-Regular.tff"); } 
+			body{
+				font-family: "Roboto";
+				overflow: hidden;
+				margin: 0;
+				padding: 0;
+				-webkit-transform-origin: 0 0;
+				-webkit-transform: scale(.5,.5);
+				text-align: center;
+				width: 330px;
+			}
+
+			.whole{
+				display: inline-block;
+				text-align: center;
+				text-shadow: 0px 0px 5px black;
+			}
+
+
+			.digit{
+				position: relative;
+				width: 100px;
+				height: 100px;
+			}
+
+			.up,.down,.front{
+				width: 100px;
+				height: 50px;
+				color: white;
+				font-size: 60px;
+				text-align: center;
+				margin: 0px;
+				padding: 0px;
+				overflow: hidden;
+				position: absolute;
+			}
+
+			.card{
+				border: 2px solid gray;
+				border-radius: 6px;
+			}
+
+			.up{
+				background: -webkit-gradient(
+					linear,
+					left bottom,
+					left top,
+					color-stop(0.27, rgb(59,59,59)),
+					color-stop(0.73, rgb(0,0,0))
+				);
+				border-bottom-left-radius: 0px;
+				border-bottom-right-radius: 0px;
+				-webkit-box-shadow: inset 0px -5px 10px black,1px 1px 2px rgba(220,220,220,7);
+			}
+
+			.down{
+				background: -webkit-gradient(
+					linear,
+					left top,
+					left bottom,
+					color-stop(0.27, rgb(59,59,59)),
+					color-stop(0.73, rgb(0,0,0))
+				);
+				border-top-left-radius: 0px;
+				border-top-right-radius: 0px;
+				-webkit-box-shadow: inset 0px -5px 10px black,1px 1px 2px rgba(220,220,220,7);
+			}
+
+
+			.front{
+				position: absolute;
+				z-index: 2;
+				top: 0px;
+				left: 0px;
+				-webkit-transition: height .1s ease-in,top .1s ease-in;
+			}
+
+			.digit{
+				float: left;
+				margin: 1px 5px;
+			}
+
+			.apm{
+				font-family: '微軟正黑體','微软雅黑','SimHei','Arial';
+				opacity: 0;
+				display: inline-block;
+				position: absolute;
+				top: 80px;
+				left: 13px;
+				z-index: 3;
+				color: white;
+				font-size: 20px;
+				text-shadow: 0px 0px 5px black;
+				font-weight: bold;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div class="whole">
+
+			<div class="hour digit">
+
+				<div class="up card" id="hourup">
+					<div style="margin:0;padding:0;position:relative;top:13px;">Lo</div>
+				</div>
+				<!--Block--><div style="margin:0;padding:0;100;height:51px;width:100px;"></div>
+				<div class="down card" id="hourdown">
+					<div style="margin:0;padding:0;position:relative;top:-37px;">Lo</div>
+				</div><br>
+				<div class="front card" style="display:none;" id="hourfront">
+					<div style="margin:0;padding:0;position:relative;top:13px;">Lo</div>
+				</div>
+			</div>
+
+			<div class="minute digit">
+
+				<div class="up card" id="minup">
+					<div style="margin:0;padding:0;position:relative;top:13px;">ad</div>
+				</div>
+				<!--Block--><div style="margin:0;padding:0;100;height:51px;width:100px;"></div>
+				<div class="down card" id="mindown">
+					<div style="margin:0;padding:0;position:relative;top:-37px;">ad</div>
+				</div><br>
+				<div class="front card" style="display:none;" id="minfront">
+					<div style="margin:0;padding:0;position:relative;top:13px;">ad</div>
+				</div>
+
+			</div>
+
+			<div class="second digit">
+
+				<div class="up card" id="secup">
+					<div style="margin:0;padding:0;position:relative;top:13px;">ing</div>
+				</div>
+				<!--Block--><div style="margin:0;padding:0;100;height:51px;width:100px;"></div>
+				<div class="down card" id="secdown">
+					<div style="margin:0;padding:0;position:relative;top:-37px;">ing</div>
+				</div><br>
+				<div class="front card" style="display:none;" id="secfront">
+					<div style="margin:0;padding:0;position:relative;top:13px;">ing</div>
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="apm">Loading...</div>
+
+		<br>
+		<br>
+		<div id="nopopup" style="text-align:left;margin-left:20px;font-size:10px;-webkit-user-select:none;cursor:default;">
+			Zoom in:<br>
+			Press and hold the button to change.<br>
+			<input type="number" autofocus="true" value="200" step="10" max="500" min="50" style="width:70px;-webkit-user-select:none;">%
+			<hr>
+			<div style="-webkit-transform-origin:0 0;-webkit-transform:scale(.7,.7)">
+				This flip clock uses CSS3 for the animation and styling.<br>
+				Learn more: <a href="http://en.wikipedia.org/wiki/CSS" target="_blank" style="color:blue;" onmouseover="this.href='http://'+navigator.language.slice(0,2)+'.wikipedia.org/wiki/CSS'">here</a> (Wikipedia)
+			</div>
+		</div>
+	</body>
+</html>

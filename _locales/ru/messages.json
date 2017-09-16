@@ -1,0 +1,269 @@
+﻿{
+   "extDes": {
+      "message": "An extension fully loaded with tons of useful time-related features... But the best part is, it is totally COOL." /*"Первое расширение, имеющее в своём арсенале как цифровые, так и аналоговые часы, отображающиеся на вашей панели. Также имеется возможность отображать оповещения на рабочем столе."*/
+   },
+   "extName": {
+      "message": "Cool часы"
+   },
+   "settings": {
+      "message": "Настройки"
+   },
+   "hourlytimeannounce": {
+      "message": "Ежечасное оповещение"
+   },
+   "enablehourlytimeannounce": {
+      "message": "Включить ежечасное оповещение (на рабочем столе)"
+   },
+   "shownotificationfor": {
+      "message": "Время отображения оповещения "
+   },
+   "seconds": {
+      "message": "секунд"
+   },
+   "max999": {
+      "message": "(максимальный:  999)"
+   },
+   "showtodowhenopen": {
+      "message": "Отображать задания на рабочем столе при запуске Chrome."
+   },
+   "display": {
+      "message": "Отображение"
+   },
+   "usedigital": {
+      "message": "Режим электронных часов"
+   },
+   "digitalmsg": {
+      "message": "(Отображение цифровых часов требует больше ресурсов ПК)"
+   },
+   "usedarkmode": {
+      "message": "Использовать тёмный режим (Включить если используете скин в тёмных тонах для Chrome)"
+   },
+   "useanalog": {
+      "message": "Использовать обычный режим "
+   },
+   "analogmsg": {
+      "message": "(Около 4 Кб в секунду)"
+   },
+   "noscroll": {
+      "message": "Не использовать режим прокрутки (Отображать 4 цифры вместо прокрутки)"
+   },
+   "_12hour": {
+      "message": "Использовать 12 часовую систему (По умолчанию 24)"
+   },
+   "showiconclock": {
+      "message": "Отображать часы на иконке (аналоговые)"
+   },
+   "showbadgeclock": {
+      "message": "Отображать на флажке (электронные под аналоговыми)"
+   },
+   "comment": {
+      "message": "Комментарий"
+   },
+   "cmtmsg": {
+      "message": "Хотите прокомментировать? Сообщить об ошибке?"
+   },
+   "memmsg": {
+      "message": "Анимация \"отрисовывает\" новую картинку каждую секунду, поэтому через некоторое время начинают потреблять много памяти. Пытаюсь снизить этот эффект."
+   },
+   "showupdate": {
+      "message": "Отображать страницу после каждого обновления расширения."
+   },
+   "updateiconevery": {
+      "message": "Обновлять значок каждые: "
+   },
+   "updateiconeverymsg": {
+      "message": "(Чем больше число, тем меньше нагрузка на ПК.)"
+   },
+   "_1sec": {
+      "message": "1 секунда"
+   },
+   "_2sec": {
+      "message": "2 секунды"
+   },
+   "_5sec": {
+      "message": "5 секунды"
+   },
+   "_10sec": {
+      "message": "10 секунды"
+   },
+   "_30sec": {
+      "message": "30 секунды"
+   },
+   "_1min": {
+      "message": "1 минута"
+   },
+   "viewsavedalarm": {
+      "message": "Отобразить сохранённые будильники"
+   },
+   "OK": {
+      "message": "OK"
+   },
+   "apply": {
+      "message": "Применить"
+   },
+   "cancel": {
+      "message": "Отмена"
+   },
+   "about": {
+      "message": "О программе"
+   },
+   "whatsnew": {
+      "message": "Отобразить обновления этой версии."
+   },
+   "none": {
+      "message": "ни один"
+   },
+   "defaultringtone": {
+      "message": "Стандартная мелодия"
+   },
+   "URLringtone": {
+      "message": "Из URL"
+   },
+   "allpurpose": {
+      "message": "Мелодия"
+   },
+   "alarmandringtone": {
+      "message": "Будильник и мелодия"
+   },
+   "close": {
+      "message": "Закрыть"
+   },
+   "timeis": {
+      "message": "Сейчас: "
+   },
+   "notflash": {
+      "message": "(Я не Flash часы.)"
+   },
+   "version": {
+      "message": "версия"
+   },
+   "countdown": {
+      "message": "Таймер обратного отсчета времени"
+   },
+   "alarm": {
+      "message": "будильник"
+   },
+   "stat": {
+      "message": "статистика"
+   },
+   "timer": {
+      "message": "таймер"
+   },
+   "tools": {
+      "message": ""
+   },
+   "day_0": {
+      "message": "воскресенье"
+   },
+   "day_1": {
+      "message": "Понедельник"
+   },
+   "day_2": {
+      "message": "Вторник"
+   },
+   "day_3": {
+      "message": "Среда"
+   },
+   "day_4": {
+      "message": "Четверг"
+   },
+   "day_5": {
+      "message": "Пятница"
+   },
+   "day_6": {
+      "message": "Суббота"
+   },
+   "month_1": {
+      "message": "Янв"
+   },
+   "month_2": {
+      "message": "Февр"
+   },
+   "month_3": {
+      "message": "Мар"
+   },
+   "month_4": {
+      "message": "Апр"
+   },
+   "month_5": {
+      "message": "Мая"
+   },
+   "month_6": {
+      "message": "Июн"
+   },
+   "month_7": {
+      "message": "Июл"
+   },
+   "month_8": {
+      "message": "Авг"
+   },
+   "month_9": {
+      "message": "Сен"
+   },
+   "month_10": {
+      "message": "Окт"
+   },
+   "month_11": {
+      "message": "Ноя"
+   },
+   "month_12": {
+      "message": "Дек"
+   },
+   "morning": {
+      "message": "Доброе утро!"
+   },
+   "noon": {
+      "message": "Приятно видеть вас днём!"
+   },
+   "evening": {
+      "message": "Вы уже пообедали?"
+   },
+   "night": {
+      "message": "Время идти спать."
+   },
+   "midnight": {
+      "message": "Что нового?"
+   },
+   "notitimeannounce": {
+      "message": "Ежечасное оповещение"
+   },
+   "notitimeis": {
+      "message": "Сейчас: "
+   },
+   "am": {
+      "message": "д.п."
+   },
+   "pm": {
+      "message": "п.п."
+   },
+   "saved": {
+      "message": "Сохранено."
+   },
+   "notsaved": {
+      "message": "Измененный вариантов не был сохранен! Продолжить?"
+   },
+   "ctxcmt": {
+      "message": "Сообщить об ошибке / Комментарии"
+   },
+   "digital": {
+      "message": "Цифровые часы"
+   },
+   "analog": {
+      "message": "аналоговые часы"
+   },
+   "ctxhide": {
+      "message": "Не показывать эти пункты"
+   },
+   "chat": {
+      "message": "чате"
+   },
+   "forum": {
+      "message": "форум"
+   },
+   "calendar": {
+      "message": "календарь"
+   },
+   "setalarm": {
+      "message": "будильник"
+   }
+}

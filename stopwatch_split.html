@@ -1,0 +1,81 @@
+<!Doctype HTML>
+<html>
+	<head>
+		<title>Stopwatch splits</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<link rel="icon" type="image/png" href="icons/16x16.png" />
+		<style>
+			body{
+				font-family:Verdana, Geneva, sans-serif;
+				font-size:16px;
+				overflow:hidden;
+				-webkit-user-select:none;
+				background-image:-webkit-gradient(
+					linear,
+					left top,
+					left bottom,
+					from(#f2f2f2),
+					to(lightgray)
+				);
+				cursor:default;
+				text-align:center;
+				margin:0px;
+				padding:0px;
+			}
+		
+			body > div{
+				float:left;
+				padding:10px 30px 30px 30px;
+			}
+			
+			h2{
+				text-align:center;
+				margin:0px;
+				font-size:25px;
+				font-family:"Arial";
+				color:#9ab1d1;
+				text-shadow:0px 1px 0px white, 0px -1px 0px gray;
+			}
+			
+			div#splits > table{
+				width:150px;
+				border-collapse:collapse;
+				border:1px solid gray;
+				box-shadow:0px 10px 5px -5px #888;
+			}
+			
+			div#splits > table td{
+				border-collapse:collapse;
+				border:1px solid gray;
+				background:#EEE;
+			}
+			
+			div#splits > table tr:nth-child(1) td{
+				background:-webkit-gradient(
+					linear,
+					left top,
+					left bottom,
+					from(#EEEEEE),
+					to(darkgray)
+				);
+				-webkit-transform:rotate(360deg);
+				text-shadow:0px 0px 5px white;
+			}
+			
+			div#splits > span{
+				font-size:12px;
+				color:gray;
+			}
+			
+		</style>
+		<script type="text/javascript" src="/jquery.js"></script>
+		<script type="text/javascript" src="translation.js"></script>
+		<script type="text/javascript" src="/scripts/stopwatch_split/js.js"></script>
+	</head>
+	<body>
+		<div>
+			<h2>Splits</h2>
+			<div id="splits"></div>		
+		</div>
+	</body>
+</html>

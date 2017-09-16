@@ -1,0 +1,269 @@
+﻿{
+   "extDes": {
+      "message": "ההרחבה הראשונה  הדיגיטלית+שעון מחוגים  על לוח הכלים של כרום+הכרזה שעתית של השעה על לוח ההודעות."
+   },
+   "extName": {
+      "message": "מגניב שעון"
+   },
+   "settings": {
+      "message": "אפשרויות"
+   },
+   "hourlytimeannounce": {
+      "message": "הכרזה שעתית"
+   },
+   "enablehourlytimeannounce": {
+      "message": "הפעל הכרזה לפי שעה"
+   },
+   "shownotificationfor": {
+      "message": "כמה זמן להציג הכרזה"
+   },
+   "seconds": {
+      "message": "שניות"
+   },
+   "max999": {
+      "message": "(מקסימום: 999)"
+   },
+   "showtodowhenopen": {
+      "message": ""
+   },
+   "display": {
+      "message": "הצג"
+   },
+   "usedigital": {
+      "message": "הישתמש בספרות דיגיטליות"
+   },
+   "digitalmsg": {
+      "message": "(אזהרה: שימוש בספרות דיגיטליות כרוך בשימוש רב של זיכרון המחשב)"
+   },
+   "usedarkmode": {
+      "message": "מצב עיצוב כהה)למי שמישתמש בעיצוב כהה,יתוסף בועה חצויה מתחת לספרות כך שאפשר יהיה לראות את השעה)"
+   },
+   "useanalog": {
+      "message": "שימוש בשעון רגיל-אנלוגי"
+   },
+   "analogmsg": {
+      "message": "(4 ק\"ב שניה )"
+   },
+   "noscroll": {
+      "message": "אל תשתמש באפקט גלילה(תצוגת 4 ספרות במקום)י"
+   },
+   "_12hour": {
+      "message": "הישתמש במערכת של 12 שעות-ברירת מחדל היא 24"
+   },
+   "showiconclock": {
+      "message": "עם החץ-הצג שעון באייקון"
+   },
+   "showbadgeclock": {
+      "message": "הצג שעון בתיוג"
+   },
+   "comment": {
+      "message": "תגובה"
+   },
+   "cmtmsg": {
+      "message": "האם יש תגובה-דווח על באג"
+   },
+   "memmsg": {
+      "message": "\"אנימציה בדר כלל גוזלת הרבה זיכרון מערכת,"
+   },
+   "showupdate": {
+      "message": ""
+   },
+   "updateiconevery": {
+      "message": ""
+   },
+   "updateiconeverymsg": {
+      "message": ""
+   },
+   "_1sec": {
+      "message": "1 שניות"
+   },
+   "_2sec": {
+      "message": "2 שניות"
+   },
+   "_5sec": {
+      "message": "5 שניות"
+   },
+   "_10sec": {
+      "message": "10 שניות"
+   },
+   "_30sec": {
+      "message": "30 שניות"
+   },
+   "_1min": {
+      "message": ""
+   },
+   "viewsavedalarm": {
+      "message": ""
+   },
+   "OK": {
+      "message": "בסדר"
+   },
+   "apply": {
+      "message": "מסכים"
+   },
+   "cancel": {
+      "message": "ביטול"
+   },
+   "about": {
+      "message": "אודות"
+   },
+   "whatsnew": {
+      "message": "הצג פרטים חדשים בגירסה זו"
+   },
+   "none": {
+      "message": ""
+   },
+   "defaultringtone": {
+      "message": ""
+   },
+   "URLringtone": {
+      "message": ""
+   },
+   "allpurpose": {
+      "message": ""
+   },
+   "alarmandringtone": {
+      "message": ""
+   },
+   "close": {
+      "message": "סגור"
+   },
+   "timeis": {
+      "message": "עכשיו הזמן"
+   },
+   "notflash": {
+      "message": "אני לא גרסת שעון פלש"
+   },
+   "version": {
+      "message": ""
+   },
+   "countdown": {
+      "message": ""
+   },
+   "alarm": {
+      "message": ""
+   },
+   "stat": {
+      "message": ""
+   },
+   "timer": {
+      "message": ""
+   },
+   "tools": {
+      "message": ""
+   },
+   "day_0": {
+      "message": "יום ראשון"
+   },
+   "day_1": {
+      "message": "יום שני"
+   },
+   "day_2": {
+      "message": "יום שלישי"
+   },
+   "day_3": {
+      "message": "יום רביעי "
+   },
+   "day_4": {
+      "message": "יום חמישי"
+   },
+   "day_5": {
+      "message": "יום שישי"
+   },
+   "day_6": {
+      "message": "יום שבת"
+   },
+   "month_1": {
+      "message": "ינואר"
+   },
+   "month_2": {
+      "message": "פבואר"
+   },
+   "month_3": {
+      "message": "מרץ"
+   },
+   "month_4": {
+      "message": "אפריל"
+   },
+   "month_5": {
+      "message": "מאי"
+   },
+   "month_6": {
+      "message": "יוני"
+   },
+   "month_7": {
+      "message": "יולי"
+   },
+   "month_8": {
+      "message": "אוג"
+   },
+   "month_9": {
+      "message": "ספט"
+   },
+   "month_10": {
+      "message": "אוק"
+   },
+   "month_11": {
+      "message": "נוב"
+   },
+   "month_12": {
+      "message": "דצמ"
+   },
+   "morning": {
+      "message": "בוקר טוב"
+   },
+   "noon": {
+      "message": "!טוב לראותך אחה\"צ"
+   },
+   "evening": {
+      "message": "האם אכלת את ארוחת הערב?"
+   },
+   "night": {
+      "message": "הגיע הזמן לישון."
+   },
+   "midnight": {
+      "message": "מה שלומך?"
+   },
+   "notitimeannounce": {
+      "message": "הכרזה שעתית"
+   },
+   "notitimeis": {
+      "message": "עכשיו "
+   },
+   "am": {
+      "message": "בוקר"
+   },
+   "pm": {
+      "message": "ערב"
+   },
+   "saved": {
+      "message": ""
+   },
+   "notsaved": {
+      "message": ""
+   },
+   "ctxcmt": {
+      "message": ""
+   },
+   "digital": {
+      "message": ""
+   },
+   "analog": {
+      "message": ""
+   },
+   "ctxhide": {
+      "message": ""
+   },
+   "chat": {
+      "message": "Chat box"
+   },
+   "forum": {
+      "message": "Forum"
+   },
+   "calendar": {
+      "message": ""
+   },
+   "setalarm": {
+      "message": ""
+   }
+}

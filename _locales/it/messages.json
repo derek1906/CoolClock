@@ -1,0 +1,269 @@
+﻿{
+   "extDes": {
+      "message": "La prima estensione che ha orologio digitale + analogico sulla tua toolbar di Chrome + notifiche orarie sul desktop."
+   },
+   "extName": {
+      "message": "Orologio di Chrome"
+   },
+   "settings": {
+      "message": "Opzioni"
+   },
+   "hourlytimeannounce": {
+      "message": "Notifiche orarie"
+   },
+   "enablehourlytimeannounce": {
+      "message": "Attiva le notifiche orarie! (Notifiche al desktop)"
+   },
+   "shownotificationfor": {
+      "message": "Durata della visualizzazione della notifica:  "
+   },
+   "seconds": {
+      "message": "secondi."
+   },
+   "max999": {
+      "message": "(Massimo: 999)"
+   },
+   "showtodowhenopen": {
+      "message": "Mostra to-do sulle notifiche del desktop mentre il browser è in esecuzione."
+   },
+   "display": {
+      "message": "Mostra"
+   },
+   "usedigital": {
+      "message": "Usa orologio digitale"
+   },
+   "digitalmsg": {
+      "message": "(Attenzione:  usare l'orologio digitale potrebbe richiedere molta memoria del tuo pc.)"
+   },
+   "usedarkmode": {
+      "message": "Usa tema scuro (Per coloro che usano un tema scuro, aggiunge uno sfondo chiaro dietro le cifre, così è possibile visualizzarle.)"
+   },
+   "useanalog": {
+      "message": "Usa orologio analogico"
+   },
+   "analogmsg": {
+      "message": "(Circa 4k per secondo.)"
+   },
+   "noscroll": {
+      "message": "Non usare l'effetto scorrimento (Mostra 4 cifre invece eseguire lo scorrimento)"
+   },
+   "_12hour": {
+      "message": "Usa sistema da 12 ore (L'impostazione predefinita utilizza 24 ore)"
+   },
+   "showiconclock": {
+      "message": "Mostra l'orologio sull'icona (Quella con la freccia)"
+   },
+   "showbadgeclock": {
+      "message": "Mostra l'ora digitale davanti all'orologio analogico"
+   },
+   "comment": {
+      "message": "Commento"
+   },
+   "cmtmsg": {
+      "message": "Hai un commento? Vuoi segnalare un bug? clicca qui!"
+   },
+   "memmsg": {
+      "message": "Le animazioni normalmente disegnano una nuova immagine per secondo, questo normalmente occupa molta memoria dopo un po' di tempo. Sto provando a ridurlo al minimo indispensabile."
+   },
+   "showupdate": {
+      "message": "Mostra la pagina informativa dopo ogni aggiornamento."
+   },
+   "updateiconevery": {
+      "message": "Aggiorna l'icona ogni: "
+   },
+   "updateiconeverymsg": {
+      "message": "(Ad intervalli lunghi corrisponde meno risorse utilizzate.)"
+   },
+   "_1sec": {
+      "message": "1 secondo"
+   },
+   "_2sec": {
+      "message": "2 secondi"
+   },
+   "_5sec": {
+      "message": "5 secondi"
+   },
+   "_10sec": {
+      "message": "10 secondi"
+   },
+   "_30sec": {
+      "message": "30 secondi"
+   },
+   "_1min": {
+      "message": "1 minuto"
+   },
+   "viewsavedalarm": {
+      "message": "Vedi salvato allarmi"
+   },
+   "OK": {
+      "message": "OK"
+   },
+   "apply": {
+      "message": "Applica"
+   },
+   "cancel": {
+      "message": "Annulla"
+   },
+   "about": {
+      "message": "About"
+   },
+   "whatsnew": {
+      "message": "Vedi quali sono le novità in questa versione"
+   },
+   "none": {
+      "message": ""
+   },
+   "defaultringtone": {
+      "message": ""
+   },
+   "URLringtone": {
+      "message": ""
+   },
+   "allpurpose": {
+      "message": ""
+   },
+   "alarmandringtone": {
+      "message": ""
+   },
+   "close": {
+      "message": "Chiudi"
+   },
+   "timeis": {
+      "message": "Sono le: "
+   },
+   "notflash": {
+      "message": "(Non sono un orologio Flash!)"
+   },
+   "version": {
+      "message": "Versione"
+   },
+   "countdown": {
+      "message": "Conto alla rovescia"
+   },
+   "alarm": {
+      "message": "Sveglia"
+   },
+   "stat": {
+      "message": ""
+   },
+   "timer": {
+      "message": ""
+   },
+   "tools": {
+      "message": ""
+   },
+   "day_0": {
+      "message": "Domenica"
+   },
+   "day_1": {
+      "message": "Lunedì"
+   },
+   "day_2": {
+      "message": "Martedì"
+   },
+   "day_3": {
+      "message": "Mercoledì"
+   },
+   "day_4": {
+      "message": "Giovedì"
+   },
+   "day_5": {
+      "message": "Venerdì"
+   },
+   "day_6": {
+      "message": "Sabato"
+   },
+   "month_1": {
+      "message": "Gen"
+   },
+   "month_2": {
+      "message": "Feb"
+   },
+   "month_3": {
+      "message": "Mar"
+   },
+   "month_4": {
+      "message": "Apr"
+   },
+   "month_5": {
+      "message": "Mag"
+   },
+   "month_6": {
+      "message": "Giu"
+   },
+   "month_7": {
+      "message": "Lug"
+   },
+   "month_8": {
+      "message": "Ago"
+   },
+   "month_9": {
+      "message": "Set"
+   },
+   "month_10": {
+      "message": "Ott"
+   },
+   "month_11": {
+      "message": "Nov"
+   },
+   "month_12": {
+      "message": "Dic"
+   },
+   "morning": {
+      "message": "Buongiorno!"
+   },
+   "noon": {
+      "message": "E` bello vederti di pomeriggio!"
+   },
+   "evening": {
+      "message": "Hai già mangiato?"
+   },
+   "night": {
+      "message": "E` ora di andare a letto."
+   },
+   "midnight": {
+      "message": "Come va?"
+   },
+   "notitimeannounce": {
+      "message": "Notifiche orarie"
+   },
+   "notitimeis": {
+      "message": "Sono le"
+   },
+   "am": {
+      "message": ""
+   },
+   "pm": {
+      "message": ""
+   },
+   "saved": {
+      "message": "Le opzioni sono salvate."
+   },
+   "notsaved": {
+      "message": ""
+   },
+   "ctxcmt": {
+      "message": "Bug report / Commenti"
+   },
+   "digital": {
+      "message": "Orologio Digitale"
+   },
+   "analog": {
+      "message": "Orologio Analogico"
+   },
+   "ctxhide": {
+      "message": ""
+   },
+   "chat": {
+      "message": "Chat box"
+   },
+   "forum": {
+      "message": ""
+   },
+   "calendar": {
+      "message": "Calendario"
+   },
+   "setalarm": {
+      "message": ""
+   }
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Popup</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<link rel="icon" type="image/png" href="icons/16x16.png" />
+
+		<script type="text/javascript" charset="utf-8" src="jquery.js"></script>
+		<script type="text/javascript" src="/scripts/jquery_ui/jquery-ui-1.10.1.custom.min.js"></script>
+		<script type="text/javascript" src="/scripts/transit/jquery.transit.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="translation.js"></script>
+		<script type="text/javascript" charset="utf-8" src="/jstimezone.js"></script>
+		<script type="text/javascript" charset="utf-8" src='/scripts/gravity/gravity.js'></script>
+		<script type="text/javascript" charset="utf-8" src='/scripts/gravity/box2d.js'></script>
+		
+		<script type="text/javascript" charset="utf-8" src="/scripts/new_popup/js.js"></script>
+		
+		<link rel="stylesheet" href="/scripts/jquery_ui/sunny/jquery-ui-1.10.1.custom.min.css">
+		<link type="text/css" rel="stylesheet" href="/input.css">
+		<link type="text/css" rel="stylesheet" href="/scripts/new_popup/css.css">
+	</head>
+	<body>
+		<div id="misc">
+			<div id="tools"></div>
+			<span id="version"></span>
+		</div>
+		<div id="container">
+			<div id="hours"></div>
+			<div id="minutes"></div>
+			<div id="seconds"></div>
+			<div id="apm"></div>
+		</div>
+		<div id="content">
+			<div id="date">
+				<div id="big"></div>
+				<div id="shelf">
+					<div id="top"></div><br>
+					<div id="bottom"></div>
+				</div>
+				<div id="greetings"></div>
+			</div>
+			<div id="board">
+				<div id="todos"><span>Today's event:</span></div>
+				<div id="alarms"><span>Alarms:</span></div>
+				<div id="countdowns"><span>Current countdowns:</span></div>
+			</div>
+		</div>
+		
+		<div id="slideUp" class="hide">
+			<span trans="tools" id="label">Tools</span>
+			<div class="wrapper">
+				<div>
+					<span trans="alarm">Alarm</span>
+					<img src="/images/popup/alarm.png">
+				</div>
+				<div>
+					<span>Timers</span>
+					<img src="/images/popup/timer.png">
+				</div>
+				<div>
+					<span trans="calendar">Calendar</span>
+					<img src="/images/popup/calendar.png">
+				</div>
+				<div>
+					<span trans="stat">Statistics</span>
+					<img src="/images/popup/stat.png">
+				</div>
+			</div>
+			<div class="footer">
+				<a href="#" id="about" trans="about">About</a> ‧ <a href="#" id="help" trans="help">Help</a> ‧ <a href="#" id="bug" trans="ctxcmt">Bug report</a> ‧ <a href="#" id="forum" trans="forum">Forum</a> ‧ <a href="#" id="settings" trans="settings">Settings</a> ‧ 
+				<!--<iframe id="fblike"  scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px; text-align:center" allowTransparency="true"></iframe>-->
+				<a href="https://www.facebook.com/coolclock" target="_blank"><img src="/images/popup/f_logo.png" width="14" height="14"></a>
+			</div>
+		</div>
+		
+		
+		<div id="timerChoose" title="Timers">
+			<button id="countdown" trans="countdown">Countdown Timer</button><br>
+			<button id="stopwatch" trans="timer">Stopwatch</button>
+		</div>
+	</body>
+</html>

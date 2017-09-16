@@ -1,0 +1,269 @@
+﻿{
+   "extDes": {
+      "message": "An extension fully loaded with tons of useful time-related features... But the best part is, it is totally COOL."/*"Η πρώτη επέκταση που έχει Ψηφιακό + Αναλογικό ρολόι στη γραμμή εργαλείων + ωριαία ανακοίνωση της ώρας σε μια ειδοποίηση της επιφάνεια εργασίας."*/
+   },
+   "extName": {
+      "message": "Cool Ρολόι"
+   },
+   "settings": {
+      "message": "Επιλογές"
+   },
+   "hourlytimeannounce": {
+      "message": "Ωριαία Ανακοίνωση Ώρας"
+   },
+   "enablehourlytimeannounce": {
+      "message": "Ενεργοποίηση Ωριαίας Ανακοίνωσης Ώρας! (κοινοποίηση στην επιφάνεια εργασίας)"
+   },
+   "shownotificationfor": {
+      "message": "Εμφάνιση κοινοποίησης για: "
+   },
+   "seconds": {
+      "message": "δευτερόλεπτα."
+   },
+   "max999": {
+      "message": "(Μέγιστη:  999)"
+   },
+   "showtodowhenopen": {
+      "message": "Ειδοποίηση προς-dos στην επιφάνεια εργασίας, Ειδοποίηση όταν εκτελείτε το πρόγραμμα περιήγησης σας."
+   },
+   "display": {
+      "message": "Εμφάνιση"
+   },
+   "usedigital": {
+      "message": "Χρησιμοποιήστε το ψηφιακό ρολόι"
+   },
+   "digitalmsg": {
+      "message": "(Προσοχή:  Χρησιμοποιώντας το ψηφιακό ρολόι θα καταλαμβάνει πολύ μνήμη του υπολογιστή σας.)"
+   },
+   "usedarkmode": {
+      "message": "Χρησιμοποιήστε τη λειτουργία θέματος σκοτεινό (Για εκείνους που χρησιμοποιούν σκοτεινό θέμα, θα προσθέσουμε μια μισό-διαφανή φούσκα με τους αριθμούς έτσι ώστε να μπορέσετε να δείτε την ώρα.)"
+   },
+   "useanalog": {
+      "message": "Χρησιμοποιήστε το αναλογικό ρολόι"
+   },
+   "analogmsg": {
+      "message": "(Περίπου 4 KB ανά δευτερόλεπτο.)"
+   },
+   "noscroll": {
+      "message": "Μην χρησιμοποιείτε εφέ κύλισης (Εμφάνιση 4 αριθμούς αντί για κύλιση)"
+   },
+   "_12hour": {
+      "message": "Χρησιμοποιήστε 12 ώρo σύστημα (Προεπιλογή χρησιμοποιεί 24 ώρο σύστημα)"
+   },
+   "showiconclock": {
+      "message": "Εμφάνιση ρολογιού στο εικονίδιο (Το ένα με βέλος)"
+   },
+   "showbadgeclock": {
+      "message": "Εμφάνιση ώρας στο σήμα"
+   },
+   "comment": {
+      "message": "Σχολιάστε"
+   },
+   "cmtmsg": {
+      "message": "Έχετε κάποιο σχόλιο; Αναφέρετε ένα σφάλμα; Πατήστε εδώ!"
+   },
+   "memmsg": {
+      "message": "Η αναζωογόνηση συνήθως \"σύρει\" μια νέα εικόνα ανά δευτερόλεπτο, οπότε κανονικά θα πάρει επάνω πολύ μνήμη μετά από μια χρονική περίοδο, ενώ είμαι προσπαθώντας να μειωθεί στο ελάχιστο."
+   },
+   "showupdate": {
+      "message": "Εμφάνιση της σελίδας ενημέρωσης μετά από κάθε φορά που αυτή η επέκταση έχει ενημερωθεί."
+   },
+   "updateiconevery": {
+      "message": "Ανανεώστε το εικονίδιο κάθε: "
+   },
+   "updateiconeverymsg": {
+      "message": "(Όσο περισσότερο είναι, τόσο ελαφρύτερη είναι αυτή η επέκταση.)"
+   },
+   "_1sec": {
+      "message": "1 δευτερόλεπτο"
+   },
+   "_2sec": {
+      "message": "2 δευτερόλεπτα"
+   },
+   "_5sec": {
+      "message": "5 δευτερόλεπτα"
+   },
+   "_10sec": {
+      "message": "10 δευτερόλεπτα"
+   },
+   "_30sec": {
+      "message": "30 δευτερόλεπτα"
+   },
+   "_1min": {
+      "message": "1 λεπτό"
+   },
+   "viewsavedalarm": {
+      "message": "Προβολή αποθηκευμένων ειδοποιήσεων"
+   },
+   "OK": {
+      "message": "Εντάξει"
+   },
+   "apply": {
+      "message": "Εφαρμογή"
+   },
+   "cancel": {
+      "message": "Ακύρωση"
+   },
+   "about": {
+      "message": "Σχετικά"
+   },
+   "whatsnew": {
+      "message": "Δείτε τι νέο υπάρχει σε αυτήν την έκδοση"
+   },
+   "none": {
+      "message": ""
+   },
+   "defaultringtone": {
+      "message": ""
+   },
+   "URLringtone": {
+      "message": ""
+   },
+   "allpurpose": {
+      "message": ""
+   },
+   "alarmandringtone": {
+      "message": ""
+   },
+   "close": {
+      "message": "Κλείσιμο"
+   },
+   "timeis": {
+      "message": "Τώρα η ώρα είναι: "
+   },
+   "notflash": {
+      "message": "(Δεν είμαι ένα ρολόι Flash!)"
+   },
+   "version": {
+      "message": "Έκδοση"
+   },
+   "countdown": {
+      "message": "χρονόμετρο αντίστροφης μέτρησης"
+   },
+   "alarm": {
+      "message": "ξυπνητήρι"
+   },
+   "stat": {
+      "message": "Στατιστικά"
+   },
+   "timer": {
+      "message": ""
+   },
+   "tools": {
+      "message": ""
+   },
+   "day_0": {
+      "message": "Κυριακή"
+   },
+   "day_1": {
+      "message": "Δευτέρα"
+   },
+   "day_2": {
+      "message": "Τρίτη"
+   },
+   "day_3": {
+      "message": "Τετάρτη"
+   },
+   "day_4": {
+      "message": "Πέμπτη"
+   },
+   "day_5": {
+      "message": "Παρασκευή"
+   },
+   "day_6": {
+      "message": "Σάββατο"
+   },
+   "month_1": {
+      "message": "Ιαν"
+   },
+   "month_2": {
+      "message": "Φεβ"
+   },
+   "month_3": {
+      "message": "Μάρ"
+   },
+   "month_4": {
+      "message": "Απρ"
+   },
+   "month_5": {
+      "message": "Μάι"
+   },
+   "month_6": {
+      "message": "Ιούν"
+   },
+   "month_7": {
+      "message": "Ιούλ"
+   },
+   "month_8": {
+      "message": "Αύγ"
+   },
+   "month_9": {
+      "message": "Σεπ"
+   },
+   "month_10": {
+      "message": "Οκτ"
+   },
+   "month_11": {
+      "message": "Νοέ"
+   },
+   "month_12": {
+      "message": "Δεκ"
+   },
+   "morning": {
+      "message": "Καλημέρα!"
+   },
+   "noon": {
+      "message": "Μεγάλη μου χαρά που σας βλέπω μέσα στο Απόγευμα!"
+   },
+   "evening": {
+      "message": "Έχετε φάει το δείπνο σας ακόμα;"
+   },
+   "night": {
+      "message": "Ήρθε η ώρα για ύπνο."
+   },
+   "midnight": {
+      "message": "Τι κάνεις;"
+   },
+   "notitimeannounce": {
+      "message": "Ωριαία Ανακοίνωση Ώρας..."
+   },
+   "notitimeis": {
+      "message": "Τώρα είναι"
+   },
+   "am": {
+      "message": ""
+   },
+   "pm": {
+      "message": ""
+   },
+   "saved": {
+      "message": "Αποθηκεύτηκε."
+   },
+   "notsaved": {
+      "message": ""
+   },
+   "ctxcmt": {
+      "message": ""
+   },
+   "digital": {
+      "message": "ψηφιακό ρολόι"
+   },
+   "analog": {
+      "message": "αναλογικό ρολό"
+   },
+   "ctxhide": {
+      "message": ""
+   },
+   "chat": {
+      "message": "Chat box"
+   },
+   "forum": {
+      "message": ""
+   },
+   "calendar": {
+      "message": ""
+   },
+   "setalarm": {
+      "message": ""
+   }
+}

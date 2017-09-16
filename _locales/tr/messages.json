@@ -1,0 +1,269 @@
+﻿{
+   "extDes": {
+      "message": "An extension fully loaded with tons of useful time-related features... But the best part is, it is totally COOL."
+   },
+   "extName": {
+      "message": "Cool Saat"
+   },
+   "settings": {
+      "message": "Seçenekler"
+   },
+   "hourlytimeannounce": {
+      "message": "Saat başı duyurusu"
+   },
+   "enablehourlytimeannounce": {
+      "message": "Saat başı duyurusunu aç"
+   },
+   "shownotificationfor": {
+      "message": "Show "
+   },
+   "seconds": {
+      "message": "saniye bildirim uzun."
+   },
+   "max999": {
+      "message": "(Maksimum:  999)"
+   },
+   "showtodowhenopen": {
+      "message": "Tarayıcınızı çalıştırdığınızda yapılacakları masaüstü bildirimlerinde göster"
+   },
+   "display": {
+      "message": "Göster"
+   },
+   "usedigital": {
+      "message": "Dijital saat kullan"
+   },
+   "digitalmsg": {
+      "message": "(Uyarı:  Dijital saat kullanmak bilgisayarınızın hafızasını daha çok kullanacak)"
+   },
+   "usedarkmode": {
+      "message": "Koyu tema modu kullan (Koyu tema kullananlar için; sayıların altına yarı-şeffaf kabarcık eklenecektir, böylelikle zamanı görebileceksiniz.)"
+   },
+   "useanalog": {
+      "message": "Analog saat kullan"
+   },
+   "analogmsg": {
+      "message": "(saniyede yaklaşık 4 KB)"
+   },
+   "noscroll": {
+      "message": "Kaydırma efekti kullanma (Kaydırma yerine 4 sayı göster)"
+   },
+   "_12hour": {
+      "message": "12 saatlik sistemi kullan (Varsayılan 24 saatlik sistemdir)"
+   },
+   "showiconclock": {
+      "message": "Simgede saati göster (oklu olan)"
+   },
+   "showbadgeclock": {
+      "message": "Simgede saati göster"
+   },
+   "comment": {
+      "message": "Yorum"
+   },
+   "cmtmsg": {
+      "message": "Bir yorumunuz mu var? Bir hata mı bildireceksiniz? buraya basın!"
+   },
+   "memmsg": {
+      "message": "Animasyon genellikle her saniyede bir yeni bir resim gösterir. Normal de belirli bir süre sonunda daha fazla hafıza kullanımına neden olur ki ben de bunu azaltmaya çalışıyorum."
+   },
+   "showupdate": {
+      "message": "Bu uzantının her güncellenmesinden sonra Güncelleme sayfasını göster"
+   },
+   "updateiconevery": {
+      "message": "Simgeyi her"
+   },
+   "updateiconeverymsg": {
+      "message": "(Uzun zamandır, hafif bu uzantısıdır.) "
+   },
+   "_1sec": {
+      "message": "1 saniye"
+   },
+   "_2sec": {
+      "message": "2 saniye"
+   },
+   "_5sec": {
+      "message": "5 saniye"
+   },
+   "_10sec": {
+      "message": "10 saniye"
+   },
+   "_30sec": {
+      "message": "30 saniye"
+   },
+   "_1min": {
+      "message": "1 dakika"
+   },
+   "viewsavedalarm": {
+      "message": "Kayıtlı alarmları göster"
+   },
+   "OK": {
+      "message": "Tamam"
+   },
+   "apply": {
+      "message": "Uygula"
+   },
+   "cancel": {
+      "message": "İptal"
+   },
+   "about": {
+      "message": "Hakkında"
+   },
+   "whatsnew": {
+      "message": "Bu versiyonda yeni neler olduğuna bakın"
+   },
+   "none": {
+      "message": "Hiçbiri"
+   },
+   "defaultringtone": {
+      "message": "Varsayılan zil sesi"
+   },
+   "URLringtone": {
+      "message": "URL'den"
+   },
+   "allpurpose": {
+      "message": "Genel amaçlı zil sesi"
+   },
+   "alarmandringtone": {
+      "message": "Alarm ve Zil sesi"
+   },
+   "close": {
+      "message": "Kapat"
+   },
+   "timeis": {
+      "message": "Şu an saat: "
+   },
+   "notflash": {
+      "message": "(Ben bir Flash saat değilim!)"
+   },
+   "version": {
+      "message": "Versiyon"
+   },
+   "countdown": {
+      "message": "Gerisayım"
+   },
+   "alarm": {
+      "message": "Alarm saati"
+   },
+   "stat": {
+      "message": "Istatistik"
+   },
+   "timer": {
+      "message": "Kronometre"
+   },
+   "tools": {
+      "message": "Araçlar"
+   },
+   "day_0": {
+      "message": "Pazar"
+   },
+   "day_1": {
+      "message": "Pazartesi"
+   },
+   "day_2": {
+      "message": "Salı"
+   },
+   "day_3": {
+      "message": "Çarşamba"
+   },
+   "day_4": {
+      "message": "Perşembe"
+   },
+   "day_5": {
+      "message": "Cuma"
+   },
+   "day_6": {
+      "message": "Cumartesi"
+   },
+   "month_1": {
+      "message": "Oca"
+   },
+   "month_2": {
+      "message": "Şub"
+   },
+   "month_3": {
+      "message": "Mar"
+   },
+   "month_4": {
+      "message": "Nis"
+   },
+   "month_5": {
+      "message": "May"
+   },
+   "month_6": {
+      "message": "Haz"
+   },
+   "month_7": {
+      "message": "Tem"
+   },
+   "month_8": {
+      "message": "Ağu"
+   },
+   "month_9": {
+      "message": "Eyl"
+   },
+   "month_10": {
+      "message": "Eki"
+   },
+   "month_11": {
+      "message": "Kas"
+   },
+   "month_12": {
+      "message": "Ara"
+   },
+   "morning": {
+      "message": "Günaydın!"
+   },
+   "noon": {
+      "message": "Öğleden sonra seni görmek harika."
+   },
+   "evening": {
+      "message": "Akşam yemeğini yedin mi?"
+   },
+   "night": {
+      "message": "Yatma zamanı."
+   },
+   "midnight": {
+      "message": "Ne oldu?"
+   },
+   "notitimeannounce": {
+      "message": "Saat başı duyurusu"
+   },
+   "notitimeis": {
+      "message": "Şu an saat"
+   },
+   "am": {
+      "message": ""
+   },
+   "pm": {
+      "message": ""
+   },
+   "saved": {
+      "message": "Seçenekler kaydedilir."
+   },
+   "notsaved": {
+      "message": "Değiştirilen seçenekler henüz kaydedilmedi. Yine de kapatılsın mı?"
+   },
+   "ctxcmt": {
+      "message": "Bug Report / Yorum"
+   },
+   "digital": {
+      "message": "Dijital saat"
+   },
+   "analog": {
+      "message": "Analog saat"
+   },
+   "ctxhide": {
+      "message": "Bunları gösterme"
+   },
+   "chat": {
+      "message": "Chat box"
+   },
+   "forum": {
+      "message": "Forum"
+   },
+   "calendar": {
+      "message": "Takvim"
+   },
+   "setalarm": {
+      "message": "Alarm ayarla"
+   }
+}

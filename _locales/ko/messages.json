@@ -1,0 +1,269 @@
+﻿{
+   "extDes": {
+      "message": "크롬 툴바의 디지털, 아날로그 시계 + 데스크탑 알림에 표시 되는 매 시간 알림 이 있는 첫번째 확장 프로그램."
+   },
+   "extName": {
+      "message": "Cool 시계"
+   },
+   "settings": {
+      "message": "옵션"
+   },
+   "hourlytimeannounce": {
+      "message": "매 시각 알림"
+   },
+   "enablehourlytimeannounce": {
+      "message": "매 시각 알림 켜기 (바탕화면 알림)"
+   },
+   "shownotificationfor": {
+      "message": "알림 보이기︰"
+   },
+   "seconds": {
+      "message": "초"
+   },
+   "max999": {
+      "message": "(최대︰999)"
+   },
+   "showtodowhenopen": {
+      "message": "브라우저를 켤 때 데스크탑 알림에서 할 일 알려주기."
+   },
+   "display": {
+      "message": "디스플레이"
+   },
+   "usedigital": {
+      "message": "디지털시계 사용"
+   },
+   "digitalmsg": {
+      "message": "(경고:  디지털시계를 사용할 경우 컴퓨터 메모리를 많이 소모할 수 있습니다.)"
+   },
+   "usedarkmode": {
+      "message": "Dark 테마 모드 사용 (Dark 테마를 사용할 시에 반투명 배경이 숫자 아래 추가되어서 시간을 볼 수 있습니다.)"
+   },
+   "useanalog": {
+      "message": "아날로그 시계 사용"
+   },
+   "analogmsg": {
+      "message": "(대략 초 당 4 KB)"
+   },
+   "noscroll": {
+      "message": "스크롤 효과 쓰지 않기(스크롤 대신 4개 숫자를 표시)"
+   },
+   "_12hour": {
+      "message": "12시간 체계 사용 (표준값은 24시간 체계입니다)"
+   },
+   "showiconclock": {
+      "message": "디지털 시계 아이콘(Badge) 위에 아날로그시계표시"
+   },
+   "showbadgeclock": {
+      "message": "Badge에 시간 표시"
+   },
+   "comment": {
+      "message": "코멘트"
+   },
+   "cmtmsg": {
+      "message": "할 말이 있으세요? 버그를 신고하려고요? 여기를 누르세요!"
+   },
+   "memmsg": {
+      "message": "애니메이션은 보통 매 초 새로운 그림을 \"그립니다.\" 메모리 소모를 최소화하려고 노력하고 있지만, 그렇기 때문에 어느정도 시간 후에는 많은 메모리를 소모합니다."
+   },
+   "showupdate": {
+      "message": "이 확장 프로그램이 업데이트 될 때 마다 업데이트 페이지를 보이기"
+   },
+   "updateiconevery": {
+      "message": "이 시간 마다 시간 새로 고침:  "
+   },
+   "updateiconeverymsg": {
+      "message": "(새로 고치는 시간이 길 수록, 이 확장 프로그램이 적은 메모리를 소모합니다.)"
+   },
+   "_1sec": {
+      "message": "1초"
+   },
+   "_2sec": {
+      "message": "2초"
+   },
+   "_5sec": {
+      "message": "5초"
+   },
+   "_10sec": {
+      "message": "10초"
+   },
+   "_30sec": {
+      "message": "30초"
+   },
+   "_1min": {
+      "message": "1분"
+   },
+   "viewsavedalarm": {
+      "message": "저장된 알람 보기"
+   },
+   "OK": {
+      "message": "확인"
+   },
+   "apply": {
+      "message": "적용"
+   },
+   "cancel": {
+      "message": "취소"
+   },
+   "about": {
+      "message": "약"
+   },
+   "whatsnew": {
+      "message": "이 버전에서 달라진 것"
+   },
+   "none": {
+      "message": "없음"
+   },
+   "defaultringtone": {
+      "message": "표준 벨소리"
+   },
+   "URLringtone": {
+      "message": "출처 URL:  "
+   },
+   "allpurpose": {
+      "message": "상황에 맞는 벨소리"
+   },
+   "alarmandringtone": {
+      "message": "알람 & 벨소리"
+   },
+   "close": {
+      "message": "닫기"
+   },
+   "timeis": {
+      "message": "현재시간:  "
+   },
+   "notflash": {
+      "message": "(저는 플래시 시계가 아니에요!)"
+   },
+   "version": {
+      "message": "버젼"
+   },
+   "countdown": {
+      "message": "카운트다운 시계"
+   },
+   "alarm": {
+      "message": "알람 시계"
+   },
+   "stat": {
+      "message": "통계"
+   },
+   "timer": {
+      "message": "타이머"
+   },
+   "tools": {
+      "message": "도구"
+   },
+   "day_0": {
+      "message": "일요일"
+   },
+   "day_1": {
+      "message": "월요일"
+   },
+   "day_2": {
+      "message": "화요일"
+   },
+   "day_3": {
+      "message": "수요일"
+   },
+   "day_4": {
+      "message": "목요일"
+   },
+   "day_5": {
+      "message": "금요일"
+   },
+   "day_6": {
+      "message": "토요일"
+   },
+   "month_1": {
+      "message": "1월"
+   },
+   "month_2": {
+      "message": "2월"
+   },
+   "month_3": {
+      "message": "3월"
+   },
+   "month_4": {
+      "message": "4월"
+   },
+   "month_5": {
+      "message": "5월"
+   },
+   "month_6": {
+      "message": "6월"
+   },
+   "month_7": {
+      "message": "7월"
+   },
+   "month_8": {
+      "message": "8월"
+   },
+   "month_9": {
+      "message": "9월"
+   },
+   "month_10": {
+      "message": "10월"
+   },
+   "month_11": {
+      "message": "11월"
+   },
+   "month_12": {
+      "message": "12월"
+   },
+   "morning": {
+      "message": "좋은 아침!"
+   },
+   "noon": {
+      "message": "좋은 오후!"
+   },
+   "evening": {
+      "message": "저녁 드셨어요?"
+   },
+   "night": {
+      "message": "잘 시간이네요."
+   },
+   "midnight": {
+      "message": "와썹?"
+   },
+   "notitimeannounce": {
+      "message": "매 시각 알림…"
+   },
+   "notitimeis": {
+      "message": "현재시각 "
+   },
+   "am": {
+      "message": "오전"
+   },
+   "pm": {
+      "message": "오후"
+   },
+   "saved": {
+      "message": "저장됨."
+   },
+   "notsaved": {
+      "message": "수정 옵션이 저장되지 않았습니다! 계속하시겠습니까?"
+   },
+   "ctxcmt": {
+      "message": "버그 리포트 / 의견"
+   },
+   "digital": {
+      "message": "디지털시계"
+   },
+   "analog": {
+      "message": "아날로그 시계"
+   },
+   "ctxhide": {
+      "message": "해당 항목을 표시하지 않음"
+   },
+   "chat": {
+      "message": "채팅 박스"
+   },
+   "forum": {
+      "message": "포럼"
+   },
+   "calendar": {
+      "message": "달력"
+   },
+   "setalarm": {
+      "message": "자명종"
+   }
+}

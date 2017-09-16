@@ -1,0 +1,68 @@
+﻿<!DOCTYPE HTML>
+<html>
+	<head>
+		<title trans="stat">Statistics</title>
+		<link rel="icon" type="image/png" href="/icons/16x16.png" />
+		<link rel="stylesheet" href="/bootstrap/bootstrap.min.css">
+		<link rel="stylesheet" href="/scripts/statistics/css.css">
+		<script src="/jquery.js"></script>
+		<script src="/bootstrap/bootstrap.min.js"></script>
+		<script src="/d3/d3.v3.min.js"></script>
+		<script src="/scripts/statistics/js.js"></script>
+	</head>
+	<body>
+		<div class="jumbotron topbar">
+			<h2 trans="stat">Statistics</h2>
+		</div>
+		<div class="container">
+			<div class="alert alert-info">Extension's <a href="/options_new.html#format" class="alert-link">timezone setting</a> does not apply to time displayed in this page.</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="row">
+						<div class="col-md-3 col-xs-3 fieldLabel">Current Time (Local)</div>
+						<div class="col-md-9 col-xs-9" id="currentTime"></div>
+					</div>
+				</div>
+				<hr class="visible-xs-block visible-sm-block">
+				<div class="col-md-6">
+					<div class="row">
+						<div class="col-md-3 col-xs-3 fieldLabel">Timezone (Local)</div>
+						<div class="col-md-9 col-xs-9" id="timezone">Time</div>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="row">
+						<div class="col-md-3 col-xs-3 fieldLabel">Uptime</div>
+						<div class="col-md-9 col-xs-9" id="uptime">Time</div>
+					</div>
+				</div>
+				<hr class="visible-xs-block visible-sm-block">
+				<div class="col-md-6">
+					<div class="row">
+						<div class="col-md-3 col-xs-3 fieldLabel">Session Start Time (Local)</div>
+						<div class="col-md-9 col-xs-9" id="sessionStartTime">Time</div>
+					</div>
+				</div>
+			</div>
+			<h2>Fancy Graphs</h2>
+			<hr>
+			
+			<div class="row" id="graphs">
+				<div class="col-md-4 graph" id="timeUsage"></div>
+				<div class="col-md-4 graph" id="startTime"></div>
+				<div class="col-md-4 graph" id="closeTime"></div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12 text-center controlRow">
+					<p>
+						Graphs: <button id="graphDisableBtn" class="btn btn-warning" data-enable-text="Enable" data-disable-text="Disable">Enable</button> <button id="graphResetBtn" class="btn btn-danger">RESET DATA</button>
+					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,100 @@
+﻿@font-face { font-family: "Roboto-Regular"; src: url('/fonts/Roboto-Regular.ttf'); }
+
+html, body{
+	height: 100%;
+}
+body{
+	font-family: Verdana, '微軟正黑體','微軟雅黑','SimHei','新細明體', sans-serif;
+	position: relative;
+}
+.container{
+	margin-bottom: 50px;
+}
+.topbar{
+	background: rgb(7,114,161);
+	color: rgb(255,255,255);
+	box-shadow: 0 0px 7px #555;
+	font-family: "Roboto-Regular", '微軟正黑體';
+}
+
+.fieldLabel{
+	font-weight: bold;
+}
+
+.graph{
+	height: 350px;
+	text-align: center;
+	font-family: Arial;
+}
+
+.graph > svg{
+	display: inline-block;
+	width: 360px;
+	height: 350px;
+}
+
+.bar rect {
+  fill: steelblue;
+  shape-rendering: crispEdges;
+  cursor: pointer;
+  stroke: rgba(100,100,100,0);
+  stroke-width: 2px;
+  -webkit-transition: fill 0.1s ease-in;
+}
+
+.graph > svg > g:hover .bar rect, .graph > svg > g:hover .arc path{
+    fill: rgba(70, 130, 180, .3);
+}
+
+.graph > svg > g:hover .bar:hover rect, .graph > svg > g:hover .arc:hover path{
+	/*stroke: rgba(100,100,100,1);*/
+    fill: rgba(70, 130, 180, 1);
+}
+
+.bar text {
+	fill: #fff;
+	cursor: pointer;
+}
+
+.label, .axisLabel{
+	font-size: 8px;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.axis .tick{
+	font-size: 10px;
+}
+
+
+.controlRow{
+	padding-top: 50px;
+}
+
+
+.pie .arc path{
+	fill: steelblue;
+	stroke: #fff;
+	cursor: pointer;
+	-webkit-transition: fill 0.1s ease-in;
+}
+.pie .arc text {
+	fill: #fff;
+	font-size: 14px;
+	cursor: pointer;
+	font-family: Arial, 微軟正黑體;
+}
+
+
+
+footer{
+	background: #5A5A5A;
+	height: 60px;
+	color: #fff;
+	padding: 22px;
+	text-align: center;
+}

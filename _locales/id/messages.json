@@ -1,0 +1,269 @@
+﻿{
+   "extDes": {
+      "message": "An extension fully loaded with tons of useful time-related features... But the best part is, it is totally COOL."
+   },
+   "extName": {
+      "message": "Cool Clock"
+   },
+   "settings": {
+      "message": "Pilihan"
+   },
+   "hourlytimeannounce": {
+      "message": "Pengumuman Waktu Tiap Jam"
+   },
+   "enablehourlytimeannounce": {
+      "message": "Nyalakan Pengumuman Waktu Tiap Jam (notifikasi Desktop)"
+   },
+   "shownotificationfor": {
+      "message": "Tunjukan notifikasi untuk: "
+   },
+   "seconds": {
+      "message": "detik"
+   },
+   "max999": {
+      "message": "(Maksimum: 999)"
+   },
+   "showtodowhenopen": {
+      "message": "Waspada terhadap-dos dalam pemberitahuan desktop saat Anda menjalankan browser Anda. "
+   },
+   "display": {
+      "message": "Tampilan"
+   },
+   "usedigital": {
+      "message": "Gunakan Jam Digital"
+   },
+   "digitalmsg": {
+      "message": "(Peringatan: Menggunakan jam digital akan menggunakan banyak memori komputer Anda.)"
+   },
+   "usedarkmode": {
+      "message": "Gunakan mode tema Gelap (Untuk Anda yang menggunakan tema gelap, akan menambahkan gelembung separuh-transparan di bawah angka sehingga Anda dapat melihat waktu.)"
+   },
+   "useanalog": {
+      "message": "Gunakan Jam Analog"
+   },
+   "analogmsg": {
+      "message": "(Sekitar 4 KB per detik.)"
+   },
+   "noscroll": {
+      "message": "Jangan gunakan efek scroll (Menampilkan 4 angka dan bukan scroll)"
+   },
+   "_12hour": {
+      "message": "Gunakan sistem 12 jam (sistem 24 jam digunakan secara default)"
+   },
+   "showiconclock": {
+      "message": "Tampilkan Jam pada Ikon (Menggunakan panah)"
+   },
+   "showbadgeclock": {
+      "message": "Tampilkan waktu pada badge"
+   },
+   "comment": {
+      "message": "Komentar"
+   },
+   "cmtmsg": {
+      "message": "Punya komentar? Melaporkan bug? Tekan di sini!"
+   },
+   "memmsg": {
+      "message": "Animasi biasanya \"menggambar\" gambar baru tiap detik, sehingga biasanya akan menggunakan banyak memori setelah beberapa waktu."
+   },
+   "showupdate": {
+      "message": "Tampilkan halaman pembaruan setiap ekstensi ini diperbarui."
+   },
+   "updateiconevery": {
+      "message": "Perbarui icon setiap: "
+   },
+   "updateiconeverymsg": {
+      "message": "(Semakin lama waktunya, ekstensi ini semakin ringan.)"
+   },
+   "_1sec": {
+      "message": "1 detik"
+   },
+   "_2sec": {
+      "message": "2 detik"
+   },
+   "_5sec": {
+      "message": "5 detik"
+   },
+   "_10sec": {
+      "message": "10 detik"
+   },
+   "_30sec": {
+      "message": "30 detik"
+   },
+   "_1min": {
+      "message": "1 menit"
+   },
+   "viewsavedalarm": {
+      "message": "Tampilkan alaram yang disimpan"
+   },
+   "OK": {
+      "message": "OK"
+   },
+   "apply": {
+      "message": "Ubah"
+   },
+   "cancel": {
+      "message": "Batal"
+   },
+   "about": {
+      "message": "Tentang"
+   },
+   "whatsnew": {
+      "message": "Lihat apa yang baru di versi ini"
+   },
+   "none": {
+      "message": "Tidak ada"
+   },
+   "defaultringtone": {
+      "message": "Standar ringtone"
+   },
+   "URLringtone": {
+      "message": ""
+   },
+   "allpurpose": {
+      "message": ""
+   },
+   "alarmandringtone": {
+      "message": ""
+   },
+   "close": {
+      "message": "Tutup"
+   },
+   "timeis": {
+      "message": "Waktu sekarang adalah"
+   },
+   "notflash": {
+      "message": "(Saya bukan sebuah jam Flash!)"
+   },
+   "version": {
+      "message": "Versi"
+   },
+   "countdown": {
+      "message": "penghitung mundur"
+   },
+   "alarm": {
+      "message": "jam alaram"
+   },
+   "stat": {
+      "message": "Statistik"
+   },
+   "timer": {
+      "message": ""
+   },
+   "tools": {
+      "message": ""
+   },
+   "day_0": {
+      "message": "Minggu"
+   },
+   "day_1": {
+      "message": "Senin"
+   },
+   "day_2": {
+      "message": "Selasa"
+   },
+   "day_3": {
+      "message": "Rabu"
+   },
+   "day_4": {
+      "message": "Kamis"
+   },
+   "day_5": {
+      "message": "Jumat"
+   },
+   "day_6": {
+      "message": "Sabtu"
+   },
+   "month_1": {
+      "message": "Jan"
+   },
+   "month_2": {
+      "message": "Feb"
+   },
+   "month_3": {
+      "message": "Mar"
+   },
+   "month_4": {
+      "message": "Apr"
+   },
+   "month_5": {
+      "message": "Mei"
+   },
+   "month_6": {
+      "message": "Jun"
+   },
+   "month_7": {
+      "message": "Jul"
+   },
+   "month_8": {
+      "message": "Agu"
+   },
+   "month_9": {
+      "message": "Sep"
+   },
+   "month_10": {
+      "message": "Okt"
+   },
+   "month_11": {
+      "message": "Nov"
+   },
+   "month_12": {
+      "message": "Des"
+   },
+   "morning": {
+      "message": "Selamat Pagi!"
+   },
+   "noon": {
+      "message": "Selamat Siang!"
+   },
+   "evening": {
+      "message": "Sudah Makan Malam?"
+   },
+   "night": {
+      "message": "Waktunya tidur."
+   },
+   "midnight": {
+      "message": "Apa kabar?"
+   },
+   "notitimeannounce": {
+      "message": "Pengumuman Waktu Tiap Jam"
+   },
+   "notitimeis": {
+      "message": "Sekarang pukul"
+   },
+   "am": {
+      "message": "am"
+   },
+   "pm": {
+      "message": "pm"
+   },
+   "saved": {
+      "message": ""
+   },
+   "notsaved": {
+      "message": ""
+   },
+   "ctxcmt": {
+      "message": "Bug Report / Komentar"
+   },
+   "digital": {
+      "message": "Jam Digital"
+   },
+   "analog": {
+      "message": "Jam Analog"
+   },
+   "ctxhide": {
+      "message": ""
+   },
+   "chat": {
+      "message": "Chat box"
+   },
+   "forum": {
+      "message": ""
+   },
+   "calendar": {
+      "message": "Kalender"
+   },
+   "setalarm": {
+      "message": ""
+   }
+}

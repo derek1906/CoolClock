@@ -1,0 +1,269 @@
+﻿{
+   "extDes": {
+      "message": "An extension fully loaded with tons of useful time-related features... But the best part is, it is totally COOL." /*"La primera extensió que té el rellotge digital + analògic a la barra d'eines del Chrome + avís horari en una notificació a l'escriptori."*/
+   },
+   "extName": {
+      "message": "Refredar Rellotge"
+   },
+   "settings": {
+      "message": "Opcions"
+   },
+   "hourlytimeannounce": {
+      "message": "Notificació horària"
+   },
+   "enablehourlytimeannounce": {
+      "message": "Posar l'avís horari (Notificació d'escriptori)"
+   },
+   "shownotificationfor": {
+      "message": "Mostrar la notificació per: "
+   },
+   "seconds": {
+      "message": "segons"
+   },
+   "max999": {
+      "message": "(Màxim:  999)"
+   },
+   "showtodowhenopen": {
+      "message": "Alerta de les tasques pendents amb una notificació a l'escriptori quan s'executi el navegador."
+   },
+   "display": {
+      "message": "Pantalla"
+   },
+   "usedigital": {
+      "message": "Utilitzar el rellotge digital"
+   },
+   "digitalmsg": {
+      "message": "(Avís:  L'ús del rellotge digital ocupa mols recursos de l'ordinador)"
+   },
+   "usedarkmode": {
+      "message": "Utilitzar el tema fosc (Per aquells que utilitzeu el tema fosc, cal que utilitzeu un fons clar per poder veure l'hora)"
+   },
+   "useanalog": {
+      "message": "Utilitzar el rellotge analògic"
+   },
+   "analogmsg": {
+      "message": "(aproximadament 4 KB per segon)"
+   },
+   "noscroll": {
+      "message": "No utilitzar l'efecte de rotació (mostra 4 números enlloc rotar)"
+   },
+   "_12hour": {
+      "message": "Utilitzar l'opció de 12 hores ( l'opció per defecte és la de 24 hores)"
+   },
+   "showiconclock": {
+      "message": "Mostra el rellotge com a icona (el de la fletxa)"
+   },
+   "showbadgeclock": {
+      "message": "Veure el temps com un distintiu"
+   },
+   "comment": {
+      "message": "Comentari"
+   },
+   "cmtmsg": {
+      "message": "Teniu algun comentari? Notificar un error? Premeu aquí!"
+   },
+   "memmsg": {
+      "message": "Animació, generalment, \"dibuixa\" una imatge nova cada segon, habitualment (i després d'una estona) això esmerça molts recursos, si l'escolliu tot es pot tornar més més lent."
+   },
+   "showupdate": {
+      "message": "Mostrar la pàgina actualitzada cada cop que l'aplicació s'ha actualitzat."
+   },
+   "updateiconevery": {
+      "message": "Actualitzar la icona cada: "
+   },
+   "updateiconeverymsg": {
+      "message": "(posa el que et sembli, serà molt millor.)"
+   },
+   "_1sec": {
+      "message": "1 segon"
+   },
+   "_2sec": {
+      "message": "2 segons"
+   },
+   "_5sec": {
+      "message": "5 segons"
+   },
+   "_10sec": {
+      "message": "10 segons"
+   },
+   "_30sec": {
+      "message": "30 segons"
+   },
+   "_1min": {
+      "message": "1 minut"
+   },
+   "viewsavedalarm": {
+      "message": "Veure les alarmes desades"
+   },
+   "OK": {
+      "message": "Acceptar"
+   },
+   "apply": {
+      "message": "Aplicar"
+   },
+   "cancel": {
+      "message": "Cancel·lar"
+   },
+   "about": {
+      "message": "Sobre"
+   },
+   "whatsnew": {
+      "message": "Veure les novetats d'aquesta versió"
+   },
+   "none": {
+      "message": ""
+   },
+   "defaultringtone": {
+      "message": ""
+   },
+   "URLringtone": {
+      "message": ""
+   },
+   "allpurpose": {
+      "message": ""
+   },
+   "alarmandringtone": {
+      "message": ""
+   },
+   "close": {
+      "message": "Tancar"
+   },
+   "timeis": {
+      "message": "Ara són les: "
+   },
+   "notflash": {
+      "message": "(No sóc un Adobe Flash rellotge!)"
+   },
+   "version": {
+      "message": "Versió"
+   },
+   "countdown": {
+      "message": "Temporitzador de compte enrere"
+   },
+   "alarm": {
+      "message": "Alarma"
+   },
+   "stat": {
+      "message": ""
+   },
+   "timer": {
+      "message": ""
+   },
+   "tools": {
+      "message": ""
+   },
+   "day_0": {
+      "message": "Diumenge"
+   },
+   "day_1": {
+      "message": "Dilluns"
+   },
+   "day_2": {
+      "message": "Dimarts"
+   },
+   "day_3": {
+      "message": "Dimecres"
+   },
+   "day_4": {
+      "message": "Dijous"
+   },
+   "day_5": {
+      "message": "Divendres"
+   },
+   "day_6": {
+      "message": "Dissabtes"
+   },
+   "month_1": {
+      "message": "Gen."
+   },
+   "month_2": {
+      "message": "Feb."
+   },
+   "month_3": {
+      "message": "Març"
+   },
+   "month_4": {
+      "message": "Abr."
+   },
+   "month_5": {
+      "message": "Maig"
+   },
+   "month_6": {
+      "message": "Juny"
+   },
+   "month_7": {
+      "message": "Jul."
+   },
+   "month_8": {
+      "message": "Ago."
+   },
+   "month_9": {
+      "message": "Set."
+   },
+   "month_10": {
+      "message": "Oct."
+   },
+   "month_11": {
+      "message": "Nov."
+   },
+   "month_12": {
+      "message": "Dec."
+   },
+   "morning": {
+      "message": "Bon dia!"
+   },
+   "noon": {
+      "message": "Que bé que et veig aquesta tarda!"
+   },
+   "evening": {
+      "message": "Encara has de sopar?"
+   },
+   "night": {
+      "message": "És l'hora d'anar a dormir."
+   },
+   "midnight": {
+      "message": "Què passa?"
+   },
+   "notitimeannounce": {
+      "message": "Notificació horària..."
+   },
+   "notitimeis": {
+      "message": "Ara són les"
+   },
+   "am": {
+      "message": "am"
+   },
+   "pm": {
+      "message": "hores"
+   },
+   "saved": {
+      "message": "Desat."
+   },
+   "notsaved": {
+      "message": ""
+   },
+   "ctxcmt": {
+      "message": "Bug report / Comentari"
+   },
+   "digital": {
+      "message": "Rellotge digital"
+   },
+   "analog": {
+      "message": "Rellotge analògic"
+   },
+   "ctxhide": {
+      "message": ""
+   },
+   "chat": {
+      "message": "Chat box"
+   },
+   "forum": {
+      "message": ""
+   },
+   "calendar": {
+      "message": ""
+   },
+   "setalarm": {
+      "message": ""
+   }
+}

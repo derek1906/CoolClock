@@ -1,0 +1,269 @@
+﻿{
+   "extDes": {
+      "message": "An extension fully loaded with tons of useful time-related features... But the best part is, it is totally COOL." /*"La première extension qui utilise une horloge Digital + Analogique sur votre barre d'outils Chrome + l'horaire chaque heure par une notification du bureau."*/
+   },
+   "extName": {
+      "message": "Cool Horloge por Google Chrome™"
+   },
+   "settings": {
+      "message": "Options"
+   },
+   "hourlytimeannounce": {
+      "message": "Annonce des heures"
+   },
+   "enablehourlytimeannounce": {
+      "message": "Activer la notification des heures"
+   },
+   "shownotificationfor": {
+      "message": "Temps pour l'affichage de l'annonce: "
+   },
+   "seconds": {
+      "message": "secondes"
+   },
+   "max999": {
+      "message": "(Máximo: 999)"
+   },
+   "showtodowhenopen": {
+      "message": "Des alertes de tâches dans votre notification bureau quand vous lancez votre fureteur"
+   },
+   "display": {
+      "message": "Affichage"
+   },
+   "usedigital": {
+      "message": "Utiliser l'horloge digitale"
+   },
+   "digitalmsg": {
+      "message": "(Attention:  Utiliser l'horloge numérique consommera beaucoup plus la mémoire de votre ordinateur.)"
+   },
+   "usedarkmode": {
+      "message": "Utilisez le mode Dark thème (Pour ceux qui utilisent un thème sombre,  ajoutera une bulle semi-transparente sous les numéros de sorte que vous pourrez voir l'heure.)"
+   },
+   "useanalog": {
+      "message": "Utiliser l'horloge classique"
+   },
+   "analogmsg": {
+      "message": "(Environ 4K par seconde)"
+   },
+   "noscroll": {
+      "message": "N'utilisez pas d'effet de défilement (affichage de 4 chiffres au lieu du défilement)"
+   },
+   "_12hour": {
+      "message": "Utiliser le système 12 heures (valeur par défaut du système utilise 24 heures)"
+   },
+   "showiconclock": {
+      "message": "Affichage de l'horloge sur l'icône (celle avec une flèche)"
+   },
+   "showbadgeclock": {
+      "message": "Affichage de l'heure sur le badge"
+   },
+   "comment": {
+      "message": "Commentaire"
+   },
+   "cmtmsg": {
+      "message": "Vous avez un commentaire? Signaler un bug?"
+   },
+   "memmsg": {
+      "message": "L'animation \"dessine\" habituellement une nouvelle image chaque seconde, donc normalement il va prendre beaucoup plus de mémoire après une période de temps cependant je vais essayer de le réduire au plus bas."
+   },
+   "showupdate": {
+      "message": "Afficher la mise jour"
+   },
+   "updateiconevery": {
+      "message": "Rafraîchir le recouvrement d l'icône: "
+   },
+   "updateiconeverymsg": {
+      "message": "(plus cette extension est longue,plus elle est légère.)"
+   },
+   "_1sec": {
+      "message": "1 seconde"
+   },
+   "_2sec": {
+      "message": "2 seconds"
+   },
+   "_5sec": {
+      "message": "5 secondes"
+   },
+   "_10sec": {
+      "message": "10 secondes"
+   },
+   "_30sec": {
+      "message": "30 secondes"
+   },
+   "_1min": {
+      "message": "1 minute"
+   },
+   "viewsavedalarm": {
+      "message": "Afficher les alarmes sauvées"
+   },
+   "OK": {
+      "message": "OK"
+   },
+   "apply": {
+      "message": "Appliquer"
+   },
+   "cancel": {
+      "message": "Annuler"
+   },
+   "about": {
+      "message": "À propos de"
+   },
+   "whatsnew": {
+      "message": "Voir ce qu'il y a de nouveau dans cette version"
+   },
+   "none": {
+      "message": "Non"
+   },
+   "defaultringtone": {
+      "message": "Sonnerie par défaut"
+   },
+   "URLringtone": {
+      "message": "à partir du lien"
+   },
+   "allpurpose": {
+      "message": "Sonnerie"
+   },
+   "alarmandringtone": {
+      "message": "Alarme & Sonnerie"
+   },
+   "close": {
+      "message": "Fermer"
+   },
+   "timeis": {
+      "message": "Il est maintenant: "
+   },
+   "notflash": {
+      "message": "(Je ne suis pas une horloge Flash!)"
+   },
+   "version": {
+      "message": "Version"
+   },
+   "countdown": {
+      "message": ""
+   },
+   "alarm": {
+      "message": ""
+   },
+   "stat": {
+      "message": ""
+   },
+   "timer": {
+      "message": ""
+   },
+   "tools": {
+      "message": ""
+   },
+   "day_0": {
+      "message": "Dimanche"
+   },
+   "day_1": {
+      "message": "Lundi"
+   },
+   "day_2": {
+      "message": "Mardi"
+   },
+   "day_3": {
+      "message": "Mercredi"
+   },
+   "day_4": {
+      "message": "Jeudi"
+   },
+   "day_5": {
+      "message": "Vendredi"
+   },
+   "day_6": {
+      "message": "Samedi"
+   },
+   "month_1": {
+      "message": "Jan"
+   },
+   "month_2": {
+      "message": "Fév"
+   },
+   "month_3": {
+      "message": "Mar"
+   },
+   "month_4": {
+      "message": "Avr"
+   },
+   "month_5": {
+      "message": "Mai"
+   },
+   "month_6": {
+      "message": "Jui"
+   },
+   "month_7": {
+      "message": "Jul"
+   },
+   "month_8": {
+      "message": "Aou"
+   },
+   "month_9": {
+      "message": "Sep"
+   },
+   "month_10": {
+      "message": "Oct"
+   },
+   "month_11": {
+      "message": "Nov"
+   },
+   "month_12": {
+      "message": "Déc"
+   },
+   "morning": {
+      "message": "Bonjour!"
+   },
+   "noon": {
+      "message": "Quel plaisir de vous voir cet l'après-midi!"
+   },
+   "evening": {
+      "message": "Avez-vous déjà diné?"
+   },
+   "night": {
+      "message": "Il est temps de se coucher."
+   },
+   "midnight": {
+      "message": "Quoi de neuf?"
+   },
+   "notitimeannounce": {
+      "message": "Annonce des heures"
+   },
+   "notitimeis": {
+      "message": "Il est maintenant"
+   },
+   "am": {
+      "message": "am"
+   },
+   "pm": {
+      "message": "pm"
+   },
+   "saved": {
+      "message": "Les options sont enregistrées."
+   },
+   "notsaved": {
+      "message": ""
+   },
+   "ctxcmt": {
+      "message": ""
+   },
+   "digital": {
+      "message": "L'horloge digitale"
+   },
+   "analog": {
+      "message": "L'horloge classique"
+   },
+   "ctxhide": {
+      "message": ""
+   },
+   "chat": {
+      "message": "Chat box"
+   },
+   "forum": {
+      "message": ""
+   },
+   "calendar": {
+      "message": ""
+   },
+   "setalarm": {
+      "message": ""
+   }
+}

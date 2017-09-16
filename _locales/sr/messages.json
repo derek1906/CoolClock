@@ -1,0 +1,269 @@
+﻿{
+   "extDes": {
+      "message": "Dodaci su učitani sa tonom korisnih gedžeta za snalaženje u vremenu i organizaciji... Ali najbolji deo je što je totalno COOL."
+   },
+   "extName": {
+      "message": "Cool Sat"
+   },
+   "settings": {
+      "message": "Podešavanja"
+   },
+   "hourlytimeannounce": {
+      "message": "napomena na svaki sat"
+   },
+   "enablehourlytimeannounce": {
+      "message": "Uključi svakočasovne napomene! (Obaveštenje na ekranu)"
+   },
+   "shownotificationfor": {
+      "message": "Prikaži obaveštenja za"
+   },
+   "seconds": {
+      "message": "sekunde"
+   },
+   "max999": {
+      "message": " (maksimum: 999)"
+   },
+   "showtodowhenopen": {
+      "message": "Alarm o obavezama kada otvorite svoj pretraživač"
+   },
+   "display": {
+      "message": "prikaz"
+   },
+   "usedigital": {
+      "message": "Koristite digitalni sat"
+   },
+   "digitalmsg": {
+      "message": "(Digitalni sat će koristiti određenu memoriju.)"
+   },
+   "usedarkmode": {
+      "message": "Koristi tamnu temu (ako odaberete ovu temu, i dalje ćete moći da vidite sat)"
+   },
+   "useanalog": {
+      "message": "Koristi klasičan sat"
+   },
+   "analogmsg": {
+      "message": "(Oko 4KB po sekundi.)"
+   },
+   "noscroll": {
+      "message": "Ne koristi \"scroll\" efekat (Prikaži 4 broja umesto toga)"
+   },
+   "_12hour": {
+      "message": "Koristi 12-časovni sistem (Obično se koristi 24-časovni sistem)"
+   },
+   "showiconclock": {
+      "message": "Prikaži sat na ikonici (ona sa strelicom)"
+   },
+   "showbadgeclock": {
+      "message": "Prikaži vreme u oznaci."
+   },
+   "comment": {
+      "message": "Komentari"
+   },
+   "cmtmsg": {
+      "message": "Svoje utiske, komentare ili žaljenja na defekte prijavite ovde"
+   },
+   "memmsg": {
+      "message": "Animacija obično stvara nove slike u sekundi, pa će to zauzeti dosta memorije nakon nekog perioda, trenutno pokušavam da to smanjim što je više moguće."
+   },
+   "showupdate": {
+      "message": "Prikaži ažuriranu stranicu, svaki put kad je i ovaj dodatak ažuriran."
+   },
+   "updateiconevery": {
+      "message": "Ažuriraj ikonicu svakih: "
+   },
+   "updateiconeverymsg": {
+      "message": ""
+   },
+   "_1sec": {
+      "message": "1 sekunda"
+   },
+   "_2sec": {
+      "message": "2 sekunde"
+   },
+   "_5sec": {
+      "message": "5 sekundi"
+   },
+   "_10sec": {
+      "message": "10 sekundi"
+   },
+   "_30sec": {
+      "message": "30 sekundi"
+   },
+   "_1min": {
+      "message": "1 minut"
+   },
+   "viewsavedalarm": {
+      "message": "Pogledaj sačuvane alarme"
+   },
+   "OK": {
+      "message": "Uredu"
+   },
+   "apply": {
+      "message": "Prihvati"
+   },
+   "cancel": {
+      "message": "Otkaži"
+   },
+   "about": {
+      "message": "O ovome..."
+   },
+   "whatsnew": {
+      "message": "Pogledaj ažurirane novosti"
+   },
+   "none": {
+      "message": "ništa"
+   },
+   "defaultringtone": {
+      "message": "Klasično zvovo "
+   },
+   "URLringtone": {
+      "message": "Sa URL-a"
+   },
+   "allpurpose": {
+      "message": "Melodija za sve svrhe"
+   },
+   "alarmandringtone": {
+      "message": "Alarm i melodija"
+   },
+   "close": {
+      "message": "Zatvori"
+   },
+   "timeis": {
+      "message": "Vreme: "
+   },
+   "notflash": {
+      "message": "(Nisam fleš sat)"
+   },
+   "version": {
+      "message": "Verzija"
+   },
+   "countdown": {
+      "message": "Odbrojavajući tajmer"
+   },
+   "alarm": {
+      "message": "Alermni sat"
+   },
+   "stat": {
+      "message": "Statistika"
+   },
+   "timer": {
+      "message": "Štoperica"
+   },
+   "tools": {
+      "message": "Alatke"
+   },
+   "day_0": {
+      "message": "Nedelja"
+   },
+   "day_1": {
+      "message": "Ponedeljak"
+   },
+   "day_2": {
+      "message": "Utorak"
+   },
+   "day_3": {
+      "message": "Sreda"
+   },
+   "day_4": {
+      "message": "Četvrtak"
+   },
+   "day_5": {
+      "message": "Petak"
+   },
+   "day_6": {
+      "message": "Subota"
+   },
+   "month_1": {
+      "message": "Jan."
+   },
+   "month_2": {
+      "message": "Feb."
+   },
+   "month_3": {
+      "message": "Mar."
+   },
+   "month_4": {
+      "message": "Apr."
+   },
+   "month_5": {
+      "message": "Maj"
+   },
+   "month_6": {
+      "message": "Jun"
+   },
+   "month_7": {
+      "message": "Jul"
+   },
+   "month_8": {
+      "message": "Avg."
+   },
+   "month_9": {
+      "message": "Sep."
+   },
+   "month_10": {
+      "message": "Okt."
+   },
+   "month_11": {
+      "message": "Nov."
+   },
+   "month_12": {
+      "message": "Dec."
+   },
+   "morning": {
+      "message": "Dobro jutro!"
+   },
+   "noon": {
+      "message": "Divno je videti te popodne"
+   },
+   "evening": {
+      "message": "Već si završio večeru?"
+   },
+   "night": {
+      "message": "Vreme za krevet."
+   },
+   "midnight": {
+      "message": "Š`a ima?"
+   },
+   "notitimeannounce": {
+      "message": "Napomene za svaki sat"
+   },
+   "notitimeis": {
+      "message": "Ovo je trenutno vreme"
+   },
+   "am": {
+      "message": "pre podne"
+   },
+   "pm": {
+      "message": "posle podne"
+   },
+   "saved": {
+      "message": "Sačuvano."
+   },
+   "notsaved": {
+      "message": "Izmenjene opcije NISU sačuvane! Ipak nastaviti?"
+   },
+   "ctxcmt": {
+      "message": "Izveštaj o defektima/Komentari"
+   },
+   "digital": {
+      "message": "digitalni sat"
+   },
+   "analog": {
+      "message": "klasični sat"
+   },
+   "ctxhide": {
+      "message": "ne prikazuj ovo"
+   },
+   "chat": {
+      "message": "Čet"
+   },
+   "forum": {
+      "message": "forum"
+   },
+   "calendar": {
+      "message": "kalendar"
+   },
+   "setalarm": {
+      "message": "Podesi alarm."
+   }
+}

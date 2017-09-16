@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<link type="text/css" rel="stylesheet" href="/input.css">
+		<link type="text/css" rel="stylesheet" href="/scripts/popup/css.css">
+		<script type="text/javascript" charset="utf-8" src="/jquery.js"></script>
+		<script type="text/javascript" src="/translation.js"></script>
+		<script type="text/javascript" charset="utf-8" src="jstimezone.js"></script>
+		<script type="text/javascript" charset="utf-8" src="/scripts/popup/js.js"></script>
+	</head>
+	<body>
+		<div style="width:250px;height:250px">
+
+		<div id="calendar" class="tab" style="width:250px;height:250px;display:none;position:fixed;top:0px;left:-350px;z-index:1;overflow:hidden">
+			<center style="overflow:hidden">
+				<span style="vertical-align:top;display:inline-block;margin-top:18px;">
+					<button title="view and edit all saved to-dos..." class="calendar_btn"><b>i</b></button><br>
+					<!-- <button title="Open Google Calendar™" class="calendar_btn" onClick='window.open("http://www.google.com/calendar","_blank");'><b><span style="color:skyblue;">G</span></b></button> -->
+				</span>
+				<iframe style="width:180px;height:250px;overflow:hidden" src="calendar.html" frameborder=0></iframe>
+			</center>
+
+		</div>
+
+		<span id="time" class="tab" style="width:250px;height:250px;position:fixed;top:0px;left:0px;z-index:1;margin:0px 10px">
+			<span trans="timeis">The time is:</span><span id="viewtimezone" class="small"></span><br>
+			<font><center><span id="noflipclock" style="display:none"><br><span id="txt" style="font-size:xx-large"></span></span><iframe id="flipclock" src="flipclock.html?scale=0.6 0.6" style="width:199px;border:0 solid white;height:65px"></iframe></center></font>
+			　<input type="checkbox" id="flipbtn" checked><label for="flipbtn" class="small"> Flip clock</label><!-- <a href="javascript:chrome.tabs.create({'url':'flipclock.html?scale=2.5 2.5'}, function(){window.close()});void 0" class="small" style="margin-right:30px;float:right">Bigger</a> -->
+			<br>
+			<span class="date-info">
+				<font size="5" id="datespace"><font size="6">　<span id="date"></span></font>,<span id="month"></span>,<span id="year"></span></font><br>
+				<font size="4">　<span id="day"></span>&nbsp;<span id="lunar"></span><br>
+					<br>
+				</font>
+				<center><font size="3"><span id="hi"></span></font><br>
+				<br>
+				</center>
+				<br>
+				<br>
+				<br>
+			</span>
+		</span>
+
+		<div id="clock" class="tab" style="width:250px;height:250px;display:none;position:fixed;top:0px;left:350px;z-index:1">
+			<br>
+			<center>
+				<canvas id="a_clock" width="200" height="200"></canvas>
+			</center>
+		</div>
+
+		<a href="options_new.html" target="_blank" id="settings">
+			<img src="/images/icons/gear.png" width="20" height="20" title="%settings%">
+		</a>
+
+		<span id="version">
+			<span trans="version">Version</span>:
+		</span> 
+
+		<span class="mainmenu">
+		<table>
+		<tr>
+		<td class="toollabel" style="margin:0px;padding:0px;width:12px;max-width:12px;display:inline-block;">
+			<span id="text_tools" style="display:inline-block;-webkit-transform:rotate(-90deg) translate(0px,-10px);font-size:12px;">Tools</span>
+		</td>
+		<td style="margin:0px;padding:0px;text-align:center;vertical-align:middle;display:inline-block;">
+			<img src="images/icons/bell.png" width="20" height="20" class="icon" id="countdownbtn" title="%countdown%"><br>
+			<img src="images/comment.png" width="23" height="20" class="icon" id="helpbtn" title="%help%"><br>
+			<img src="images/icons/clock_red.png" width="20" height="20" class="icon" id="alarmbtn" title="%alarm%"><br>
+			<img src="images//icons/chart_bar.png" width="20" height="20" class="icon" id="info" title="%stat%">
+		</td>
+		<td style="margin:0px;padding:0px;text-align:center;vertical-align:middle;display:inline-block;">
+			<img src="icons/empty.png" width="20" height="20" class="icon" id="timerbtn" title="%timer%"><br>
+			<img src="images/facebook_icon.gif" class="icon" title="Cool Clock @ Facebook" id="fb"><br>
+			<img src="images/icons/clock_edit.png" width="20" height="20" class="icon" title="%viewsavedalarm%" id="viewsavedalarmbtn"><br>
+			<img src="images/icons/arrow_in.png" width="20" height="20" class="icon" title='Toggle "Mini" Popup' id="toggleSize"><br>
+		</td>
+		</tr>
+		</table>
+		</span>
+
+		<div class="menu">
+			<span id="to_left">
+				<div></div>
+			</span>
+
+			<span id="to_right">
+				<div></div>
+			</span>
+		</div>
+
+
+		<span id="whiteb" style="display:none;width:266px;height:260px;position:fixed;top:0px;left:0px;z-index:2"><canvas id="border" width="266" height="260"></canvas></span>
+
+
+		<div id="startupblocker" class="startupblocker"></div>
+
+		<div id="cdremaindiv" style="cursor:pointer;" title="Remaining time for countdown timer">
+		<progress id="cdprogress" style="right:0px;position:absolute;height:15px;width:0%;z-index:-1"></progress>Countdown: <span id="cdremain"></span>
+		</div>
+
+		</div>
+	</body>
+</html>
+

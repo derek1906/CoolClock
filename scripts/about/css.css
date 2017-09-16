@@ -1,0 +1,37 @@
+@font-face { font-family: "Roboto"; src: url('/fonts/Roboto-Regular.ttf'); }
+
+body{
+    font-family: Roboto, sans-serif;
+    position: relative;
+}
+
+.topbar{
+    background: rgb(7,114,161);
+    color: rgb(255,255,255);
+    box-shadow: 0 0px 7px #555;
+}
+
+.emptySpace{
+    height: 100px;
+}
+
+#mainBlock{
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+#icon{
+    float: left;
+    width: 50px;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+
+#settingsButton, #updateLogButton, #permissionButton{
+    float: right;
+    margin: 5px;
+}
+
+#appName{
+    margin-bottom: 0px;
+}
