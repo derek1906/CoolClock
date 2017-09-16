@@ -39,6 +39,22 @@ The extension depends on the following libraries:
 - D3
 
 
+## Permissions Explanation
+
+| Permission                           	| Explanation                                                                     	|
+| ---                                  	| ---                                                                             	|
+| notifications                        	| Create hourly notifications and other notifications.                            	|
+| contextMenus                         	| Create context menus.                                                           	|
+| tts                                  	| Text to speech.                                                                 	|
+| `*://calendar.google.com/*`          	| Sync events from Google Calendar.                                               	|
+| `*://www.google.com/calendar/feeds/*`	| Sync events from Google Calendar.                                               	|
+| clipboardWrite                       	| Write time to clipboard.                                                        	|
+| activeTab                            	| Write time to current focused text field.                                       	|
+| alarms                               	| Extension uses system alarms so the extension does not need to poll continously.	|
+| power                                	| Acquire wake lock when there is an ongoing alarm or countdown.                  	|
+| idle                                 	| Fetch system's idle state in order to pause any updates during idle.            	|
+
+
 ## Todos and Issues
 The extension originally was created for the purpose of sharpening my JavaScript skill and develop maintainable practices.
 Due to that reason, one of the major issues of the extension is that it contains a large amount of legacy code.
