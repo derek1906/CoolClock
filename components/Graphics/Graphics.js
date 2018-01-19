@@ -23,7 +23,7 @@ Components.define(function(argFormatter, log){
 
 	function getPixelRatio(){
 		// pixel ratio has to be at least 1
-		return Math.max(window.devicePixelRatio, 1);
+		return Math.max(Math.floor(window.devicePixelRatio), 1);
 	}
 
 
