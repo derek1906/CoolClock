@@ -1,4 +1,15 @@
-﻿console.log("Started: " + new Date().toString());
+/***********************************************************
+
+	Cool Clock - A time-keeping extension for Chrome.
+	Derek Leung 2018
+	https://github.com/derek1906/CoolClock
+
+
+	Background script
+
+***********************************************************/
+
+console.log("Started: " + new Date().toString());
 
 //save load in time
 localStorage["uptime"] = Date.now();
@@ -97,76 +108,6 @@ var Functions = {
 			}
 		}
 	},
-	// playSound: function(obj, onlyAddHandles){
-	//	obj = $.extend({
-	//		data: "about:blank",
-	//		onPlay: function(){},
-	//		onEnded: function(){}
-	//	}, obj);
-	//	if(obj.node === undefined){
-	//		var audio = $("<audio>").appendTo("body");
-	//	}else{
-	//		var audio = $(obj.node);
-	//	}
-	//	if(!onlyAddHandles){
-	//		audio.attr({
-	//			src: obj.data,
-	//			class: "hide"
-	//		});
-	//	}
-
-	//	if(obj.steps !== undefined){
-	//		var steps = function(){
-	//			obj.steps.call(audio[0], audio[0].currentTime, audio[0].duration);
-	//		};
-	//		audio.on("ended", function(){
-	//			steps();
-	//			clearInterval(stepInterval);
-	//		})
-	//	}
-
-	//	audio.on("play", function(e){ obj.onPlay.call(this, e); } );
-	//	audio.on("ended", function(e){ obj.onEnded.call(this, e); } );
-
-	//	var stepInterval;
-
-	//	var controls = {
-	//		node: audio[0],
-	//		kill: function(){ audio.remove(); if(obj.link !== undefined){ play.unbind("click"); pause.unbind("click"); stop.unbind("click"); } },
-	//		play: function(){ audio[0].play(); if(obj.steps !== undefined){ stepInterval = setInterval(steps, 100); } },
-	//		pause: function(){ audio[0].pause(); if(obj.steps !== undefined){ clearInterval(stepInterval); } },
-	//		stop: function(){ audio[0].pause(); audio[0].currentTime = 0; audio.trigger("ended"); },
-	//		currentTime: function(){ return audio[0].currentTime; },
-	//		duration: function(){ return audio[0].duration; }
-	//	};
-
-	//	if(obj.link !== undefined){
-	//		var play = $(obj.link.play),
-	//			pause = $(obj.link.pause),
-	//			stop = $(obj.link.stop);
-	//		play.click(function(){
-	//			controls.play();
-	//			$(this).attr("disabled", true);
-	//			pause.attr("disabled", false);
-	//			stop.attr("disabled", false);
-	//		});
-	//		pause.click(function(){
-	//			controls.pause();
-	//			$(this).attr("disabled", true);
-	//			play.attr("disabled", false);
-	//		});
-	//		stop.click(function(){
-	//			controls.stop();
-	//		});
-	//		audio.on("ended", function(){
-	//			play.attr("disabled", false);
-	//			pause.attr("disabled", true);
-	//			stop.attr("disabled", true);
-	//		});
-	//	}
-
-	//	return controls;
-	// },
 	//Bootstrap modal
 	createModal: function(options, win){
 		if(!win) throw "Window must be given."

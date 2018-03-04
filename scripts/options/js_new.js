@@ -1072,13 +1072,17 @@ function linkOptions(list){
 					}
 				}
 			}
-			if(obj.json !== undefined){
-				json = JSON.parse(localStorage[obj.key]);
-				json[obj.json] = cValue;
-				localStorage[obj.key] = JSON.stringify(json);
-			}else{
-				localStorage[obj.key] = cValue;
+
+			if(obj.key !== undefined){
+				if(obj.json !== undefined){
+					json = JSON.parse(localStorage[obj.key]);
+					json[obj.json] = cValue;
+					localStorage[obj.key] = JSON.stringify(json);
+				}else{
+					localStorage[obj.key] = cValue;
+				}
 			}
+			
 			obj.onChange.call(this, e);
 		});
 

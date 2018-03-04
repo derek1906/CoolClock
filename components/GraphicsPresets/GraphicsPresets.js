@@ -103,7 +103,7 @@ Components.define(function(argFormatter, Graphics, Formatter, storage){
 			// generate GraphicsEntity
 			var controller = new GraphicsEntity(analogClock, {
 				setTime: function(currentTime){
-					currentTime.setSeconds(currentTime.getSeconds() + 100);
+					currentTime.setSeconds(currentTime.getSeconds() /*+ 100*/);
 					var minAngle = (currentTime.getMinutes() / 60 + currentTime.getSeconds() / 60 / 60) * Math.PI * 2,
 						hrAngle = ((currentTime.getHours() % 12) / 12 + currentTime.getMinutes() / 60 / 12 + currentTime.getSeconds() / 60 / 60 / 12) * Math.PI * 2;
 

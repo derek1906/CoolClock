@@ -9,11 +9,12 @@ Components.define(
 			displayUpdateNotice = storage.get("showupdate"),
 
 			// updated if the previously stored version is not the same as the current version
-			isUpdated = storedVersion !== currentVersion;
+			isUpdated = storedVersion !== currentVersion,
+			hasUpdateMsg = false; // no update message for this version
 
 		log("UpdateChecker", "Update status:", isUpdated);
 
-		if(displayUpdateNotice && isUpdated){
+		if(displayUpdateNotice && isUpdated && hasUpdateMsg){
 			// display update notice
 			
 			var language = Localization.getSelectedLanguage(),
