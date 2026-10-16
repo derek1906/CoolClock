@@ -94,7 +94,7 @@ firefox['permissions'].remove('power')
 firefox.pop('minimum_chrome_version', None)
 firefox['browser_specific_settings'] = {'gecko': {
     'id': '{76647e60-fd31-46cf-9b37-28fd1fd4804b}',
-    'strict_min_version': '121.0',
+    'strict_min_version': '140.0',
     'data_collection_permissions': {'required': ['none'], 'optional': ['locationInfo']},
 }}
 

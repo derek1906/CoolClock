@@ -59,7 +59,7 @@ function modalDialog(options = {}) {
   modal.setAttribute('data-bs-backdrop', String(settings.backdrop));
   modal.innerHTML =
     '<div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h4 class="modal-title"></h4></div><div class="modal-body"></div><div class="modal-footer"></div></div></div>';
-  modal.querySelector('.modal-title').innerHTML = settings.title;
+  modal.querySelector('.modal-title').textContent = settings.title;
   const body = modal.querySelector('.modal-body');
   if (typeof settings.content === 'string') body.textContent = settings.content;
   else if (settings.content) body.append(settings.content);

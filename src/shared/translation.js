@@ -142,9 +142,9 @@ i18n.translate = function (ctx) {
           value = Intl.DateTimeFormat(i18n.lang(), { weekday: 'long' }).format(date);
           break;
       }
-      node.innerHTML = value;
+      node.textContent = value;
     } else {
-      node.innerHTML = i18n(node.getAttribute('trans'));
+      node.textContent = i18n(node.getAttribute('trans'));
     }
   });
 
@@ -248,10 +248,10 @@ function pupgreeting(num) {
 
 function popuppage() {
   popau.title = i18n('close');
-  pav.innerHTML = i18n('settings');
-  pag.innerHTML = i18n('timeis');
-  pat.innerHTML = i18n('notflash');
-  pbk.innerHTML = i18n('version');
+  pav.textContent = i18n('settings');
+  pag.textContent = i18n('timeis');
+  pat.textContent = i18n('notflash');
+  pbk.textContent = i18n('version');
   countdownbtn.title = i18n('countdown');
   commentbtn.title = i18n('comment');
   alarmbtn.title = i18n('alarm');
@@ -261,7 +261,7 @@ function popuppage() {
   if (['zh-TW', 'zh-CN', 'ja'].includes(i18n.lang())) {
     text_tools.style.position = 'absolute';
     text_tools.style.transform = 'rotate(-90deg) translate(5px, -7px)';
-    text_tools.innerHTML = i18n('tools');
+    text_tools.textContent = i18n('tools');
   }
 }
 

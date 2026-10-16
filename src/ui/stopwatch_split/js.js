@@ -56,9 +56,9 @@ function show_splits() {
         duration = time - splits[i - 1];
       }
 
-      ltd1.innerHTML = '#' + (i + 1);
-      ltd2.innerHTML = format(time);
-      ltd3.innerHTML = format(duration);
+      ltd1.textContent = '#' + (i + 1);
+      ltd2.textContent = format(time);
+      ltd3.textContent = format(duration);
 
       ltr.appendChild(ltd1);
       ltr.appendChild(ltd2);

@@ -97,7 +97,7 @@ function cal_time(valueonly) {
     return d - t;
   }
   var content = format(d - t);
-  ele.innerHTML = content;
+  ele.textContent = content;
   window.time = d - t;
 
   window.status = 'counting';
@@ -249,7 +249,7 @@ function loadin() {
       //byId("c_button_stop").classList.add("hide");
       byId('c_running').classList.add('hide');
       byId('c_stopped').classList.remove('hide');
-      byId('p_time').innerHTML = format(timerValues.timer_quit_msg);
+      byId('p_time').textContent = format(timerValues.timer_quit_msg);
       window.time = parseInt(timerValues.timer_quit_msg, 10);
 
       window.status = 'paused';
@@ -354,19 +354,19 @@ function status_writer() {
 
   if (s == 'setting') {
     document.title = t + b;
-    firstByTag('h2').innerHTML = t;
+    firstByTag('h2').textContent = t;
   } else if (s == 'counting') {
     document.title = t + ' - Running' + b;
-    firstByTag('h2').innerHTML = t + ' - Running';
+    firstByTag('h2').textContent = t + ' - Running';
   } else if (s == 'paused') {
     document.title = t + ' - Paused' + b;
-    firstByTag('h2').innerHTML = t + ' - Paused';
+    firstByTag('h2').textContent = t + ' - Paused';
   } else {
     document.title = t + b;
-    firstByTag('h2').innerHTML = t;
+    firstByTag('h2').textContent = t;
   }
 
-  byId('c_starttime').innerHTML = new Date(parseInt(timerValues.timer_ori_timestamp));
+  byId('c_starttime').textContent = new Date(parseInt(timerValues.timer_ori_timestamp));
   byId('c_starttime').setAttribute('title', new Date(parseInt(timerValues.timer_ori_timestamp)));
 }
 
