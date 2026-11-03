@@ -1,0 +1,614 @@
+﻿{
+   "extDes": {
+      "message": "ההרחבה הראשונה  הדיגיטלית+שעון מחוגים  על לוח הכלים של כרום+הכרזה שעתית של השעה על לוח ההודעות."
+   },
+   "extName": {
+      "message": "מגניב שעון"
+   },
+   "settings": {
+      "message": "אפשרויות"
+   },
+   "hourlytimeannounce": {
+      "message": "הכרזה שעתית"
+   },
+   "enablehourlytimeannounce": {
+      "message": "הפעל הכרזה לפי שעה"
+   },
+   "shownotificationfor": {
+      "message": "כמה זמן להציג הכרזה"
+   },
+   "seconds": {
+      "message": "שניות"
+   },
+   "max999": {
+      "message": "(מקסימום: 999)"
+   },
+   "showtodowhenopen": {
+      "message": "הצגת משימות כאשר הדפדפן נפתח"
+   },
+   "display": {
+      "message": "הצג"
+   },
+   "usedigital": {
+      "message": "הישתמש בספרות דיגיטליות"
+   },
+   "digitalmsg": {
+      "message": "(אזהרה: שימוש בספרות דיגיטליות כרוך בשימוש רב של זיכרון המחשב)"
+   },
+   "usedarkmode": {
+      "message": "מצב עיצוב כהה)למי שמישתמש בעיצוב כהה,יתוסף בועה חצויה מתחת לספרות כך שאפשר יהיה לראות את השעה)"
+   },
+   "useanalog": {
+      "message": "שימוש בשעון רגיל-אנלוגי"
+   },
+   "analogmsg": {
+      "message": "(4 ק\"ב שניה )"
+   },
+   "noscroll": {
+      "message": "אל תשתמש באפקט גלילה(תצוגת 4 ספרות במקום)י"
+   },
+   "_12hour": {
+      "message": "הישתמש במערכת של 12 שעות-ברירת מחדל היא 24"
+   },
+   "showiconclock": {
+      "message": "עם החץ-הצג שעון באייקון"
+   },
+   "showbadgeclock": {
+      "message": "הצג שעון בתיוג"
+   },
+   "comment": {
+      "message": "תגובה"
+   },
+   "cmtmsg": {
+      "message": "האם יש תגובה-דווח על באג"
+   },
+   "memmsg": {
+      "message": "\"אנימציה בדר כלל גוזלת הרבה זיכרון מערכת,"
+   },
+   "showupdate": {
+      "message": "הצג דף עדכון לאחר כל עדכון של תוסף זה"
+   },
+   "updateiconevery": {
+      "message": "רענן את הסמל כל:"
+   },
+   "updateiconeverymsg": {
+      "message": "מרווחי זמן ארוכים יותר חוסכים משאבים, אך השעון מתעדכן לעיתים רחוקות יותר."
+   },
+   "_1sec": {
+      "message": "שנייה אחת"
+   },
+   "_2sec": {
+      "message": "2 שניות"
+   },
+   "_5sec": {
+      "message": "5 שניות"
+   },
+   "_10sec": {
+      "message": "10 שניות"
+   },
+   "_30sec": {
+      "message": "30 שניות"
+   },
+   "_1min": {
+      "message": "דקה אחת"
+   },
+   "viewsavedalarm": {
+      "message": "הצגת שעונים מעוררים שמורים"
+   },
+   "OK": {
+      "message": "בסדר"
+   },
+   "apply": {
+      "message": "מסכים"
+   },
+   "cancel": {
+      "message": "ביטול"
+   },
+   "about": {
+      "message": "אודות"
+   },
+   "whatsnew": {
+      "message": "הצג פרטים חדשים בגירסה זו"
+   },
+   "none": {
+      "message": "ללא"
+   },
+   "defaultringtone": {
+      "message": "רינגטון ברירת מחדל"
+   },
+   "URLringtone": {
+      "message": "מכתובת URL"
+   },
+   "allpurpose": {
+      "message": "רינגטון לכל מטרה"
+   },
+   "alarmandringtone": {
+      "message": "שעון מעורר ורינגטון"
+   },
+   "close": {
+      "message": "סגור"
+   },
+   "timeis": {
+      "message": "עכשיו הזמן"
+   },
+   "notflash": {
+      "message": "אני לא גרסת שעון פלש"
+   },
+   "version": {
+      "message": "גרסה"
+   },
+   "countdown": {
+      "message": "טיימר ספירה לאחור"
+   },
+   "alarm": {
+      "message": "שעון מעורר"
+   },
+   "stat": {
+      "message": "סטטיסטיקה"
+   },
+   "timer": {
+      "message": "סטופר"
+   },
+   "tools": {
+      "message": "כלים"
+   },
+   "day_0": {
+      "message": "יום ראשון"
+   },
+   "day_1": {
+      "message": "יום שני"
+   },
+   "day_2": {
+      "message": "יום שלישי"
+   },
+   "day_3": {
+      "message": "יום רביעי "
+   },
+   "day_4": {
+      "message": "יום חמישי"
+   },
+   "day_5": {
+      "message": "יום שישי"
+   },
+   "day_6": {
+      "message": "יום שבת"
+   },
+   "month_1": {
+      "message": "ינואר"
+   },
+   "month_2": {
+      "message": "פבואר"
+   },
+   "month_3": {
+      "message": "מרץ"
+   },
+   "month_4": {
+      "message": "אפריל"
+   },
+   "month_5": {
+      "message": "מאי"
+   },
+   "month_6": {
+      "message": "יוני"
+   },
+   "month_7": {
+      "message": "יולי"
+   },
+   "month_8": {
+      "message": "אוג"
+   },
+   "month_9": {
+      "message": "ספט"
+   },
+   "month_10": {
+      "message": "אוק"
+   },
+   "month_11": {
+      "message": "נוב"
+   },
+   "month_12": {
+      "message": "דצמ"
+   },
+   "morning": {
+      "message": "בוקר טוב"
+   },
+   "noon": {
+      "message": "!טוב לראותך אחה\"צ"
+   },
+   "evening": {
+      "message": "האם אכלת את ארוחת הערב?"
+   },
+   "night": {
+      "message": "הגיע הזמן לישון."
+   },
+   "midnight": {
+      "message": "מה שלומך?"
+   },
+   "notitimeannounce": {
+      "message": "הכרזה שעתית"
+   },
+   "notitimeis": {
+      "message": "עכשיו "
+   },
+   "am": {
+      "message": "בוקר"
+   },
+   "pm": {
+      "message": "ערב"
+   },
+   "saved": {
+      "message": "נשמר."
+   },
+   "notsaved": {
+      "message": "האפשרויות ששונו לא נשמרו! האם להמשיך בכל זאת?"
+   },
+   "ctxcmt": {
+      "message": "דוח באגים/ הערות"
+   },
+   "digital": {
+      "message": "שעון דיגיטלי"
+   },
+   "analog": {
+      "message": "שעון אנלוגי"
+   },
+   "ctxhide": {
+      "message": "לא להציג את הפריטים האלה"
+   },
+   "contextVoiceControl": {
+      "message": "שליטה קולית"
+   },
+   "contextCurrentTime": {
+      "message": "הוסף את השעה הנוכחית"
+   },
+   "chat": {
+      "message": "Chat box"
+   },
+   "forum": {
+      "message": "Forum"
+   },
+   "calendar": {
+      "message": "לוח שנה"
+   },
+   "setalarm": {
+      "message": "הגדרת שעון מעורר"
+   },
+   "alarmRinging": {
+      "message": "ההתראה מצלצלת"
+   },
+   "timesUp": {
+      "message": "הזמן נגמר"
+   },
+   "scheduledFor": {
+      "message": "מתוזמן לשעה {time}"
+   },
+   "weatherHumidity": {
+      "message": "לחות"
+   },
+   "weatherLoading": {
+      "message": "טוען נתוני מזג אוויר…"
+   },
+   "weatherUnavailable": {
+      "message": "מזג האוויר אינו זמין"
+   },
+   "errorUnavailable": {
+      "message": "התוסף אינו זמין"
+   },
+   "dismissLabel": {
+      "message": "סגירה"
+   },
+   "help": {
+      "message": "עזרה"
+   },
+   "optionsMenu": {
+      "message": "תפריט"
+   },
+   "optionsFormats": {
+      "message": "פורמטים"
+   },
+   "optionsNotifications": {
+      "message": "התראות"
+   },
+   "optionsSpeech": {
+      "message": "טקסט לדיבור"
+   },
+   "optionsExtension": {
+      "message": "הרחבה"
+   },
+   "optionsCredits": {
+      "message": "תודה מיוחדת"
+   },
+   "optionsEditAppearance": {
+      "message": "ערוך את המראה"
+   },
+   "optionsColor": {
+      "message": "צבע"
+   },
+   "optionsBadgeColor": {
+      "message": "צבע התג"
+   },
+   "optionsNewPopup": {
+      "message": "השתמש בעיצוב קופץ חדש"
+   },
+   "optionsTimeSystem": {
+      "message": "מערכת זמן"
+   },
+   "optionsCalendarSystem": {
+      "message": "מערכת לוח שנה"
+   },
+   "optionsLunar": {
+      "message": "הצג את תאריך הירח הסיני"
+   },
+   "optionsDateOrder": {
+      "message": "הזמנת תאריך"
+   },
+   "optionsDragReorder": {
+      "message": "- גרור לסדר מחדש"
+   },
+   "optionsCustomTimezone": {
+      "message": "אזור זמן מותאם אישית"
+   },
+   "optionsLocalTimezone": {
+      "message": "אזור הזמן המקומי שלך"
+   },
+   "optionsTimezoneNote": {
+      "message": "הערה: הגדרה זו אינה חלה על לוח השנה."
+   },
+   "optionsTestNotification": {
+      "message": "הודעת בדיקה"
+   },
+   "optionsNotificationStyle": {
+      "message": "סגנון הודעות"
+   },
+   "optionsDefault": {
+      "message": "ברירת מחדל"
+   },
+   "optionsBackgroundColor": {
+      "message": "צבע רקע"
+   },
+   "optionsCompact": {
+      "message": "קומפקטי"
+   },
+   "optionsNotificationDuration": {
+      "message": "זמן תצוגת הודעות"
+   },
+   "optionsSystemDuration": {
+      "message": "(המערכת עשויה לעקוף הגדרה זו)"
+   },
+   "optionsCloseManually": {
+      "message": "סגור ידנית"
+   },
+   "optionsShowWeather": {
+      "message": "הצג מידע על מזג האוויר"
+   },
+   "optionsWeatherFahrenheit": {
+      "message": "השתמש בפרנהייט (℉)"
+   },
+   "optionsWeatherProvider": {
+      "message": "(מידע על מזג האוויר מסופק על ידי Open-Meteo)"
+   },
+   "optionsLocation": {
+      "message": "מיקום"
+   },
+   "optionsNotSet": {
+      "message": "לא מוגדר/לא זמין"
+   },
+   "optionsSearch": {
+      "message": "חפש..."
+   },
+   "optionsAutoLocation": {
+      "message": "שימוש אוטומטי במיקום הדפדפן"
+   },
+   "optionsCurrentLocation": {
+      "message": "המיקום הנוכחי"
+   },
+   "optionsNotificationSound": {
+      "message": "אפשר צליל הודעה לפי שעה"
+   },
+   "optionsRingtone": {
+      "message": "רינגטון"
+   },
+   "optionsReadTime": {
+      "message": "קרא את השעה יחד עם הודעת השעה לפי שעה"
+   },
+   "optionsSentence": {
+      "message": "משפט"
+   },
+   "optionsVoiceTokens": {
+      "message": "%H: שעה (24 שעות); %h: שעה (12 שעות); %P: am/pm; %M: דקה"
+   },
+   "optionsFromComputer": {
+      "message": "מהמחשב שלך"
+   },
+   "optionsLoop": {
+      "message": "אפשר לולאה"
+   },
+   "optionsPreviewRingtone": {
+      "message": "תצוגה מקדימה של הרינגטון הנוכחי"
+   },
+   "optionsLoad": {
+      "message": "טען"
+   },
+   "optionsSpeechEngine": {
+      "message": "מנוע דיבור"
+   },
+   "optionsSpeechIntro": {
+      "message": "בחר את מנוע הקול שבו אתה מעדיף להשתמש בשליטה קולית ובהודעות טקסט לדיבור לפי שעה."
+   },
+   "optionsSpeechInstall": {
+      "message": "קולות מותקנים מופיעים בתפריט הנפתח למטה."
+   },
+   "optionsInstalledVoices": {
+      "message": "התקינו מנועי קול"
+   },
+   "optionsLanguage": {
+      "message": "שפה"
+   },
+   "optionsUpdateInterval": {
+      "message": "מרווח עדכון רקע"
+   },
+   "optionsKeepAwake": {
+      "message": "מנע מהמערכת לישון כאשר יש אזעקות פעילות או ספירה לאחור"
+   },
+   "optionsBackgroundRun": {
+      "message": "המשך להפעיל את Cool Clock ברקע כאשר Google Chrome סגור"
+   },
+   "optionsContextMenu": {
+      "message": "הצג פריטים בתפריט ההקשר"
+   },
+   "optionsTranslationCredits": {
+      "message": "כל מי שתרם תרגומים מקומיים"
+   },
+   "optionsMore": {
+      "message": "עוד"
+   },
+   "optionsMiscellaneous": {
+      "message": "שונות"
+   },
+   "optionsLunarTip": {
+      "message": "הצג תאריך ירח סיני. הדיוק תלוי בדפדפן ובמערכת ההפעלה שלך."
+   },
+   "optionsTimezoneTip": {
+      "message": "אזור הזמן המקומי שלך עשוי להשתנות במהלך שעון הקיץ."
+   },
+   "optionsTestTip": {
+      "message": "הצג הודעה באמצעות ההגדרות הנוכחיות."
+   },
+   "optionsLocationTip": {
+      "message": "זהו מזהה המיקום הנוכחי. השתמש בחיפוש כדי לבחור מיקום אחר."
+   },
+   "optionsAudioTip": {
+      "message": "רק קבצי MP3, OGG או WAV נתמכים."
+   },
+   "optionsVoiceTip": {
+      "message": "בחר מנוע קול התומך בשפה שלך בקטע טקסט לדיבור."
+   },
+   "optionsEmpty": {
+      "message": "(ריק)"
+   },
+   "optionsContextTip": {
+      "message": "הצג פריטי שעון מגניב בתפריט לחיצה ימנית."
+   },
+   "optionsChooseFile": {
+      "message": "בחר קובץ..."
+   },
+   "optionsSearchPlace": {
+      "message": "מיקום, מיקוד או מקום"
+   },
+   "optionsSearchByName": {
+      "message": "חפש לפי שם"
+   },
+   "optionsLoading": {
+      "message": "טוען..."
+   },
+   "optionsNoResult": {
+      "message": "אין תוצאות"
+   },
+   "optionsSearchError": {
+      "message": "שגיאה באחזור נתונים"
+   },
+   "optionsImported": {
+      "message": "מיובא!"
+   },
+   "optionsTestSoundHint": {
+      "message": "לחץ על הודעת בדיקה כדי לשמוע את הצליל."
+   },
+   "optionsSuccess": {
+      "message": "הַצלָחָה!"
+   },
+   "optionsLoaded": {
+      "message": "טָעוּן."
+   },
+   "optionsNotice": {
+      "message": "שימו לב"
+   },
+   "optionsNoRingtone": {
+      "message": "לא הוגדר רינגטון."
+   },
+   "optionsInvalidUrl": {
+      "message": "כתובת האתר הזו לא חוקית או לא נתמכת."
+   },
+   "optionsRetry": {
+      "message": "נסה שוב"
+   },
+   "optionsAdvanced": {
+      "message": "מתקדם"
+   },
+   "optionsAppearanceHint": {
+      "message": "למשתמשים מתקדמים: ערוך את התצורה למטה כדי לכוונן עדין את השעון. הרוחב והגובה תואמים לגודל הסמל, בדרך כלל 19 × 19 dp."
+   },
+   "optionsEditAnalog": {
+      "message": "ערוך את מראה השעון האנלוגי"
+   },
+   "optionsEditDigital": {
+      "message": "ערוך את מראה השעון הדיגיטלי"
+   },
+   "optionsInvalidJson": {
+      "message": "JSON לא חוקי"
+   },
+   "optionsEnterValidJson": {
+      "message": "אנא הזן JSON חוקי."
+   },
+   "optionsYear": {
+      "message": "שנה"
+   },
+   "optionsMonth": {
+      "message": "חודש"
+   },
+   "optionsDate": {
+      "message": "יום"
+   },
+   "optionsRemoved": {
+      "message": "(הוסר)"
+   },
+   "optionsUrlTip": {
+      "message": "רק כתובות URL של HTTP או HTTPS נתמכות."
+   },
+   "optionsWeatherProviderCredit": {
+      "message": "מידע מזג אוויר מופעל על ידי Open-Meteo"
+   },
+   "optionsGeocodingCredit": {
+      "message": "קידוד גיאוגרפי פתוח-מטאו"
+   },
+   "optionsTweet": {
+      "message": "ציוץ"
+   },
+   "optionsBootstrapIconsCredit": {
+      "message": "Bootstrap Icons"
+   },
+   "optionsSoundJayCredit": {
+      "message": "Sound Jay (צלצול אזעקה ברירת מחדל)"
+   },
+   "optionsFactLabel": {
+      "message": "עובדה"
+   },
+   "optionsFact1": {
+      "message": "תוסף זה אינו מכיל קוד מעקב מכוון של משתמשים."
+   },
+   "optionsFact2": {
+      "message": "ב-Cool Clock, אנו מתייחסים לדקדוק ברצינות כדי להימנע מדיווחי באגים על דקדוק."
+   },
+   "optionsFact3": {
+      "message": "Cool Clock קיבל את שמו מכיוון שהיוצר שלו לא יכול היה לחשוב על אחד טוב יותר."
+   },
+   "optionsFact4": {
+      "message": "התשובה להכל היא לא 42."
+   },
+   "optionsFact5": {
+      "message": "הצהרה זו שקרית."
+   },
+   "optionsPermissionError": {
+      "message": "לא ניתן להסיר את הרשאת הדפדפן."
+   },
+   "optionsProcessing": {
+      "message": "מעבד..."
+   },
+   "optionsPleaseWait": {
+      "message": "אנא המתן רגע..."
+   },
+   "optionsSyncSettings": {
+      "message": "סנכרון הגדרות"
+   },
+   "optionsSyncTip": {
+      "message": "משתמש בסנכרון המובנה של הדפדפן בין מכשירים שמחוברים לאותו חשבון."
+   }
+}

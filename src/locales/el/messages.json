@@ -1,0 +1,614 @@
+﻿{
+   "extDes": {
+      "message": "Μια επέκταση γεμάτη χρήσιμες λειτουργίες για την ώρα... και το καλύτερο: είναι πραγματικά COOL."
+   },
+   "extName": {
+      "message": "Cool Ρολόι"
+   },
+   "settings": {
+      "message": "Επιλογές"
+   },
+   "hourlytimeannounce": {
+      "message": "Ωριαία Ανακοίνωση Ώρας"
+   },
+   "enablehourlytimeannounce": {
+      "message": "Ενεργοποίηση Ωριαίας Ανακοίνωσης Ώρας! (κοινοποίηση στην επιφάνεια εργασίας)"
+   },
+   "shownotificationfor": {
+      "message": "Εμφάνιση κοινοποίησης για: "
+   },
+   "seconds": {
+      "message": "δευτερόλεπτα."
+   },
+   "max999": {
+      "message": "(Μέγιστη:  999)"
+   },
+   "showtodowhenopen": {
+      "message": "Ειδοποίηση προς-dos στην επιφάνεια εργασίας, Ειδοποίηση όταν εκτελείτε το πρόγραμμα περιήγησης σας."
+   },
+   "display": {
+      "message": "Εμφάνιση"
+   },
+   "usedigital": {
+      "message": "Χρησιμοποιήστε το ψηφιακό ρολόι"
+   },
+   "digitalmsg": {
+      "message": "(Προσοχή:  Χρησιμοποιώντας το ψηφιακό ρολόι θα καταλαμβάνει πολύ μνήμη του υπολογιστή σας.)"
+   },
+   "usedarkmode": {
+      "message": "Χρησιμοποιήστε τη λειτουργία θέματος σκοτεινό (Για εκείνους που χρησιμοποιούν σκοτεινό θέμα, θα προσθέσουμε μια μισό-διαφανή φούσκα με τους αριθμούς έτσι ώστε να μπορέσετε να δείτε την ώρα.)"
+   },
+   "useanalog": {
+      "message": "Χρησιμοποιήστε το αναλογικό ρολόι"
+   },
+   "analogmsg": {
+      "message": "(Περίπου 4 KB ανά δευτερόλεπτο.)"
+   },
+   "noscroll": {
+      "message": "Μην χρησιμοποιείτε εφέ κύλισης (Εμφάνιση 4 αριθμούς αντί για κύλιση)"
+   },
+   "_12hour": {
+      "message": "Χρησιμοποιήστε 12 ώρo σύστημα (Προεπιλογή χρησιμοποιεί 24 ώρο σύστημα)"
+   },
+   "showiconclock": {
+      "message": "Εμφάνιση ρολογιού στο εικονίδιο (Το ένα με βέλος)"
+   },
+   "showbadgeclock": {
+      "message": "Εμφάνιση ώρας στο σήμα"
+   },
+   "comment": {
+      "message": "Σχολιάστε"
+   },
+   "cmtmsg": {
+      "message": "Έχετε κάποιο σχόλιο; Αναφέρετε ένα σφάλμα; Πατήστε εδώ!"
+   },
+   "memmsg": {
+      "message": "Η αναζωογόνηση συνήθως \"σύρει\" μια νέα εικόνα ανά δευτερόλεπτο, οπότε κανονικά θα πάρει επάνω πολύ μνήμη μετά από μια χρονική περίοδο, ενώ είμαι προσπαθώντας να μειωθεί στο ελάχιστο."
+   },
+   "showupdate": {
+      "message": "Εμφάνιση της σελίδας ενημέρωσης μετά από κάθε φορά που αυτή η επέκταση έχει ενημερωθεί."
+   },
+   "updateiconevery": {
+      "message": "Ανανεώστε το εικονίδιο κάθε: "
+   },
+   "updateiconeverymsg": {
+      "message": "(Όσο περισσότερο είναι, τόσο ελαφρύτερη είναι αυτή η επέκταση.)"
+   },
+   "_1sec": {
+      "message": "1 δευτερόλεπτο"
+   },
+   "_2sec": {
+      "message": "2 δευτερόλεπτα"
+   },
+   "_5sec": {
+      "message": "5 δευτερόλεπτα"
+   },
+   "_10sec": {
+      "message": "10 δευτερόλεπτα"
+   },
+   "_30sec": {
+      "message": "30 δευτερόλεπτα"
+   },
+   "_1min": {
+      "message": "1 λεπτό"
+   },
+   "viewsavedalarm": {
+      "message": "Προβολή αποθηκευμένων ειδοποιήσεων"
+   },
+   "OK": {
+      "message": "Εντάξει"
+   },
+   "apply": {
+      "message": "Εφαρμογή"
+   },
+   "cancel": {
+      "message": "Ακύρωση"
+   },
+   "about": {
+      "message": "Σχετικά"
+   },
+   "whatsnew": {
+      "message": "Δείτε τι νέο υπάρχει σε αυτήν την έκδοση"
+   },
+   "none": {
+      "message": "Κανένα"
+   },
+   "defaultringtone": {
+      "message": "Προεπιλεγμένος ήχος κλήσης"
+   },
+   "URLringtone": {
+      "message": "Από τη διεύθυνση URL"
+   },
+   "allpurpose": {
+      "message": "Ήχος κλήσης για όλους τους σκοπούς"
+   },
+   "alarmandringtone": {
+      "message": "Ξυπνητήρι και ήχος κλήσης"
+   },
+   "close": {
+      "message": "Κλείσιμο"
+   },
+   "timeis": {
+      "message": "Τώρα η ώρα είναι: "
+   },
+   "notflash": {
+      "message": "(Δεν είμαι ένα ρολόι Flash!)"
+   },
+   "version": {
+      "message": "Έκδοση"
+   },
+   "countdown": {
+      "message": "χρονόμετρο αντίστροφης μέτρησης"
+   },
+   "alarm": {
+      "message": "ξυπνητήρι"
+   },
+   "stat": {
+      "message": "Στατιστικά"
+   },
+   "timer": {
+      "message": "Χρονόμετρο"
+   },
+   "tools": {
+      "message": "Εργαλεία"
+   },
+   "day_0": {
+      "message": "Κυριακή"
+   },
+   "day_1": {
+      "message": "Δευτέρα"
+   },
+   "day_2": {
+      "message": "Τρίτη"
+   },
+   "day_3": {
+      "message": "Τετάρτη"
+   },
+   "day_4": {
+      "message": "Πέμπτη"
+   },
+   "day_5": {
+      "message": "Παρασκευή"
+   },
+   "day_6": {
+      "message": "Σάββατο"
+   },
+   "month_1": {
+      "message": "Ιαν"
+   },
+   "month_2": {
+      "message": "Φεβ"
+   },
+   "month_3": {
+      "message": "Μάρ"
+   },
+   "month_4": {
+      "message": "Απρ"
+   },
+   "month_5": {
+      "message": "Μάι"
+   },
+   "month_6": {
+      "message": "Ιούν"
+   },
+   "month_7": {
+      "message": "Ιούλ"
+   },
+   "month_8": {
+      "message": "Αύγ"
+   },
+   "month_9": {
+      "message": "Σεπ"
+   },
+   "month_10": {
+      "message": "Οκτ"
+   },
+   "month_11": {
+      "message": "Νοέ"
+   },
+   "month_12": {
+      "message": "Δεκ"
+   },
+   "morning": {
+      "message": "Καλημέρα!"
+   },
+   "noon": {
+      "message": "Μεγάλη μου χαρά που σας βλέπω μέσα στο Απόγευμα!"
+   },
+   "evening": {
+      "message": "Έχετε φάει το δείπνο σας ακόμα;"
+   },
+   "night": {
+      "message": "Ήρθε η ώρα για ύπνο."
+   },
+   "midnight": {
+      "message": "Τι κάνεις;"
+   },
+   "notitimeannounce": {
+      "message": "Ωριαία Ανακοίνωση Ώρας..."
+   },
+   "notitimeis": {
+      "message": "Τώρα είναι"
+   },
+   "am": {
+      "message": "π.μ."
+   },
+   "pm": {
+      "message": "μ.μ."
+   },
+   "saved": {
+      "message": "Αποθηκεύτηκε."
+   },
+   "notsaved": {
+      "message": "Οι τροποποιημένες επιλογές δεν έχουν αποθηκευτεί! Συνέχεια ούτως ή άλλως;"
+   },
+   "ctxcmt": {
+      "message": "Αναφορά σφάλματος/ Σχόλια"
+   },
+   "digital": {
+      "message": "ψηφιακό ρολόι"
+   },
+   "analog": {
+      "message": "αναλογικό ρολό"
+   },
+   "ctxhide": {
+      "message": "Να μην εμφανίζονται αυτά τα στοιχεία"
+   },
+   "contextVoiceControl": {
+      "message": "Φωνητικός έλεγχος"
+   },
+   "contextCurrentTime": {
+      "message": "Εισαγωγή τρέχουσας ώρας"
+   },
+   "chat": {
+      "message": "Chat box"
+   },
+   "forum": {
+      "message": "Φόρουμ"
+   },
+   "calendar": {
+      "message": "Ημερολόγιο"
+   },
+   "setalarm": {
+      "message": "Ρύθμιση ξυπνητηριού"
+   },
+   "alarmRinging": {
+      "message": "Το ξυπνητήρι χτυπά"
+   },
+   "timesUp": {
+      "message": "Ο χρόνος τελείωσε"
+   },
+   "scheduledFor": {
+      "message": "Προγραμματισμένο για τις {time}"
+   },
+   "weatherHumidity": {
+      "message": "Υγρασία"
+   },
+   "weatherLoading": {
+      "message": "Φόρτωση καιρού…"
+   },
+   "weatherUnavailable": {
+      "message": "Ο καιρός δεν είναι διαθέσιμος"
+   },
+   "errorUnavailable": {
+      "message": "Η επέκταση δεν είναι διαθέσιμη"
+   },
+   "dismissLabel": {
+      "message": "Κλείσιμο"
+   },
+   "help": {
+      "message": "Βοήθεια"
+   },
+   "optionsMenu": {
+      "message": "Μενού"
+   },
+   "optionsFormats": {
+      "message": "Μορφές"
+   },
+   "optionsNotifications": {
+      "message": "Ειδοποιήσεις"
+   },
+   "optionsSpeech": {
+      "message": "Κείμενο σε Ομιλία"
+   },
+   "optionsExtension": {
+      "message": "Επέκταση"
+   },
+   "optionsCredits": {
+      "message": "Ιδιαίτερες ευχαριστίες"
+   },
+   "optionsEditAppearance": {
+      "message": "Επεξεργασία εμφάνισης"
+   },
+   "optionsColor": {
+      "message": "Χρώμα"
+   },
+   "optionsBadgeColor": {
+      "message": "Χρώμα σήματος"
+   },
+   "optionsNewPopup": {
+      "message": "Χρησιμοποιήστε νέο αναδυόμενο σχέδιο"
+   },
+   "optionsTimeSystem": {
+      "message": "Σύστημα χρόνου"
+   },
+   "optionsCalendarSystem": {
+      "message": "Ημερολογιακό σύστημα"
+   },
+   "optionsLunar": {
+      "message": "Εμφάνιση κινεζικής σεληνιακής ημερομηνίας"
+   },
+   "optionsDateOrder": {
+      "message": "Παραγγελία ημερομηνίας"
+   },
+   "optionsDragReorder": {
+      "message": "- σύρετε για αναδιάταξη"
+   },
+   "optionsCustomTimezone": {
+      "message": "Προσαρμοσμένη ζώνη ώρας"
+   },
+   "optionsLocalTimezone": {
+      "message": "την τοπική σας ζώνη ώρας"
+   },
+   "optionsTimezoneNote": {
+      "message": "Σημείωση: Αυτή η ρύθμιση δεν ισχύει για το ημερολόγιο."
+   },
+   "optionsTestNotification": {
+      "message": "Ειδοποίηση δοκιμής"
+   },
+   "optionsNotificationStyle": {
+      "message": "Στυλ ειδοποιήσεων"
+   },
+   "optionsDefault": {
+      "message": "Προεπιλογή"
+   },
+   "optionsBackgroundColor": {
+      "message": "Χρώμα φόντου"
+   },
+   "optionsCompact": {
+      "message": "Συμπαγές"
+   },
+   "optionsNotificationDuration": {
+      "message": "Ώρα εμφάνισης ειδοποιήσεων"
+   },
+   "optionsSystemDuration": {
+      "message": "(Το σύστημα ενδέχεται να παρακάμψει αυτήν τη ρύθμιση)"
+   },
+   "optionsCloseManually": {
+      "message": "Κλείσιμο χειροκίνητα"
+   },
+   "optionsShowWeather": {
+      "message": "Εμφάνιση πληροφοριών καιρού"
+   },
+   "optionsWeatherFahrenheit": {
+      "message": "Χρήση Φαρενάιτ (℉)"
+   },
+   "optionsWeatherProvider": {
+      "message": "(Οι καιρικές πληροφορίες παρέχονται από το Open-Meteo)"
+   },
+   "optionsLocation": {
+      "message": "Τοποθεσία"
+   },
+   "optionsNotSet": {
+      "message": "Δεν έχει οριστεί/ Μη διαθέσιμο"
+   },
+   "optionsSearch": {
+      "message": "Αναζήτηση..."
+   },
+   "optionsAutoLocation": {
+      "message": "Αυτόματη χρήση τοποθεσίας προγράμματος περιήγησης"
+   },
+   "optionsCurrentLocation": {
+      "message": "Τρέχουσα τοποθεσία"
+   },
+   "optionsNotificationSound": {
+      "message": "Ενεργοποιήστε τον ήχο Ωριαίας Ανακοίνωσης"
+   },
+   "optionsRingtone": {
+      "message": "Ήχος κλήσης"
+   },
+   "optionsReadTime": {
+      "message": "Διαβάστε την ώρα μαζί με την ωριαία ανακοίνωση"
+   },
+   "optionsSentence": {
+      "message": "Πρόταση"
+   },
+   "optionsVoiceTokens": {
+      "message": "%H: Ώρα (24 ώρες); %h: Ώρα (12 ώρες); %P: π.μ./μ.μ. %M: Λεπτό"
+   },
+   "optionsFromComputer": {
+      "message": "Από τον υπολογιστή σας"
+   },
+   "optionsLoop": {
+      "message": "Ενεργοποίηση επαναφοράς"
+   },
+   "optionsPreviewRingtone": {
+      "message": "Προεπισκόπηση του τρέχοντος ήχου κλήσης"
+   },
+   "optionsLoad": {
+      "message": "Φόρτωση"
+   },
+   "optionsSpeechEngine": {
+      "message": "Μηχανή ομιλίας"
+   },
+   "optionsSpeechIntro": {
+      "message": "Επιλέξτε τη μηχανή φωνής που προτιμάτε να χρησιμοποιείτε για φωνητικό έλεγχο και ωριαία μετατροπή κειμένου σε ομιλία."
+   },
+   "optionsSpeechInstall": {
+      "message": "Οι εγκατεστημένες φωνές εμφανίζονται στο αναπτυσσόμενο μενού παρακάτω."
+   },
+   "optionsInstalledVoices": {
+      "message": "Εγκατεστημένες μηχανές φωνής"
+   },
+   "optionsLanguage": {
+      "message": "Γλώσσα"
+   },
+   "optionsUpdateInterval": {
+      "message": "Διάστημα ενημέρωσης φόντου"
+   },
+   "optionsKeepAwake": {
+      "message": "Αποτρέψτε την αδράνεια του συστήματος όταν υπάρχουν ενεργοί συναγερμοί ή αντίστροφες μετρήσεις"
+   },
+   "optionsBackgroundRun": {
+      "message": "Συνεχίστε να εκτελείτε το Cool Clock στο παρασκήνιο όταν το Google Chrome είναι κλειστό"
+   },
+   "optionsContextMenu": {
+      "message": "Εμφάνιση στοιχείων μενού περιβάλλοντος"
+   },
+   "optionsTranslationCredits": {
+      "message": "Όλοι όσοι συνεισέφεραν τοπικές μεταφράσεις"
+   },
+   "optionsMore": {
+      "message": "Περισσότερα"
+   },
+   "optionsMiscellaneous": {
+      "message": "Διάφορα"
+   },
+   "optionsLunarTip": {
+      "message": "Εμφάνιση κινεζικής σεληνιακής ημερομηνίας. Η ακρίβεια εξαρτάται από το πρόγραμμα περιήγησης και το λειτουργικό σας σύστημα."
+   },
+   "optionsTimezoneTip": {
+      "message": "Η τοπική ζώνη ώρας σας μπορεί να αλλάξει κατά τη θερινή ώρα."
+   },
+   "optionsTestTip": {
+      "message": "Εμφάνιση ειδοποίησης χρησιμοποιώντας τις τρέχουσες ρυθμίσεις."
+   },
+   "optionsLocationTip": {
+      "message": "Αυτό είναι το αναγνωριστικό της τρέχουσας τοποθεσίας. Χρησιμοποιήστε την Αναζήτηση για να επιλέξετε άλλη τοποθεσία."
+   },
+   "optionsAudioTip": {
+      "message": "Υποστηρίζονται μόνο αρχεία MP3, OGG ή WAV."
+   },
+   "optionsVoiceTip": {
+      "message": "Επιλέξτε μια μηχανή φωνής που υποστηρίζει τη γλώσσα σας στην ενότητα Κείμενο σε ομιλία."
+   },
+   "optionsEmpty": {
+      "message": "(άδειο)"
+   },
+   "optionsContextTip": {
+      "message": "Εμφάνιση στοιχείων Cool Clock στο μενού δεξί κλικ."
+   },
+   "optionsChooseFile": {
+      "message": "Επιλέξτε ένα αρχείο..."
+   },
+   "optionsSearchPlace": {
+      "message": "Τοποθεσία, ταχυδρομικός κώδικας ή τοποθεσία"
+   },
+   "optionsSearchByName": {
+      "message": "Αναζήτηση με όνομα"
+   },
+   "optionsLoading": {
+      "message": "Φόρτωση..."
+   },
+   "optionsNoResult": {
+      "message": "Κανένα αποτέλεσμα"
+   },
+   "optionsSearchError": {
+      "message": "Σφάλμα κατά την ανάκτηση δεδομένων"
+   },
+   "optionsImported": {
+      "message": "Εισαγόμενο!"
+   },
+   "optionsTestSoundHint": {
+      "message": "Πατήστε Test Notification για να ακούσετε τον ήχο."
+   },
+   "optionsSuccess": {
+      "message": "Επιτυχία!"
+   },
+   "optionsLoaded": {
+      "message": "Φορτωμένος."
+   },
+   "optionsNotice": {
+      "message": "Σημείωση"
+   },
+   "optionsNoRingtone": {
+      "message": "Δεν έχει οριστεί ήχος κλήσης."
+   },
+   "optionsInvalidUrl": {
+      "message": "Αυτή η διεύθυνση URL δεν είναι έγκυρη ή δεν υποστηρίζεται."
+   },
+   "optionsRetry": {
+      "message": "Επανάληψη"
+   },
+   "optionsAdvanced": {
+      "message": "Προχωρημένο"
+   },
+   "optionsAppearanceHint": {
+      "message": "Για προχωρημένους χρήστες: επεξεργαστείτε την παρακάτω διαμόρφωση για να ρυθμίσετε με ακρίβεια το ρολόι. Το πλάτος και το ύψος ταιριάζουν με το μέγεθος του εικονιδίου, συνήθως 19 × 19 dp."
+   },
+   "optionsEditAnalog": {
+      "message": "Επεξεργασία εμφάνισης αναλογικού ρολογιού"
+   },
+   "optionsEditDigital": {
+      "message": "Επεξεργασία εμφάνισης ψηφιακού ρολογιού"
+   },
+   "optionsInvalidJson": {
+      "message": "Μη έγκυρο JSON"
+   },
+   "optionsEnterValidJson": {
+      "message": "Εισαγάγετε έγκυρο JSON."
+   },
+   "optionsYear": {
+      "message": "έτος"
+   },
+   "optionsMonth": {
+      "message": "Μήνας"
+   },
+   "optionsDate": {
+      "message": "Ημέρα"
+   },
+   "optionsRemoved": {
+      "message": "(Καταργήθηκε)"
+   },
+   "optionsUrlTip": {
+      "message": "Υποστηρίζονται μόνο διευθύνσεις URL HTTP ή HTTPS."
+   },
+   "optionsWeatherProviderCredit": {
+      "message": "Πληροφορίες για τον καιρό με την υποστήριξη του Open-Meteo"
+   },
+   "optionsGeocodingCredit": {
+      "message": "Γεωκωδικοποίηση Open-Meteo"
+   },
+   "optionsTweet": {
+      "message": "Tweet"
+   },
+   "optionsBootstrapIconsCredit": {
+      "message": "Bootstrap Icons"
+   },
+   "optionsSoundJayCredit": {
+      "message": "Sound Jay (προεπιλεγμένος ήχος κλήσης συναγερμού)"
+   },
+   "optionsFactLabel": {
+      "message": "Γεγονός"
+   },
+   "optionsFact1": {
+      "message": "Αυτή η επέκταση δεν περιέχει σκόπιμα κώδικα παρακολούθησης χρήστη."
+   },
+   "optionsFact2": {
+      "message": "Στο Cool Clock, λαμβάνουμε σοβαρά υπόψη τη γραμματική για να αποφύγουμε αναφορές σφαλμάτων σχετικά με τη γραμματική."
+   },
+   "optionsFact3": {
+      "message": "Το Cool Clock πήρε το όνομά του επειδή ο δημιουργός του δεν μπορούσε να σκεφτεί καλύτερο."
+   },
+   "optionsFact4": {
+      "message": "Η απάντηση σε όλα δεν είναι 42."
+   },
+   "optionsFact5": {
+      "message": "Αυτή η δήλωση είναι ψευδής."
+   },
+   "optionsPermissionError": {
+      "message": "Δεν ήταν δυνατή η κατάργηση της άδειας προγράμματος περιήγησης."
+   },
+   "optionsProcessing": {
+      "message": "Επεξεργασία..."
+   },
+   "optionsPleaseWait": {
+      "message": "Παρακαλώ περιμένετε λίγο..."
+   },
+   "optionsSyncSettings": {
+      "message": "Συγχρονισμός ρυθμίσεων"
+   },
+   "optionsSyncTip": {
+      "message": "Χρησιμοποιεί τον συγχρονισμό του προγράμματος περιήγησης σε συσκευές με τον ίδιο λογαριασμό."
+   }
+}

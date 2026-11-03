@@ -1,0 +1,614 @@
+﻿{
+   "extDes": {
+      "message": "اولین افزونه گوگل کروم با نمایش ساعت دیجیتال و عقربه ایی بر روی نوار ابزار و اعلان ساعتی زمان بر  روی دسکتاپ"
+   },
+   "extName": {
+      "message": "Cool Clock"
+   },
+   "settings": {
+      "message": "تنظیمات"
+   },
+   "hourlytimeannounce": {
+      "message": "اعلان زمان ساعتی"
+   },
+   "enablehourlytimeannounce": {
+      "message": "فعال کردن اعلان زمان ساعتی بر روی دسکتاپ "
+   },
+   "shownotificationfor": {
+      "message": "مدت نمایش اعلان:  "
+   },
+   "seconds": {
+      "message": "ثانیه "
+   },
+   "max999": {
+      "message": "(حداکثر:  ۹۹۹) "
+   },
+   "showtodowhenopen": {
+      "message": "اعلام لیست کارهایی که بایستی انجام دهید بر روی دسکتاپ در هنگامی که گوگل کروم شما باز است "
+   },
+   "display": {
+      "message": "نمایشگر "
+   },
+   "usedigital": {
+      "message": "نمایش ساعت دیجیتال "
+   },
+   "digitalmsg": {
+      "message": "(اخطار:  استفاده از ساعت دیجیتال باعث مصرف بیشتر حافظه کامپیوتر میشود )"
+   },
+   "usedarkmode": {
+      "message": "استفاده از تم تیره - برای کاربرانی که از تم تیره استفاده میکنند. این تم به صورت نیمه روشن است "
+   },
+   "useanalog": {
+      "message": "نمایش ساعت عقربه ایی "
+   },
+   "analogmsg": {
+      "message": "(در حدود ۴ کیلو بایت در هر ثانیه )"
+   },
+   "noscroll": {
+      "message": "عدم نمایش به صورت فهرست - نمایش ۴ خط بجای فهرست "
+   },
+   "_12hour": {
+      "message": "نمایش ساعت بصورت ۱۲ ساعتی - پیش فرض نمایش ۲۴ ساعتی است "
+   },
+   "showiconclock": {
+      "message": "نمایش ساعت بر روی آیکن "
+   },
+   "showbadgeclock": {
+      "message": "نمایش ساعت بر روی علامت - علامت قرمز جلوی آیکن "
+   },
+   "comment": {
+      "message": "توضیح "
+   },
+   "cmtmsg": {
+      "message": " توضیحی دارید؟ خطایی رو میخواهید گزارش کنید؟ اینجا رو کلیک کنید"
+   },
+   "memmsg": {
+      "message": "انیمشن معمولا در هر ثانیه ۱ تصویر میکشد. از اینرو حافظه زیادی مصرف میکند. در حال حاضر من بر روی کاهش مصرف حافظه دارم کار میکنم "
+   },
+   "showupdate": {
+      "message": "نمایش وضیعت بروز رسانی هر زمان که که این افزونه بروز شد "
+   },
+   "updateiconevery": {
+      "message": "فراخوانی آیکون در هر:  "
+   },
+   "updateiconeverymsg": {
+      "message": "(طولانی تر از آن است، سبکتر این فرمت است)"
+   },
+   "_1sec": {
+      "message": "یک ثانیه"
+   },
+   "_2sec": {
+      "message": " دو ثانیه"
+   },
+   "_5sec": {
+      "message": " پنج ثانیه"
+   },
+   "_10sec": {
+      "message": " ده ثانیه"
+   },
+   "_30sec": {
+      "message": " سی ثانیه"
+   },
+   "_1min": {
+      "message": " یک دقیقه "
+   },
+   "viewsavedalarm": {
+      "message": "نمایش آلارم های ذخیره شد "
+   },
+   "OK": {
+      "message": "OK"
+   },
+   "apply": {
+      "message": "تایید"
+   },
+   "cancel": {
+      "message": "لغو"
+   },
+   "about": {
+      "message": "درباره"
+   },
+   "whatsnew": {
+      "message": "دیدن تغییرات جدید در این نسخه"
+   },
+   "none": {
+      "message": "هیچکدام"
+   },
+   "defaultringtone": {
+      "message": "آهنگ زنگ پیش‌فرض"
+   },
+   "URLringtone": {
+      "message": "از آدرس اینترنتی"
+   },
+   "allpurpose": {
+      "message": "آهنگ زنگ برای همهٔ کاربردها"
+   },
+   "alarmandringtone": {
+      "message": "زنگ هشدار و آهنگ زنگ"
+   },
+   "close": {
+      "message": "بستن "
+   },
+   "timeis": {
+      "message": "زمان"
+   },
+   "notflash": {
+      "message": "(نه با استفاده از ادوبی فلش)"
+   },
+   "version": {
+      "message": "نسخه"
+   },
+   "countdown": {
+      "message": "شمارنده شمارش معکوس"
+   },
+   "alarm": {
+      "message": "آلارم ساعت"
+   },
+   "stat": {
+      "message": "آمار"
+   },
+   "timer": {
+      "message": "کرونومتر"
+   },
+   "tools": {
+      "message": "ابزارها"
+   },
+   "day_0": {
+      "message": "یکشنبه"
+   },
+   "day_1": {
+      "message": "دوشنبه "
+   },
+   "day_2": {
+      "message": "سه شنبه "
+   },
+   "day_3": {
+      "message": "چهار شنبه"
+   },
+   "day_4": {
+      "message": "پنجشنبه "
+   },
+   "day_5": {
+      "message": "جمعه "
+   },
+   "day_6": {
+      "message": "شنبه "
+   },
+   "month_1": {
+      "message": "ژانویه"
+   },
+   "month_2": {
+      "message": "فوریه"
+   },
+   "month_3": {
+      "message": "مارس"
+   },
+   "month_4": {
+      "message": "آوریل"
+   },
+   "month_5": {
+      "message": "مه"
+   },
+   "month_6": {
+      "message": "ژوئن"
+   },
+   "month_7": {
+      "message": "ژوئیه"
+   },
+   "month_8": {
+      "message": "اوت"
+   },
+   "month_9": {
+      "message": "سپتامبر"
+   },
+   "month_10": {
+      "message": "اکتبر"
+   },
+   "month_11": {
+      "message": "نوامبر"
+   },
+   "month_12": {
+      "message": "دسامبر"
+   },
+   "morning": {
+      "message": "صبح بخیر"
+   },
+   "noon": {
+      "message": "از دیدنتان در این بعدازظهر خوشحالم"
+   },
+   "evening": {
+      "message": "هنوز شامتون رو نخوردید؟"
+   },
+   "night": {
+      "message": "وقت خواب رسیده"
+   },
+   "midnight": {
+      "message": "چه خبر؟"
+   },
+   "notitimeannounce": {
+      "message": "اعلان زمان ساعتی ..."
+   },
+   "notitimeis": {
+      "message": "ساعت"
+   },
+   "am": {
+      "message": "پیش از ظهر"
+   },
+   "pm": {
+      "message": "بعد از ظهر"
+   },
+   "saved": {
+      "message": "ذخیره شد "
+   },
+   "notsaved": {
+      "message": "گزینه‌های اصلاح‌شده ذخیره نشده‌اند! در هر صورت ادامه می‌دهید؟"
+   },
+   "ctxcmt": {
+      "message": "گزارش اشکال / نظرات"
+   },
+   "digital": {
+      "message": "ساعت دیجیتال"
+   },
+   "analog": {
+      "message": "ساعت آنالوگ"
+   },
+   "ctxhide": {
+      "message": "این موارد را نشان ندهید"
+   },
+   "contextVoiceControl": {
+      "message": "کنترل صوتی"
+   },
+   "contextCurrentTime": {
+      "message": "درج زمان فعلی"
+   },
+   "chat": {
+      "message": "گفت‌وگو"
+   },
+   "forum": {
+      "message": "انجمن"
+   },
+   "calendar": {
+      "message": "تقویم"
+   },
+   "setalarm": {
+      "message": "تنظیم زنگ هشدار"
+   },
+   "alarmRinging": {
+      "message": "زنگ هشدار به صدا درآمده است"
+   },
+   "timesUp": {
+      "message": "زمان به پایان رسید"
+   },
+   "scheduledFor": {
+      "message": "برای ساعت {time} برنامه‌ریزی شده است"
+   },
+   "weatherHumidity": {
+      "message": "رطوبت"
+   },
+   "weatherLoading": {
+      "message": "در حال بارگیری وضعیت آب‌وهوا…"
+   },
+   "weatherUnavailable": {
+      "message": "اطلاعات آب‌وهوا در دسترس نیست"
+   },
+   "errorUnavailable": {
+      "message": "افزونه در دسترس نیست"
+   },
+   "dismissLabel": {
+      "message": "بستن"
+   },
+   "help": {
+      "message": "کمک"
+   },
+   "optionsMenu": {
+      "message": "منو"
+   },
+   "optionsFormats": {
+      "message": "فرمت ها"
+   },
+   "optionsNotifications": {
+      "message": "اطلاعیه ها"
+   },
+   "optionsSpeech": {
+      "message": "متن به گفتار"
+   },
+   "optionsExtension": {
+      "message": "افزونه"
+   },
+   "optionsCredits": {
+      "message": "تشکر ویژه"
+   },
+   "optionsEditAppearance": {
+      "message": "ظاهر را ویرایش کنید"
+   },
+   "optionsColor": {
+      "message": "رنگ"
+   },
+   "optionsBadgeColor": {
+      "message": "رنگ نشان"
+   },
+   "optionsNewPopup": {
+      "message": "از طراحی پنجره جدید استفاده کنید"
+   },
+   "optionsTimeSystem": {
+      "message": "سیستم زمان"
+   },
+   "optionsCalendarSystem": {
+      "message": "سیستم تقویم"
+   },
+   "optionsLunar": {
+      "message": "نمایش تاریخ قمری چینی"
+   },
+   "optionsDateOrder": {
+      "message": "سفارش تاریخ"
+   },
+   "optionsDragReorder": {
+      "message": "- برای مرتب کردن مجدد بکشید"
+   },
+   "optionsCustomTimezone": {
+      "message": "منطقه زمانی سفارشی"
+   },
+   "optionsLocalTimezone": {
+      "message": "منطقه زمانی محلی شما"
+   },
+   "optionsTimezoneNote": {
+      "message": "توجه: این تنظیم برای تقویم اعمال نمی شود."
+   },
+   "optionsTestNotification": {
+      "message": "اعلان تست"
+   },
+   "optionsNotificationStyle": {
+      "message": "سبک اطلاع رسانی"
+   },
+   "optionsDefault": {
+      "message": "پیش فرض"
+   },
+   "optionsBackgroundColor": {
+      "message": "رنگ پس زمینه"
+   },
+   "optionsCompact": {
+      "message": "فشرده"
+   },
+   "optionsNotificationDuration": {
+      "message": "زمان نمایش اعلان"
+   },
+   "optionsSystemDuration": {
+      "message": "(سیستم ممکن است این تنظیم را لغو کند)"
+   },
+   "optionsCloseManually": {
+      "message": "دستی ببندید"
+   },
+   "optionsShowWeather": {
+      "message": "نمایش اطلاعات آب و هوا"
+   },
+   "optionsWeatherFahrenheit": {
+      "message": "استفاده از فارنهایت (℉)"
+   },
+   "optionsWeatherProvider": {
+      "message": "(اطلاعات آب و هوا ارائه شده توسط Open-Meteo)"
+   },
+   "optionsLocation": {
+      "message": "مکان"
+   },
+   "optionsNotSet": {
+      "message": "تنظیم نشده / در دسترس نیست"
+   },
+   "optionsSearch": {
+      "message": "جستجو..."
+   },
+   "optionsAutoLocation": {
+      "message": "استفادهٔ خودکار از موقعیت مکانی مرورگر"
+   },
+   "optionsCurrentLocation": {
+      "message": "مکان فعلی"
+   },
+   "optionsNotificationSound": {
+      "message": "صدای اعلام زمان ساعتی را فعال کنید"
+   },
+   "optionsRingtone": {
+      "message": "آهنگ زنگ"
+   },
+   "optionsReadTime": {
+      "message": "زمان را همراه با اعلام زمان ساعتی بخوانید"
+   },
+   "optionsSentence": {
+      "message": "جمله"
+   },
+   "optionsVoiceTokens": {
+      "message": "%H: ساعت (24 ساعت)؛ %h: ساعت (12 ساعت)؛ %P: صبح/بعد از ظهر؛ %M: دقیقه"
+   },
+   "optionsFromComputer": {
+      "message": "از کامپیوتر شما"
+   },
+   "optionsLoop": {
+      "message": "حلقه زدن را فعال کنید"
+   },
+   "optionsPreviewRingtone": {
+      "message": "پیش نمایش آهنگ زنگ فعلی"
+   },
+   "optionsLoad": {
+      "message": "بارگذاری کنید"
+   },
+   "optionsSpeechEngine": {
+      "message": "موتور گفتار"
+   },
+   "optionsSpeechIntro": {
+      "message": "موتور صوتی را که ترجیح می دهید در کنترل صوتی و تبدیل متن به گفتار اعلان ساعتی استفاده کنید، انتخاب کنید."
+   },
+   "optionsSpeechInstall": {
+      "message": "صداهای نصب شده در منوی کشویی زیر ظاهر می شوند."
+   },
+   "optionsInstalledVoices": {
+      "message": "موتورهای صوتی نصب شده"
+   },
+   "optionsLanguage": {
+      "message": "زبان"
+   },
+   "optionsUpdateInterval": {
+      "message": "فاصله به روز رسانی پس زمینه"
+   },
+   "optionsKeepAwake": {
+      "message": "از خوابیدن سیستم در صورت وجود آلارم‌های فعال یا شمارش معکوس جلوگیری کنید"
+   },
+   "optionsBackgroundRun": {
+      "message": "وقتی Google Chrome بسته است، به اجرای Cool Clock در پس‌زمینه ادامه دهید"
+   },
+   "optionsContextMenu": {
+      "message": "نمایش موارد منوی زمینه"
+   },
+   "optionsTranslationCredits": {
+      "message": "همه کسانی که در ترجمه های بومی سازی شده مشارکت داشتند"
+   },
+   "optionsMore": {
+      "message": "بیشتر"
+   },
+   "optionsMiscellaneous": {
+      "message": "متفرقه"
+   },
+   "optionsLunarTip": {
+      "message": "نمایش تاریخ قمری چینی دقت به مرورگر و سیستم عامل شما بستگی دارد."
+   },
+   "optionsTimezoneTip": {
+      "message": "منطقه زمانی محلی شما ممکن است در زمان تابستان تغییر کند."
+   },
+   "optionsTestTip": {
+      "message": "با استفاده از تنظیمات فعلی یک اعلان نشان دهید."
+   },
+   "optionsLocationTip": {
+      "message": "این شناسه مکان فعلی است. از جستجو برای انتخاب مکان دیگری استفاده کنید."
+   },
+   "optionsAudioTip": {
+      "message": "فقط فایل های MP3، OGG یا WAV پشتیبانی می شوند."
+   },
+   "optionsVoiceTip": {
+      "message": "در بخش Text to Speech موتور صوتی را انتخاب کنید که از زبان شما پشتیبانی می کند."
+   },
+   "optionsEmpty": {
+      "message": "(خالی)"
+   },
+   "optionsContextTip": {
+      "message": "موارد Cool Clock را در منوی کلیک راست نشان دهید."
+   },
+   "optionsChooseFile": {
+      "message": "انتخاب فایل..."
+   },
+   "optionsSearchPlace": {
+      "message": "مکان، کد پستی یا مکان"
+   },
+   "optionsSearchByName": {
+      "message": "جستجو بر اساس نام"
+   },
+   "optionsLoading": {
+      "message": "در حال بارگیری..."
+   },
+   "optionsNoResult": {
+      "message": "هیچ نتیجه ای وجود ندارد"
+   },
+   "optionsSearchError": {
+      "message": "خطا در واکشی داده ها"
+   },
+   "optionsImported": {
+      "message": "وارداتی!"
+   },
+   "optionsTestSoundHint": {
+      "message": "برای شنیدن صدا، اعلان تست را فشار دهید."
+   },
+   "optionsSuccess": {
+      "message": "موفقیت!"
+   },
+   "optionsLoaded": {
+      "message": "بارگیری شد."
+   },
+   "optionsNotice": {
+      "message": "توجه کنید"
+   },
+   "optionsNoRingtone": {
+      "message": "هیچ آهنگ زنگ تنظیم نشده است."
+   },
+   "optionsInvalidUrl": {
+      "message": "این URL نامعتبر است یا پشتیبانی نمی شود."
+   },
+   "optionsRetry": {
+      "message": "دوباره امتحان کنید"
+   },
+   "optionsAdvanced": {
+      "message": "پیشرفته"
+   },
+   "optionsAppearanceHint": {
+      "message": "برای کاربران پیشرفته: برای تنظیم دقیق ساعت، پیکربندی زیر را ویرایش کنید. عرض و ارتفاع با اندازه نماد مطابقت دارند، معمولاً 19 × 19 dp."
+   },
+   "optionsEditAnalog": {
+      "message": "ظاهر ساعت آنالوگ را ویرایش کنید"
+   },
+   "optionsEditDigital": {
+      "message": "ظاهر ساعت دیجیتال را ویرایش کنید"
+   },
+   "optionsInvalidJson": {
+      "message": "JSON نامعتبر است"
+   },
+   "optionsEnterValidJson": {
+      "message": "لطفا JSON معتبر وارد کنید."
+   },
+   "optionsYear": {
+      "message": "سال"
+   },
+   "optionsMonth": {
+      "message": "ماه"
+   },
+   "optionsDate": {
+      "message": "روز"
+   },
+   "optionsRemoved": {
+      "message": "(حذف شد)"
+   },
+   "optionsUrlTip": {
+      "message": "فقط URL های HTTP یا HTTPS پشتیبانی می شوند."
+   },
+   "optionsWeatherProviderCredit": {
+      "message": "اطلاعات آب و هوا توسط Open-Meteo ارائه شده است"
+   },
+   "optionsGeocodingCredit": {
+      "message": "ژئوکدینگ Open-Meteo"
+   },
+   "optionsTweet": {
+      "message": "توییت کنید"
+   },
+   "optionsBootstrapIconsCredit": {
+      "message": "Bootstrap Icons"
+   },
+   "optionsSoundJayCredit": {
+      "message": "Sound Jay (آهنگ زنگ پیش‌فرض)"
+   },
+   "optionsFactLabel": {
+      "message": "واقعیت"
+   },
+   "optionsFact1": {
+      "message": "این برنامه افزودنی حاوی کد رهگیری کاربر عمدی نیست."
+   },
+   "optionsFact2": {
+      "message": "در Cool Clock، ما دستور زبان را جدی می‌گیریم تا از گزارش اشکال در مورد دستور زبان جلوگیری کنیم."
+   },
+   "optionsFact3": {
+      "message": "Cool Clock نام خود را به این دلیل گرفت که سازنده آن نمی توانست بهتر از این فکر کند."
+   },
+   "optionsFact4": {
+      "message": "جواب همه چیز 42 نیست."
+   },
+   "optionsFact5": {
+      "message": "این گفته نادرست است."
+   },
+   "optionsPermissionError": {
+      "message": "مجوز مرورگر حذف نشد."
+   },
+   "optionsProcessing": {
+      "message": "در حال پردازش..."
+   },
+   "optionsPleaseWait": {
+      "message": "لطفا یک لحظه صبر کنید..."
+   },
+   "optionsSyncSettings": {
+      "message": "همگام‌سازی تنظیمات"
+   },
+   "optionsSyncTip": {
+      "message": "از همگام‌سازی داخلی مرورگر میان دستگاه‌های دارای حساب یکسان استفاده می‌کند."
+   }
+}

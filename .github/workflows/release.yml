@@ -1,0 +1,76 @@
+name: Release browser extensions
+
+on:
+  push:
+    branches: [master]
+    paths: [manifest.json]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: browser-release-${{ github.repository }}
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Read version
+        id: version
+        run: |
+          version="$(python3 .github/scripts/release.py version)"
+          echo "tag=v${version}" >> "$GITHUB_OUTPUT"
+
+      - name: Check for an existing release
+        id: existing
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ steps.version.outputs.tag }}
+        run: |
+          if gh release view "$TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo 'exists=true' >> "$GITHUB_OUTPUT"
+          else
+            echo 'exists=false' >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Build and verify Chrome and Firefox packages
+        if: steps.existing.outputs.exists != 'true'
+        run: |
+          python3 build_extensions.py
+          python3 .github/scripts/release.py check
+          python3 .github/scripts/release.py notes > "$RUNNER_TEMP/release-notes.md"
+
+      - name: Tag the release commit
+        if: steps.existing.outputs.exists != 'true'
+        env:
+          TAG: ${{ steps.version.outputs.tag }}
+        run: |
+          if git show-ref --verify --quiet "refs/tags/$TAG"; then
+            if [ "$(git rev-list -n 1 "$TAG")" != "$GITHUB_SHA" ]; then
+              echo "Tag $TAG points to another commit" >&2
+              exit 1
+            fi
+          else
+            git tag "$TAG" "$GITHUB_SHA"
+            git push origin "$TAG"
+          fi
+
+      - name: Publish both packages
+        if: steps.existing.outputs.exists != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ steps.version.outputs.tag }}
+        run: |
+          gh release create "$TAG" \
+            dist/cool-clock-mv3-chrome.zip \
+            dist/cool-clock-mv3-firefox.zip \
+            --repo "$GITHUB_REPOSITORY" \
+            --verify-tag \
+            --title "Cool Clock $TAG" \
+            --notes-file "$RUNNER_TEMP/release-notes.md"

@@ -1,0 +1,614 @@
+﻿{
+   "extDes": {
+      "message": "Dodaci su učitani sa tonom korisnih gedžeta za snalaženje u vremenu i organizaciji... Ali najbolji deo je što je totalno COOL."
+   },
+   "extName": {
+      "message": "Cool Sat"
+   },
+   "settings": {
+      "message": "Podešavanja"
+   },
+   "hourlytimeannounce": {
+      "message": "napomena na svaki sat"
+   },
+   "enablehourlytimeannounce": {
+      "message": "Uključi svakočasovne napomene! (Obaveštenje na ekranu)"
+   },
+   "shownotificationfor": {
+      "message": "Prikaži obaveštenja za"
+   },
+   "seconds": {
+      "message": "sekunde"
+   },
+   "max999": {
+      "message": " (maksimum: 999)"
+   },
+   "showtodowhenopen": {
+      "message": "Alarm o obavezama kada otvorite svoj pretraživač"
+   },
+   "display": {
+      "message": "prikaz"
+   },
+   "usedigital": {
+      "message": "Koristite digitalni sat"
+   },
+   "digitalmsg": {
+      "message": "(Digitalni sat će koristiti određenu memoriju.)"
+   },
+   "usedarkmode": {
+      "message": "Koristi tamnu temu (ako odaberete ovu temu, i dalje ćete moći da vidite sat)"
+   },
+   "useanalog": {
+      "message": "Koristi klasičan sat"
+   },
+   "analogmsg": {
+      "message": "(Oko 4KB po sekundi.)"
+   },
+   "noscroll": {
+      "message": "Ne koristi \"scroll\" efekat (Prikaži 4 broja umesto toga)"
+   },
+   "_12hour": {
+      "message": "Koristi 12-časovni sistem (Obično se koristi 24-časovni sistem)"
+   },
+   "showiconclock": {
+      "message": "Prikaži sat na ikonici (ona sa strelicom)"
+   },
+   "showbadgeclock": {
+      "message": "Prikaži vreme u oznaci."
+   },
+   "comment": {
+      "message": "Komentari"
+   },
+   "cmtmsg": {
+      "message": "Svoje utiske, komentare ili žaljenja na defekte prijavite ovde"
+   },
+   "memmsg": {
+      "message": "Animacija obično stvara nove slike u sekundi, pa će to zauzeti dosta memorije nakon nekog perioda, trenutno pokušavam da to smanjim što je više moguće."
+   },
+   "showupdate": {
+      "message": "Prikaži ažuriranu stranicu, svaki put kad je i ovaj dodatak ažuriran."
+   },
+   "updateiconevery": {
+      "message": "Ažuriraj ikonicu svakih: "
+   },
+   "updateiconeverymsg": {
+      "message": "Duži intervali troše manje resursa, ali se sat ređe ažurira."
+   },
+   "_1sec": {
+      "message": "1 sekunda"
+   },
+   "_2sec": {
+      "message": "2 sekunde"
+   },
+   "_5sec": {
+      "message": "5 sekundi"
+   },
+   "_10sec": {
+      "message": "10 sekundi"
+   },
+   "_30sec": {
+      "message": "30 sekundi"
+   },
+   "_1min": {
+      "message": "1 minut"
+   },
+   "viewsavedalarm": {
+      "message": "Pogledaj sačuvane alarme"
+   },
+   "OK": {
+      "message": "Uredu"
+   },
+   "apply": {
+      "message": "Prihvati"
+   },
+   "cancel": {
+      "message": "Otkaži"
+   },
+   "about": {
+      "message": "O ovome..."
+   },
+   "whatsnew": {
+      "message": "Pogledaj ažurirane novosti"
+   },
+   "none": {
+      "message": "ništa"
+   },
+   "defaultringtone": {
+      "message": "Klasično zvovo "
+   },
+   "URLringtone": {
+      "message": "Sa URL-a"
+   },
+   "allpurpose": {
+      "message": "Melodija za sve svrhe"
+   },
+   "alarmandringtone": {
+      "message": "Alarm i melodija"
+   },
+   "close": {
+      "message": "Zatvori"
+   },
+   "timeis": {
+      "message": "Vreme: "
+   },
+   "notflash": {
+      "message": "(Nisam fleš sat)"
+   },
+   "version": {
+      "message": "Verzija"
+   },
+   "countdown": {
+      "message": "Odbrojavajući tajmer"
+   },
+   "alarm": {
+      "message": "Alermni sat"
+   },
+   "stat": {
+      "message": "Statistika"
+   },
+   "timer": {
+      "message": "Štoperica"
+   },
+   "tools": {
+      "message": "Alatke"
+   },
+   "day_0": {
+      "message": "Nedelja"
+   },
+   "day_1": {
+      "message": "Ponedeljak"
+   },
+   "day_2": {
+      "message": "Utorak"
+   },
+   "day_3": {
+      "message": "Sreda"
+   },
+   "day_4": {
+      "message": "Četvrtak"
+   },
+   "day_5": {
+      "message": "Petak"
+   },
+   "day_6": {
+      "message": "Subota"
+   },
+   "month_1": {
+      "message": "Jan."
+   },
+   "month_2": {
+      "message": "Feb."
+   },
+   "month_3": {
+      "message": "Mar."
+   },
+   "month_4": {
+      "message": "Apr."
+   },
+   "month_5": {
+      "message": "Maj"
+   },
+   "month_6": {
+      "message": "Jun"
+   },
+   "month_7": {
+      "message": "Jul"
+   },
+   "month_8": {
+      "message": "Avg."
+   },
+   "month_9": {
+      "message": "Sep."
+   },
+   "month_10": {
+      "message": "Okt."
+   },
+   "month_11": {
+      "message": "Nov."
+   },
+   "month_12": {
+      "message": "Dec."
+   },
+   "morning": {
+      "message": "Dobro jutro!"
+   },
+   "noon": {
+      "message": "Divno je videti te popodne"
+   },
+   "evening": {
+      "message": "Već si završio večeru?"
+   },
+   "night": {
+      "message": "Vreme za krevet."
+   },
+   "midnight": {
+      "message": "Š`a ima?"
+   },
+   "notitimeannounce": {
+      "message": "Napomene za svaki sat"
+   },
+   "notitimeis": {
+      "message": "Ovo je trenutno vreme"
+   },
+   "am": {
+      "message": "pre podne"
+   },
+   "pm": {
+      "message": "posle podne"
+   },
+   "saved": {
+      "message": "Sačuvano."
+   },
+   "notsaved": {
+      "message": "Izmenjene opcije NISU sačuvane! Ipak nastaviti?"
+   },
+   "ctxcmt": {
+      "message": "Izveštaj o defektima/Komentari"
+   },
+   "digital": {
+      "message": "digitalni sat"
+   },
+   "analog": {
+      "message": "klasični sat"
+   },
+   "ctxhide": {
+      "message": "ne prikazuj ovo"
+   },
+   "contextVoiceControl": {
+      "message": "Гласовно управљање"
+   },
+   "contextCurrentTime": {
+      "message": "Уметни тренутно време"
+   },
+   "chat": {
+      "message": "Čet"
+   },
+   "forum": {
+      "message": "forum"
+   },
+   "calendar": {
+      "message": "kalendar"
+   },
+   "setalarm": {
+      "message": "Podesi alarm."
+   },
+   "alarmRinging": {
+      "message": "Alarm zvoni"
+   },
+   "timesUp": {
+      "message": "Vreme je isteklo"
+   },
+   "scheduledFor": {
+      "message": "Zakazano za {time}"
+   },
+   "weatherHumidity": {
+      "message": "Влажност"
+   },
+   "weatherLoading": {
+      "message": "Učitavanje vremena…"
+   },
+   "weatherUnavailable": {
+      "message": "Vremenska prognoza nije dostupna"
+   },
+   "errorUnavailable": {
+      "message": "Proširenje nije dostupno"
+   },
+   "dismissLabel": {
+      "message": "Zatvori"
+   },
+   "help": {
+      "message": "Pomoć"
+   },
+   "optionsMenu": {
+      "message": "Мени"
+   },
+   "optionsFormats": {
+      "message": "Формати"
+   },
+   "optionsNotifications": {
+      "message": "Обавештења"
+   },
+   "optionsSpeech": {
+      "message": "Текст у говор"
+   },
+   "optionsExtension": {
+      "message": "Екстензија"
+   },
+   "optionsCredits": {
+      "message": "Посебна захвалност"
+   },
+   "optionsEditAppearance": {
+      "message": "Уредите изглед"
+   },
+   "optionsColor": {
+      "message": "Боја"
+   },
+   "optionsBadgeColor": {
+      "message": "Боја значке"
+   },
+   "optionsNewPopup": {
+      "message": "Користите нови искачући дизајн"
+   },
+   "optionsTimeSystem": {
+      "message": "Временски систем"
+   },
+   "optionsCalendarSystem": {
+      "message": "Календарски систем"
+   },
+   "optionsLunar": {
+      "message": "Прикажи кинески лунарни датум"
+   },
+   "optionsDateOrder": {
+      "message": "Дате Ордер"
+   },
+   "optionsDragReorder": {
+      "message": "- превуците да бисте променили редослед"
+   },
+   "optionsCustomTimezone": {
+      "message": "Прилагођена временска зона"
+   },
+   "optionsLocalTimezone": {
+      "message": "вашу локалну временску зону"
+   },
+   "optionsTimezoneNote": {
+      "message": "Напомена: Ово подешавање се не односи на календар."
+   },
+   "optionsTestNotification": {
+      "message": "Тест Нотифицатион"
+   },
+   "optionsNotificationStyle": {
+      "message": "Стил обавештења"
+   },
+   "optionsDefault": {
+      "message": "Подразумевано"
+   },
+   "optionsBackgroundColor": {
+      "message": "Боја позадине"
+   },
+   "optionsCompact": {
+      "message": "Компактно"
+   },
+   "optionsNotificationDuration": {
+      "message": "Време приказа обавештења"
+   },
+   "optionsSystemDuration": {
+      "message": "(Систем може заменити ово подешавање)"
+   },
+   "optionsCloseManually": {
+      "message": "Затворите ручно"
+   },
+   "optionsShowWeather": {
+      "message": "Прикажи информације о времену"
+   },
+   "optionsWeatherFahrenheit": {
+      "message": "Користи Фаренхајт (℉)"
+   },
+   "optionsWeatherProvider": {
+      "message": "(Информације о времену пружа Опен-Метео)"
+   },
+   "optionsLocation": {
+      "message": "Локација"
+   },
+   "optionsNotSet": {
+      "message": "Није постављено/Није доступно"
+   },
+   "optionsSearch": {
+      "message": "Тражи..."
+   },
+   "optionsAutoLocation": {
+      "message": "Аутоматски користи локацију прегледача"
+   },
+   "optionsCurrentLocation": {
+      "message": "Тренутна локација"
+   },
+   "optionsNotificationSound": {
+      "message": "Омогући звук најаве по сату"
+   },
+   "optionsRingtone": {
+      "message": "Мелодија звона"
+   },
+   "optionsReadTime": {
+      "message": "Прочитајте време заједно са најавом времена по сату"
+   },
+   "optionsSentence": {
+      "message": "Реченица"
+   },
+   "optionsVoiceTokens": {
+      "message": "%H: Сат (24-часовни формат); %h: Сат (12-часовни формат); %P: пре подне/после подне; %M: Минут"
+   },
+   "optionsFromComputer": {
+      "message": "Са вашег рачунара"
+   },
+   "optionsLoop": {
+      "message": "Омогући понављање"
+   },
+   "optionsPreviewRingtone": {
+      "message": "Прегледајте тренутну мелодију звона"
+   },
+   "optionsLoad": {
+      "message": "Учитај"
+   },
+   "optionsSpeechEngine": {
+      "message": "Спеецх Енгине"
+   },
+   "optionsSpeechIntro": {
+      "message": "Изаберите гласовни механизам који желите да користите у гласовној контроли и претварању текста у говор обавештења по сату."
+   },
+   "optionsSpeechInstall": {
+      "message": "Инсталирани гласови се појављују у падајућем менију испод."
+   },
+   "optionsInstalledVoices": {
+      "message": "Инсталирани гласовни мотори"
+   },
+   "optionsLanguage": {
+      "message": "Језик"
+   },
+   "optionsUpdateInterval": {
+      "message": "Интервал ажурирања у позадини"
+   },
+   "optionsKeepAwake": {
+      "message": "Спречите систем да спава када постоје активни аларми или одбројавања"
+   },
+   "optionsBackgroundRun": {
+      "message": "Наставите да покрећете Цоол Цлоцк у позадини када је Гоогле Цхроме затворен"
+   },
+   "optionsContextMenu": {
+      "message": "Прикажи ставке контекстног менија"
+   },
+   "optionsTranslationCredits": {
+      "message": "Сви који су допринели локализованим преводима"
+   },
+   "optionsMore": {
+      "message": "Више"
+   },
+   "optionsMiscellaneous": {
+      "message": "Разно"
+   },
+   "optionsLunarTip": {
+      "message": "Прикажите кинески лунарни датум. Тачност зависи од вашег претраживача и оперативног система."
+   },
+   "optionsTimezoneTip": {
+      "message": "Ваша локална временска зона може да се промени током летњег рачунања времена."
+   },
+   "optionsTestTip": {
+      "message": "Прикажите обавештење користећи тренутна подешавања."
+   },
+   "optionsLocationTip": {
+      "message": "Ово је ИД тренутне локације. Користите претрагу да бисте изабрали другу локацију."
+   },
+   "optionsAudioTip": {
+      "message": "Подржане су само МП3, ОГГ или ВАВ датотеке."
+   },
+   "optionsVoiceTip": {
+      "message": "Изаберите гласовни механизам који подржава ваш језик у одељку Тект то Спеецх."
+   },
+   "optionsEmpty": {
+      "message": "(празно)"
+   },
+   "optionsContextTip": {
+      "message": "Прикажи ставке Цоол Цлоцк у менију десног клика."
+   },
+   "optionsChooseFile": {
+      "message": "Изаберите датотеку..."
+   },
+   "optionsSearchPlace": {
+      "message": "Локација, поштански број или место"
+   },
+   "optionsSearchByName": {
+      "message": "Тражи по имену"
+   },
+   "optionsLoading": {
+      "message": "Учитавање..."
+   },
+   "optionsNoResult": {
+      "message": "Нема резултата"
+   },
+   "optionsSearchError": {
+      "message": "Грешка при преузимању података"
+   },
+   "optionsImported": {
+      "message": "Увезено!"
+   },
+   "optionsTestSoundHint": {
+      "message": "Притисните Тест Нотифицатион да бисте чули звук."
+   },
+   "optionsSuccess": {
+      "message": "Успех!"
+   },
+   "optionsLoaded": {
+      "message": "Лоадед."
+   },
+   "optionsNotice": {
+      "message": "Напомена"
+   },
+   "optionsNoRingtone": {
+      "message": "Није постављен ниједан звук звона."
+   },
+   "optionsInvalidUrl": {
+      "message": "Овај УРЛ је неважећи или неподржан."
+   },
+   "optionsRetry": {
+      "message": "Покушајте поново"
+   },
+   "optionsAdvanced": {
+      "message": "Напредно"
+   },
+   "optionsAppearanceHint": {
+      "message": "За напредне кориснике: уредите конфигурацију испод да бисте фино подесили сат. Ширина и висина одговарају величини иконе, обично 19 × 19 дп."
+   },
+   "optionsEditAnalog": {
+      "message": "Уредите изглед аналогног сата"
+   },
+   "optionsEditDigital": {
+      "message": "Уредите изглед дигиталног сата"
+   },
+   "optionsInvalidJson": {
+      "message": "Неважећи ЈСОН"
+   },
+   "optionsEnterValidJson": {
+      "message": "Унесите важећи ЈСОН."
+   },
+   "optionsYear": {
+      "message": "Година"
+   },
+   "optionsMonth": {
+      "message": "Месец"
+   },
+   "optionsDate": {
+      "message": "Дан"
+   },
+   "optionsRemoved": {
+      "message": "(Уклоњено)"
+   },
+   "optionsUrlTip": {
+      "message": "Подржани су само ХТТП или ХТТПС УРЛ-ови."
+   },
+   "optionsWeatherProviderCredit": {
+      "message": "Информације о времену омогућава Опен-Метео"
+   },
+   "optionsGeocodingCredit": {
+      "message": "Опен-Метео геокодирање"
+   },
+   "optionsTweet": {
+      "message": "Твеет"
+   },
+   "optionsBootstrapIconsCredit": {
+      "message": "Bootstrap Icons"
+   },
+   "optionsSoundJayCredit": {
+      "message": "Соунд Јаи (подразумевана мелодија звона аларма)"
+   },
+   "optionsFactLabel": {
+      "message": "Чињеница"
+   },
+   "optionsFact1": {
+      "message": "Овај додатак не садржи намерни код за праћење корисника."
+   },
+   "optionsFact2": {
+      "message": "У Цоол Цлоцк-у граматику схватамо озбиљно да бисмо избегли извештаје о грешкама о граматици."
+   },
+   "optionsFact3": {
+      "message": "Цоол Цлоцк је добио име јер његов творац није могао смислити бољи."
+   },
+   "optionsFact4": {
+      "message": "Одговор на све није 42."
+   },
+   "optionsFact5": {
+      "message": "Ова изјава је лажна."
+   },
+   "optionsPermissionError": {
+      "message": "Није могуће уклонити дозволу прегледача."
+   },
+   "optionsProcessing": {
+      "message": "Обрада..."
+   },
+   "optionsPleaseWait": {
+      "message": "Молим вас сачекајте тренутак..."
+   },
+   "optionsSyncSettings": {
+      "message": "Синхронизуј подешавања"
+   },
+   "optionsSyncTip": {
+      "message": "Користи синхронизацију прегледача између уређаја са истим налогом."
+   }
+}

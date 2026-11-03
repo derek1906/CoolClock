@@ -1,0 +1,614 @@
+{
+   "extDes": {
+      "message": "Добавка, заредена с много полезни джаджи за отмерване на времето... Но най-добрата част е, че е супер ГОТИНА."
+   },
+   "extName": {
+      "message": "Cool Clock"
+   },
+   "settings": {
+      "message": "Настройки"
+   },
+   "hourlytimeannounce": {
+      "message": "Известие на кръгъл час"
+   },
+   "enablehourlytimeannounce": {
+      "message": "Включи известие на кръгъл час! (Десктоп съобщение)"
+   },
+   "shownotificationfor": {
+      "message": "Покажи съобщението за"
+   },
+   "seconds": {
+      "message": "секунди"
+   },
+   "max999": {
+      "message": "Максимум: 999"
+   },
+   "showtodowhenopen": {
+      "message": "Бележки (to-do) в съобщението когато отвориш браузъра си"
+   },
+   "display": {
+      "message": "Изглед"
+   },
+   "usedigital": {
+      "message": "Използвай цифров часовник"
+   },
+   "digitalmsg": {
+      "message": "Цифровият часовник ще използва малко повече памет."
+   },
+   "usedarkmode": {
+      "message": "Използвай Тъмна тема (За тези, които използват тъмната тема, тя ще зареди полу-прозрачен балон под цифрите, така че ще можете да видите времето.)"
+   },
+   "useanalog": {
+      "message": "Използвай аналогов часовник"
+   },
+   "analogmsg": {
+      "message": "(Около 4KB в секунда.)"
+   },
+   "noscroll": {
+      "message": "Не използвай плъзгащ ефект (Покажи 4 чифри вместо плъзгане)"
+   },
+   "_12hour": {
+      "message": "Използвай 12-часова система (По подразбиране е 24-часова)"
+   },
+   "showiconclock": {
+      "message": "Покажи часовник в иконата (Този със стрелките)"
+   },
+   "showbadgeclock": {
+      "message": "Покажи времето в иконата"
+   },
+   "comment": {
+      "message": "Коментари"
+   },
+   "cmtmsg": {
+      "message": "Остави тук мнение, коментари или отбележи за грешки"
+   },
+   "memmsg": {
+      "message": "Анимацията обикновено \"рисува\" нова картинка всяка секунда, така че нормално ще изисква доста памет след определено време, докато се опитвам да сваля изискването до минимум."
+   },
+   "showupdate": {
+      "message": "Покажи страницата за обновления всеки път, когато тази добавка се обнови."
+   },
+   "updateiconevery": {
+      "message": "Презареди иконата на всеки: "
+   },
+   "updateiconeverymsg": {
+      "message": "(Най-дългият, най-лекият за това разширение е, но колкото по-дълго, влиянието на други части за удължаване на срока може да бъде по-голям.)"
+   },
+   "_1sec": {
+      "message": "1 секунда"
+   },
+   "_2sec": {
+      "message": "2 секунди"
+   },
+   "_5sec": {
+      "message": "5 секунди"
+   },
+   "_10sec": {
+      "message": "10 секунди"
+   },
+   "_30sec": {
+      "message": "30 секунди"
+   },
+   "_1min": {
+      "message": "1 минута"
+   },
+   "viewsavedalarm": {
+      "message": "Покажи запазените аларми"
+   },
+   "OK": {
+      "message": "ОК"
+   },
+   "apply": {
+      "message": "Запази"
+   },
+   "cancel": {
+      "message": "Откажи"
+   },
+   "about": {
+      "message": "За добавката"
+   },
+   "whatsnew": {
+      "message": "Виж списъка с обновления"
+   },
+   "none": {
+      "message": "Няма"
+   },
+   "defaultringtone": {
+      "message": "Тон на звънене по подразбиране"
+   },
+   "URLringtone": {
+      "message": "От URL"
+   },
+   "allpurpose": {
+      "message": "Тон на звънене за всякакви нужди"
+   },
+   "alarmandringtone": {
+      "message": "Аларма и Тон на звънене"
+   },
+   "close": {
+      "message": "Затвори"
+   },
+   "timeis": {
+      "message": "В момента е: "
+   },
+   "notflash": {
+      "message": "(Аз не съм Flash часовник!)"
+   },
+   "version": {
+      "message": "Версия"
+   },
+   "countdown": {
+      "message": "Обратно броене"
+   },
+   "alarm": {
+      "message": "Аларма"
+   },
+   "stat": {
+      "message": "Статистики"
+   },
+   "timer": {
+      "message": "Хронометър"
+   },
+   "tools": {
+      "message": "Инструменти"
+   },
+   "day_0": {
+      "message": "Неделя"
+   },
+   "day_1": {
+      "message": "Понеделник"
+   },
+   "day_2": {
+      "message": "Вторник"
+   },
+   "day_3": {
+      "message": "Сряда"
+   },
+   "day_4": {
+      "message": "Четвъртък"
+   },
+   "day_5": {
+      "message": "Петък"
+   },
+   "day_6": {
+      "message": "Събота"
+   },
+   "month_1": {
+      "message": "Яну"
+   },
+   "month_2": {
+      "message": "Фев"
+   },
+   "month_3": {
+      "message": "Мар"
+   },
+   "month_4": {
+      "message": "Апр"
+   },
+   "month_5": {
+      "message": "Май"
+   },
+   "month_6": {
+      "message": "Юни"
+   },
+   "month_7": {
+      "message": "Юли"
+   },
+   "month_8": {
+      "message": "Авг"
+   },
+   "month_9": {
+      "message": "Сеп"
+   },
+   "month_10": {
+      "message": "Окт"
+   },
+   "month_11": {
+      "message": "Ное"
+   },
+   "month_12": {
+      "message": "Дек"
+   },
+   "morning": {
+      "message": "Добро утро!"
+   },
+   "noon": {
+      "message": "Радвам се да те видя този следобед!"
+   },
+   "evening": {
+      "message": "Изяде ли си вечерята вече?"
+   },
+   "night": {
+      "message": "Време е да си лягаш."
+   },
+   "midnight": {
+      "message": "Кво сатава?"
+   },
+   "notitimeannounce": {
+      "message": "Известие за кръгъл час"
+   },
+   "notitimeis": {
+      "message": "В момента е"
+   },
+   "am": {
+      "message": "по"
+   },
+   "pm": {
+      "message": "со"
+   },
+   "saved": {
+      "message": "Запазено."
+   },
+   "notsaved": {
+      "message": "Промените не са запазени! Искаш ли да продължиш?"
+   },
+   "ctxcmt": {
+      "message": "Съобщение за грешка / Коментари"
+   },
+   "digital": {
+      "message": "Цифров часовник"
+   },
+   "analog": {
+      "message": "Аналогов часовник"
+   },
+   "ctxhide": {
+      "message": "Не показвай тези неща"
+   },
+   "contextVoiceControl": {
+      "message": "Гласово управление"
+   },
+   "contextCurrentTime": {
+      "message": "Вмъкни текущия час"
+   },
+   "chat": {
+      "message": "Чат"
+   },
+   "forum": {
+      "message": "Форум"
+   },
+   "calendar": {
+      "message": "Календар"
+   },
+   "setalarm": {
+      "message": "Задай аларма"
+   },
+   "alarmRinging": {
+      "message": "Алармата звъни"
+   },
+   "timesUp": {
+      "message": "Времето изтече"
+   },
+   "scheduledFor": {
+      "message": "Насрочено за {time}"
+   },
+   "weatherHumidity": {
+      "message": "Влажност"
+   },
+   "weatherLoading": {
+      "message": "Зареждане на времето…"
+   },
+   "weatherUnavailable": {
+      "message": "Информацията за времето не е налична"
+   },
+   "errorUnavailable": {
+      "message": "Разширението не е налично"
+   },
+   "dismissLabel": {
+      "message": "Затвори"
+   },
+   "help": {
+      "message": "Помощ"
+   },
+   "optionsMenu": {
+      "message": "Меню"
+   },
+   "optionsFormats": {
+      "message": "Формати"
+   },
+   "optionsNotifications": {
+      "message": "Известия"
+   },
+   "optionsSpeech": {
+      "message": "Преобразуване на текст в реч"
+   },
+   "optionsExtension": {
+      "message": "Разширение"
+   },
+   "optionsCredits": {
+      "message": "Специални благодарности"
+   },
+   "optionsEditAppearance": {
+      "message": "Редактиране на външния вид"
+   },
+   "optionsColor": {
+      "message": "Цвят"
+   },
+   "optionsBadgeColor": {
+      "message": "Цвят на значката"
+   },
+   "optionsNewPopup": {
+      "message": "Използвайте нов дизайн на изскачащи прозорци"
+   },
+   "optionsTimeSystem": {
+      "message": "Времева система"
+   },
+   "optionsCalendarSystem": {
+      "message": "Календарна система"
+   },
+   "optionsLunar": {
+      "message": "Показване на китайска лунна дата"
+   },
+   "optionsDateOrder": {
+      "message": "Ред на датата"
+   },
+   "optionsDragReorder": {
+      "message": "- плъзнете, за да пренаредите"
+   },
+   "optionsCustomTimezone": {
+      "message": "Персонализирана часова зона"
+   },
+   "optionsLocalTimezone": {
+      "message": "вашата местна часова зона"
+   },
+   "optionsTimezoneNote": {
+      "message": "Забележка: Тази настройка не се отнася за календара."
+   },
+   "optionsTestNotification": {
+      "message": "Тестово известие"
+   },
+   "optionsNotificationStyle": {
+      "message": "Стил на известяване"
+   },
+   "optionsDefault": {
+      "message": "По подразбиране"
+   },
+   "optionsBackgroundColor": {
+      "message": "Цвят на фона"
+   },
+   "optionsCompact": {
+      "message": "Компактен"
+   },
+   "optionsNotificationDuration": {
+      "message": "Време за показване на известията"
+   },
+   "optionsSystemDuration": {
+      "message": "(Системата може да замени тази настройка)"
+   },
+   "optionsCloseManually": {
+      "message": "Затворете ръчно"
+   },
+   "optionsShowWeather": {
+      "message": "Показване на информация за времето"
+   },
+   "optionsWeatherFahrenheit": {
+      "message": "Използвай Фаренхайт (℉)"
+   },
+   "optionsWeatherProvider": {
+      "message": "(Информацията за времето е предоставена от Open-Meteo)"
+   },
+   "optionsLocation": {
+      "message": "Местоположение"
+   },
+   "optionsNotSet": {
+      "message": "Не е зададено/Не е налично"
+   },
+   "optionsSearch": {
+      "message": "Търсене..."
+   },
+   "optionsAutoLocation": {
+      "message": "Автоматично определяне на местоположението"
+   },
+   "optionsCurrentLocation": {
+      "message": "Текущо местоположение"
+   },
+   "optionsNotificationSound": {
+      "message": "Активиране на звука за почасово съобщение за час"
+   },
+   "optionsRingtone": {
+      "message": "мелодия"
+   },
+   "optionsReadTime": {
+      "message": "Прочетете часа заедно с почасовото съобщение"
+   },
+   "optionsSentence": {
+      "message": "Изречение"
+   },
+   "optionsVoiceTokens": {
+      "message": "%H: час (24 часа); %h: час (12 часа); %P: сутрин/следобед; %M: Минута"
+   },
+   "optionsFromComputer": {
+      "message": "От вашия компютър"
+   },
+   "optionsLoop": {
+      "message": "Активиране на цикъла"
+   },
+   "optionsPreviewRingtone": {
+      "message": "Преглед на текущата мелодия"
+   },
+   "optionsLoad": {
+      "message": "Заредете"
+   },
+   "optionsSpeechEngine": {
+      "message": "Речева машина"
+   },
+   "optionsSpeechIntro": {
+      "message": "Изберете гласовия механизъм, който предпочитате да използвате при гласов контрол и почасово известяване от текст в говор."
+   },
+   "optionsSpeechInstall": {
+      "message": "Инсталираните гласове се показват в падащото меню по-долу."
+   },
+   "optionsInstalledVoices": {
+      "message": "Инсталирани гласови машини"
+   },
+   "optionsLanguage": {
+      "message": "Език"
+   },
+   "optionsUpdateInterval": {
+      "message": "Интервал за фоново актуализиране"
+   },
+   "optionsKeepAwake": {
+      "message": "Предотвратете системата от заспиване, когато има активни аларми или обратно броене"
+   },
+   "optionsBackgroundRun": {
+      "message": "Продължете да изпълнявате Cool Clock във фонов режим, когато Google Chrome е затворен"
+   },
+   "optionsContextMenu": {
+      "message": "Показване на елементи от контекстното меню"
+   },
+   "optionsTranslationCredits": {
+      "message": "Всички, които са допринесли за локализирани преводи"
+   },
+   "optionsMore": {
+      "message": "Повече"
+   },
+   "optionsMiscellaneous": {
+      "message": "Разни"
+   },
+   "optionsLunarTip": {
+      "message": "Показване на китайска лунна дата. Точността зависи от вашия браузър и операционна система."
+   },
+   "optionsTimezoneTip": {
+      "message": "Вашата местна часова зона може да се промени по време на лятното часово време."
+   },
+   "optionsTestTip": {
+      "message": "Показване на известие с текущите настройки."
+   },
+   "optionsLocationTip": {
+      "message": "Това е идентификаторът на текущото местоположение. Използвайте Търсене, за да изберете друго местоположение."
+   },
+   "optionsAudioTip": {
+      "message": "Поддържат се само MP3, OGG или WAV файлове."
+   },
+   "optionsVoiceTip": {
+      "message": "Изберете гласов механизъм, който поддържа вашия език в секцията „Текст към говор“."
+   },
+   "optionsEmpty": {
+      "message": "(празен)"
+   },
+   "optionsContextTip": {
+      "message": "Показване на елементите на Cool Clock в менюто с десен бутон."
+   },
+   "optionsChooseFile": {
+      "message": "Изберете файл..."
+   },
+   "optionsSearchPlace": {
+      "message": "Местоположение, пощенски код или място"
+   },
+   "optionsSearchByName": {
+      "message": "Търсене по име"
+   },
+   "optionsLoading": {
+      "message": "Зареждане..."
+   },
+   "optionsNoResult": {
+      "message": "Няма резултати"
+   },
+   "optionsSearchError": {
+      "message": "Грешка при извличане на данни"
+   },
+   "optionsImported": {
+      "message": "Внос!"
+   },
+   "optionsTestSoundHint": {
+      "message": "Натиснете Test Notification, за да чуете звука."
+   },
+   "optionsSuccess": {
+      "message": "Успех!"
+   },
+   "optionsLoaded": {
+      "message": "Заредено."
+   },
+   "optionsNotice": {
+      "message": "Забележете"
+   },
+   "optionsNoRingtone": {
+      "message": "Не е зададена мелодия."
+   },
+   "optionsInvalidUrl": {
+      "message": "Този URL е невалиден или не се поддържа."
+   },
+   "optionsRetry": {
+      "message": "Опитайте отново"
+   },
+   "optionsAdvanced": {
+      "message": "Разширено"
+   },
+   "optionsAppearanceHint": {
+      "message": "За напреднали потребители: редактирайте конфигурацията по-долу, за да настроите фино часовника. Ширината и височината съответстват на размера на иконата, обикновено 19 × 19 dp."
+   },
+   "optionsEditAnalog": {
+      "message": "Редактирайте външния вид на аналоговия часовник"
+   },
+   "optionsEditDigital": {
+      "message": "Редактирайте външния вид на цифровия часовник"
+   },
+   "optionsInvalidJson": {
+      "message": "Невалиден JSON"
+   },
+   "optionsEnterValidJson": {
+      "message": "Моля, въведете валиден JSON."
+   },
+   "optionsYear": {
+      "message": "година"
+   },
+   "optionsMonth": {
+      "message": "месец"
+   },
+   "optionsDate": {
+      "message": "ден"
+   },
+   "optionsRemoved": {
+      "message": "(Премахнато)"
+   },
+   "optionsUrlTip": {
+      "message": "Поддържат се само HTTP или HTTPS URL адреси."
+   },
+   "optionsWeatherProviderCredit": {
+      "message": "Информация за времето, предоставена от Open-Meteo"
+   },
+   "optionsGeocodingCredit": {
+      "message": "Open-Meteo геокодиране"
+   },
+   "optionsTweet": {
+      "message": "Tweet"
+   },
+   "optionsBootstrapIconsCredit": {
+      "message": "Bootstrap Icons"
+   },
+   "optionsSoundJayCredit": {
+      "message": "Sound Jay (мелодия на алармата по подразбиране)"
+   },
+   "optionsFactLabel": {
+      "message": "Факт"
+   },
+   "optionsFact1": {
+      "message": "Това разширение не съдържа умишлен код за проследяване на потребителя."
+   },
+   "optionsFact2": {
+      "message": "В Cool Clock приемаме сериозно граматиката, за да избегнем доклади за грешки относно граматиката."
+   },
+   "optionsFact3": {
+      "message": "Cool Clock получи името си, защото създателят му не можа да измисли по-добър."
+   },
+   "optionsFact4": {
+      "message": "Отговорът на всичко не е 42."
+   },
+   "optionsFact5": {
+      "message": "Това твърдение е невярно."
+   },
+   "optionsPermissionError": {
+      "message": "Не може да се премахне разрешението на браузъра."
+   },
+   "optionsProcessing": {
+      "message": "Обработва се..."
+   },
+   "optionsPleaseWait": {
+      "message": "Моля, изчакайте малко..."
+   },
+   "optionsSyncSettings": {
+      "message": "Синхронизиране на настройките"
+   },
+   "optionsSyncTip": {
+      "message": "Използва вградената синхронизация на браузъра за устройства със същия акаунт."
+   }
+}

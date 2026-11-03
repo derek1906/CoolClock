@@ -1,0 +1,614 @@
+﻿{
+   "extDes": {
+      "message": "Google Chromeツールバーにデジタル時計・アナログ時計を表示し、かつデスクトップに時報を表示した初の拡張機能です。"
+   },
+   "extName": {
+      "message": "Chrome 時計"
+   },
+   "settings": {
+      "message": "設定"
+   },
+   "hourlytimeannounce": {
+      "message": "時報"
+   },
+   "enablehourlytimeannounce": {
+      "message": "時報をONにする（デスクトップ通知）"
+   },
+   "shownotificationfor": {
+      "message": "時報表示の持続時間︰"
+   },
+   "seconds": {
+      "message": "秒"
+   },
+   "max999": {
+      "message": "(999まで)"
+   },
+   "showtodowhenopen": {
+      "message": "ブラウザが起動している場合、デスクトップに予定を表示する。"
+   },
+   "display": {
+      "message": "表示"
+   },
+   "usedigital": {
+      "message": "デジタル時計を使用"
+   },
+   "digitalmsg": {
+      "message": "（注意：デジタル時計は、一定量のメモリを使用します）"
+   },
+   "usedarkmode": {
+      "message": "暗いテーマを使う（時刻が見やすいように、背景に半透明の泡が表示されます）"
+   },
+   "useanalog": {
+      "message": "アナログ時計を使用"
+   },
+   "analogmsg": {
+      "message": "（１秒間に４キロバイトのメモリを使用します）"
+   },
+   "noscroll": {
+      "message": "スクロールエフェクトを使用しない（代わりに４つの数字を表示します）"
+   },
+   "_12hour": {
+      "message": "12時間表示を使用する（デフォルトでは24時間表示になります）"
+   },
+   "showiconclock": {
+      "message": "アナログ時計をアイコン表示する"
+   },
+   "showbadgeclock": {
+      "message": "背景に半透明の気泡を表示する"
+   },
+   "comment": {
+      "message": "コメント"
+   },
+   "cmtmsg": {
+      "message": "バグの報告やコメントの送信は、ここをクリックしてください"
+   },
+   "memmsg": {
+      "message": "アニメーションは、通常１秒ごとに新しい画像を表示するため、以前のメモリを削除する間、多くのメモリを使用します。"
+   },
+   "showupdate": {
+      "message": "機能が更新された際、アップデートページを開く"
+   },
+   "updateiconevery": {
+      "message": "アイコンの更新頻度："
+   },
+   "updateiconeverymsg": {
+      "message": "（短いほど、メモリ使用量が軽くなります。）"
+   },
+   "_1sec": {
+      "message": "1秒毎"
+   },
+   "_2sec": {
+      "message": "2秒毎"
+   },
+   "_5sec": {
+      "message": "5秒毎"
+   },
+   "_10sec": {
+      "message": "10秒毎"
+   },
+   "_30sec": {
+      "message": "30秒毎"
+   },
+   "_1min": {
+      "message": "1分毎"
+   },
+   "viewsavedalarm": {
+      "message": "保存したアラームを見る"
+   },
+   "OK": {
+      "message": "OK"
+   },
+   "apply": {
+      "message": "適用"
+   },
+   "cancel": {
+      "message": "キャンセル"
+   },
+   "about": {
+      "message": "Chrome 時計 について"
+   },
+   "whatsnew": {
+      "message": "現在のバージョンの変更點を表示する"
+   },
+   "none": {
+      "message": "なし"
+   },
+   "defaultringtone": {
+      "message": "デフォルトのアラーム音"
+   },
+   "URLringtone": {
+      "message": "URLから"
+   },
+   "allpurpose": {
+      "message": "アラーム音"
+   },
+   "alarmandringtone": {
+      "message": "アラーム"
+   },
+   "close": {
+      "message": "閉じる"
+   },
+   "timeis": {
+      "message": "現在時刻："
+   },
+   "notflash": {
+      "message": "（この時計はフラッシュ(Adobe Flash)を使用していません）"
+   },
+   "version": {
+      "message": "バージョン"
+   },
+   "countdown": {
+      "message": "カウントダウンタイマー"
+   },
+   "alarm": {
+      "message": "アラーム"
+   },
+   "stat": {
+      "message": "統計"
+   },
+   "timer": {
+      "message": "ストップウォッチ"
+   },
+   "tools": {
+      "message": "道具"
+   },
+   "day_0": {
+      "message": "日曜日"
+   },
+   "day_1": {
+      "message": "月曜日"
+   },
+   "day_2": {
+      "message": "火曜日"
+   },
+   "day_3": {
+      "message": "水曜日"
+   },
+   "day_4": {
+      "message": "木曜日"
+   },
+   "day_5": {
+      "message": "金曜日"
+   },
+   "day_6": {
+      "message": "土曜日"
+   },
+   "month_1": {
+      "message": "１月"
+   },
+   "month_2": {
+      "message": "２月"
+   },
+   "month_3": {
+      "message": "３月"
+   },
+   "month_4": {
+      "message": "４月"
+   },
+   "month_5": {
+      "message": "５月"
+   },
+   "month_6": {
+      "message": "６月"
+   },
+   "month_7": {
+      "message": "７月"
+   },
+   "month_8": {
+      "message": "８月"
+   },
+   "month_9": {
+      "message": "９月"
+   },
+   "month_10": {
+      "message": "10月"
+   },
+   "month_11": {
+      "message": "11月"
+   },
+   "month_12": {
+      "message": "12月"
+   },
+   "morning": {
+      "message": "おはよう!"
+   },
+   "noon": {
+      "message": "やあ!"
+   },
+   "evening": {
+      "message": "晩ご飯はもう食べた?"
+   },
+   "night": {
+      "message": "もう寝る時間だよ。"
+   },
+   "midnight": {
+      "message": "こんな夜にどうしたの?"
+   },
+   "notitimeannounce": {
+      "message": "時報…"
+   },
+   "notitimeis": {
+      "message": "現在時刻 "
+   },
+   "am": {
+      "message": "午前"
+   },
+   "pm": {
+      "message": "午後"
+   },
+   "saved": {
+      "message": "保存しました。"
+   },
+   "notsaved": {
+      "message": "変更されたオプションは保存されません！続行しますか？"
+   },
+   "ctxcmt": {
+      "message": "バグの報告 / コメント"
+   },
+   "digital": {
+      "message": "デジタル時計"
+   },
+   "analog": {
+      "message": "アナログ時計"
+   },
+   "ctxhide": {
+      "message": "この右クリックメニューを隠す"
+   },
+   "contextVoiceControl": {
+      "message": "音声操作"
+   },
+   "contextCurrentTime": {
+      "message": "現在の時刻を挿入"
+   },
+   "chat": {
+      "message": "チャットルーム"
+   },
+   "forum": {
+      "message": "フォーラム"
+   },
+   "calendar": {
+      "message": "カレンダー"
+   },
+   "setalarm": {
+      "message": "アラーム"
+   },
+   "alarmRinging": {
+      "message": "アラームが鳴っています"
+   },
+   "timesUp": {
+      "message": "時間です"
+   },
+   "scheduledFor": {
+      "message": "{time} に設定"
+   },
+   "weatherHumidity": {
+      "message": "湿度"
+   },
+   "weatherLoading": {
+      "message": "天気を読み込み中…"
+   },
+   "weatherUnavailable": {
+      "message": "天気を取得できません"
+   },
+   "errorUnavailable": {
+      "message": "拡張機能を利用できません"
+   },
+   "dismissLabel": {
+      "message": "閉じる"
+   },
+   "help": {
+      "message": "ヘルプ"
+   },
+   "optionsMenu": {
+      "message": "メニュー"
+   },
+   "optionsFormats": {
+      "message": "フォーマット"
+   },
+   "optionsNotifications": {
+      "message": "通知"
+   },
+   "optionsSpeech": {
+      "message": "テキスト読み上げ"
+   },
+   "optionsExtension": {
+      "message": "拡張機能"
+   },
+   "optionsCredits": {
+      "message": "特別な感謝の気持ち"
+   },
+   "optionsEditAppearance": {
+      "message": "外観の編集"
+   },
+   "optionsColor": {
+      "message": "色"
+   },
+   "optionsBadgeColor": {
+      "message": "バッジの色"
+   },
+   "optionsNewPopup": {
+      "message": "新しいポップアップ デザインを使用する"
+   },
+   "optionsTimeSystem": {
+      "message": "時間システム"
+   },
+   "optionsCalendarSystem": {
+      "message": "カレンダーシステム"
+   },
+   "optionsLunar": {
+      "message": "中国の旧暦の日付を表示する"
+   },
+   "optionsDateOrder": {
+      "message": "日付順"
+   },
+   "optionsDragReorder": {
+      "message": "- ドラッグして並べ替えます"
+   },
+   "optionsCustomTimezone": {
+      "message": "カスタムタイムゾーン"
+   },
+   "optionsLocalTimezone": {
+      "message": "あなたのローカルタイムゾーン"
+   },
+   "optionsTimezoneNote": {
+      "message": "注: この設定はカレンダーには適用されません。"
+   },
+   "optionsTestNotification": {
+      "message": "テスト通知"
+   },
+   "optionsNotificationStyle": {
+      "message": "通知スタイル"
+   },
+   "optionsDefault": {
+      "message": "デフォルト"
+   },
+   "optionsBackgroundColor": {
+      "message": "背景色"
+   },
+   "optionsCompact": {
+      "message": "コンパクト"
+   },
+   "optionsNotificationDuration": {
+      "message": "通知表示時間"
+   },
+   "optionsSystemDuration": {
+      "message": "(システムがこの設定を上書きする可能性があります)"
+   },
+   "optionsCloseManually": {
+      "message": "手動で閉じる"
+   },
+   "optionsShowWeather": {
+      "message": "天気情報を表示する"
+   },
+   "optionsWeatherFahrenheit": {
+      "message": "華氏（℉）を使用"
+   },
+   "optionsWeatherProvider": {
+      "message": "（気象情報はOpen-Meteo提供）"
+   },
+   "optionsLocation": {
+      "message": "場所"
+   },
+   "optionsNotSet": {
+      "message": "未設定/利用不可"
+   },
+   "optionsSearch": {
+      "message": "検索..."
+   },
+   "optionsAutoLocation": {
+      "message": "ブラウザーの位置情報を自動的に使用"
+   },
+   "optionsCurrentLocation": {
+      "message": "現在地"
+   },
+   "optionsNotificationSound": {
+      "message": "毎時アナウンス音を有効にする"
+   },
+   "optionsRingtone": {
+      "message": "着信音"
+   },
+   "optionsReadTime": {
+      "message": "毎時の時刻アナウンスとともに時刻を読み上げます"
+   },
+   "optionsSentence": {
+      "message": "文"
+   },
+   "optionsVoiceTokens": {
+      "message": "%H: 時間 (24 時間)。 %h: 時間 (12 時間); %P: 午前/午後; %M: 分"
+   },
+   "optionsFromComputer": {
+      "message": "コンピューターから"
+   },
+   "optionsLoop": {
+      "message": "ループを有効にする"
+   },
+   "optionsPreviewRingtone": {
+      "message": "現在の着信音をプレビューする"
+   },
+   "optionsLoad": {
+      "message": "ロード"
+   },
+   "optionsSpeechEngine": {
+      "message": "音声エンジン"
+   },
+   "optionsSpeechIntro": {
+      "message": "音声制御と時間ごとの通知テキスト読み上げで使用する音声エンジンを選択します。"
+   },
+   "optionsSpeechInstall": {
+      "message": "インストールされている音声が下のドロップダウンに表示されます。"
+   },
+   "optionsInstalledVoices": {
+      "message": "搭載されている音声エンジン"
+   },
+   "optionsLanguage": {
+      "message": "言語"
+   },
+   "optionsUpdateInterval": {
+      "message": "バックグラウンド更新間隔"
+   },
+   "optionsKeepAwake": {
+      "message": "アクティブなアラームまたはカウントダウンがあるときにシステムがスリープしないようにします"
+   },
+   "optionsBackgroundRun": {
+      "message": "Google Chrome を閉じても Cool Clock をバックグラウンドで実行し続ける"
+   },
+   "optionsContextMenu": {
+      "message": "コンテキスト メニュー項目を表示する"
+   },
+   "optionsTranslationCredits": {
+      "message": "ローカライズ翻訳にご協力いただいた皆様"
+   },
+   "optionsMore": {
+      "message": "もっと見る"
+   },
+   "optionsMiscellaneous": {
+      "message": "その他"
+   },
+   "optionsLunarTip": {
+      "message": "中国の旧暦の日付を表示します。精度はブラウザとオペレーティング システムによって異なります。"
+   },
+   "optionsTimezoneTip": {
+      "message": "夏時間中には、現地のタイムゾーンが変更される場合があります。"
+   },
+   "optionsTestTip": {
+      "message": "現在の設定を使用して通知を表示します。"
+   },
+   "optionsLocationTip": {
+      "message": "これは現在の場所の ID です。検索を使用して別の場所を選択します。"
+   },
+   "optionsAudioTip": {
+      "message": "MP3、OGG、または WAV ファイルのみがサポートされます。"
+   },
+   "optionsVoiceTip": {
+      "message": "[テキスト読み上げ] セクションで、言語をサポートする音声エンジンを選択します。"
+   },
+   "optionsEmpty": {
+      "message": "(空)"
+   },
+   "optionsContextTip": {
+      "message": "右クリックメニューにクールクロック項目を表示します。"
+   },
+   "optionsChooseFile": {
+      "message": "ファイルを選択してください..."
+   },
+   "optionsSearchPlace": {
+      "message": "場所、郵便番号、または場所"
+   },
+   "optionsSearchByName": {
+      "message": "名前で検索"
+   },
+   "optionsLoading": {
+      "message": "読み込み中..."
+   },
+   "optionsNoResult": {
+      "message": "結果はありません"
+   },
+   "optionsSearchError": {
+      "message": "データ取得エラー"
+   },
+   "optionsImported": {
+      "message": "輸入されました！"
+   },
+   "optionsTestSoundHint": {
+      "message": "「通知のテスト」を押して音を聞きます。"
+   },
+   "optionsSuccess": {
+      "message": "成功！"
+   },
+   "optionsLoaded": {
+      "message": "ロードされました。"
+   },
+   "optionsNotice": {
+      "message": "お知らせ"
+   },
+   "optionsNoRingtone": {
+      "message": "着信音が設定されていません。"
+   },
+   "optionsInvalidUrl": {
+      "message": "この URL は無効であるか、サポートされていません。"
+   },
+   "optionsRetry": {
+      "message": "再試行"
+   },
+   "optionsAdvanced": {
+      "message": "上級者向け"
+   },
+   "optionsAppearanceHint": {
+      "message": "上級ユーザー向け: 以下の構成を編集してクロックを微調整します。幅と高さはアイコンのサイズと一致し、通常は 19 × 19 dp です。"
+   },
+   "optionsEditAnalog": {
+      "message": "アナログ時計の外観を編集する"
+   },
+   "optionsEditDigital": {
+      "message": "デジタル時計の外観を編集する"
+   },
+   "optionsInvalidJson": {
+      "message": "無効な JSON"
+   },
+   "optionsEnterValidJson": {
+      "message": "有効な JSON を入力してください。"
+   },
+   "optionsYear": {
+      "message": "年"
+   },
+   "optionsMonth": {
+      "message": "月"
+   },
+   "optionsDate": {
+      "message": "日"
+   },
+   "optionsRemoved": {
+      "message": "(削除されました)"
+   },
+   "optionsUrlTip": {
+      "message": "HTTP または HTTPS URL のみがサポートされます。"
+   },
+   "optionsWeatherProviderCredit": {
+      "message": "Open-Meteo による気象情報"
+   },
+   "optionsGeocodingCredit": {
+      "message": "OpenMeteo ジオコーディング"
+   },
+   "optionsTweet": {
+      "message": "ツイート"
+   },
+   "optionsBootstrapIconsCredit": {
+      "message": "Bootstrap Icons"
+   },
+   "optionsSoundJayCredit": {
+      "message": "Sound Jay (デフォルトのアラーム着信音)"
+   },
+   "optionsFactLabel": {
+      "message": "事実"
+   },
+   "optionsFact1": {
+      "message": "この拡張機能には、意図的なユーザー追跡コードは含まれていません。"
+   },
+   "optionsFact2": {
+      "message": "Cool Clock では、文法に関するバグ報告を避けるために文法を真剣に考えています。"
+   },
+   "optionsFact3": {
+      "message": "Cool Clock という名前は、その作成者がこれより優れた時計を思いつかなかったため付けられました。"
+   },
+   "optionsFact4": {
+      "message": "すべての答えが 42 というわけではありません。"
+   },
+   "optionsFact5": {
+      "message": "この発言は誤りです。"
+   },
+   "optionsPermissionError": {
+      "message": "ブラウザの権限を削除できませんでした。"
+   },
+   "optionsProcessing": {
+      "message": "処理中..."
+   },
+   "optionsPleaseWait": {
+      "message": "しばらくお待ちください..."
+   },
+   "optionsSyncSettings": {
+      "message": "設定を同期する"
+   },
+   "optionsSyncTip": {
+      "message": "同じブラウザーアカウントでログインした端末間で、ブラウザー標準の同期機能を使用します。"
+   }
+}

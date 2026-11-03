@@ -1,0 +1,30 @@
+/*! Bootstrap Icons v1.13.2 (https://icons.getbootstrap.com/)
+ * Copyright 2019-2024 The Bootstrap Authors; MIT License.
+ * Subset for Cool Clock; see icons-LICENSE. */
+@font-face {font-family:'bootstrap-icons';src:url('./fonts/bootstrap-icons.woff') format('woff');font-display:block;}
+.bi::before{display:inline-block;font-family:'bootstrap-icons'!important;font-style:normal;font-weight:normal!important;line-height:1;vertical-align:-.125em;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+.bi-arrow-down-up::before{content:"\f127";}
+.bi-arrow-repeat::before{content:"\f130";}
+.bi-bell::before{content:"\f18a";}
+.bi-check-circle-fill::before{content:"\f26a";}
+.bi-check-lg::before{content:"\f633";}
+.bi-check-square::before{content:"\f26d";}
+.bi-chat::before{content:"\f268";}
+.bi-chevron-right::before{content:"\f285";}
+.bi-dash::before{content:"\f2ea";}
+.bi-exclamation-circle-fill::before{content:"\f332";}
+.bi-floppy2::before{content:"\f7e4";}
+.bi-folder2-open::before{content:"\f3d8";}
+.bi-globe::before{content:"\f3ee";}
+.bi-image::before{content:"\f42a";}
+.bi-info-circle-fill::before{content:"\f430";}
+.bi-megaphone::before{content:"\f484";}
+.bi-pause-fill::before{content:"\f4c3";}
+.bi-pencil::before{content:"\f4cb";}
+.bi-play-fill::before{content:"\f4f4";}
+.bi-plus-lg::before{content:"\f64d";}
+.bi-power::before{content:"\f4ff";}
+.bi-search::before{content:"\f52a";}
+.bi-stop-fill::before{content:"\f592";}
+.bi-trash::before{content:"\f5de";}
+.bi-wrench::before{content:"\f621";}

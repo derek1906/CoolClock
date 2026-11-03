@@ -1,0 +1,614 @@
+﻿{
+   "extDes": {
+      "message": "提供时钟、月历、闹铃、待办事情清单以及整点报时等等(超酷)功能！"
+   },
+   "extName": {
+      "message": "酷时钟"
+   },
+   "settings": {
+      "message": "选项"
+   },
+   "hourlytimeannounce": {
+      "message": "整点报时"
+   },
+   "enablehourlytimeannounce": {
+      "message": "使用整点报时（桌面提醒）"
+   },
+   "shownotificationfor": {
+      "message": " 桌面提醒显示时间为︰"
+   },
+   "seconds": {
+      "message": "秒"
+   },
+   "max999": {
+      "message": "(最長为999秒)"
+   },
+   "showtodowhenopen": {
+      "message": "浏览器运行时在桌面提醒待办事项。"
+   },
+   "display": {
+      "message": "显示"
+   },
+   "usedigital": {
+      "message": "使用数字时钟"
+   },
+   "digitalmsg": {
+      "message": "（数字时钟会占用一定的内存量。）"
+   },
+   "usedarkmode": {
+      "message": "使用黑暗主题模式（使用暗色调主题的人可选择此项。这会在图标下方加入一层半透明的图案，让图示更加清楚。）"
+   },
+   "useanalog": {
+      "message": "使用指针时钟"
+   },
+   "analogmsg": {
+      "message": "（每秒大约消耗4KB内存）"
+   },
+   "noscroll": {
+      "message": "不使用滚动特效（显示4个数字，不显示其中的冒号）"
+   },
+   "_12hour": {
+      "message": "使用12小时制（默认为24小时制）"
+   },
+   "showiconclock": {
+      "message": "在图标上显示指针时钟"
+   },
+   "showbadgeclock": {
+      "message": "在图标下部显示时间"
+   },
+   "comment": {
+      "message": "意见"
+   },
+   "cmtmsg": {
+      "message": "想留言吗？提交错误？"
+   },
+   "memmsg": {
+      "message": "动画通常会每秒便重新绘制一次，这样会在使用一段时间之后占用大量的内存。当然，我会尽可能的降低内存占用量。"
+   },
+   "showupdate": {
+      "message": "每次更新后显示更新页"
+   },
+   "updateiconevery": {
+      "message": "刷新图标的间隔时间： "
+   },
+   "updateiconeverymsg": {
+      "message": "（设定时间越长，该插件占用的内存就越少。）"
+   },
+   "_1sec": {
+      "message": "1 秒"
+   },
+   "_2sec": {
+      "message": "2 秒"
+   },
+   "_5sec": {
+      "message": "5 秒"
+   },
+   "_10sec": {
+      "message": "10 秒"
+   },
+   "_30sec": {
+      "message": "30 秒"
+   },
+   "_1min": {
+      "message": "1 分钟"
+   },
+   "viewsavedalarm": {
+      "message": "检视已储闹铃"
+   },
+   "OK": {
+      "message": "确定"
+   },
+   "apply": {
+      "message": "应用"
+   },
+   "cancel": {
+      "message": "取消"
+   },
+   "about": {
+      "message": "关于"
+   },
+   "whatsnew": {
+      "message": "更新日志"
+   },
+   "none": {
+      "message": "无"
+   },
+   "defaultringtone": {
+      "message": "预设铃声"
+   },
+   "URLringtone": {
+      "message": "来自网址"
+   },
+   "allpurpose": {
+      "message": "所有用途的铃声"
+   },
+   "alarmandringtone": {
+      "message": "闹钟与铃声"
+   },
+   "close": {
+      "message": "关闭"
+   },
+   "timeis": {
+      "message": "现在是︰"
+   },
+   "notflash": {
+      "message": "（我不是Flash时钟！）"
+   },
+   "version": {
+      "message": "版本"
+   },
+   "countdown": {
+      "message": "倒数器"
+   },
+   "alarm": {
+      "message": "闹钟"
+   },
+   "stat": {
+      "message": "统计"
+   },
+   "timer": {
+      "message": "计时器"
+   },
+   "tools": {
+      "message": "工具"
+   },
+   "day_0": {
+      "message": "星期日"
+   },
+   "day_1": {
+      "message": "星期一"
+   },
+   "day_2": {
+      "message": "星期二"
+   },
+   "day_3": {
+      "message": "星期三"
+   },
+   "day_4": {
+      "message": "星期四"
+   },
+   "day_5": {
+      "message": "星期五"
+   },
+   "day_6": {
+      "message": "星期六"
+   },
+   "month_1": {
+      "message": "一月"
+   },
+   "month_2": {
+      "message": "二月"
+   },
+   "month_3": {
+      "message": "三月"
+   },
+   "month_4": {
+      "message": "四月"
+   },
+   "month_5": {
+      "message": "五月"
+   },
+   "month_6": {
+      "message": "六月"
+   },
+   "month_7": {
+      "message": "七月"
+   },
+   "month_8": {
+      "message": "八月"
+   },
+   "month_9": {
+      "message": "九月"
+   },
+   "month_10": {
+      "message": "十月"
+   },
+   "month_11": {
+      "message": "十一月"
+   },
+   "month_12": {
+      "message": "十二月"
+   },
+   "morning": {
+      "message": "早上好！"
+   },
+   "noon": {
+      "message": "下午好！"
+   },
+   "evening": {
+      "message": "吃晚饭了吗？"
+   },
+   "night": {
+      "message": "很晚了，该睡觉了。"
+   },
+   "midnight": {
+      "message": "最近怎样了？"
+   },
+   "notitimeannounce": {
+      "message": "整点报时"
+   },
+   "notitimeis": {
+      "message": "现在是"
+   },
+   "am": {
+      "message": "上午"
+   },
+   "pm": {
+      "message": "下午"
+   },
+   "saved": {
+      "message": "已保存。"
+   },
+   "notsaved": {
+      "message": "你忘了储存啊! 要继续吗?"
+   },
+   "ctxcmt": {
+      "message": "提交错误 / 意见"
+   },
+   "digital": {
+      "message": "数字时钟"
+   },
+   "analog": {
+      "message": "指针时钟"
+   },
+   "ctxhide": {
+      "message": "隐藏这个右键窗体"
+   },
+   "contextVoiceControl": {
+      "message": "语音控制"
+   },
+   "contextCurrentTime": {
+      "message": "插入当前时间"
+   },
+   "chat": {
+      "message": "聊天室"
+   },
+   "forum": {
+      "message": "讨论区"
+   },
+   "calendar": {
+      "message": "月历"
+   },
+   "setalarm": {
+      "message": "设置闹铃"
+   },
+   "help": {
+      "message": "帮助"
+   },
+   "alarmRinging": {
+      "message": "闹钟响了"
+   },
+   "timesUp": {
+      "message": "时间到！"
+   },
+   "scheduledFor": {
+      "message": "设定时间：{time}"
+   },
+   "weatherHumidity": {
+      "message": "湿度"
+   },
+   "weatherLoading": {
+      "message": "正在加载天气…"
+   },
+   "weatherUnavailable": {
+      "message": "天气暂不可用"
+   },
+   "errorUnavailable": {
+      "message": "扩展暂不可用"
+   },
+   "dismissLabel": {
+      "message": "关闭"
+   },
+   "optionsMenu": {
+      "message": "菜单"
+   },
+   "optionsFormats": {
+      "message": "格式"
+   },
+   "optionsNotifications": {
+      "message": "通知"
+   },
+   "optionsSpeech": {
+      "message": "语音朗读"
+   },
+   "optionsExtension": {
+      "message": "扩展设置"
+   },
+   "optionsCredits": {
+      "message": "特别鸣谢"
+   },
+   "optionsEditAppearance": {
+      "message": "编辑外观"
+   },
+   "optionsColor": {
+      "message": "颜色"
+   },
+   "optionsBadgeColor": {
+      "message": "徽标颜色"
+   },
+   "optionsNewPopup": {
+      "message": "使用新版弹出界面"
+   },
+   "optionsTimeSystem": {
+      "message": "时间格式"
+   },
+   "optionsCalendarSystem": {
+      "message": "日历格式"
+   },
+   "optionsLunar": {
+      "message": "显示农历日期"
+   },
+   "optionsDateOrder": {
+      "message": "日期顺序"
+   },
+   "optionsDragReorder": {
+      "message": "— 拖动以重新排序"
+   },
+   "optionsCustomTimezone": {
+      "message": "自定义时区"
+   },
+   "optionsLocalTimezone": {
+      "message": "本地时区"
+   },
+   "optionsTimezoneNote": {
+      "message": "注意：此设置不适用于日历。"
+   },
+   "optionsTestNotification": {
+      "message": "测试通知"
+   },
+   "optionsNotificationStyle": {
+      "message": "通知样式"
+   },
+   "optionsDefault": {
+      "message": "默认"
+   },
+   "optionsBackgroundColor": {
+      "message": "背景颜色"
+   },
+   "optionsCompact": {
+      "message": "紧凑"
+   },
+   "optionsNotificationDuration": {
+      "message": "通知显示时间"
+   },
+   "optionsSystemDuration": {
+      "message": "（系统可能会覆盖此设置）"
+   },
+   "optionsCloseManually": {
+      "message": "手动关闭"
+   },
+   "optionsShowWeather": {
+      "message": "显示天气信息"
+   },
+   "optionsWeatherFahrenheit": {
+      "message": "使用华氏度（℉）"
+   },
+   "optionsWeatherProvider": {
+      "message": "（天气信息由 Open-Meteo 提供）"
+   },
+   "optionsLocation": {
+      "message": "位置"
+   },
+   "optionsNotSet": {
+      "message": "未设置或不可用"
+   },
+   "optionsSearch": {
+      "message": "搜索…"
+   },
+   "optionsAutoLocation": {
+      "message": "自动使用浏览器定位"
+   },
+   "optionsCurrentLocation": {
+      "message": "当前位置"
+   },
+   "optionsNotificationSound": {
+      "message": "启用整点报时声音"
+   },
+   "optionsRingtone": {
+      "message": "铃声"
+   },
+   "optionsReadTime": {
+      "message": "整点报时时朗读时间"
+   },
+   "optionsSentence": {
+      "message": "朗读内容"
+   },
+   "optionsVoiceTokens": {
+      "message": "%H：小时（24 小时制）；%h：小时（12 小时制）；%P：上午/下午；%M：分钟"
+   },
+   "optionsFromComputer": {
+      "message": "从电脑选择"
+   },
+   "optionsLoop": {
+      "message": "循环播放"
+   },
+   "optionsPreviewRingtone": {
+      "message": "试听当前铃声"
+   },
+   "optionsLoad": {
+      "message": "加载"
+   },
+   "optionsSpeechEngine": {
+      "message": "语音引擎"
+   },
+   "optionsSpeechIntro": {
+      "message": "选择用于语音控制和整点报时的语音引擎。"
+   },
+   "optionsSpeechInstall": {
+      "message": "已安装的语音会显示在下面的列表中。"
+   },
+   "optionsInstalledVoices": {
+      "message": "已安装的语音引擎"
+   },
+   "optionsLanguage": {
+      "message": "语言"
+   },
+   "optionsUpdateInterval": {
+      "message": "后台更新间隔"
+   },
+   "optionsKeepAwake": {
+      "message": "有闹钟或倒计时运行时防止系统休眠"
+   },
+   "optionsBackgroundRun": {
+      "message": "关闭浏览器后继续在后台运行酷时钟"
+   },
+   "optionsContextMenu": {
+      "message": "显示右键菜单项"
+   },
+   "optionsTranslationCredits": {
+      "message": "所有参与翻译的贡献者"
+   },
+   "optionsMore": {
+      "message": "更多"
+   },
+   "optionsMiscellaneous": {
+      "message": "其他"
+   },
+   "optionsLunarTip": {
+      "message": "显示农历日期。准确性取决于浏览器和操作系统。"
+   },
+   "optionsTimezoneTip": {
+      "message": "实行夏令时的地区，本地时区可能会变化。"
+   },
+   "optionsTestTip": {
+      "message": "使用当前设置显示一条通知。"
+   },
+   "optionsLocationTip": {
+      "message": "这里显示当前位置的 ID。使用“搜索”选择其他位置。"
+   },
+   "optionsAudioTip": {
+      "message": "仅支持 MP3、OGG 或 WAV 文件。"
+   },
+   "optionsVoiceTip": {
+      "message": "请在“语音朗读”中选择支持当前语言的语音引擎。"
+   },
+   "optionsEmpty": {
+      "message": "（空）"
+   },
+   "optionsContextTip": {
+      "message": "在右键菜单中显示酷时钟的选项。"
+   },
+   "optionsChooseFile": {
+      "message": "选择文件…"
+   },
+   "optionsSearchPlace": {
+      "message": "位置、邮政编码或地名"
+   },
+   "optionsSearchByName": {
+      "message": "按名称搜索"
+   },
+   "optionsLoading": {
+      "message": "加载中…"
+   },
+   "optionsNoResult": {
+      "message": "没有结果"
+   },
+   "optionsSearchError": {
+      "message": "获取数据失败"
+   },
+   "optionsImported": {
+      "message": "导入成功！"
+   },
+   "optionsTestSoundHint": {
+      "message": "点击“测试通知”试听声音。"
+   },
+   "optionsSuccess": {
+      "message": "成功！"
+   },
+   "optionsLoaded": {
+      "message": "已加载。"
+   },
+   "optionsNotice": {
+      "message": "提示"
+   },
+   "optionsNoRingtone": {
+      "message": "尚未设置铃声。"
+   },
+   "optionsInvalidUrl": {
+      "message": "网址无效或不受支持。"
+   },
+   "optionsRetry": {
+      "message": "重试"
+   },
+   "optionsAdvanced": {
+      "message": "高级"
+   },
+   "optionsAppearanceHint": {
+      "message": "高级设置：编辑下方配置以微调时钟。宽度和高度对应图标尺寸，通常为 19 × 19 dp。"
+   },
+   "optionsEditAnalog": {
+      "message": "编辑指针时钟外观"
+   },
+   "optionsEditDigital": {
+      "message": "编辑数字时钟外观"
+   },
+   "optionsInvalidJson": {
+      "message": "JSON 无效"
+   },
+   "optionsEnterValidJson": {
+      "message": "请输入有效的 JSON。"
+   },
+   "optionsYear": {
+      "message": "年"
+   },
+   "optionsMonth": {
+      "message": "月"
+   },
+   "optionsDate": {
+      "message": "日"
+   },
+   "optionsRemoved": {
+      "message": "（已移除）"
+   },
+   "optionsUrlTip": {
+      "message": "仅支持 HTTP 或 HTTPS 网址。"
+   },
+   "optionsWeatherProviderCredit": {
+      "message": "天气信息由 Open-Meteo 提供"
+   },
+   "optionsGeocodingCredit": {
+      "message": "Open-Meteo 地理编码"
+   },
+   "optionsTweet": {
+      "message": "发推文"
+   },
+   "optionsBootstrapIconsCredit": {
+      "message": "Bootstrap Icons"
+   },
+   "optionsSoundJayCredit": {
+      "message": "Sound Jay（默认闹钟铃声）"
+   },
+   "optionsFactLabel": {
+      "message": "趣闻"
+   },
+   "optionsFact1": {
+      "message": "本扩展没有有意加入用户跟踪代码。"
+   },
+   "optionsFact2": {
+      "message": "酷时钟很重视语法，免得收到纠错报告。"
+   },
+   "optionsFact3": {
+      "message": "酷时钟这个名字，是因为作者没想出更好的名字。"
+   },
+   "optionsFact4": {
+      "message": "万物的答案不是 42。"
+   },
+   "optionsFact5": {
+      "message": "这句话是假的。"
+   },
+   "optionsPermissionError": {
+      "message": "无法移除浏览器权限。"
+   },
+   "optionsProcessing": {
+      "message": "正在处理…"
+   },
+   "optionsPleaseWait": {
+      "message": "请稍候…"
+   },
+   "optionsSyncSettings": {
+      "message": "同步设置"
+   },
+   "optionsSyncTip": {
+      "message": "使用浏览器自带的同步功能，在登录同一浏览器账号的设备间同步设置。"
+   }
+}

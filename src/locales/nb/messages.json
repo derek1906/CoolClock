@@ -1,0 +1,614 @@
+﻿{
+   "extDes": {
+      "message": "En utvidelse full av nyttige tidsfunksjoner... og det beste er at den er skikkelig kul."
+   },
+   "extName": {
+      "message": "Cool Clock"
+   },
+   "settings": {
+      "message": "Alternativer"
+   },
+   "hourlytimeannounce": {
+      "message": "Klokka er nå"
+   },
+   "enablehourlytimeannounce": {
+      "message": "Slå på notifikasjon for hver hele time"
+   },
+   "shownotificationfor": {
+      "message": "Vis i: "
+   },
+   "seconds": {
+      "message": "sekunder"
+   },
+   "max999": {
+      "message": "(Maks:  999)"
+   },
+   "showtodowhenopen": {
+      "message": "Varsle om oppgaver når netteleseren kjøres"
+   },
+   "display": {
+      "message": "Visning"
+   },
+   "usedigital": {
+      "message": "Bruk digitalklokke"
+   },
+   "digitalmsg": {
+      "message": "(Advarsel:  Digitalklokke bruker mye minne.)"
+   },
+   "usedarkmode": {
+      "message": "Bruk tilpasninger for mørkt tema"
+   },
+   "useanalog": {
+      "message": "Bruk analogklokke"
+   },
+   "analogmsg": {
+      "message": "(Omtrent 4 KB per sekund)"
+   },
+   "noscroll": {
+      "message": "Ikke brukk rulleeffekt (vis 4 tall i stedet for rulling)"
+   },
+   "_12hour": {
+      "message": "Bruk 12-timerssystem (standard er 24-timerssystem)"
+   },
+   "showiconclock": {
+      "message": "Vis klokka på ikonet"
+   },
+   "showbadgeclock": {
+      "message": "Vis klokka på merket"
+   },
+   "comment": {
+      "message": "Kommentar"
+   },
+   "cmtmsg": {
+      "message": "Har du en kommentar eller en feilrapport? Trykk her!"
+   },
+   "memmsg": {
+      "message": "Animasjon «tegner» et nytt bilde per sekund, så det vil ta opp mye minne, men vi prøver å redusere det."
+   },
+   "showupdate": {
+      "message": "Vis oppdateringssiden hver gang utvidelsen har blitt oppdatert"
+   },
+   "updateiconevery": {
+      "message": "Oppdater ikonet hver: "
+   },
+   "updateiconeverymsg": {
+      "message": "(Jo lenger intervall, jo lettere er utvidelsen.)"
+   },
+   "_1sec": {
+      "message": "1 sekund"
+   },
+   "_2sec": {
+      "message": "2 sekunder"
+   },
+   "_5sec": {
+      "message": "5 sekunder"
+   },
+   "_10sec": {
+      "message": "10 sekunder"
+   },
+   "_30sec": {
+      "message": "30 sekunder"
+   },
+   "_1min": {
+      "message": "1 minutt"
+   },
+   "viewsavedalarm": {
+      "message": "Vis lagrede alarmer"
+   },
+   "OK": {
+      "message": "OK"
+   },
+   "apply": {
+      "message": "Bruk"
+   },
+   "cancel": {
+      "message": "Avbryt"
+   },
+   "about": {
+      "message": "Om"
+   },
+   "whatsnew": {
+      "message": "Nytt i denne versjonen"
+   },
+   "none": {
+      "message": "Ingen"
+   },
+   "defaultringtone": {
+      "message": "Standard ringetone"
+   },
+   "URLringtone": {
+      "message": "Fra URL"
+   },
+   "allpurpose": {
+      "message": "Ringetone for alle formål"
+   },
+   "alarmandringtone": {
+      "message": "Alarm og ringetone"
+   },
+   "close": {
+      "message": "Lukk"
+   },
+   "timeis": {
+      "message": "Klokka er nå: "
+   },
+   "notflash": {
+      "message": "(Jeg er ikke en Flash-klokke!)"
+   },
+   "version": {
+      "message": "Versjon"
+   },
+   "countdown": {
+      "message": "Nedtellingstidtaker"
+   },
+   "alarm": {
+      "message": "Alarm"
+   },
+   "stat": {
+      "message": "Statistikk"
+   },
+   "timer": {
+      "message": "Stoppeklokke"
+   },
+   "tools": {
+      "message": "Verktøy"
+   },
+   "day_0": {
+      "message": "Søndag"
+   },
+   "day_1": {
+      "message": "Mandag"
+   },
+   "day_2": {
+      "message": "Tirsdag"
+   },
+   "day_3": {
+      "message": "Onsdag"
+   },
+   "day_4": {
+      "message": "Torsdag"
+   },
+   "day_5": {
+      "message": "Fredag"
+   },
+   "day_6": {
+      "message": "Lørdag"
+   },
+   "month_1": {
+      "message": "Jan"
+   },
+   "month_2": {
+      "message": "Feb"
+   },
+   "month_3": {
+      "message": "Mar"
+   },
+   "month_4": {
+      "message": "Apr"
+   },
+   "month_5": {
+      "message": "Mai"
+   },
+   "month_6": {
+      "message": "Jun"
+   },
+   "month_7": {
+      "message": "Jul"
+   },
+   "month_8": {
+      "message": "Aug"
+   },
+   "month_9": {
+      "message": "Sep"
+   },
+   "month_10": {
+      "message": "Okt"
+   },
+   "month_11": {
+      "message": "Nov"
+   },
+   "month_12": {
+      "message": "Des"
+   },
+   "morning": {
+      "message": "God morgen!"
+   },
+   "noon": {
+      "message": "God ettermiddag!"
+   },
+   "evening": {
+      "message": "Har du spist middag?"
+   },
+   "night": {
+      "message": "Dags for senga."
+   },
+   "midnight": {
+      "message": "Hva skjer?"
+   },
+   "notitimeannounce": {
+      "message": "Klokka er nå..."
+   },
+   "notitimeis": {
+      "message": "Klokka er"
+   },
+   "am": {
+      "message": "f.m."
+   },
+   "pm": {
+      "message": "e.m."
+   },
+   "saved": {
+      "message": "Lagret."
+   },
+   "notsaved": {
+      "message": "De endrede alternativene er ikke lagret! Vil du fortsette likevel?"
+   },
+   "ctxcmt": {
+      "message": "Bug rapport / Comments"
+   },
+   "digital": {
+      "message": "Digitalklokke"
+   },
+   "analog": {
+      "message": "Analogklokke"
+   },
+   "ctxhide": {
+      "message": "Ikke vis disse elementene"
+   },
+   "contextVoiceControl": {
+      "message": "Talestyring"
+   },
+   "contextCurrentTime": {
+      "message": "Sett inn gjeldende tid"
+   },
+   "chat": {
+      "message": "Chat box"
+   },
+   "forum": {
+      "message": "Forum"
+   },
+   "calendar": {
+      "message": "Kalender"
+   },
+   "setalarm": {
+      "message": "Still inn en alarm"
+   },
+   "alarmRinging": {
+      "message": "Alarmen ringer"
+   },
+   "timesUp": {
+      "message": "Tiden er ute"
+   },
+   "scheduledFor": {
+      "message": "Planlagt til {time}"
+   },
+   "weatherHumidity": {
+      "message": "Luftfuktighet"
+   },
+   "weatherLoading": {
+      "message": "Laster inn vær…"
+   },
+   "weatherUnavailable": {
+      "message": "Været er ikke tilgjengelig"
+   },
+   "errorUnavailable": {
+      "message": "Utvidelsen er ikke tilgjengelig"
+   },
+   "dismissLabel": {
+      "message": "Lukk"
+   },
+   "help": {
+      "message": "Hjelp"
+   },
+   "optionsMenu": {
+      "message": "Meny"
+   },
+   "optionsFormats": {
+      "message": "Formater"
+   },
+   "optionsNotifications": {
+      "message": "Varsler"
+   },
+   "optionsSpeech": {
+      "message": "Tekst til tale"
+   },
+   "optionsExtension": {
+      "message": "Utvidelse"
+   },
+   "optionsCredits": {
+      "message": "Spesiell takk"
+   },
+   "optionsEditAppearance": {
+      "message": "Rediger utseende"
+   },
+   "optionsColor": {
+      "message": "Farge"
+   },
+   "optionsBadgeColor": {
+      "message": "Merkefarge"
+   },
+   "optionsNewPopup": {
+      "message": "Bruk ny popup-design"
+   },
+   "optionsTimeSystem": {
+      "message": "Tidssystem"
+   },
+   "optionsCalendarSystem": {
+      "message": "Kalendersystem"
+   },
+   "optionsLunar": {
+      "message": "Vis kinesisk månedato"
+   },
+   "optionsDateOrder": {
+      "message": "Datobestilling"
+   },
+   "optionsDragReorder": {
+      "message": "- dra for å omorganisere"
+   },
+   "optionsCustomTimezone": {
+      "message": "Egendefinert tidssone"
+   },
+   "optionsLocalTimezone": {
+      "message": "din lokale tidssone"
+   },
+   "optionsTimezoneNote": {
+      "message": "Merk: Denne innstillingen gjelder ikke for kalenderen."
+   },
+   "optionsTestNotification": {
+      "message": "Testvarsling"
+   },
+   "optionsNotificationStyle": {
+      "message": "Varslingsstil"
+   },
+   "optionsDefault": {
+      "message": "Standard"
+   },
+   "optionsBackgroundColor": {
+      "message": "Bakgrunnsfarge"
+   },
+   "optionsCompact": {
+      "message": "Kompakt"
+   },
+   "optionsNotificationDuration": {
+      "message": "Visningstid for varsel"
+   },
+   "optionsSystemDuration": {
+      "message": "(Systemet kan overstyre denne innstillingen)"
+   },
+   "optionsCloseManually": {
+      "message": "Lukk manuelt"
+   },
+   "optionsShowWeather": {
+      "message": "Vis værinformasjon"
+   },
+   "optionsWeatherFahrenheit": {
+      "message": "Bruk Fahrenheit (℉)"
+   },
+   "optionsWeatherProvider": {
+      "message": "(Værinformasjon gitt av Open-Meteo)"
+   },
+   "optionsLocation": {
+      "message": "Beliggenhet"
+   },
+   "optionsNotSet": {
+      "message": "Ikke angitt/ Ikke tilgjengelig"
+   },
+   "optionsSearch": {
+      "message": "Søk..."
+   },
+   "optionsAutoLocation": {
+      "message": "Bruk nettleserens posisjon automatisk"
+   },
+   "optionsCurrentLocation": {
+      "message": "Gjeldende posisjon"
+   },
+   "optionsNotificationSound": {
+      "message": "Aktiver timelig kunngjøringslyd"
+   },
+   "optionsRingtone": {
+      "message": "Ringetone"
+   },
+   "optionsReadTime": {
+      "message": "Les opp klokkeslettet sammen med timetidskunngjøringen"
+   },
+   "optionsSentence": {
+      "message": "Setning"
+   },
+   "optionsVoiceTokens": {
+      "message": "%H: Time (24 timer); %h: Time (12 timer); %P: am/pm; %M: Minutt"
+   },
+   "optionsFromComputer": {
+      "message": "Fra datamaskinen din"
+   },
+   "optionsLoop": {
+      "message": "Aktiver looping"
+   },
+   "optionsPreviewRingtone": {
+      "message": "Forhåndsvis gjeldende ringetone"
+   },
+   "optionsLoad": {
+      "message": "Last"
+   },
+   "optionsSpeechEngine": {
+      "message": "Talemotor"
+   },
+   "optionsSpeechIntro": {
+      "message": "Velg stemmemotoren du foretrekker å bruke i stemmestyring og timesvarsling tekst-til-tale."
+   },
+   "optionsSpeechInstall": {
+      "message": "Installerte stemmer vises i rullegardinmenyen nedenfor."
+   },
+   "optionsInstalledVoices": {
+      "message": "Installerte talemotorer"
+   },
+   "optionsLanguage": {
+      "message": "Språk"
+   },
+   "optionsUpdateInterval": {
+      "message": "Bakgrunnsoppdateringsintervall"
+   },
+   "optionsKeepAwake": {
+      "message": "Hindre systemet fra å sove når det er aktive alarmer eller nedtellinger"
+   },
+   "optionsBackgroundRun": {
+      "message": "Fortsett å kjøre Cool Clock i bakgrunnen når Google Chrome er lukket"
+   },
+   "optionsContextMenu": {
+      "message": "Vis kontekstmenyelementer"
+   },
+   "optionsTranslationCredits": {
+      "message": "Alle som bidro med lokaliserte oversettelser"
+   },
+   "optionsMore": {
+      "message": "Mer"
+   },
+   "optionsMiscellaneous": {
+      "message": "Diverse"
+   },
+   "optionsLunarTip": {
+      "message": "Vis en kinesisk månedato. Nøyaktigheten avhenger av nettleseren og operativsystemet."
+   },
+   "optionsTimezoneTip": {
+      "message": "Din lokale tidssone kan endres i sommertid."
+   },
+   "optionsTestTip": {
+      "message": "Vis et varsel ved hjelp av gjeldende innstillinger."
+   },
+   "optionsLocationTip": {
+      "message": "Dette er gjeldende plasserings-ID. Bruk Søk for å velge et annet sted."
+   },
+   "optionsAudioTip": {
+      "message": "Bare MP3-, OGG- eller WAV-filer støttes."
+   },
+   "optionsVoiceTip": {
+      "message": "Velg en stemmemotor som støtter språket ditt i Tekst til tale-delen."
+   },
+   "optionsEmpty": {
+      "message": "(tom)"
+   },
+   "optionsContextTip": {
+      "message": "Vis Cool Clock-elementer i høyreklikkmenyen."
+   },
+   "optionsChooseFile": {
+      "message": "Velg en fil..."
+   },
+   "optionsSearchPlace": {
+      "message": "Sted, postnummer eller sted"
+   },
+   "optionsSearchByName": {
+      "message": "Søk etter navn"
+   },
+   "optionsLoading": {
+      "message": "Laster inn..."
+   },
+   "optionsNoResult": {
+      "message": "Ingen resultater"
+   },
+   "optionsSearchError": {
+      "message": "Feil under henting av data"
+   },
+   "optionsImported": {
+      "message": "Importert!"
+   },
+   "optionsTestSoundHint": {
+      "message": "Trykk på Testvarsling for å høre lyden."
+   },
+   "optionsSuccess": {
+      "message": "Suksess!"
+   },
+   "optionsLoaded": {
+      "message": "Lastet."
+   },
+   "optionsNotice": {
+      "message": "Legg merke til"
+   },
+   "optionsNoRingtone": {
+      "message": "Ingen ringetone er angitt."
+   },
+   "optionsInvalidUrl": {
+      "message": "Denne nettadressen er ugyldig eller støttes ikke."
+   },
+   "optionsRetry": {
+      "message": "Prøv på nytt"
+   },
+   "optionsAdvanced": {
+      "message": "Avansert"
+   },
+   "optionsAppearanceHint": {
+      "message": "For avanserte brukere: rediger konfigurasjonen nedenfor for å finjustere klokken. Bredde og høyde samsvarer med ikonstørrelsen, normalt 19 × 19 dp."
+   },
+   "optionsEditAnalog": {
+      "message": "Rediger analog klokkes utseende"
+   },
+   "optionsEditDigital": {
+      "message": "Rediger utseendet på digital klokke"
+   },
+   "optionsInvalidJson": {
+      "message": "Ugyldig JSON"
+   },
+   "optionsEnterValidJson": {
+      "message": "Vennligst skriv inn gyldig JSON."
+   },
+   "optionsYear": {
+      "message": "år"
+   },
+   "optionsMonth": {
+      "message": "Måned"
+   },
+   "optionsDate": {
+      "message": "dag"
+   },
+   "optionsRemoved": {
+      "message": "(Fjernet)"
+   },
+   "optionsUrlTip": {
+      "message": "Bare HTTP- eller HTTPS-URLer støttes."
+   },
+   "optionsWeatherProviderCredit": {
+      "message": "Værinformasjon drevet av Open-Meteo"
+   },
+   "optionsGeocodingCredit": {
+      "message": "Open-Meteo geokoding"
+   },
+   "optionsTweet": {
+      "message": "Tweet"
+   },
+   "optionsBootstrapIconsCredit": {
+      "message": "Bootstrap Icons"
+   },
+   "optionsSoundJayCredit": {
+      "message": "Sound Jay (standard ringetone for alarm)"
+   },
+   "optionsFactLabel": {
+      "message": "Faktum"
+   },
+   "optionsFact1": {
+      "message": "Denne utvidelsen inneholder ikke tilsiktet brukersporingskode."
+   },
+   "optionsFact2": {
+      "message": "Hos Cool Clock tar vi grammatikk på alvor for å unngå feilrapporter om grammatikk."
+   },
+   "optionsFact3": {
+      "message": "Cool Clock fikk navnet sitt fordi skaperen ikke kunne tenke seg en bedre."
+   },
+   "optionsFact4": {
+      "message": "Svaret på alt er ikke 42."
+   },
+   "optionsFact5": {
+      "message": "Denne uttalelsen er falsk."
+   },
+   "optionsPermissionError": {
+      "message": "Kunne ikke fjerne nettlesertillatelsen."
+   },
+   "optionsProcessing": {
+      "message": "Behandler..."
+   },
+   "optionsPleaseWait": {
+      "message": "Vennligst vent et øyeblikk..."
+   },
+   "optionsSyncSettings": {
+      "message": "Synkroniser innstillinger"
+   },
+   "optionsSyncTip": {
+      "message": "Bruker nettleserens innebygde synkronisering mellom enheter med samme konto."
+   }
+}

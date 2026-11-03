@@ -5,3 +5,6 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+dist/
+__pycache__/
+*.pyc

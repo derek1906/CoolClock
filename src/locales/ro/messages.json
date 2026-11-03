@@ -1,0 +1,614 @@
+﻿{
+   "extDes": {
+      "message": "Prima extensie care are ceas digital + analog in bara superioara in Chrome + notificari care apar in Desktop."
+   },
+   "extName": {
+      "message": "Ceasul Chrome"
+   },
+   "settings": {
+      "message": "Opțiuni"
+   },
+   "hourlytimeannounce": {
+      "message": "Notificare continua"
+   },
+   "enablehourlytimeannounce": {
+      "message": "Activeaza Notificarea Continua(1h) (notificare in desktop)"
+   },
+   "shownotificationfor": {
+      "message": "Durata afisarii notificarii"
+   },
+   "seconds": {
+      "message": "secunde"
+   },
+   "max999": {
+      "message": "(maxim: 999)"
+   },
+   "showtodowhenopen": {
+      "message": "De alertă pentru a-do în notificarea pe desktop atunci când rulaţi browser-ul."
+   },
+   "display": {
+      "message": "Afisaz"
+   },
+   "usedigital": {
+      "message": "Foloseste Ceasul Digital"
+   },
+   "digitalmsg": {
+      "message": "(Avertisment: Folosind Ceasul Digital(Digital Clock) va utiliza resurse semnificative din memoria RAM)"
+   },
+   "usedarkmode": {
+      "message": "Foloseste tema Inchis(Dark) (Pentru cei care folosesc aceasta tema, un balon semi-transparent va fi adaugat sub numere pentru a se putea vedea timpul)"
+   },
+   "useanalog": {
+      "message": "Foloseste Ceasul Analog"
+   },
+   "analogmsg": {
+      "message": "(Aproximativ 4K pe secunda)"
+   },
+   "noscroll": {
+      "message": "Nu folosi efectul scroll. (Afiseaza 4 numbere in schimb.) "
+   },
+   "_12hour": {
+      "message": "Foloseste systemul de 12 ore. (Setarile de baza folosesc system de 24 de ore:  0: 00 - 23: 59)"
+   },
+   "showiconclock": {
+      "message": "Afiseaza ceasul pe icoana(cel cu aratatoare)"
+   },
+   "showbadgeclock": {
+      "message": "Afiseaza timpul pe insigna (cea rosie)."
+   },
+   "comment": {
+      "message": "Observatie"
+   },
+   "cmtmsg": {
+      "message": "O observatie? Raportezi o eroare? Apasa aici!"
+   },
+   "memmsg": {
+      "message": "Animatia extrage o noua imagine fiecare secunda, deci va necesita resurse de memorie. Eforturi sunt depuse in incercarea de a reduce acest consum."
+   },
+   "showupdate": {
+      "message": "Arata pagina de actualizari de fiecare data cand extensia a fost actualizata."
+   },
+   "updateiconevery": {
+      "message": "Reimprospateaza icoana in fiecare: "
+   },
+   "updateiconeverymsg": {
+      "message": "(Cu cat durata este mai mare, cu atat mai putine resurse vor fi folosite.)"
+   },
+   "_1sec": {
+      "message": "1 secunda"
+   },
+   "_2sec": {
+      "message": "2 secunde"
+   },
+   "_5sec": {
+      "message": "5 secunde"
+   },
+   "_10sec": {
+      "message": "10 secunde"
+   },
+   "_30sec": {
+      "message": "30 secunde"
+   },
+   "_1min": {
+      "message": "1 minut"
+   },
+   "viewsavedalarm": {
+      "message": "Vezi salvate alarme"
+   },
+   "OK": {
+      "message": "OK"
+   },
+   "apply": {
+      "message": "Aplica"
+   },
+   "cancel": {
+      "message": "Anuleaza"
+   },
+   "about": {
+      "message": "Despre"
+   },
+   "whatsnew": {
+      "message": "Vezi ce e nou in aceasta versiune."
+   },
+   "none": {
+      "message": "Niciunul"
+   },
+   "defaultringtone": {
+      "message": "Ton de apel implicit"
+   },
+   "URLringtone": {
+      "message": "De la adresa URL"
+   },
+   "allpurpose": {
+      "message": "Ton de apel pentru toate scopurile"
+   },
+   "alarmandringtone": {
+      "message": "Alarmă și ton de apel"
+   },
+   "close": {
+      "message": "Închide"
+   },
+   "timeis": {
+      "message": "Acum este: "
+   },
+   "notflash": {
+      "message": "(Nu sunt un ceas Flash!)"
+   },
+   "version": {
+      "message": "Versiune"
+   },
+   "countdown": {
+      "message": "Cronometru numărătoare inversă"
+   },
+   "alarm": {
+      "message": "Ceas cu alarmă"
+   },
+   "stat": {
+      "message": "Statistici"
+   },
+   "timer": {
+      "message": "Cronometru"
+   },
+   "tools": {
+      "message": "Instrumente"
+   },
+   "day_0": {
+      "message": "Duminica"
+   },
+   "day_1": {
+      "message": "Luni"
+   },
+   "day_2": {
+      "message": "Marti"
+   },
+   "day_3": {
+      "message": "Miercuri"
+   },
+   "day_4": {
+      "message": "Joi"
+   },
+   "day_5": {
+      "message": "Vineri"
+   },
+   "day_6": {
+      "message": "Sambata"
+   },
+   "month_1": {
+      "message": "Ian"
+   },
+   "month_2": {
+      "message": "Feb"
+   },
+   "month_3": {
+      "message": "Mar"
+   },
+   "month_4": {
+      "message": "Apr"
+   },
+   "month_5": {
+      "message": "Mai"
+   },
+   "month_6": {
+      "message": "Lun"
+   },
+   "month_7": {
+      "message": "Lul"
+   },
+   "month_8": {
+      "message": "Aug"
+   },
+   "month_9": {
+      "message": "Sep"
+   },
+   "month_10": {
+      "message": "Oct"
+   },
+   "month_11": {
+      "message": "Noi"
+   },
+   "month_12": {
+      "message": "Dec"
+   },
+   "morning": {
+      "message": "Buna dimineata!"
+   },
+   "noon": {
+      "message": "Bine te-am gasit de dupa-masa!"
+   },
+   "evening": {
+      "message": "Ai luat cina?"
+   },
+   "night": {
+      "message": "E timpul de somn."
+   },
+   "midnight": {
+      "message": "Ce faci?"
+   },
+   "notitimeannounce": {
+      "message": "Notificare continua (1h)"
+   },
+   "notitimeis": {
+      "message": "Acum este"
+   },
+   "am": {
+      "message": "am"
+   },
+   "pm": {
+      "message": "pm"
+   },
+   "saved": {
+      "message": "Opţiunile sunt salvate."
+   },
+   "notsaved": {
+      "message": "Opțiunile modificate nu au fost salvate! Continuați oricum?"
+   },
+   "ctxcmt": {
+      "message": "Bug report / Observatie"
+   },
+   "digital": {
+      "message": "Ceasul Digital"
+   },
+   "analog": {
+      "message": "Ceasul Analog"
+   },
+   "ctxhide": {
+      "message": "Nu afișa aceste elemente"
+   },
+   "contextVoiceControl": {
+      "message": "Control vocal"
+   },
+   "contextCurrentTime": {
+      "message": "Inserează ora curentă"
+   },
+   "chat": {
+      "message": "Chat box"
+   },
+   "forum": {
+      "message": "Forum"
+   },
+   "calendar": {
+      "message": "Calendar"
+   },
+   "setalarm": {
+      "message": "Setați o alarmă"
+   },
+   "alarmRinging": {
+      "message": "Alarma sună"
+   },
+   "timesUp": {
+      "message": "Timpul a expirat"
+   },
+   "scheduledFor": {
+      "message": "Programat pentru {time}"
+   },
+   "weatherHumidity": {
+      "message": "Umiditate"
+   },
+   "weatherLoading": {
+      "message": "Se încarcă vremea…"
+   },
+   "weatherUnavailable": {
+      "message": "Vremea nu este disponibilă"
+   },
+   "errorUnavailable": {
+      "message": "Extensia nu este disponibilă"
+   },
+   "dismissLabel": {
+      "message": "Închide"
+   },
+   "help": {
+      "message": "Ajutor"
+   },
+   "optionsMenu": {
+      "message": "Meniu"
+   },
+   "optionsFormats": {
+      "message": "Formate"
+   },
+   "optionsNotifications": {
+      "message": "Notificări"
+   },
+   "optionsSpeech": {
+      "message": "Text în vorbire"
+   },
+   "optionsExtension": {
+      "message": "Extensie"
+   },
+   "optionsCredits": {
+      "message": "Mulțumiri speciale"
+   },
+   "optionsEditAppearance": {
+      "message": "Editați aspectul"
+   },
+   "optionsColor": {
+      "message": "Culoare"
+   },
+   "optionsBadgeColor": {
+      "message": "Culoarea insignei"
+   },
+   "optionsNewPopup": {
+      "message": "Utilizați un nou design pop-up"
+   },
+   "optionsTimeSystem": {
+      "message": "Sistemul de timp"
+   },
+   "optionsCalendarSystem": {
+      "message": "Sistem calendaristic"
+   },
+   "optionsLunar": {
+      "message": "Afișează data lunară chinezească"
+   },
+   "optionsDateOrder": {
+      "message": "Data Comanda"
+   },
+   "optionsDragReorder": {
+      "message": "- trageți pentru a reordona"
+   },
+   "optionsCustomTimezone": {
+      "message": "Fus orar personalizat"
+   },
+   "optionsLocalTimezone": {
+      "message": "fusul dvs. orar local"
+   },
+   "optionsTimezoneNote": {
+      "message": "Notă: această setare nu se aplică calendarului."
+   },
+   "optionsTestNotification": {
+      "message": "Notificare de testare"
+   },
+   "optionsNotificationStyle": {
+      "message": "Stilul de notificare"
+   },
+   "optionsDefault": {
+      "message": "Implicit"
+   },
+   "optionsBackgroundColor": {
+      "message": "Culoare de fundal"
+   },
+   "optionsCompact": {
+      "message": "Compact"
+   },
+   "optionsNotificationDuration": {
+      "message": "Ora de afișare a notificărilor"
+   },
+   "optionsSystemDuration": {
+      "message": "(Sistemul poate suprascrie această setare)"
+   },
+   "optionsCloseManually": {
+      "message": "Închideți manual"
+   },
+   "optionsShowWeather": {
+      "message": "Afișează informații despre vreme"
+   },
+   "optionsWeatherFahrenheit": {
+      "message": "Folosește Fahrenheit (℉)"
+   },
+   "optionsWeatherProvider": {
+      "message": "(Informații meteo furnizate de Open-Meteo)"
+   },
+   "optionsLocation": {
+      "message": "Locație"
+   },
+   "optionsNotSet": {
+      "message": "Nu setat/ Nu este disponibil"
+   },
+   "optionsSearch": {
+      "message": "Cauta..."
+   },
+   "optionsAutoLocation": {
+      "message": "Folosește automat locația browserului"
+   },
+   "optionsCurrentLocation": {
+      "message": "Locația curentă"
+   },
+   "optionsNotificationSound": {
+      "message": "Activați sunetul de anunț orar"
+   },
+   "optionsRingtone": {
+      "message": "Ton de apel"
+   },
+   "optionsReadTime": {
+      "message": "Citiți ora împreună cu anunțul orar"
+   },
+   "optionsSentence": {
+      "message": "Propoziție"
+   },
+   "optionsVoiceTokens": {
+      "message": "%H: oră (24 de ore); %h: Ora (12 ore); %P: am/pm; %M: Minut"
+   },
+   "optionsFromComputer": {
+      "message": "De pe computerul dvs"
+   },
+   "optionsLoop": {
+      "message": "Activați bucla"
+   },
+   "optionsPreviewRingtone": {
+      "message": "Previzualizează tonul de apel curent"
+   },
+   "optionsLoad": {
+      "message": "Încărcare"
+   },
+   "optionsSpeechEngine": {
+      "message": "Motorul de vorbire"
+   },
+   "optionsSpeechIntro": {
+      "message": "Alegeți motorul de voce pe care preferați să îl utilizați în controlul vocal și notificările orare din text-to-speech."
+   },
+   "optionsSpeechInstall": {
+      "message": "Vocile instalate apar în meniul derulant de mai jos."
+   },
+   "optionsInstalledVoices": {
+      "message": "Motoare de voce instalate"
+   },
+   "optionsLanguage": {
+      "message": "Limba"
+   },
+   "optionsUpdateInterval": {
+      "message": "Interval de actualizare a fundalului"
+   },
+   "optionsKeepAwake": {
+      "message": "Împiedică sistemul să doarmă atunci când există alarme active sau numărătoare inversă"
+   },
+   "optionsBackgroundRun": {
+      "message": "Continuați să rulați Cool Clock în fundal când Google Chrome este închis"
+   },
+   "optionsContextMenu": {
+      "message": "Afișați elementele din meniul contextual"
+   },
+   "optionsTranslationCredits": {
+      "message": "Toți cei care au contribuit la traduceri localizate"
+   },
+   "optionsMore": {
+      "message": "Mai mult"
+   },
+   "optionsMiscellaneous": {
+      "message": "Diverse"
+   },
+   "optionsLunarTip": {
+      "message": "Afișați o dată lunară chinezească. Precizia depinde de browser și de sistemul de operare."
+   },
+   "optionsTimezoneTip": {
+      "message": "Fusul dvs. orar local se poate modifica în timpul orei de vară."
+   },
+   "optionsTestTip": {
+      "message": "Afișați o notificare folosind setările curente."
+   },
+   "optionsLocationTip": {
+      "message": "Acesta este ID-ul locației curente. Utilizați Căutare pentru a alege o altă locație."
+   },
+   "optionsAudioTip": {
+      "message": "Sunt acceptate numai fișierele MP3, OGG sau WAV."
+   },
+   "optionsVoiceTip": {
+      "message": "Selectați un motor vocal care acceptă limba dvs. în secțiunea Text to Speech."
+   },
+   "optionsEmpty": {
+      "message": "(gol)"
+   },
+   "optionsContextTip": {
+      "message": "Afișați elementele Cool Clock în meniul cu clic dreapta."
+   },
+   "optionsChooseFile": {
+      "message": "Alegeți un fișier..."
+   },
+   "optionsSearchPlace": {
+      "message": "Locație, cod poștal sau loc"
+   },
+   "optionsSearchByName": {
+      "message": "Căutați după nume"
+   },
+   "optionsLoading": {
+      "message": "Se încarcă..."
+   },
+   "optionsNoResult": {
+      "message": "Niciun rezultat"
+   },
+   "optionsSearchError": {
+      "message": "Eroare la preluarea datelor"
+   },
+   "optionsImported": {
+      "message": "Importat!"
+   },
+   "optionsTestSoundHint": {
+      "message": "Apăsați Test Notificare pentru a auzi sunetul."
+   },
+   "optionsSuccess": {
+      "message": "Succes!"
+   },
+   "optionsLoaded": {
+      "message": "Încărcat."
+   },
+   "optionsNotice": {
+      "message": "Observați"
+   },
+   "optionsNoRingtone": {
+      "message": "Nu a fost setat niciun ton de apel."
+   },
+   "optionsInvalidUrl": {
+      "message": "Această adresă URL este nevalidă sau neacceptată."
+   },
+   "optionsRetry": {
+      "message": "Reîncercați"
+   },
+   "optionsAdvanced": {
+      "message": "Avansat"
+   },
+   "optionsAppearanceHint": {
+      "message": "Pentru utilizatorii avansați: editați configurația de mai jos pentru a regla ceasul. Lățimea și înălțimea se potrivesc cu dimensiunea pictogramei, în mod normal 19 × 19 dp."
+   },
+   "optionsEditAnalog": {
+      "message": "Editați aspectul ceasului analogic"
+   },
+   "optionsEditDigital": {
+      "message": "Editați aspectul ceasului digital"
+   },
+   "optionsInvalidJson": {
+      "message": "JSON nevalid"
+   },
+   "optionsEnterValidJson": {
+      "message": "Vă rugăm să introduceți JSON valid."
+   },
+   "optionsYear": {
+      "message": "Anul"
+   },
+   "optionsMonth": {
+      "message": "luna"
+   },
+   "optionsDate": {
+      "message": "Ziua"
+   },
+   "optionsRemoved": {
+      "message": "(Eliminat)"
+   },
+   "optionsUrlTip": {
+      "message": "Sunt acceptate numai adresele URL HTTP sau HTTPS."
+   },
+   "optionsWeatherProviderCredit": {
+      "message": "Informații meteo oferite de Open-Meteo"
+   },
+   "optionsGeocodingCredit": {
+      "message": "Geocodare Open-Meteo"
+   },
+   "optionsTweet": {
+      "message": "Tweet"
+   },
+   "optionsBootstrapIconsCredit": {
+      "message": "Bootstrap Icons"
+   },
+   "optionsSoundJayCredit": {
+      "message": "Sound Jay (ton de apel de alarmă implicit)"
+   },
+   "optionsFactLabel": {
+      "message": "Fapt"
+   },
+   "optionsFact1": {
+      "message": "Această extensie nu conține cod de urmărire intenționată a utilizatorului."
+   },
+   "optionsFact2": {
+      "message": "La Cool Clock, luăm gramatica în serios pentru a evita rapoartele de erori despre gramatică."
+   },
+   "optionsFact3": {
+      "message": "Cool Clock și-a primit numele deoarece creatorul său nu s-a putut gândi la unul mai bun."
+   },
+   "optionsFact4": {
+      "message": "Răspunsul la toate nu este 42."
+   },
+   "optionsFact5": {
+      "message": "Această afirmație este falsă."
+   },
+   "optionsPermissionError": {
+      "message": "Nu s-a putut elimina permisiunea browserului."
+   },
+   "optionsProcessing": {
+      "message": "Se procesează..."
+   },
+   "optionsPleaseWait": {
+      "message": "Vă rog să așteptați un moment..."
+   },
+   "optionsSyncSettings": {
+      "message": "Sincronizează setările"
+   },
+   "optionsSyncTip": {
+      "message": "Folosește sincronizarea browserului între dispozitive conectate la același cont."
+   }
+}

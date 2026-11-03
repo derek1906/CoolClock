@@ -1,0 +1,614 @@
+{
+   "extDes": {
+      "message": "Một tiện ích mở rộng cung cấp hàng tấn tính năng hữu ích liên quan đến thời gian... Nhưng phần hay nhất là nó thật THÚ VỊ"
+   },
+   "extName": {
+      "message": "Cool Clock"
+   },
+   "settings": {
+      "message": "Thiết lập"
+   },
+   "hourlytimeannounce": {
+      "message": "Thông báo thời gian từng giờ"
+   },
+   "enablehourlytimeannounce": {
+      "message": "Bật chế độ thông báo thời gian từng giờ! (Thông báo trên Desktop)"
+   },
+   "shownotificationfor": {
+      "message": "Hiển thị thông báo cho"
+   },
+   "seconds": {
+      "message": "giây"
+   },
+   "max999": {
+      "message": "(Tối đa:   999)"
+   },
+   "showtodowhenopen": {
+      "message": "Thông báo việc cần làm khi mở trình duyệt của bạn"
+   },
+   "display": {
+      "message": "Hiển thị"
+   },
+   "usedigital": {
+      "message": "Dùng đồng hồ số"
+   },
+   "digitalmsg": {
+      "message": "(Đồng hồ số sẽ dùng một lượng bộ nhớ nhất định)"
+   },
+   "usedarkmode": {
+      "message": "Dùng chế độ chủ đề đen ()"
+   },
+   "useanalog": {
+      "message": "Dùng đồng hồ cổ"
+   },
+   "analogmsg": {
+      "message": "(Khoảng 4KB một giây)"
+   },
+   "noscroll": {
+      "message": "Không sử dụng hiệu ứng cuộn (Hiển thị 4 số thay cho cuộn)"
+   },
+   "_12hour": {
+      "message": "Sử dụng hệ thống 12 giờ (Mặc định là 24 giờ)"
+   },
+   "showiconclock": {
+      "message": "Hiển thị đồng hồ ở biểu tượng (Với kim)"
+   },
+   "showbadgeclock": {
+      "message": "Hiển thị thời gian trên biểu tượng"
+   },
+   "comment": {
+      "message": "Bình luận"
+   },
+   "cmtmsg": {
+      "message": "Cung cấp phản hồi, bình luận hoặc báo cáo sự cố ở đây"
+   },
+   "memmsg": {
+      "message": "Chuyển động luôn \"vẽ\" một hình mới mỗi giây, nên bình thường nó sẽ lấy thêm nhiều bộ nhớ sau khoảng thời gian, khi tôi dang cố giảm nó tối thiểu."
+   },
+   "showupdate": {
+      "message": "Hiện trang cập nhật mỗi khi tiện ích này được cập nhật"
+   },
+   "updateiconevery": {
+      "message": "Làm mới biểu tượng mỗi: "
+   },
+   "updateiconeverymsg": {
+      "message": "(Đây là tiện ích chạy lâu và nhẹ nhất; nhưng khi chạy lâu nó sẽ ảnh hưởng đến các tiện ích khác lớn hơn.)"
+   },
+   "_1sec": {
+      "message": "1 giây"
+   },
+   "_2sec": {
+      "message": "2 giây"
+   },
+   "_5sec": {
+      "message": "5 giây"
+   },
+   "_10sec": {
+      "message": "10 giây"
+   },
+   "_30sec": {
+      "message": "30 giây"
+   },
+   "_1min": {
+      "message": "1 phút"
+   },
+   "viewsavedalarm": {
+      "message": "Xem báo thức đã lưu"
+   },
+   "OK": {
+      "message": "OK"
+   },
+   "apply": {
+      "message": "Áp dụng"
+   },
+   "cancel": {
+      "message": "Hủy"
+   },
+   "about": {
+      "message": "Giới thiệu"
+   },
+   "whatsnew": {
+      "message": "Xem nhật kí cập nhật"
+   },
+   "none": {
+      "message": "Không có"
+   },
+   "defaultringtone": {
+      "message": "Chuông mặc định"
+   },
+   "URLringtone": {
+      "message": "Từ URL"
+   },
+   "allpurpose": {
+      "message": "Chuông cho tất cả kế hoạch"
+   },
+   "alarmandringtone": {
+      "message": "Báo thức & Chuông"
+   },
+   "close": {
+      "message": "Đóng"
+   },
+   "timeis": {
+      "message": "Thời gian là: "
+   },
+   "notflash": {
+      "message": "(Đây không phải là đồng hồ flash)"
+   },
+   "version": {
+      "message": "Phiên bản"
+   },
+   "countdown": {
+      "message": "Đồng hồ hẹn giờ"
+   },
+   "alarm": {
+      "message": "Đồng hồ báo thức"
+   },
+   "stat": {
+      "message": "Thống kê"
+   },
+   "timer": {
+      "message": "Đồng hồ bấm giờ"
+   },
+   "tools": {
+      "message": "Công cụ"
+   },
+   "day_0": {
+      "message": "Chủ Nhật"
+   },
+   "day_1": {
+      "message": "Thứ Hai"
+   },
+   "day_2": {
+      "message": "Thứ Ba"
+   },
+   "day_3": {
+      "message": "Thứ Tư"
+   },
+   "day_4": {
+      "message": "Thứ Năm"
+   },
+   "day_5": {
+      "message": "Thứ Sáu"
+   },
+   "day_6": {
+      "message": "Thứ Bảy"
+   },
+   "month_1": {
+      "message": "Th. 01"
+   },
+   "month_2": {
+      "message": "Th. 02"
+   },
+   "month_3": {
+      "message": "Th. 03"
+   },
+   "month_4": {
+      "message": "Th. 04"
+   },
+   "month_5": {
+      "message": "Th. 05"
+   },
+   "month_6": {
+      "message": "Th. 06"
+   },
+   "month_7": {
+      "message": "Th. 07"
+   },
+   "month_8": {
+      "message": "Th. 08"
+   },
+   "month_9": {
+      "message": "Th. 09"
+   },
+   "month_10": {
+      "message": "Th. 10"
+   },
+   "month_11": {
+      "message": "Th. 11"
+   },
+   "month_12": {
+      "message": "Th. 12"
+   },
+   "morning": {
+      "message": "Chào buổi sáng!"
+   },
+   "noon": {
+      "message": "Thật vui khi thấy bạn vào buổi chiều này!"
+   },
+   "evening": {
+      "message": "Bạn đã ăn tối chưa?"
+   },
+   "night": {
+      "message": "Đã đến lúc đi ngủ rồi."
+   },
+   "midnight": {
+      "message": "Có gì nào?"
+   },
+   "notitimeannounce": {
+      "message": "Thông báo thời gian từng giờ"
+   },
+   "notitimeis": {
+      "message": "Thời gian ngay bây giờ"
+   },
+   "am": {
+      "message": "am"
+   },
+   "pm": {
+      "message": "pm"
+   },
+   "saved": {
+      "message": "Đã lưu"
+   },
+   "notsaved": {
+      "message": "Tùy chọn đã sửa không được lưu! Vẫn tiếp tục?"
+   },
+   "ctxcmt": {
+      "message": "Báo cáo sự cố/Bình luận"
+   },
+   "digital": {
+      "message": "Đồng hồ số"
+   },
+   "analog": {
+      "message": "Đồng hồ cổ"
+   },
+   "ctxhide": {
+      "message": "Không hiển thị những mục này"
+   },
+   "contextVoiceControl": {
+      "message": "Điều khiển bằng giọng nói"
+   },
+   "contextCurrentTime": {
+      "message": "Chèn thời gian hiện tại"
+   },
+   "chat": {
+      "message": "Khung trò chuyện"
+   },
+   "forum": {
+      "message": "Diễn đàn"
+   },
+   "calendar": {
+      "message": "Lịch"
+   },
+   "setalarm": {
+      "message": "Cài báo thức"
+   },
+   "alarmRinging": {
+      "message": "Báo thức đang reo"
+   },
+   "timesUp": {
+      "message": "Hết giờ"
+   },
+   "scheduledFor": {
+      "message": "Đã lên lịch lúc {time}"
+   },
+   "weatherHumidity": {
+      "message": "Độ ẩm"
+   },
+   "weatherLoading": {
+      "message": "Đang tải thời tiết…"
+   },
+   "weatherUnavailable": {
+      "message": "Không có thông tin thời tiết"
+   },
+   "errorUnavailable": {
+      "message": "Tiện ích mở rộng không khả dụng"
+   },
+   "dismissLabel": {
+      "message": "Đóng"
+   },
+   "help": {
+      "message": "Trợ giúp"
+   },
+   "optionsMenu": {
+      "message": "Trình đơn"
+   },
+   "optionsFormats": {
+      "message": "Định dạng"
+   },
+   "optionsNotifications": {
+      "message": "Thông báo"
+   },
+   "optionsSpeech": {
+      "message": "Chuyển văn bản thành giọng nói"
+   },
+   "optionsExtension": {
+      "message": "Tiện ích mở rộng"
+   },
+   "optionsCredits": {
+      "message": "Cảm ơn đặc biệt"
+   },
+   "optionsEditAppearance": {
+      "message": "Chỉnh sửa ngoại hình"
+   },
+   "optionsColor": {
+      "message": "Màu sắc"
+   },
+   "optionsBadgeColor": {
+      "message": "Màu huy hiệu"
+   },
+   "optionsNewPopup": {
+      "message": "Sử dụng thiết kế cửa sổ bật lên mới"
+   },
+   "optionsTimeSystem": {
+      "message": "Hệ thống thời gian"
+   },
+   "optionsCalendarSystem": {
+      "message": "Hệ thống lịch"
+   },
+   "optionsLunar": {
+      "message": "Hiển thị ngày âm lịch của Trung Quốc"
+   },
+   "optionsDateOrder": {
+      "message": "Thứ tự ngày"
+   },
+   "optionsDragReorder": {
+      "message": "- kéo để sắp xếp lại"
+   },
+   "optionsCustomTimezone": {
+      "message": "Múi giờ tùy chỉnh"
+   },
+   "optionsLocalTimezone": {
+      "message": "múi giờ địa phương của bạn"
+   },
+   "optionsTimezoneNote": {
+      "message": "Lưu ý: Cài đặt này không áp dụng cho lịch."
+   },
+   "optionsTestNotification": {
+      "message": "Thông báo kiểm tra"
+   },
+   "optionsNotificationStyle": {
+      "message": "Kiểu thông báo"
+   },
+   "optionsDefault": {
+      "message": "Mặc định"
+   },
+   "optionsBackgroundColor": {
+      "message": "Màu nền"
+   },
+   "optionsCompact": {
+      "message": "Nhỏ gọn"
+   },
+   "optionsNotificationDuration": {
+      "message": "Thời gian hiển thị thông báo"
+   },
+   "optionsSystemDuration": {
+      "message": "(Hệ thống có thể ghi đè cài đặt này)"
+   },
+   "optionsCloseManually": {
+      "message": "Đóng thủ công"
+   },
+   "optionsShowWeather": {
+      "message": "Hiển thị thông tin thời tiết"
+   },
+   "optionsWeatherFahrenheit": {
+      "message": "Dùng độ F (℉)"
+   },
+   "optionsWeatherProvider": {
+      "message": "(Thông tin thời tiết do Open-Meteo cung cấp)"
+   },
+   "optionsLocation": {
+      "message": "Vị trí"
+   },
+   "optionsNotSet": {
+      "message": "Chưa đặt/Không có sẵn"
+   },
+   "optionsSearch": {
+      "message": "Tìm kiếm..."
+   },
+   "optionsAutoLocation": {
+      "message": "Tự động dùng vị trí của trình duyệt"
+   },
+   "optionsCurrentLocation": {
+      "message": "Vị trí hiện tại"
+   },
+   "optionsNotificationSound": {
+      "message": "Bật âm thanh Thông báo Thời gian Hàng giờ"
+   },
+   "optionsRingtone": {
+      "message": "Nhạc chuông"
+   },
+   "optionsReadTime": {
+      "message": "Đọc thời gian cùng với thông báo thời gian hàng giờ"
+   },
+   "optionsSentence": {
+      "message": "câu"
+   },
+   "optionsVoiceTokens": {
+      "message": "%H: Giờ (24 giờ); %h: Giờ (12 giờ); %P: sáng/chiều; %M: Phút"
+   },
+   "optionsFromComputer": {
+      "message": "Từ máy tính của bạn"
+   },
+   "optionsLoop": {
+      "message": "Bật vòng lặp"
+   },
+   "optionsPreviewRingtone": {
+      "message": "Xem trước nhạc chuông hiện tại"
+   },
+   "optionsLoad": {
+      "message": "Tải"
+   },
+   "optionsSpeechEngine": {
+      "message": "Công cụ phát âm"
+   },
+   "optionsSpeechIntro": {
+      "message": "Chọn công cụ giọng nói bạn muốn sử dụng trong điều khiển bằng giọng nói và chuyển văn bản thành giọng nói thông báo hàng giờ."
+   },
+   "optionsSpeechInstall": {
+      "message": "Giọng nói đã cài đặt sẽ xuất hiện trong danh sách thả xuống bên dưới."
+   },
+   "optionsInstalledVoices": {
+      "message": "Công cụ giọng nói được cài đặt"
+   },
+   "optionsLanguage": {
+      "message": "Ngôn ngữ"
+   },
+   "optionsUpdateInterval": {
+      "message": "Khoảng thời gian cập nhật nền"
+   },
+   "optionsKeepAwake": {
+      "message": "Ngăn hệ thống ngủ khi có báo thức hoặc đếm ngược đang hoạt động"
+   },
+   "optionsBackgroundRun": {
+      "message": "Tiếp tục chạy Đồng hồ mát mẻ ở chế độ nền khi đóng Google Chrome"
+   },
+   "optionsContextMenu": {
+      "message": "Hiển thị các mục menu ngữ cảnh"
+   },
+   "optionsTranslationCredits": {
+      "message": "Mọi người đã đóng góp bản dịch đã bản địa hóa"
+   },
+   "optionsMore": {
+      "message": "Thêm"
+   },
+   "optionsMiscellaneous": {
+      "message": "Linh tinh"
+   },
+   "optionsLunarTip": {
+      "message": "Hiển thị ngày âm lịch của Trung Quốc. Độ chính xác phụ thuộc vào trình duyệt và hệ điều hành của bạn."
+   },
+   "optionsTimezoneTip": {
+      "message": "Múi giờ địa phương của bạn có thể thay đổi trong giờ tiết kiệm ánh sáng ban ngày."
+   },
+   "optionsTestTip": {
+      "message": "Hiển thị thông báo bằng cách sử dụng cài đặt hiện tại."
+   },
+   "optionsLocationTip": {
+      "message": "Đây là ID vị trí hiện tại. Sử dụng Tìm kiếm để chọn vị trí khác."
+   },
+   "optionsAudioTip": {
+      "message": "Chỉ hỗ trợ các tệp MP3, OGG hoặc WAV."
+   },
+   "optionsVoiceTip": {
+      "message": "Chọn công cụ giọng nói hỗ trợ ngôn ngữ của bạn trong phần Chuyển văn bản thành giọng nói."
+   },
+   "optionsEmpty": {
+      "message": "(trống)"
+   },
+   "optionsContextTip": {
+      "message": "Hiển thị các mục Cool Clock ở menu chuột phải."
+   },
+   "optionsChooseFile": {
+      "message": "Chọn một tập tin..."
+   },
+   "optionsSearchPlace": {
+      "message": "Vị trí, mã bưu chính hoặc địa điểm"
+   },
+   "optionsSearchByName": {
+      "message": "Tìm kiếm theo tên"
+   },
+   "optionsLoading": {
+      "message": "Đang tải..."
+   },
+   "optionsNoResult": {
+      "message": "Không có kết quả"
+   },
+   "optionsSearchError": {
+      "message": "Lỗi tìm nạp dữ liệu"
+   },
+   "optionsImported": {
+      "message": "Đã nhập khẩu!"
+   },
+   "optionsTestSoundHint": {
+      "message": "Nhấn Test notification để nghe âm thanh."
+   },
+   "optionsSuccess": {
+      "message": "Thành công!"
+   },
+   "optionsLoaded": {
+      "message": "Đã tải."
+   },
+   "optionsNotice": {
+      "message": "thông báo"
+   },
+   "optionsNoRingtone": {
+      "message": "Không có nhạc chuông nào được đặt."
+   },
+   "optionsInvalidUrl": {
+      "message": "URL này không hợp lệ hoặc không được hỗ trợ."
+   },
+   "optionsRetry": {
+      "message": "Thử lại"
+   },
+   "optionsAdvanced": {
+      "message": "Nâng cao"
+   },
+   "optionsAppearanceHint": {
+      "message": "Đối với người dùng nâng cao: chỉnh sửa cấu hình bên dưới để tinh chỉnh đồng hồ. Chiều rộng và chiều cao phù hợp với kích thước biểu tượng, thông thường là 19 × 19 dp."
+   },
+   "optionsEditAnalog": {
+      "message": "Chỉnh sửa giao diện đồng hồ analog"
+   },
+   "optionsEditDigital": {
+      "message": "Chỉnh sửa giao diện đồng hồ kỹ thuật số"
+   },
+   "optionsInvalidJson": {
+      "message": "JSON không hợp lệ"
+   },
+   "optionsEnterValidJson": {
+      "message": "Vui lòng nhập JSON hợp lệ."
+   },
+   "optionsYear": {
+      "message": "Năm"
+   },
+   "optionsMonth": {
+      "message": "Tháng"
+   },
+   "optionsDate": {
+      "message": "ngày"
+   },
+   "optionsRemoved": {
+      "message": "(Đã xóa)"
+   },
+   "optionsUrlTip": {
+      "message": "Chỉ hỗ trợ URL HTTP hoặc HTTPS."
+   },
+   "optionsWeatherProviderCredit": {
+      "message": "Thông tin thời tiết được cung cấp bởi Open-Meteo"
+   },
+   "optionsGeocodingCredit": {
+      "message": "Mã hóa địa lý Meteo mở"
+   },
+   "optionsTweet": {
+      "message": "Tweet"
+   },
+   "optionsBootstrapIconsCredit": {
+      "message": "Bootstrap Icons"
+   },
+   "optionsSoundJayCredit": {
+      "message": "Sound Jay (nhạc chuông báo thức mặc định)"
+   },
+   "optionsFactLabel": {
+      "message": "Sự thật"
+   },
+   "optionsFact1": {
+      "message": "Tiện ích mở rộng này không chứa mã theo dõi người dùng có chủ ý."
+   },
+   "optionsFact2": {
+      "message": "Tại Cool Clock, chúng tôi rất coi trọng ngữ pháp để tránh các báo cáo lỗi về ngữ pháp."
+   },
+   "optionsFact3": {
+      "message": "Cool Clock có tên như vậy vì người tạo ra nó không thể nghĩ ra cái nào hay hơn."
+   },
+   "optionsFact4": {
+      "message": "Câu trả lời cho mọi thứ không phải là 42."
+   },
+   "optionsFact5": {
+      "message": "Tuyên bố này là sai."
+   },
+   "optionsPermissionError": {
+      "message": "Không thể xóa quyền của trình duyệt."
+   },
+   "optionsProcessing": {
+      "message": "Đang xử lý..."
+   },
+   "optionsPleaseWait": {
+      "message": "Xin vui lòng chờ một chút..."
+   },
+   "optionsSyncSettings": {
+      "message": "Đồng bộ cài đặt"
+   },
+   "optionsSyncTip": {
+      "message": "Dùng tính năng đồng bộ của trình duyệt trên các thiết bị đăng nhập cùng tài khoản."
+   }
+}

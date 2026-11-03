@@ -1,0 +1,22 @@
+/* Small layout rules for Cool Clock markup that predates Bootstrap 5. */
+.card { margin-bottom: 1.25rem; }
+.card-header .card-title { margin: 0; }
+.badge { background-color: #777; }
+.hide { display: none !important; }
+.input-group-btn { display: flex; }
+#weekdays .btn { min-width: 36px; padding: .2rem .25rem; white-space: nowrap; }
+#weekdays .btn input { position: absolute; opacity: 0; pointer-events: none; }
+.dropdown-menu > li > a {
+  display: block;
+  width: 100%;
+  padding: .25rem 1rem;
+  color: var(--bs-dropdown-link-color);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.dropdown-menu > li > a:hover { background: var(--bs-dropdown-link-hover-bg); color: var(--bs-dropdown-link-hover-color); }
+.dropdown-menu > li > a.active { background: var(--bs-dropdown-link-active-bg); color: var(--bs-dropdown-link-active-color); }
+.affix { position: fixed; }
+#scrollSpy .nav-tabs { display: block; }
+#scrollSpy li > a { display: block; padding: .25rem .5rem; text-decoration: none; }
+#scrollSpy li.active > a { border-left: 3px solid var(--bs-primary); color: var(--bs-primary); }

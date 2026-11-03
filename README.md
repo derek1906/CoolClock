@@ -1,127 +1,79 @@
 # Cool Clock
+
 An extension fully loaded with tons of useful time-related features.
 
-This app was originally created as a simple clock displayed in a badge to test the new extension feature introduced back in Chrome 4.
-It has been growing since then. Initial release was on Dec 22, 2009.
+This app was originally created as a simple clock displayed in a badge to test the new extension feature introduced back in Chrome 4. It has been growing since then. Initial release was on Dec 22, 2009. Cool Clock was created by Derek Leung. The current codebase supports Manifest V3 while keeping the original clock layouts, icons, sounds, and translations.
 
+## Features
 
-## Components
-Components are what made up of most of the extension. Here's the list of components:
+- Digital or analog toolbar clock, with an optional badge clock and custom colors.
+- Two popup layouts, alarms, countdowns, stopwatch, hourly announcements, calendar, statistics, and voice or text commands.
+- Weather and a seven-day forecast from Open-Meteo, with manual location search or optional browser location. Temperature can be shown in Celsius or Fahrenheit.
+- Calendar event import from a public Google Calendar iCal URL or an exported `.ics` file.
+- Settings in `options.html` sync through the browser's own account by default. Turn off **Sync settings** to keep them on this device. Chrome and Firefox accounts do not sync with each other. Alarms, countdowns, calendar entries, stopwatch data, usage history, and automatic weather coordinates stay local.
 
-| Component                    	| Description                                                	|
-| ---                          	| ---                                                        	|
-| AlarmClock                   	| Alarm clock                                                	|
-| alarms                       	| Handles system alarms                                      	|
-| app                          	| The extension                                              	|
-| BadgeTextManager             	| Manages badge text display                                 	|
-| BrowserActionHandler         	| Browser action handler                                     	|
-| CountdownTimer               	| Countdown timer                                            	|
-| Graphics                     	| Graphics                                                   	|
-| HourlyTimeAnnouncementHandler	| Handles hourly time announcements                          	|
-| KeepAwake                    	| Manages wake lock for alarm clock and countdown timer, etc.	|
-| Localization                 	| Localization                                               	|
-| OmniboxHandler               	| Handles omnibox inputs                                     	|
-| SectionUptimeManager         	| Section uptime manager (statistics)                        	|
-| SoundManager                 	| Sound manager                                              	|
-| Stopwatch                    	| Stopwatch                                                  	|
-| TimeTZ                       	| Custom time object with customizable timezones             	|
-| WeatherHandler               	| Fetches weather information                                	|
-| WindowManager                	| Create windows and remember their positions                	|
+## Build and install
 
-They are located under `components/`.
+Run `python3 build_extensions.py` from the repository root. It creates:
 
+- `dist/cool-clock-mv3-chrome.zip` for Chrome 120 or newer. Unzip it and select **Load unpacked** at `chrome://extensions`.
+- `dist/cool-clock-mv3-firefox.zip` for Firefox 121 or newer. It includes the Gecko add-on ID needed for signing.
 
-## Dependencies
-The extension depends on the following libraries:
+Chrome uses a Manifest V3 service worker and an offscreen document for audio and clipboard operations. Firefox uses a Manifest V3 background event page. Both packages are built from the same sources under `src/`.
 
-- jQuery 2.2.4
-- Bootstrap 3
-- D3
+To make a GitHub release, update the version in `manifest.json` and add a matching entry to `src/pages/update.html`. Pushing that change to `master` runs the [release workflow](.github/workflows/release.yml), which checks both packages and publishes them under a `vX.Y.Z` tag.
 
+## Source layout
 
-## Permissions Explanation
+| Directory | Contents | Location in the built extension |
+| --- | --- | --- |
+| `src/pages/` | Popup, settings, calendar, and other HTML pages | Extension root, except weather details under `mv3/` |
+| `src/runtime/` | Background worker, offscreen document, and page bridge | `mv3/` |
+| `src/ui/` | Page controllers and styles | `scripts/` |
+| `src/shared/` | Shared scripts and styles | Extension root or `mv3/`, matching existing URLs |
+| `src/assets/` | Original icons, images, fonts, and sounds | Their original paths |
+| `src/vendor/` | Bundled Bootstrap and D3 | `bootstrap/` and `d3/` |
+| `src/locales/` | Translations | `_locales/` |
 
-| Permission                           	| Explanation                                                                     	|
-| ---                                  	| ---                                                                             	|
-| notifications                        	| Create hourly notifications and other notifications.                            	|
-| contextMenus                         	| Create context menus.                                                           	|
-| tts                                  	| Text to speech.                                                                 	|
-| `*://calendar.google.com/*`          	| Sync events from Google Calendar.                                               	|
-| `*://www.google.com/calendar/feeds/*`	| Sync events from Google Calendar.                                               	|
-| clipboardWrite                       	| Write time to clipboard.                                                        	|
-| activeTab                            	| Write time to current focused text field.                                       	|
-| alarms                               	| Extension uses system alarms so the extension does not need to poll continously.	|
-| power                                	| Acquire wake lock when there is an ongoing alarm or countdown.                  	|
-| idle                                 	| Fetch system's idle state in order to pause any updates during idle.            	|
+The original extension used a `components/` directory for features such as alarms, badge text, localization, weather, and sound. The Manifest V3 code uses the background worker and page controllers instead. It replaces jQuery 2 and Bootstrap 3 with native JavaScript and Bootstrap 5, uses D3 v7 for statistics, and loads translated messages asynchronously. The release packages preserve the URLs needed by the extension pages.
 
+The original README described the project as an exercise in improving JavaScript skills and maintainability. It identified scattered files and synchronous localization as areas to improve. The Manifest V3 update addresses those areas while retaining voice control and the built-in calendar.
 
-## Todos and Issues
-The extension originally was created for the purpose of sharpening my JavaScript skill and develop maintainable practices.
-Due to that reason, one of the major issues of the extension is that it contains a large amount of legacy code.
+## Permissions
 
-### Issue 1 - Unorganized Files
-Many old files are unorganized and all over the root directory. The end goal is to organize them into their corresponding
-component directory.
+| Permission or host | Purpose |
+| --- | --- |
+| `alarms` | Schedule alarms, countdowns, and hourly announcements. |
+| `notifications` | Show alarm, countdown, and hourly notifications. |
+| `storage` | Save local data and optionally sync settings within one browser account. |
+| `contextMenus` | Add commands to the toolbar icon and editable-field context menus. |
+| `geolocation` | Find the current weather location when the user enables that option. |
+| `tts` | Speak announcements in Chrome. |
+| `activeTab`, `scripting`, `clipboardWrite` | Insert the current time into an editable field or copy it. |
+| `power` | Prevent sleep while a clock task requires it in Chrome. |
+| `offscreen` | Play audio and handle clipboard work in Chrome's service worker architecture. |
+| Open-Meteo hosts | Fetch weather and search for locations. |
+| `calendar.google.com` | Import public Google Calendar iCal feeds. |
 
-This is ongoing.
+## Known limits
 
-### Issue 2 - Rewriting Codes Written More Than Half A Decade Ago
-Old files contain many code smells and codes that are hard to maintain. The solution is to completely rewrite
-them as components. A major part of the extension has been rewritten into components. These still need to be created:
-
-- NotificationManager
-
-There are also files that should not be used but old codes depend on, such as `tools.js`. They should be removed once the files
-that depend on them are rewritten.
-
-This is ongoing.
-
-### Issue 3 - Localization
-Localization is a particularly difficult problem to solve. Before the adoption of the component structure, localization was
-achieved via the `i18n` function in `translation.js`. It let users to specify the language that they want to use (Chrome does
-not native support this), and dynamically fetch the language files *synchronously* such that it can be used as such:
-
-    var settings_str = i18n("settings");
-
-AJAX calls should not be synchronous, however it did simply a lot of the code. It would be ideal if the extension can be rewritten
-in a way such that localized strings can be fetched synchronously. One possible solution would be to load all the strings into
-memory during extension initialization.
-
-This is being considered.
-
-### Issue 4 - Unnecessary Features
-There are some unnecessary features that I'm considering to remove in the future:
-
-- Voice control
-
-### Issue 5 - Calendar
-One of the feature that this extension has is a built-in calendar. The original idea is to support syncing events between
-Google Calendar and the extension. However I don't see how this can be useful in anyway and I'm considering removing it in
-the future.
-
+- Direct Google sign-in for private calendar import is not included. Export a `.ics` file from Google Calendar instead. The importer uses event start dates and does not expand complex recurrence rules.
+- Historical statistics stored by the original WebSQL implementation cannot be migrated on current browsers. New sessions are recorded.
+- Browser location needs permission and a working location provider. Coordinates are sent to Open-Meteo for weather; if a location refresh fails, the last saved coordinates are used.
+- Firefox uses basic notifications and does not support Chrome's `power` API. Voice recognition depends on each browser's Speech Recognition API; text commands remain available.
+- Open-Meteo reachability from mainland China has not been verified from a mainland network.
 
 ## Resources
-Icons used in the extension:
 
-- [famfamfam Silk Icons](http://www.famfamfam.com/lab/icons/silk/)  
-    Licensed under a Creative Commons Attribution 2.5 License.
-- [Material Icons](https://material.io/icons/)  
-    Licensed under Apache License Version 2.0.
+Original icons used in the extension:
 
-Fonts used in the extension:
+- [famfamfam Silk Icons](http://www.famfamfam.com/lab/icons/silk/) — Creative Commons Attribution 2.5 License.
+- [Material Icons](https://material.io/icons/) — Apache License 2.0.
 
-- Glyphicons from Bootstrap 3
-- Roboto
-- NotoSans
-- Oswald
-- Meteocons
+Original fonts include Roboto, Noto Sans, Oswald, and Meteocons; the original build also used Glyphicons from Bootstrap 3. The default ringtone is from Sound Jay and is bundled as Ogg Opus audio. The current build bundles Bootstrap 5, Bootstrap Icons, and D3; their license files are included under `src/vendor/`. Font and icon license files supplied with the project remain under `src/assets/`.
 
-Default ringtone:
-
-- Sound Jay
+The original repository does not include a project-level license file. This update does not add one.
 
 ## Contributing
-Feel free to contribute to the project by creating a pull request.
 
-### Adding/Updating Language Files
-This is not one of my main concerns currently and should be not be done in this repository.
+Feel free to contribute to the project by creating a pull request.

@@ -1,0 +1,614 @@
+﻿{
+   "extDes": {
+      "message": "A primeira extensão que tem relógios digital e analógico e, ainda, horas como notificação."
+   },
+   "extName": {
+      "message": "Horas Chrome"
+   },
+   "settings": {
+      "message": "Opções"
+   },
+   "hourlytimeannounce": {
+      "message": "Notificação das horas"
+   },
+   "enablehourlytimeannounce": {
+      "message": "Ligar notificações da hora (hora a hora)"
+   },
+   "shownotificationfor": {
+      "message": "Tempo para mostrar a notificação"
+   },
+   "seconds": {
+      "message": "segundos"
+   },
+   "max999": {
+      "message": "(Máximo 999)"
+   },
+   "showtodowhenopen": {
+      "message": "Mostrar tarefas quando o navegador é aberto"
+   },
+   "display": {
+      "message": "Mostrar"
+   },
+   "usedigital": {
+      "message": "Usar relógio digital"
+   },
+   "digitalmsg": {
+      "message": "(Atenção:  ao usar relógio digital, vão ser usados mais recursos no PC)"
+   },
+   "usedarkmode": {
+      "message": "Para temas negros (Aparece uma bolha semi-transparente para facilitar a leitura da hora)"
+   },
+   "useanalog": {
+      "message": "Usar relógio analógico"
+   },
+   "analogmsg": {
+      "message": "(Cerca de 4K por seg.)"
+   },
+   "noscroll": {
+      "message": "Não usar efeito \"scroll\" (Mostra 4 números)"
+   },
+   "_12hour": {
+      "message": "Sistema de 12 horas (Predefinido:  24)"
+   },
+   "showiconclock": {
+      "message": "Mostrar relógio no icon (analógico)"
+   },
+   "showbadgeclock": {
+      "message": "Mostrar horas no icon (digital)"
+   },
+   "comment": {
+      "message": "Comentar"
+   },
+   "cmtmsg": {
+      "message": "Comentários? Bug?"
+   },
+   "memmsg": {
+      "message": "a animação vai mostrar uma imagem nova por segundo, por isso, mais mem+oria vai ser ocupada"
+   },
+   "showupdate": {
+      "message": "Mostrar página de atualização após cada vez que esta extensão for atualizada"
+   },
+   "updateiconevery": {
+      "message": "Atualize o ícone a cada:"
+   },
+   "updateiconeverymsg": {
+      "message": "Intervalos maiores consomem menos recursos, mas o relógio é atualizado com menos frequência."
+   },
+   "_1sec": {
+      "message": "1 segundo"
+   },
+   "_2sec": {
+      "message": "2 segundos"
+   },
+   "_5sec": {
+      "message": "5 segundos"
+   },
+   "_10sec": {
+      "message": "5 segundos"
+   },
+   "_30sec": {
+      "message": "30 segundos"
+   },
+   "_1min": {
+      "message": "1 minuto"
+   },
+   "viewsavedalarm": {
+      "message": "Ver alarmes guardados"
+   },
+   "OK": {
+      "message": "OK"
+   },
+   "apply": {
+      "message": "Aplicar"
+   },
+   "cancel": {
+      "message": "Cancelar"
+   },
+   "about": {
+      "message": "Sobre"
+   },
+   "whatsnew": {
+      "message": "Nova versão"
+   },
+   "none": {
+      "message": "Nenhum"
+   },
+   "defaultringtone": {
+      "message": "Toque predefinido"
+   },
+   "URLringtone": {
+      "message": "Do URL"
+   },
+   "allpurpose": {
+      "message": "Toque para todos os fins"
+   },
+   "alarmandringtone": {
+      "message": "Alarme e Toque"
+   },
+   "close": {
+      "message": "Fechar"
+   },
+   "timeis": {
+      "message": "Horas: "
+   },
+   "notflash": {
+      "message": "(não é usada nenhuma animação em Flash)"
+   },
+   "version": {
+      "message": "Versão"
+   },
+   "countdown": {
+      "message": "Temporizador de contagem decrescente"
+   },
+   "alarm": {
+      "message": "Despertador"
+   },
+   "stat": {
+      "message": "Estatística"
+   },
+   "timer": {
+      "message": "Cronómetro"
+   },
+   "tools": {
+      "message": "Ferramentas"
+   },
+   "day_0": {
+      "message": "Domingo"
+   },
+   "day_1": {
+      "message": "Segunda"
+   },
+   "day_2": {
+      "message": "Terça"
+   },
+   "day_3": {
+      "message": "Quarta"
+   },
+   "day_4": {
+      "message": "Quinta"
+   },
+   "day_5": {
+      "message": "Sexta"
+   },
+   "day_6": {
+      "message": "Sabado"
+   },
+   "month_1": {
+      "message": "Jan"
+   },
+   "month_2": {
+      "message": "Fev"
+   },
+   "month_3": {
+      "message": "Mar"
+   },
+   "month_4": {
+      "message": "Abr"
+   },
+   "month_5": {
+      "message": "Mai"
+   },
+   "month_6": {
+      "message": "Jun"
+   },
+   "month_7": {
+      "message": "Jul"
+   },
+   "month_8": {
+      "message": "Ago"
+   },
+   "month_9": {
+      "message": "Set"
+   },
+   "month_10": {
+      "message": "Out"
+   },
+   "month_11": {
+      "message": "Nov"
+   },
+   "month_12": {
+      "message": "Dez"
+   },
+   "morning": {
+      "message": "Bom Dia!"
+   },
+   "noon": {
+      "message": "Boa Tarde!"
+   },
+   "evening": {
+      "message": "Já jantaste?"
+   },
+   "night": {
+      "message": "Boa Noite"
+   },
+   "midnight": {
+      "message": "Como estás?"
+   },
+   "notitimeannounce": {
+      "message": "Notificação das horas"
+   },
+   "notitimeis": {
+      "message": "Horas "
+   },
+   "am": {
+      "message": "am"
+   },
+   "pm": {
+      "message": "pm"
+   },
+   "saved": {
+      "message": "As opções são salvas."
+   },
+   "notsaved": {
+      "message": "As opções modificadas não foram guardadas! Continuar mesmo assim?"
+   },
+   "ctxcmt": {
+      "message": "Bug report / Comentários"
+   },
+   "digital": {
+      "message": "Relógio Digital"
+   },
+   "analog": {
+      "message": "Relógio Analógico"
+   },
+   "ctxhide": {
+      "message": "Não mostrar estes itens"
+   },
+   "contextVoiceControl": {
+      "message": "Controlo por voz"
+   },
+   "contextCurrentTime": {
+      "message": "Inserir a hora atual"
+   },
+   "chat": {
+      "message": "Chat box"
+   },
+   "forum": {
+      "message": "Fórum"
+   },
+   "calendar": {
+      "message": "Calendário"
+   },
+   "setalarm": {
+      "message": "Definir um alarme"
+   },
+   "alarmRinging": {
+      "message": "O alarme está a tocar"
+   },
+   "timesUp": {
+      "message": "O tempo acabou"
+   },
+   "scheduledFor": {
+      "message": "Agendado para as {time}"
+   },
+   "weatherHumidity": {
+      "message": "Humidade"
+   },
+   "weatherLoading": {
+      "message": "A carregar a previsão do tempo…"
+   },
+   "weatherUnavailable": {
+      "message": "Previsão do tempo indisponível"
+   },
+   "errorUnavailable": {
+      "message": "Extensão indisponível"
+   },
+   "dismissLabel": {
+      "message": "Fechar"
+   },
+   "help": {
+      "message": "Ajuda"
+   },
+   "optionsMenu": {
+      "message": "Menu"
+   },
+   "optionsFormats": {
+      "message": "Formatos"
+   },
+   "optionsNotifications": {
+      "message": "Notificações"
+   },
+   "optionsSpeech": {
+      "message": "Texto para voz"
+   },
+   "optionsExtension": {
+      "message": "Extensão"
+   },
+   "optionsCredits": {
+      "message": "Agradecimentos especiais"
+   },
+   "optionsEditAppearance": {
+      "message": "Editar aparência"
+   },
+   "optionsColor": {
+      "message": "Cor"
+   },
+   "optionsBadgeColor": {
+      "message": "Cor do emblema"
+   },
+   "optionsNewPopup": {
+      "message": "Use o novo design pop-up"
+   },
+   "optionsTimeSystem": {
+      "message": "Sistema de tempo"
+   },
+   "optionsCalendarSystem": {
+      "message": "Sistema de calendário"
+   },
+   "optionsLunar": {
+      "message": "Exibir data lunar chinesa"
+   },
+   "optionsDateOrder": {
+      "message": "Ordem de data"
+   },
+   "optionsDragReorder": {
+      "message": "- arraste para reordenar"
+   },
+   "optionsCustomTimezone": {
+      "message": "Fuso horário personalizado"
+   },
+   "optionsLocalTimezone": {
+      "message": "O seu fuso horário local"
+   },
+   "optionsTimezoneNote": {
+      "message": "Nota: Esta definição não se aplica ao calendário."
+   },
+   "optionsTestNotification": {
+      "message": "Notificação de teste"
+   },
+   "optionsNotificationStyle": {
+      "message": "Estilo de notificação"
+   },
+   "optionsDefault": {
+      "message": "Padrão"
+   },
+   "optionsBackgroundColor": {
+      "message": "Cor de fundo"
+   },
+   "optionsCompact": {
+      "message": "Compacto"
+   },
+   "optionsNotificationDuration": {
+      "message": "Tempo de exibição da notificação"
+   },
+   "optionsSystemDuration": {
+      "message": "(O sistema pode substituir esta configuração)"
+   },
+   "optionsCloseManually": {
+      "message": "Fechar manualmente"
+   },
+   "optionsShowWeather": {
+      "message": "Exibir informações meteorológicas"
+   },
+   "optionsWeatherFahrenheit": {
+      "message": "Usar Fahrenheit (℉)"
+   },
+   "optionsWeatherProvider": {
+      "message": "(Informação meteorológica disponibilizada pela Open-Meteo)"
+   },
+   "optionsLocation": {
+      "message": "Localização"
+   },
+   "optionsNotSet": {
+      "message": "Não definido/Não disponível"
+   },
+   "optionsSearch": {
+      "message": "Pesquisar..."
+   },
+   "optionsAutoLocation": {
+      "message": "Usar automaticamente a localização do navegador"
+   },
+   "optionsCurrentLocation": {
+      "message": "Localização atual"
+   },
+   "optionsNotificationSound": {
+      "message": "Ativar som de anúncio de hora em hora"
+   },
+   "optionsRingtone": {
+      "message": "Toque"
+   },
+   "optionsReadTime": {
+      "message": "Leia a hora juntamente com o anúncio de hora em hora"
+   },
+   "optionsSentence": {
+      "message": "Frase"
+   },
+   "optionsVoiceTokens": {
+      "message": "%H: Hora (24 horas); %h: Hora (12 horas); %P: manhã/tarde; %M: Minuto"
+   },
+   "optionsFromComputer": {
+      "message": "Do seu computador"
+   },
+   "optionsLoop": {
+      "message": "Ativar loop"
+   },
+   "optionsPreviewRingtone": {
+      "message": "Visualizar toque atual"
+   },
+   "optionsLoad": {
+      "message": "Carregar"
+   },
+   "optionsSpeechEngine": {
+      "message": "Motor de fala"
+   },
+   "optionsSpeechIntro": {
+      "message": "Escolha o mecanismo de voz que prefere utilizar no controlo de voz e na conversão de texto em voz de notificação de hora em hora."
+   },
+   "optionsSpeechInstall": {
+      "message": "As vozes instaladas aparecem no menu suspenso abaixo."
+   },
+   "optionsInstalledVoices": {
+      "message": "Mecanismos de voz instalados"
+   },
+   "optionsLanguage": {
+      "message": "Idioma"
+   },
+   "optionsUpdateInterval": {
+      "message": "Intervalo de atualização em segundo plano"
+   },
+   "optionsKeepAwake": {
+      "message": "Impedir que o sistema hiberne quando existem alarmes ativos ou contagens decrescentes"
+   },
+   "optionsBackgroundRun": {
+      "message": "Continue a executar o Cool Clock em segundo plano quando o Google Chrome estiver fechado"
+   },
+   "optionsContextMenu": {
+      "message": "Mostrar itens do menu de contexto"
+   },
+   "optionsTranslationCredits": {
+      "message": "Todos os que contribuíram com traduções localizadas"
+   },
+   "optionsMore": {
+      "message": "Mais"
+   },
+   "optionsMiscellaneous": {
+      "message": "Diversos"
+   },
+   "optionsLunarTip": {
+      "message": "Apresente uma data lunar chinesa. A precisão depende do seu navegador e sistema operativo."
+   },
+   "optionsTimezoneTip": {
+      "message": "O seu fuso horário local pode mudar durante o horário de verão."
+   },
+   "optionsTestTip": {
+      "message": "Mostrar uma notificação utilizando as definições atuais."
+   },
+   "optionsLocationTip": {
+      "message": "Este é o ID do local atual. Utilize a Pesquisa para escolher outro local."
+   },
+   "optionsAudioTip": {
+      "message": "Apenas ficheiros MP3, OGG ou WAV são suportados."
+   },
+   "optionsVoiceTip": {
+      "message": "Selecione um motor de voz compatível com o seu idioma na secção Text to Speech."
+   },
+   "optionsEmpty": {
+      "message": "(vazio)"
+   },
+   "optionsContextTip": {
+      "message": "Mostrar os itens do Cool Clock no menu do botão direito."
+   },
+   "optionsChooseFile": {
+      "message": "Escolha um ficheiro..."
+   },
+   "optionsSearchPlace": {
+      "message": "Localização, código postal ou local"
+   },
+   "optionsSearchByName": {
+      "message": "Pesquisar por nome"
+   },
+   "optionsLoading": {
+      "message": "Carregando..."
+   },
+   "optionsNoResult": {
+      "message": "Nenhum resultado"
+   },
+   "optionsSearchError": {
+      "message": "Erro ao pesquisar dados"
+   },
+   "optionsImported": {
+      "message": "Importado!"
+   },
+   "optionsTestSoundHint": {
+      "message": "Prima Notificação de teste para ouvir o som."
+   },
+   "optionsSuccess": {
+      "message": "Sucesso!"
+   },
+   "optionsLoaded": {
+      "message": "Carregado."
+   },
+   "optionsNotice": {
+      "message": "Aviso"
+   },
+   "optionsNoRingtone": {
+      "message": "Nenhum toque foi definido."
+   },
+   "optionsInvalidUrl": {
+      "message": "Este URL é inválido ou não é suportado."
+   },
+   "optionsRetry": {
+      "message": "Tentar novamente"
+   },
+   "optionsAdvanced": {
+      "message": "Avançado"
+   },
+   "optionsAppearanceHint": {
+      "message": "Para utilizadores avançados: edite a definição abaixo para ajustar o relógio. A largura e a altura correspondem ao tamanho do ícone, normalmente 19 × 19 dp."
+   },
+   "optionsEditAnalog": {
+      "message": "Editar o aspeto do relógio analógico"
+   },
+   "optionsEditDigital": {
+      "message": "Editar a aparência do relógio digital"
+   },
+   "optionsInvalidJson": {
+      "message": "JSON inválido"
+   },
+   "optionsEnterValidJson": {
+      "message": "Introduza um JSON válido."
+   },
+   "optionsYear": {
+      "message": "Ano"
+   },
+   "optionsMonth": {
+      "message": "Mês"
+   },
+   "optionsDate": {
+      "message": "Dia"
+   },
+   "optionsRemoved": {
+      "message": "(Removido)"
+   },
+   "optionsUrlTip": {
+      "message": "Apenas URLs HTTP ou HTTPS são suportados."
+   },
+   "optionsWeatherProviderCredit": {
+      "message": "Informações meteorológicas fornecidas pela Open-Meteo"
+   },
+   "optionsGeocodingCredit": {
+      "message": "Geocodificação Open-Meteo"
+   },
+   "optionsTweet": {
+      "message": "Tuitar"
+   },
+   "optionsBootstrapIconsCredit": {
+      "message": "Bootstrap Icons"
+   },
+   "optionsSoundJayCredit": {
+      "message": "Sound Jay (toque de alarme padrão)"
+   },
+   "optionsFactLabel": {
+      "message": "Fato"
+   },
+   "optionsFact1": {
+      "message": "Esta extensão não contém código de rastreio de utilizador intencional."
+   },
+   "optionsFact2": {
+      "message": "Na Cool Clock, levamos a gramática a sério para evitar relatórios de erros gramaticais."
+   },
+   "optionsFact3": {
+      "message": "O Cool Clock recebeu este nome porque o seu criador não conseguiu pensar num melhor."
+   },
+   "optionsFact4": {
+      "message": "A resposta para tudo não é 42."
+   },
+   "optionsFact5": {
+      "message": "Esta afirmação é falsa."
+   },
+   "optionsPermissionError": {
+      "message": "Não foi possível remover a permissão do browser."
+   },
+   "optionsProcessing": {
+      "message": "Processamento..."
+   },
+   "optionsPleaseWait": {
+      "message": "Por favor, aguarde um momento..."
+   },
+   "optionsSyncSettings": {
+      "message": "Sincronizar definições"
+   },
+   "optionsSyncTip": {
+      "message": "Usa a sincronização do navegador entre dispositivos com a mesma conta."
+   }
+}

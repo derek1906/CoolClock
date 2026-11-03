@@ -1,0 +1,148 @@
+/* Full calendar dialogs use the browser's native dialog element and local CSS. */
+body > #create_dialog,
+body > #view_dialog,
+body > #options,
+body > #dateChoose {
+  display: none;
+}
+
+dialog.calendar-dialog {
+  position: fixed;
+  inset: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0.2em;
+  width: min(500px, calc(100vw - 32px));
+  max-width: calc(100vw - 32px);
+  max-height: calc(100vh - 32px);
+  overflow: hidden;
+  border: 1px solid #8e846b;
+  border-radius: 8px;
+  background: linear-gradient(#fff4cf, #feeebd 35%);
+  color: #383838;
+  font:
+    1.1em 'Segoe UI',
+    Arial,
+    sans-serif;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.35);
+}
+
+dialog.calendar-dialog[open] {
+  display: block;
+}
+
+dialog.calendar-dialog::backdrop {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.calendar-dialog input,
+.calendar-dialog select,
+.calendar-dialog textarea,
+.calendar-dialog button {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 1em;
+}
+
+.calendar-dialog__titlebar {
+  position: relative;
+  display: flow-root;
+  padding: 0.4em 1em;
+  border: 1px solid #494437;
+  border-radius: 8px;
+  background: linear-gradient(#a6a192, #817865 55%, #746c5e);
+  color: #fff;
+  font-weight: bold;
+}
+
+.calendar-dialog__title {
+  display: block;
+  margin: 0.1em 0;
+  width: 90%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.calendar-dialog__close {
+  position: absolute;
+  top: 50%;
+  right: 0.3em;
+  transform: translateY(-50%);
+  width: 21px;
+  height: 20px;
+  padding: 0;
+  border: 1px solid #d19405;
+  border-radius: 50%;
+  background: linear-gradient(#fffdf1, #ffdc58);
+  cursor: pointer;
+}
+
+.calendar-dialog__close::before,
+.calendar-dialog__close::after {
+  content: '';
+  position: absolute;
+  top: 8px;
+  left: 5px;
+  width: 9px;
+  height: 2px;
+  border-radius: 1px;
+  background: #d19405;
+}
+
+.calendar-dialog__close::before {
+  transform: rotate(45deg);
+}
+.calendar-dialog__close::after {
+  transform: rotate(-45deg);
+}
+.calendar-dialog__close:focus-visible {
+  outline: 2px solid #4a90e2;
+  outline-offset: 1px;
+}
+
+.calendar-dialog__content {
+  display: block;
+  position: relative;
+  padding: 0.5em 1em;
+  max-height: calc(100vh - 150px);
+  overflow: auto;
+}
+
+.calendar-dialog__content a {
+  color: #383838;
+}
+
+.calendar-dialog__footer {
+  display: flow-root;
+  margin-top: 0.5em;
+  padding: 0.3em 1em 0.5em 0.4em;
+  border-top: 1px solid #8e846b;
+}
+
+.calendar-dialog__actions {
+  float: right;
+}
+
+.calendar-dialog__button {
+  display: inline-block;
+  position: relative;
+  margin: 0.5em 0.4em 0.5em 0;
+  padding: 0.4em 1em;
+  border: 1px solid #d19405;
+  border-radius: 8px;
+  background: linear-gradient(#fff09b, #fece2f 58%, #f7c522);
+  color: #4c3000;
+  font-weight: bold;
+  line-height: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.calendar-dialog__button:hover {
+  border-color: #a45b13;
+  background: linear-gradient(#fff3b4, #ffdd57 58%, #ffd63c);
+  color: #381f00;
+}

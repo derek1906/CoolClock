@@ -1,0 +1,614 @@
+﻿{
+   "extDes": {
+      "message": "Laajennus täynnä hyödyllisiä aikaan liittyviä ominaisuuksia... ja mikä parasta, se on todella COOL."
+   },
+   "extName": {
+      "message": "Cool Clock"
+   },
+   "settings": {
+      "message": "Asetukset"
+   },
+   "hourlytimeannounce": {
+      "message": "Jokatuntinen ajan ilmoitus"
+   },
+   "enablehourlytimeannounce": {
+      "message": "Ota käyttöön jokatuntinen ajan ilmoitus! (Työpöytäilmoitus)"
+   },
+   "shownotificationfor": {
+      "message": "Kuinka kauan ilmoitus näytetään?"
+   },
+   "seconds": {
+      "message": "sekuntia"
+   },
+   "max999": {
+      "message": "(Suurin arvo: 999)"
+   },
+   "showtodowhenopen": {
+      "message": "Hälytä tehtävistä työpöytäilmoituksessa selaimen ollessa päällä."
+   },
+   "display": {
+      "message": "Näytä"
+   },
+   "usedigital": {
+      "message": "Käytä digitaalista kelloa"
+   },
+   "digitalmsg": {
+      "message": "(Varoitus:  Digitaalisen kellon käyttäminen vie enemmän muistia kuin analogisen.)"
+   },
+   "usedarkmode": {
+      "message": "Käytä tummaa teemaa (Heille, jotka käyttävät tummaa teemaa, tämä lisää puolinäkymättömän kuplan numeroiden alle jotta ajan näkeminen on helpompaa)"
+   },
+   "useanalog": {
+      "message": "Käytä analogista kelloa"
+   },
+   "analogmsg": {
+      "message": "(Noin 4 KB sekunnissa.)"
+   },
+   "noscroll": {
+      "message": "Älä käytä rullausefektiä (Näyttää 4 numeroa rullamisen sijaan)"
+   },
+   "_12hour": {
+      "message": "Käytä 12 tunnin kelloa (Oletus on 24 tunnin kello)"
+   },
+   "showiconclock": {
+      "message": "Näytä kello kuvakkeessa"
+   },
+   "showbadgeclock": {
+      "message": "Näytä aika kellon alla"
+   },
+   "comment": {
+      "message": "Kommentti"
+   },
+   "cmtmsg": {
+      "message": "Kommentteja? Raportoi bugista? Paina tästä!"
+   },
+   "memmsg": {
+      "message": "Yleensä animaatio \"piirtää\" uuden kuvan joka sekunti, joten normaalisti se vie paljon muistia jonkin ajan sisällä, sillä aikaa kun yritän pienentää sitä."
+   },
+   "showupdate": {
+      "message": "Näytä päivityssivu jokaisen lisäosan päivityksen jälkeen."
+   },
+   "updateiconevery": {
+      "message": "Päivitä kuvake: "
+   },
+   "updateiconeverymsg": {
+      "message": "(Mitä pidempi tämä on, sitä vähemmän muistia tämä laajennus vie.)"
+   },
+   "_1sec": {
+      "message": "1 sekunti"
+   },
+   "_2sec": {
+      "message": "2 sekuntia"
+   },
+   "_5sec": {
+      "message": "5 sekuntia"
+   },
+   "_10sec": {
+      "message": "10 sekuntia"
+   },
+   "_30sec": {
+      "message": "30 sekuntia"
+   },
+   "_1min": {
+      "message": "1 minuutti"
+   },
+   "viewsavedalarm": {
+      "message": "Näytä tallennetut hälytykset"
+   },
+   "OK": {
+      "message": "OK"
+   },
+   "apply": {
+      "message": "Toteuta"
+   },
+   "cancel": {
+      "message": "Peruuta"
+   },
+   "about": {
+      "message": "Tietoja"
+   },
+   "whatsnew": {
+      "message": "Näytä, mitä uutta tässä versiossa on"
+   },
+   "none": {
+      "message": "Ei mitään"
+   },
+   "defaultringtone": {
+      "message": "Oletus ringtone"
+   },
+   "URLringtone": {
+      "message": "URL-osoitteesta"
+   },
+   "allpurpose": {
+      "message": "Soittoääni kaikkiin tarkoituksiin"
+   },
+   "alarmandringtone": {
+      "message": "Hälytys ja soittoääni"
+   },
+   "close": {
+      "message": "Sulje"
+   },
+   "timeis": {
+      "message": "Kello on: "
+   },
+   "notflash": {
+      "message": "(En ole Flash-kello!)"
+   },
+   "version": {
+      "message": "Versio"
+   },
+   "countdown": {
+      "message": "Lähtölaskenta"
+   },
+   "alarm": {
+      "message": "Herätyskello"
+   },
+   "stat": {
+      "message": "Tilastot"
+   },
+   "timer": {
+      "message": "Sekuntikello"
+   },
+   "tools": {
+      "message": "Työkalut"
+   },
+   "day_0": {
+      "message": "Sunnuntai"
+   },
+   "day_1": {
+      "message": "Maanantai"
+   },
+   "day_2": {
+      "message": "Tiistai"
+   },
+   "day_3": {
+      "message": "Keskiviikko"
+   },
+   "day_4": {
+      "message": "Torstai"
+   },
+   "day_5": {
+      "message": "Perjantai"
+   },
+   "day_6": {
+      "message": "Lauantai"
+   },
+   "month_1": {
+      "message": "Tammi"
+   },
+   "month_2": {
+      "message": "Helmi"
+   },
+   "month_3": {
+      "message": "Maalis"
+   },
+   "month_4": {
+      "message": "Huhti"
+   },
+   "month_5": {
+      "message": "Touko"
+   },
+   "month_6": {
+      "message": "Kesä"
+   },
+   "month_7": {
+      "message": "Heinä"
+   },
+   "month_8": {
+      "message": "Elo"
+   },
+   "month_9": {
+      "message": "Syys"
+   },
+   "month_10": {
+      "message": "Loka"
+   },
+   "month_11": {
+      "message": "Marras"
+   },
+   "month_12": {
+      "message": "Joulu"
+   },
+   "morning": {
+      "message": "Hyvää huomenta!"
+   },
+   "noon": {
+      "message": "Mukava nähdä näin iltapäivällä!"
+   },
+   "evening": {
+      "message": "Oletko vielä syönyt päivällistä? "
+   },
+   "night": {
+      "message": "Aika mennä nukkumään."
+   },
+   "midnight": {
+      "message": "Mitä kuuluu?"
+   },
+   "notitimeannounce": {
+      "message": "Jokatuntinen ajan ilmoitus"
+   },
+   "notitimeis": {
+      "message": "Kello on"
+   },
+   "am": {
+      "message": "ap."
+   },
+   "pm": {
+      "message": "ip."
+   },
+   "saved": {
+      "message": "Valinnat tallennetaan."
+   },
+   "notsaved": {
+      "message": "Muokattuja asetuksia ei ole tallennettu! Jatketaanko silti?"
+   },
+   "ctxcmt": {
+      "message": "Vikailmoitus / Kommentit"
+   },
+   "digital": {
+      "message": "Digitaalista kelloa"
+   },
+   "analog": {
+      "message": "Analogista kelloa"
+   },
+   "ctxhide": {
+      "message": "Älä näytä näitä kohteita"
+   },
+   "contextVoiceControl": {
+      "message": "Ääniohjaus"
+   },
+   "contextCurrentTime": {
+      "message": "Lisää nykyinen aika"
+   },
+   "chat": {
+      "message": "Chat box"
+   },
+   "forum": {
+      "message": "Foorumi"
+   },
+   "calendar": {
+      "message": "Kalenteri"
+   },
+   "setalarm": {
+      "message": "Aseta hälytys"
+   },
+   "alarmRinging": {
+      "message": "Herätys soi"
+   },
+   "timesUp": {
+      "message": "Aika loppui"
+   },
+   "scheduledFor": {
+      "message": "Asetettu ajalle {time}"
+   },
+   "weatherHumidity": {
+      "message": "Ilmankosteus"
+   },
+   "weatherLoading": {
+      "message": "Säätietoja ladataan…"
+   },
+   "weatherUnavailable": {
+      "message": "Säätietoja ei ole saatavilla"
+   },
+   "errorUnavailable": {
+      "message": "Laajennus ei ole käytettävissä"
+   },
+   "dismissLabel": {
+      "message": "Sulje"
+   },
+   "help": {
+      "message": "Ohje"
+   },
+   "optionsMenu": {
+      "message": "Valikko"
+   },
+   "optionsFormats": {
+      "message": "Muodot"
+   },
+   "optionsNotifications": {
+      "message": "Ilmoitukset"
+   },
+   "optionsSpeech": {
+      "message": "Teksti puheeksi"
+   },
+   "optionsExtension": {
+      "message": "Laajennus"
+   },
+   "optionsCredits": {
+      "message": "Erityinen kiitos"
+   },
+   "optionsEditAppearance": {
+      "message": "Muokkaa ulkoasua"
+   },
+   "optionsColor": {
+      "message": "Väri"
+   },
+   "optionsBadgeColor": {
+      "message": "Merkin väri"
+   },
+   "optionsNewPopup": {
+      "message": "Käytä uutta ponnahdusikkunasuunnittelua"
+   },
+   "optionsTimeSystem": {
+      "message": "Aikajärjestelmä"
+   },
+   "optionsCalendarSystem": {
+      "message": "Kalenterijärjestelmä"
+   },
+   "optionsLunar": {
+      "message": "Näytä Kiinan kuun päivämäärä"
+   },
+   "optionsDateOrder": {
+      "message": "Päivämäärä tilaus"
+   },
+   "optionsDragReorder": {
+      "message": "- Järjestä uudelleen vetämällä"
+   },
+   "optionsCustomTimezone": {
+      "message": "Muokattu aikavyöhyke"
+   },
+   "optionsLocalTimezone": {
+      "message": "paikallinen aikavyöhyke"
+   },
+   "optionsTimezoneNote": {
+      "message": "Huomautus: Tämä asetus ei koske kalenteria."
+   },
+   "optionsTestNotification": {
+      "message": "Testi-ilmoitus"
+   },
+   "optionsNotificationStyle": {
+      "message": "Ilmoitustyyli"
+   },
+   "optionsDefault": {
+      "message": "Oletus"
+   },
+   "optionsBackgroundColor": {
+      "message": "Taustaväri"
+   },
+   "optionsCompact": {
+      "message": "Kompakti"
+   },
+   "optionsNotificationDuration": {
+      "message": "Ilmoituksen näyttöaika"
+   },
+   "optionsSystemDuration": {
+      "message": "(Järjestelmä saattaa ohittaa tämän asetuksen)"
+   },
+   "optionsCloseManually": {
+      "message": "Sulje manuaalisesti"
+   },
+   "optionsShowWeather": {
+      "message": "Näytä säätiedot"
+   },
+   "optionsWeatherFahrenheit": {
+      "message": "Käytä Fahrenheit-asteita (℉)"
+   },
+   "optionsWeatherProvider": {
+      "message": "(Open-Meteo tarjoaa säätiedot)"
+   },
+   "optionsLocation": {
+      "message": "Sijainti"
+   },
+   "optionsNotSet": {
+      "message": "Ei asetettu/ Ei saatavilla"
+   },
+   "optionsSearch": {
+      "message": "Hae..."
+   },
+   "optionsAutoLocation": {
+      "message": "Käytä selaimen sijaintia automaattisesti"
+   },
+   "optionsCurrentLocation": {
+      "message": "Nykyinen sijainti"
+   },
+   "optionsNotificationSound": {
+      "message": "Ota käyttöön tuntikohtainen ilmoitusääni"
+   },
+   "optionsRingtone": {
+      "message": "Soittoääni"
+   },
+   "optionsReadTime": {
+      "message": "Lue kellonaika ja tunneittainen aikailmoitus"
+   },
+   "optionsSentence": {
+      "message": "Lause"
+   },
+   "optionsVoiceTokens": {
+      "message": "%H: tunti (24 tuntia); %h: Tunti (12 tuntia); %P: am/pm; %M: Minuutti"
+   },
+   "optionsFromComputer": {
+      "message": "tietokoneeltasi"
+   },
+   "optionsLoop": {
+      "message": "Ota silmukka käyttöön"
+   },
+   "optionsPreviewRingtone": {
+      "message": "Esikatsele nykyinen soittoääni"
+   },
+   "optionsLoad": {
+      "message": "Lataa"
+   },
+   "optionsSpeechEngine": {
+      "message": "Puhemoottori"
+   },
+   "optionsSpeechIntro": {
+      "message": "Valitse äänimoottori, jota haluat käyttää puheohjauksessa ja tuntikohtaisissa tekstistä puheeksi -ilmoitusten vaihtamisessa."
+   },
+   "optionsSpeechInstall": {
+      "message": "Asennetut äänet näkyvät alla olevassa avattavassa valikossa."
+   },
+   "optionsInstalledVoices": {
+      "message": "Äänimoottorit asennettu"
+   },
+   "optionsLanguage": {
+      "message": "Kieli"
+   },
+   "optionsUpdateInterval": {
+      "message": "Taustapäivitysväli"
+   },
+   "optionsKeepAwake": {
+      "message": "Estä järjestelmää nukahtamasta aktiivisiin hälytyksiin tai lähtölaskentaan"
+   },
+   "optionsBackgroundRun": {
+      "message": "Jatka Cool Clockin käyttöä taustalla, kun Google Chrome on suljettu"
+   },
+   "optionsContextMenu": {
+      "message": "Näytä kontekstivalikon kohteet"
+   },
+   "optionsTranslationCredits": {
+      "message": "Kaikki lokalisoivat käännökset"
+   },
+   "optionsMore": {
+      "message": "Lisää"
+   },
+   "optionsMiscellaneous": {
+      "message": "Sekalaista"
+   },
+   "optionsLunarTip": {
+      "message": "Näytä kiinalainen kuun päivämäärä. Tarkkuus riippuu selaimesta ja käyttöjärjestelmästä."
+   },
+   "optionsTimezoneTip": {
+      "message": "Paikallinen aikavyöhyke voi muuttua kesäajan aikana."
+   },
+   "optionsTestTip": {
+      "message": "Näytä ilmoitus nykyisillä asetuksilla."
+   },
+   "optionsLocationTip": {
+      "message": "Tämä on nykyisen sijainnin tunnus. Valitse toinen sijainti käyttämällä Hakua."
+   },
+   "optionsAudioTip": {
+      "message": "Vain MP3-, OGG- tai WAV-tiedostoja tuetaan."
+   },
+   "optionsVoiceTip": {
+      "message": "Valitse Tekstistä puheeksi -osiossa puhemoottori, joka tukee kieltäsi."
+   },
+   "optionsEmpty": {
+      "message": "(tyhjä)"
+   },
+   "optionsContextTip": {
+      "message": "Näytä Cool Clock -kohteet hiiren kakkospainikkeen valikossa."
+   },
+   "optionsChooseFile": {
+      "message": "Valitse tiedosto..."
+   },
+   "optionsSearchPlace": {
+      "message": "Sijainti, postinumero tai paikka"
+   },
+   "optionsSearchByName": {
+      "message": "Hae nimellä"
+   },
+   "optionsLoading": {
+      "message": "Ladataan..."
+   },
+   "optionsNoResult": {
+      "message": "Ei tuloksia"
+   },
+   "optionsSearchError": {
+      "message": "Virhe haettaessa tietoja"
+   },
+   "optionsImported": {
+      "message": "Tuotu!"
+   },
+   "optionsTestSoundHint": {
+      "message": "Paina Test Notification kuullaksesi äänen."
+   },
+   "optionsSuccess": {
+      "message": "Menestys!"
+   },
+   "optionsLoaded": {
+      "message": "Ladattu."
+   },
+   "optionsNotice": {
+      "message": "Huomaa"
+   },
+   "optionsNoRingtone": {
+      "message": "Soittoääntä ei ole asetettu."
+   },
+   "optionsInvalidUrl": {
+      "message": "Tämä URL-osoite on virheellinen tai sitä ei tueta."
+   },
+   "optionsRetry": {
+      "message": "Yritä uudelleen"
+   },
+   "optionsAdvanced": {
+      "message": "Edistynyt"
+   },
+   "optionsAppearanceHint": {
+      "message": "Edistyneet käyttäjät: muokkaa alla olevaa kokoonpanoa kellon hienosäätämiseksi. Leveys ja korkeus vastaavat kuvakkeen kokoa, normaalisti 19 × 19 dp."
+   },
+   "optionsEditAnalog": {
+      "message": "Muokkaa analogisen kellon ulkoasua"
+   },
+   "optionsEditDigital": {
+      "message": "Muokkaa digitaalisen kellon ulkoasua"
+   },
+   "optionsInvalidJson": {
+      "message": "Virheellinen JSON"
+   },
+   "optionsEnterValidJson": {
+      "message": "Anna kelvollinen JSON."
+   },
+   "optionsYear": {
+      "message": "vuosi"
+   },
+   "optionsMonth": {
+      "message": "Kuukausi"
+   },
+   "optionsDate": {
+      "message": "päivä"
+   },
+   "optionsRemoved": {
+      "message": "(poistettu)"
+   },
+   "optionsUrlTip": {
+      "message": "Vain HTTP- tai HTTPS-URL-osoitteita tuetaan."
+   },
+   "optionsWeatherProviderCredit": {
+      "message": "Säätiedot tarjoaa Open-Meteo"
+   },
+   "optionsGeocodingCredit": {
+      "message": "Open-Meteo geokoodaus"
+   },
+   "optionsTweet": {
+      "message": "Tweet"
+   },
+   "optionsBootstrapIconsCredit": {
+      "message": "Bootstrap Icons"
+   },
+   "optionsSoundJayCredit": {
+      "message": "Sound Jay (oletushälytysääni)"
+   },
+   "optionsFactLabel": {
+      "message": "Faktaa"
+   },
+   "optionsFact1": {
+      "message": "Tämä laajennus ei sisällä tahallista käyttäjän seurantakoodia."
+   },
+   "optionsFact2": {
+      "message": "Cool Clockissa suhtaudumme kielioppiin vakavasti, jotta vältytään kieliopin virheilmoituksilta."
+   },
+   "optionsFact3": {
+      "message": "Cool Clock sai nimensä, koska sen luoja ei voinut kuvitella parempaa."
+   },
+   "optionsFact4": {
+      "message": "Vastaus kaikkeen ei ole 42."
+   },
+   "optionsFact5": {
+      "message": "Tämä väite on väärä."
+   },
+   "optionsPermissionError": {
+      "message": "Selaimen käyttöoikeutta ei voitu poistaa."
+   },
+   "optionsProcessing": {
+      "message": "Käsitellään..."
+   },
+   "optionsPleaseWait": {
+      "message": "Odota hetki..."
+   },
+   "optionsSyncSettings": {
+      "message": "Synkronoi asetukset"
+   },
+   "optionsSyncTip": {
+      "message": "Käyttää selaimen omaa synkronointia samaan tiliin kirjautuneiden laitteiden välillä."
+   }
+}
